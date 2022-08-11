@@ -66,10 +66,10 @@ class IndexPage extends React.Component {
                               </div>
                               <div className={'row justify-content-center pt-5'}>
                                   <div className={'col-auto'}>
-                                  <a href="https://celestia.org/learn/" target={'_blank'}>
+                                      <a href="https://docs.celestia.org/" target={'_blank'}>
                                         <button className={'button button-simple button-internal'} role={'button'} tabIndex={0} id={'developer'}>Learn more</button>
-                                  </a>                                  
-                                </div>
+                                      </a>
+                                  </div>
                               </div>
                           </section>
 
@@ -90,16 +90,16 @@ class IndexPage extends React.Component {
                               <div className={'row'}>
                                   <div className={'col col-12 col-lg-6'}>
                                       <h3 className={'with-decor'}>Run a node on testnet</h3>
-                                      <div className={'text'}>Experiment and practice running a node on testnet in preparation for mainnet.</div>
+                                      <div className={'text'}>Test out the Celestia network and earn rewards in our incentivized testnet.</div>
                                       <a href="https://docs.celestia.org/nodes/overview" target={'_blank'}>
-                                          <button className={'button button-simple'} id={'operator'} role={'button'} tabIndex={0}>Read the Docs</button>
+                                          <button className={'button button-simple'} id={'operator'} role={'button'} tabIndex={0}>Learn more</button>
                                       </a>
                                   </div>
                                   <div className={'col col-12 col-lg-6'}>
                                       <h3 className={'with-decor'}>Build on our developer beta</h3>
                                       <div className={'text'}>Build on Celestia and be the first to explore the benefits of its novel architecture.</div>
                                       <a href="https://docs.celestia.org/" target={'_blank'}>
-                                          <button className={'button button-simple'} id={'developer'} role={'button'} tabIndex={0}>Build on Testnet</button>
+                                          <button className={'button button-simple'} id={'developer'} role={'button'} tabIndex={0}>Learn more</button>
                                       </a>
                                   </div>
                               </div>
