@@ -299,5 +299,18 @@ export const teamMembers = [
             email : '',
             linkedin : '',
          }
+     },{
+        id : 25,
+        name : 'Rahul Ghangas',
+        title: 'Software Engineer',
+        text: 'Former backend engineer at Ren',
+        image: 'team/RahulGhangas.png',
+        socials: {
+            twitter : '',
+            discord : '',
+            github : '',
+            email : '',
+            linkedin : '',
+         }
      }
 ]
