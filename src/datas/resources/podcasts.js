@@ -1,5 +1,26 @@
 export const podcasts = [
     {
+        id: 12,
+        category: 'podcast',
+        title: 'Sovereignty in the personal computing revolution with Ethan Buchman - Ep 4',
+        subtitle: 'A deep dive on sovereignty and how it will unlock the next era for blockchains focused on sovereign communities.',
+        url: 'https://podcasts.apple.com/us/podcast/sovereignty-in-the-personal-computing-revolution/id1630169902?i=1000577819638',
+    },
+    {
+        id: 11,
+        category: 'podcast',
+        title: 'Modular Blockchain Architecture with Nader Dabit',
+        subtitle: 'Celestia is developing blockchain technology that enables these modern distributed applications',
+        url: 'https://podcasts.apple.com/us/podcast/modular-blockchain-architecture-with-nader-dabit/id1019576853?i=1000577743828',
+    },
+    {
+        id: 10,
+        category: 'podcast',
+        title: 'Ethereum & Celestia: Designing Modular Stacks',
+        subtitle: 'A technical deep dive into designing modular blockchain stacks.',
+        url: 'https://podcasts.apple.com/us/podcast/ethereum-celestia-designing-modular-stacks/id1438148082?i=1000569545747',
+    },
+    {
         id: 9,
         category: 'podcast',
         title: 'Modular vs. Monolithic Blockchains with Ismail Khoffi of Celestia',
