@@ -313,5 +313,18 @@ export const teamMembers = [
             email : '',
             linkedin : '',
          }
+     },{
+        id : 26,
+        name : 'Mojtaba Eskandari',
+        title: 'Software Engineer',
+        text: 'Former software engineer at Tendermint',
+        image: 'team/MojtabaEskandari.png',
+        socials: {
+            twitter : '',
+            discord : '',
+            github : 'https://github.com/mojtaba-esk',
+            email : '',
+            linkedin : '',
+         }
      }
 ]
