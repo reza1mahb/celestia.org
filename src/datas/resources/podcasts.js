@@ -2,7 +2,7 @@ export const podcasts = [
     {
         id: 12,
         category: 'podcast',
-        title: 'Sovereignty in the personal computing revolution with Ethan Buchman - Ep 4',
+        title: 'Sovereignty in the personal computing revolution with Ethan Buchman',
         subtitle: 'A deep dive on sovereignty and how it will unlock the next era for blockchains focused on sovereign communities.',
         url: 'https://podcasts.apple.com/us/podcast/sovereignty-in-the-personal-computing-revolution/id1630169902?i=1000577819638',
     },
