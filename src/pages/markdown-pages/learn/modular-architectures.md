@@ -51,7 +51,7 @@ Essentially, the layer 1 is a monolithic chain that receives additional scale fr
 
 To optimize more of the benefits that a modular blockchain stack can provide, the functions can be decoupled across specialized modular blockchains.
 
-![GATSBY_EMPTY_ALT](./images/three-layer-stack.png)
+![GATSBY_EMPTY_ALT](./images/3-layer-stack.png)
 
 The execution layer sits at the top of the stack and plays the same role as layer 2 in the previous stack. Modular stacks beyond layer 1 and 2 are more flexible in their construction, requiring more specific naming that is coherent with the functionality that each layer provides.
 
