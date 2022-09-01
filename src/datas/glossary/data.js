@@ -224,7 +224,7 @@ export const glossaries = [
             },{
                 url: 'validity-proof',
                 title: 'Validity proof',
-                text: 'A problem that is concerned with whether the data in the proposed block can be verified that it is available.',
+                text: 'A type of cryptographic proof that can be used to attest to the validity of a state transition.',
             },{
                 url: 'validium',
                 title: 'Validium',
