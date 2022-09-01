@@ -18,11 +18,9 @@ description: "A look into the different ways in which modular blockchains can be
 </head>
 
 #### Summary
-1. A modular stack can consist of a combination of different layers. Since it is common for most layers in the stack to consist of at least two components, in many cases it is impractical to have one without another (e.g. consensus and data availability layer).
-2. Naive modular stacks were initially introduced with layer 2s, providing scalability to a monolithic layer 1 blockchain. Since the capacity of layer 2s depends on layer 1, a more modular approach is required to optimize the stack.
-3. A modular stack can be constructed that consists of three layers rather than two. The execution layer can utilize a settlement layer for all the functionality that is required (e.g. bridging and dispute resolution) but also harness the benefits of a separate consensus and data availability layer.
-4. A modular stack can also consist of an execution layer that runs natively on a consensus and data availability layer. Under this construction, execution layer nodes would verify blocks through its peer-to-peer layer rather than from a settlement layer contract. This enables sovereignty for the execution layer as it can determine its environment without permission from any underlying layers.
-
+1. Naive modular stacks were initially introduced with layer 2s, providing scalability to a monolithic layer 1 blockchain. 
+2. Optimized modular stacks split the functions across multiple specialized blockchains. These modular stacks can take multiple forms to serve varying goals.
+3. A modular stack can also use three layers, where an execution layer sits atop a settlement layer with an underlying data availability layer. This stack can introduce other desireable features, like bridging and liquidity.
 
 #### Introduction
 
