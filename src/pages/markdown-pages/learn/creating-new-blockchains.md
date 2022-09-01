@@ -15,7 +15,12 @@ description: "How modular blockchains can change the process of launching and de
   <meta name="twitter:description" content="Traditionally, creating a new blockchain had been a resource-intensive endeavor, imposing considerable time and monetary costs. Although blockchains can be implemented more efficiently now, existing hurdles are still present that cause friction in the bootstrapping process.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
 </head>
-  
+
+#### Summary
+1. The next evolution in creating new blockchains is SDKs that enable new execution layers to be created that can immediately utilize existing modular blockchains. This increases the efficiency at which new blockchains can be created while minimizing the cost.
+2. Execution layers can be deployed on top of data availability layers and retain the sovereignty of an independent layer 1. This enables them to push upgrades and utilize social consensus without any dependence on external communities.
+3. For an execution layer deployed on a data availability layer, there are no restraints on the type of execution environment that can be built and deployed.
+
 #### Introduction
 
 Traditionally, creating a new blockchain had been a resource-intensive endeavor, imposing considerable time and monetary costs. Although blockchains can be implemented more efficiently now, existing hurdles are still present that cause friction in the bootstrapping process. <a href="https://celestia.org/glossary/modular-blockchain" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Modular blockchains</a> can help facilitate this process while reducing the friction caused by existing infrastructure.
@@ -51,14 +56,3 @@ For example, a rollup that wants to deploy on Ethereum requires that its fraud o
 Alternatively, rollups can deploy to data availability layers that don’t impose the same restrictions. This is because the data availability layer doesn’t interpret any transactions or state updates from the execution layer. Only the raw transaction data is published, which allows the rollup to implement any arbitrary VM it wants.
 
 Coupled with a data availability layer, execution layers can conduct unconstrained experimentation with its execution environment. Additionally, the ease at which new execution layers will be able to be deployed on top of data availability layers further reduces the friction in bootstrapping. This will result in compounding innovation in the execution environment because there are no barriers to experimentation with competition facilitating rapid innovation.
-
-<div class="conclusion"> 
-
-#### Conclusion
-
-**Developing new blockchains was a challenging and resource-intensive task. The advent of SDKs, such as the Cosmos SDK, enabled new blockchains to be created more efficiently than before. With modular data availability layers, new blockchains can be bootstrapped without the hurdles associated with launching an existing independent chain, while simultaneously retaining many benefits.**
-
-1. The next evolution in creating new blockchains is SDKs that enable new execution layers to be created that can immediately utilize existing modular blockchains. This increases the efficiency at which new blockchains can be created while minimizing the cost.
-2. Execution layers can be deployed on top of data availability layers and retain the sovereignty of an independent layer 1. This enables them to push upgrades and utilize social consensus without any dependence on external communities. Execution layers deployed on settlement layers don’t have the same assurances.
-3. The execution environments that execution layers can build are limited by being deployed on a settlement layer. For an execution layer deployed on a data availability layer, there are no restraints on the type of execution environment that can be built and deployed. This facilitates experimentation and innovation in the execution environment that is unconstrained by any dependency on a data availability layer.  
-</div>
