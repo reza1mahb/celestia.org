@@ -26,7 +26,7 @@ description: "A look into the different ways in which modular blockchains can be
 
 A new paradigm is emerging in which modular blockchains are enabling new chains to be constructed in ways that were not previously possible. Because of this, the design possibilities are vast for both the individual blockchain and the modular stack it is a part of. Different types of modular blockchains can work collaborative manner, varying by purpose and architecture.
 
-#### The Modular bBlockchain Stack
+#### The Modular Blockchain Stack
 
 The four functions that modular blockchains can consist of are execution, settlement, consensus, and data availability. 
 
