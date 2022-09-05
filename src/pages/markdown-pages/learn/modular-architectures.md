@@ -24,7 +24,7 @@ description: "A look into the different ways in which modular blockchains can be
 
 #### Introduction
 
-A new paradigm is emerging in which modular blockchains are enabling new chains to be constructed in ways that were not previously possible. Because of this, the design possibilities are vast for both the individual blockchain and the modular stack it is a part of. Different types of modular blockchains can work collaborative manner, varying by purpose and architecture.
+A new paradigm is emerging in which modular blockchains are enabling new chains to be constructed in ways that were not previously possible. Because of this, the design possibilities are vast for both the individual blockchain and the modular stack it is a part of. Different types of modular blockchains can work in a collaborative manner, varying by purpose and architecture.
 
 #### The Modular Blockchain Stack
 
