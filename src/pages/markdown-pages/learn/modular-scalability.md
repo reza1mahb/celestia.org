@@ -20,7 +20,7 @@ description: "The scalability properties of different types of modular blockchai
 #### Summary
 1. The two main designs of rollups are optimistic and zk-Rollups. Optimistic rollups provide scalability through data compression and alleviating state growth on the base layer. zk-Rollups scale similarly, as well as through efficient compute verification with validity proofs.
 2. Data availability layers scale block verification and minimize bandwidth costs for light nodes. This is possible with data availability sampling, which allows light nodes to verify data availability by only downloading small random samples of a block.
-3. Settlement layers can scale using the same techniques from execution and data availability layers. In their current form, settlement layers are not ideal. A more optimal approach would entail creating an chain that limits smart contracts to favor interactions with execution layers.
+3. Settlement layers can scale using the same techniques from execution and data availability layers. In their current form, settlement layers are not ideal. A more optimal approach would entail creating a chain that limits smart contracts to favor interactions with execution layers.
   
 #### Introduction
 
