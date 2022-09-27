@@ -1,5 +1,11 @@
 export const videos = [
     {
+        id: 24,
+        category: 'video',
+        title: 'Deploying a Sovereign Rollup on Celestia with Yaz Khoury',
+        image: 'resources/yaz-sovereign-rollup-demo-thumbnail.png',
+        url: 'https://youtu.be/JFeBC-X3YcM',     
+    },{
         id: 23,
         category: 'video',
         title: 'BUIDL Asia 2022 Panel: The Interoperability Round Table',
