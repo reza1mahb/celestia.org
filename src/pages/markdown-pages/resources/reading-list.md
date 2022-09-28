@@ -9,12 +9,11 @@ title: "The Celestia reading list"
 #### Basic
 
 1. <a href="https://twitter.com/cryptoPothu/status/1509612095922311209" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Celestia in 5 tweets</a>
-2. <a href="https://twitter.com/cryptoPothu/status/1506575358140641282" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Celestia: The minimalist king</a>
-3. <a href="https://twitter.com/Cov_duk/status/1502058773392801797" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Celestia: Cloud computing for web3</a>
-4. <a href="https://twitter.com/CelestiaOrg/status/1512460269821169664?s=20&t=PTGMwQyv4H_eTairko6Z-Q" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">The best threads on modular blockchains</a>
-5. <a href="https://knarb.substack.com/p/celestia-a-new-paradigm-in-web3-scalability?s=r" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Celestia - A new paradigm in web3 scalability</a>
-6. <a href="https://www.youtube.com/watch?v=XLldSScJ4gE" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Breaking down Celestia, the first modular blockchain network</a>
-7. <a href="https://medium.com/@nickgardner0651/modularity-creates-adaptation-the-celestia-thesis-b00903e59ea8" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Modularity creates adaptation</a>
+2. <a href="https://twitter.com/Cov_duk/status/1502058773392801797" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Celestia: Cloud computing for web3</a>
+3. <a href="https://twitter.com/CelestiaOrg/status/1512460269821169664?s=20&t=PTGMwQyv4H_eTairko6Z-Q" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">The best threads on modular blockchains</a>
+4. <a href="https://knarb.substack.com/p/celestia-a-new-paradigm-in-web3-scalability?s=r" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Celestia - A new paradigm in web3 scalability</a>
+5. <a href="https://www.youtube.com/watch?v=XLldSScJ4gE" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Breaking down Celestia, the first modular blockchain network</a>
+6. <a href="https://medium.com/@nickgardner0651/modularity-creates-adaptation-the-celestia-thesis-b00903e59ea8" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Modularity creates adaptation</a>
 
 #### Intermediate
 
