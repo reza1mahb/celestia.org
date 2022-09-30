@@ -1,5 +1,12 @@
 export const podcasts = [
     {
+        id: 13,
+        category: 'podcast',
+        title: 'Celestia: Ismail',
+        subtitle: 'Celesta, the first modular blockchain network to power scalable, secure Web3 apps.',
+        url: 'https://open.spotify.com/episode/7t092TK7nkxEqMiwgMCBLW?si=570xd8WXROuIjBEWnwdmIA',
+    },
+    {
         id: 12,
         category: 'podcast',
         title: 'Sovereignty in the personal computing revolution with Ethan Buchman',
