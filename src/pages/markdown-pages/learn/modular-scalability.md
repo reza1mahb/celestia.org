@@ -14,7 +14,7 @@ description: "The scalability properties of different types of modular blockchai
   <meta name="twitter:creator" content="@likebeckett">
   <meta name="twitter:title" content="Modular Scalability">
   <meta name="twitter:description" content="Monolithic blockchains have pursued varying scalability techniques over time, many of which have proven unsuccessful. Modular blockchains present a way for a monolithic blockchain to be split up among multiple specialized layers.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
 <head/>
 
 #### Summary
