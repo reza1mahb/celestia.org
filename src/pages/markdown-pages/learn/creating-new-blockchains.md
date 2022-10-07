@@ -13,7 +13,7 @@ description: "How modular blockchains can change the process of launching and de
   <meta name="twitter:creator" content="@likebeckett">
   <meta name="twitter:title" content="Modular Scalability">
   <meta name="twitter:description" content="Traditionally, creating a new blockchain had been a resource-intensive endeavor, imposing considerable time and monetary costs. Although blockchains can be implemented more efficiently now, existing hurdles are still present that cause friction in the bootstrapping process.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
 </head>
 
 #### Summary
