@@ -55,7 +55,7 @@ Celestia is different from previous blockchain designs, which had execution as c
 
 Monolithic blockchains are chains that handle all four functions. Where a modular stack splits up components across multiple layers, monolithic blockchains do everything at the same time on a single layer.
 
-![GATSBY_EMPTY_ALT](./images/monolithic-to-modular.png)
+![GATSBY_EMPTY_ALT](./images/Monolithic-Modular.png)
 
 ##### Some of the constraints that monolithic blockchains face include:
 
