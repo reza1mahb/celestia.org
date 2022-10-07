@@ -14,9 +14,9 @@ description: "What are modular blockchains and what makes them different to thei
   <meta name="twitter:creator" content="@likebeckett">
   <meta name="twitter:title" content="Basics of Modular Blockchains">
   <meta name="twitter:description" content="Blockchain researchers have long grappled with the challenge of creating the optimal system. Many architectures have been tried whose goal was to accommodate all users on a single chain or a tightly coupled group of chains that live under a single network.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/alex-beckett/celestia.org/learn-modular-twitter-card/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
 <head/>
-   
+
 
 #### Summary
 1. A modular blockchain is a type of blockchain that is part of a modular stack. A modular stack consists of layers of specialized blockchains that utilize each other to create a complete system.
