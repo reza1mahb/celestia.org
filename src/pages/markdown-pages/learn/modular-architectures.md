@@ -14,7 +14,7 @@ description: "A look into the different ways in which modular blockchains can be
   <meta name="twitter:creator" content="@likebeckett">
   <meta name="twitter:title" content="Modular Scalability">
   <meta name="twitter:description" content="A new paradigm is emerging in which modular blockchains are enabling new chains to be constructed in ways that were not previously possible.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
 </head>
 
 #### Summary
