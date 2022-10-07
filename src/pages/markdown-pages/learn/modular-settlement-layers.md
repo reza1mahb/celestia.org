@@ -14,7 +14,7 @@ description: "Settlement layers in the modular paradigm."
   <meta name="twitter:creator" content="@likebeckett">
   <meta name="twitter:title" content="Modular Settlement Layers">
   <meta name="twitter:description" content="By beginning with the first principles of modular blockchains, their purpose and goals will become easier to understand.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
 <head/>
 
 
