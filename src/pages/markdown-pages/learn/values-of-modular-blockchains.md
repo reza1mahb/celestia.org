@@ -41,7 +41,7 @@ Most effort spent building blockchains has gone towards new L1s. The problem is 
 
 Modular blockchains create a collaborative environment with many connected chains. Each new user that a modular blockchain brings in creates value for the whole modular ecosystem, not just a single L1. Modular blockchains collaborate while monolithic L1s compete.
 
-![GATSBY_EMPTY_ALT](./images/modular-vs-monolithic-approach.png)
+![GATSBY_EMPTY_ALT](./images/Monolithic-Modular-Aproach.png)
 
 The other benefit of collaboration is that developers can reuse and build on existing modular blockchains. This allows them to mix and match the components they need instead of building an entirely new L1 whose tech is limited to a single chain.
 
