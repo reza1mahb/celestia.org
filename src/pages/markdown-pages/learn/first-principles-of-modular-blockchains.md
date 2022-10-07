@@ -14,7 +14,7 @@ description: "A first principles perspective on modular blockchains."
   <meta name="twitter:creator" content="@likebeckett">
   <meta name="twitter:title" content="First Principles of Modular Blockchains">
   <meta name="twitter:description" content="By beginning with the first principles of modular blockchains, their purpose and goals will become easier to understand.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
 <head/>
 
 #### Summary 
