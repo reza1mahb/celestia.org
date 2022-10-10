@@ -90,7 +90,7 @@ class IndexPage extends React.Component {
                               <div className={'row'}>
                                   <div className={'col col-12 col-lg-6'}>
                                       <h3 className={'with-decor'}>Run a node on testnet</h3>
-                                      <div className={'text'}>Test out the Celestia network and earn rewards in our incentivized testnet.</div>
+                                      <div className={'text'}>Experiment and practice running a node on testnet in preparation for mainnet.</div>
                                       <a href="https://docs.celestia.org/nodes/overview" target={'_blank'}>
                                           <button className={'button button-simple'} id={'operator'} role={'button'} tabIndex={0}>Read the Docs</button>
                                       </a>
