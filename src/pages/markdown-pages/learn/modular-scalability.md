@@ -19,7 +19,7 @@ description: "The scalability properties of different types of modular blockchai
 
 #### Summary
 1. The two main designs of rollups are optimistic and zk-Rollups. Optimistic rollups provide scalability through data compression and alleviating state growth on the base layer. zk-Rollups scale similarly, as well as through efficient compute verification with validity proofs.
-2. Data availability layers scale block verification and minimize bandwidth costs for light nodes. This is possible with data availability sampling, which allows light nodes to verify data availability by only downloading small random samples of a block.
+2. Data availability layers scale block verification and minimize bandwidth costs for light nodes. This is possible with <a href="https://celestia.org/glossary/data-availability-sampling/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">data availability sampling</a>, which allows light nodes to verify data availability by only downloading small random samples of a block.
 3. Settlement layers can scale using the same techniques from execution and data availability layers. In their current form, settlement layers are not ideal. A more optimal approach would entail creating a chain that limits smart contracts to favor interactions with execution layers.
   
 #### Introduction
@@ -62,7 +62,7 @@ The implication of data availability sampling on light nodes’ resource require
 
 Data availability sampling also minimizes bandwidth cost for light nodes. In a blockchain where the entire block is downloaded to verify data availability, the bandwidth cost for the node is equal to the size of the block. With data availability sampling, the bandwidth cost for a node becomes significantly smaller since only a fraction of the data is required to be downloaded.
 
-For example, given a block size of 1000kb and no data availability sampling, the bandwidth overhead is the entire 1000kb. With data availability sampling, that 1000kb bandwidth overhead reduces to only 33kb. 
+For example, given a block size of 1000kb and no data availability sampling, the bandwidth overhead is the entire 1000kb. With data availability sampling, that 1000kb bandwidth overhead reduces to only 33kb.
 
 #### Settlement layers
 

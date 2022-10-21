@@ -34,12 +34,12 @@ Many blockchains can be used as settlement layers, though most of them are monol
 Uniquely, settlement layers are an optional feature in the modular paradigm as sovereign rollups can use a standalone consensus and data availability layer. This allows rollup developers to pick and choose the modular stack that best suits their needs.
 
 ##### Settlement layers provide multiple purposes for rollups:
-* Proof verification & dispute resolution: A place for rollups to publish their proofs for external verification. This is especially useful for optimistic rollups that rely on interactive fraud proofs. 
-* Hub to facilitate bridging: Rollups can bridge between each other if they through a common settlement layer. A hub removes the need for all rollups to have a bridge between each other.
+* Proof verification & dispute resolution: A place for rollups to publish their proofs for external verification. This is especially useful for optimistic rollups that rely on interactive fraud proofs.
+* Hub to facilitate bridging: Rollups can bridge between each other if they go through a common settlement layer. A hub removes the need for all rollups to have a bridge between each other.
 * Liquidity source: Liquidity that lives on the settlement layer can be utilized by all rollups on top.
 
-#### Settlement in the modular stack 
-When deploying a rollup on a modular settlement layer, the modular stack can take the form of three distinct layers. 
+#### Settlement in the modular stack
+When deploying a rollup on a modular settlement layer, the modular stack can take the form of three distinct layers.
 
 ![GATSBY_EMPTY_ALT](./images/modular-stack.png)
 

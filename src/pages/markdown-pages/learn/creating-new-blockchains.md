@@ -41,7 +41,7 @@ Blockchains that launch as independent chains have sovereignty over their enviro
 
 If the sovereign blockchain experiences a liveness or safety failure that requires a restart or some type of fork, <a href="https://celestia.org/glossary/social-consensus" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">social consensus</a> can be utilized to restart the chain and act on decisions independent of outside communities.
 
-Blockchains that aren’t independent, like rollups on top of settlement layers, don’t retain sovereignty because they rely on the settlement layer to validate their transactions, which makes it the arbitrator of the rollup’s canonical chain. As a result, if the rollup experiences a liveness or safety failure that requires social consensus to enact decisions, the community of the settlement layer dictates that. 
+Blockchains that aren’t independent, like rollups on top of settlement layers, don’t retain sovereignty because they rely on the settlement layer to validate their transactions, which makes it the arbitrator of the rollup’s canonical chain. As a result, if the rollup experiences a liveness or safety failure that requires social consensus to enact decisions, the community of the settlement layer dictates that.
 
 Execution layers that deploy natively to a consensus and data availability layer are sovereign like independent blockchains while retaining the scalability that is provided by a modular stack.
 
