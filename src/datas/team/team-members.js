@@ -329,7 +329,7 @@ export const teamMembers = [
         id : 29,
         name : 'Alina Loseva',
         title: 'Visual Artist',
-        text: 'Explorer of the world.',
+        text: 'Explorer of the world',
         image: 'team/AlinaLoseva.png',
         socials: {
             twitter : '',
