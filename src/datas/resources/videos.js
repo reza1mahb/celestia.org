@@ -1,5 +1,11 @@
 export const videos = [
     {
+        id: 26,
+        category: 'video',
+        title: 'L1 Dreams: Why a Better Base Layer Is Possible',
+        image: 'resources/L1-dreams-messari-thumbnail.png',
+        url: 'https://youtu.be/IXSksnzTP94',     
+    },{
         id: 25,
         category: 'video',
         title: 'DAS NYC 2022 | ETH L2s and Scaling Solutions',
