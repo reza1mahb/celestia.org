@@ -187,9 +187,9 @@ class Header extends React.Component {
     }
 
     toggleHeaderClass = () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 130) {
             document.getElementById("header").classList.add("blur");
-        } else {
+        } else if(window.scrollY < 80) {
             document.getElementById("header").classList.remove("blur");
         }
     };
