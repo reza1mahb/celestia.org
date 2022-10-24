@@ -4,6 +4,7 @@ slug: "/learn/first-principles-of-modular-blockchains"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/first-principles-of-modular-blockchains.md"
 date: "2022-07-14"
 icon: "/images/first-principles-modular.png"
+category: "Beginner"
 title: "First Principles of Modular Blockchains"
 description: "A first principles perspective on modular blockchains."
 ---

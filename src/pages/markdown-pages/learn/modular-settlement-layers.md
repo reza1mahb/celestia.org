@@ -4,6 +4,7 @@ slug: "/learn/modular-settlement-layers"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-settlement-layers.md"
 date: "2022-04-01"
 icon: "/images/modular-settlement-layer.png"
+category: "Intermediate"
 title: "Modular settlement layers"
 description: "Settlement layers in the modular paradigm."
 ---

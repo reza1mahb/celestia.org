@@ -7,11 +7,13 @@ import {FooterBoxes} from "../datas/resources/content";
 import ToC from "../components/modules/toc";
 import Layout from "../components/layout";
 import FeaturedLearn from "../components/modules/featured-learn";
+import TocGroup from "../components/modules/toc-groups";
 
 
 export default function Template({
          data, props // this prop will be injected by the GraphQL query below.
      }) {
+    console.log(data);
     const { markdownRemark } = data // data.markdownRemark holds your post data
     const { frontmatter, html, headings } = markdownRemark
 
@@ -51,7 +53,19 @@ export default function Template({
                         </div>}
 
                         <Sticky topOffset={-100}>
-                            <ToC headings={headings} frontmatter={frontmatter}/>
+                            <div className={'toc'}>
+                                <div className={'toc-inner'}>
+                                    {data.allMarkdownRemark.group.map((group, groupIndex) =>
+                                        <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
+                                    )
+                                    }
+                                </div>
+
+
+                                <a href={data.markdownRemark.frontmatter.edit} className={'suggest-button'} target={'_blank'} rel={'noreferrer'}>
+                                    <i className={'icon-edit'}></i>SUGGEST AN EDIT
+                                </a>
+                            </div>
                         </Sticky>
 
                         <div
@@ -70,8 +84,30 @@ export default function Template({
 
 export const pageQuery = graphql`
   query($id: String!) {
+
+    allMarkdownRemark {
+    group(field: frontmatter___category) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            slug
+            category
+          }
+          headings {
+            value
+            id
+            depth
+          }
+        }
+      }
+    }
+  }
+
     markdownRemark(id: { eq: $id }) {
       html
+      id
       headings {
         value
         depth
@@ -82,6 +118,7 @@ export const pageQuery = graphql`
         edit
         slug
         title
+        category
         image
         author{
             name
