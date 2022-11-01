@@ -47,7 +47,7 @@ While naive implementations of modular stacks were first introduced with rollups
 
 Rollups are a type of modular blockchain that specialize in execution, off-loading settlement, consensus, and <a href="https://celestia.org/glossary/data-availability" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">data availability</a> to separate layers. Celestia is another modular blockchain that specializes in consensus and data availability, off-loading execution to separate chains, such as <a href="https://celestia.org/glossary/rollup" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">rollups</a>.
 
-![GATSBY_EMPTY_ALT](./images/rollup+celestia-stack.png)
+![GATSBY_EMPTY_ALT](./images/Celestia_DA_Execution.png)
 
 Celestia is different from previous blockchain designs, which had execution as core functionality. Recognizing that modularity allows blockchains to be created for specific purposes, there is no need for execution because that can be the job of a separate chain. Doing so alleviates the largest bottlenecks associated with a monolithic chain from the base layer: transaction execution and state bloat.
 
