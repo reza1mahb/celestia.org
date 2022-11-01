@@ -338,5 +338,18 @@ export const teamMembers = [
             email : '',
             linkedin : '',
          }
+     },{
+        id : 30,
+        name : 'Mary Liu',
+        title: 'Business Development Manager',
+        text: 'Former Galaxy Digital FoF investor, Schwarzman Scholar, BA from Columbia',
+        image: 'team/MaryLiu.png',
+        socials: {
+            twitter : 'https://twitter.com/howdymerry',
+            discord : '',
+            github : '',
+            email : '',
+            linkedin : 'https://www.linkedin.com/in/missmaryliu/',
+         }
      }
 ]
