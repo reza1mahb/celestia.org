@@ -26,10 +26,8 @@ description: "Settlement layers in the modular paradigm."
 #### Introduction
 The modular blockchain paradigm creates many potential configurations in which blockchains can connect. Since modular blockchains only handle a subset of functions, more specialization can be facilitated. Settlement is one function, in particular, that can become optimized and specialized by a modular blockchain. 
 
-#### Settlement in the modular stack
+#### Settlement layers
 Many blockchains can be used as settlement layers, though most of them are monolithic chains that become settlement layers through a need to process more transactions (scaling). A settlement layer in the modular stack can specialize in settlement while outsourcing the remaining components, like consensus and data availability, to other modular blockchains.
-
-![GATSBY_EMPTY_ALT](./images/monolithic-to-modular.png)
 
 Uniquely, settlement layers are an optional feature in the modular paradigm as sovereign rollups can use a standalone consensus and data availability layer. This allows rollup developers to pick and choose the modular stack that best suits their needs.
 
