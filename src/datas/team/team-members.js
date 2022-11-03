@@ -315,7 +315,7 @@ export const teamMembers = [
      },{
         id : 28,
         name : 'Josh Stein',
-        title: 'Developer Relations',
+        title: 'Solutions Engineer',
         text: 'Former DevRel at Ankr & Teaching Assistant at buildspace',
         image: 'team/JoshStein.png',
         socials: {
