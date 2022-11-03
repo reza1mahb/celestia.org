@@ -5,6 +5,7 @@ edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-
 date: "2022-03-01"
 icon: "/images/modular-scalability.png"
 category: "Intermediate"
+subcategory: "Intermediate - 1"
 title: "Modular scalability"
 description: "The scalability properties of different types of modular blockchains."
 ---

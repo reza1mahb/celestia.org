@@ -5,6 +5,7 @@ edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-
 date: "2022-07-14"
 icon: "/images/first-principles-modular.png"
 category: "Beginner"
+subcategory: "Beginner - 2"
 title: "First Principles of Modular Blockchains"
 description: "A first principles perspective on modular blockchains."
 ---

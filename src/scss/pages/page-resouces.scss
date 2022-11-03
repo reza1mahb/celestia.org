@@ -208,8 +208,8 @@
       font-size: 18px;
       color: #000000;
       letter-spacing: 0;
-      margin-bottom:15px;
       cursor:pointer;
+      margin-bottom:10px;
 
       border-top: 1px solid #DCDCDC;
       padding-top:25px;
@@ -224,6 +224,27 @@
       }
     }
 
+    .subcategory-title{
+      font-weight:500;
+      font-family: $ruberoid;
+      margin-bottom:10px;
+      font-size:15px;
+      cursor:pointer;
+
+      &:hover{
+        color:$purple;
+      }
+    }
+
+    .subcategory-items{
+      max-height:0;
+      overflow:hidden;
+
+      &.opened{
+        max-height:unset;
+      }
+    }
+
     .group-items{
       transition:300ms all ease-in-out;
       .article-title{
@@ -232,7 +253,12 @@
         font-size: 13px;
         color: #414141;
         letter-spacing: 0;
-        margin-bottom:15px;
+        margin-bottom:10px;
+        padding-left:10px;
+
+        &:hover{
+          color:$purple;
+        }
 
         .toc-item{
           div:first-of-type{

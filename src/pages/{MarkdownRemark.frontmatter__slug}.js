@@ -4,7 +4,6 @@ import Sticky from 'react-sticky-el';
 import Image from "../components/imageComponent";
 
 import {FooterBoxes} from "../datas/resources/content";
-import ToC from "../components/modules/toc";
 import Layout from "../components/layout";
 import FeaturedLearn from "../components/modules/featured-learn";
 import TocGroup from "../components/modules/toc-groups";
@@ -13,8 +12,9 @@ import TocGroup from "../components/modules/toc-groups";
 export default function Template({
          data, props // this prop will be injected by the GraphQL query below.
      }) {
-    console.log(data);
     const { markdownRemark } = data // data.markdownRemark holds your post data
+
+    console.log(markdownRemark);
     const { frontmatter, html, headings } = markdownRemark
 
     return (
@@ -55,10 +55,11 @@ export default function Template({
                         <Sticky topOffset={-100}>
                             <div className={'toc'}>
                                 <div className={'toc-inner'}>
-                                    {data.allMarkdownRemark.group.map((group, groupIndex) =>
-                                        <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
-                                    )
-                                    }
+                                    {data.allMarkdownRemark.group.map((group, groupIndex) =>{
+                                        return(
+                                            <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
+                                        )
+                                    })}
                                 </div>
 
 
@@ -86,24 +87,33 @@ export const pageQuery = graphql`
   query($id: String!) {
 
     allMarkdownRemark {
-    group(field: frontmatter___category) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            slug
-            category
+        group(field: frontmatter___category) {
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                slug
+                category
+                subcategory
+              }
+            }
           }
-          headings {
-            value
-            id
-            depth
+          group(field: frontmatter___subcategory) {
+            edges {
+              node {
+                id
+                frontmatter {
+                  title
+                  category
+                  subcategory
+                  slug
+                }
+              }
+            }
           }
         }
       }
-    }
-  }
 
     markdownRemark(id: { eq: $id }) {
       html
@@ -119,6 +129,7 @@ export const pageQuery = graphql`
         slug
         title
         category
+        subcategory
         image
         author{
             name

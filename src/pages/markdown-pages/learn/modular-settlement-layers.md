@@ -5,6 +5,7 @@ edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-
 date: "2022-04-01"
 icon: "/images/modular-settlement-layer.png"
 category: "Intermediate"
+subcategory: "Intermediate - 2"
 title: "Modular settlement layers"
 description: "Settlement layers in the modular paradigm."
 ---

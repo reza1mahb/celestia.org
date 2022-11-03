@@ -5,6 +5,7 @@ edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-
 date: "2022-05-15"
 icon: "/images/values-of-modular-blockchains.png"
 category: ""
+subcategory: ""
 title: "Values of modular blockchains"
 description: "The values that modular blockchains aim for."
 ---

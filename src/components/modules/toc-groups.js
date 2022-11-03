@@ -3,6 +3,35 @@ import {Link} from "gatsby";
 import ToC from "./toc";
 import {useState} from "react";
 
+const RenderSubCategory = function (subCategory, markdownRemark){
+    const opened = subCategory.edges[0].node.frontmatter.subcategory === '' || subCategory.edges[0].node.frontmatter.subcategory === markdownRemark.frontmatter.subcategory ? true : false;
+    const isActive = subCategory.edges[0].node.frontmatter.slug ===  markdownRemark.frontmatter.slug ? true : false;
+
+    const [isOpen,setIsOpen] = useState(opened)
+
+    console.log(subCategory.edges[0].node.frontmatter.slug)
+    console.log(markdownRemark.frontmatter.slug)
+
+    return(
+        <>
+            <div className={'subcategory-title'} onClick={()=>setIsOpen(!isOpen)}>{subCategory.edges[0].node.frontmatter.subcategory}</div>
+            <div className={`subcategory-items ${isOpen ? 'opened' : 'closed'}`}>
+                {subCategory.edges.map((article,index) => {
+                    return (
+                        <div key={index} className={'row'}>
+                            <div className={'col-12'}>
+                                <div className={'article-title'}>
+                                    <Link className={`article-link ${article.node.frontmatter.slug ===  markdownRemark.frontmatter.slug && 'active'}`} to={article.node.frontmatter.slug} activeClassName={'active'}>{article.node.frontmatter.title}</Link>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        </>
+    )
+}
+
 export default function TocGroup(props) {
     const group = props.group;
     const frontmatter = props.frontmatter;
@@ -32,17 +61,16 @@ export default function TocGroup(props) {
                 </svg>}
             </div>
             <div className={'group-items'}>
-                {group.edges.map((article,index) =>
-                    <div key={index} className={'row'}>
-                        <div className={'col-12'}>
-                            <div className={'article-title'}>
-                                <Link className={'article-link'} to={article.node.frontmatter.slug} activeClassName={'active'}>{article.node.frontmatter.title}</Link>
-                                {article.node.id === markdownRemark.id && <ToC headings={headings} frontmatter={frontmatter}/>}
 
-                            </div>
-                        </div>
-                    </div>
-                )}
+                {group.group.map(function(subCategory, subCategoryIndex){
+                    return(
+                        <>
+                            {RenderSubCategory(subCategory,markdownRemark)}
+                        </>
+                    )
+                })}
+
+
             </div>
         </div>
     )
