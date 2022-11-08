@@ -1,5 +1,5 @@
 import * as React from "react"
-import {Link} from "gatsby";
+import {Link, navigate} from "gatsby";
 import ToC from "./toc";
 import {useState} from "react";
 
@@ -12,9 +12,17 @@ const RenderSubCategory = function (subCategory, markdownRemark){
     console.log(subCategory.edges[0].node.frontmatter.slug)
     console.log(markdownRemark.frontmatter.slug)
 
+    function showFirstElement(){
+        if(!isOpen){
+            navigate(subCategory.edges[0].node.frontmatter.slug)
+        }else{
+            setIsOpen(!isOpen)
+        }
+    }
+
     return(
         <>
-            <div className={'subcategory-title'} onClick={()=>setIsOpen(!isOpen)}>{subCategory.edges[0].node.frontmatter.subcategory}</div>
+            <div className={'subcategory-title'} onClick={()=>showFirstElement()}>{subCategory.edges[0].node.frontmatter.subcategory}</div>
             <div className={`subcategory-items ${isOpen ? 'opened' : 'closed'}`}>
                 {subCategory.edges.map((article,index) => {
                     return (
