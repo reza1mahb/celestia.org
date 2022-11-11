@@ -79,3 +79,47 @@
     }
   }
 }
+
+.featured-button{
+  font-family: $ruberoid;
+  font-weight:bold;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 40px;
+  background: #F8F8F8;
+  border-radius: 4px;
+  padding:5px 15px 5px 0;
+  width:auto;
+  display:inline-flex;
+  margin-left:20px;
+  position:relative;
+  margin-bottom:30px;
+
+  &:before{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 20px 25px 0;
+    border-color: transparent #F8F8F8 transparent transparent;
+    position:absolute;
+    left:-20px;
+    content:'';
+    top:0;
+  }
+
+  .col-auto{
+    padding:0 5px;
+  }
+
+  &.featured-button-next{
+    margin-left:0;
+    padding:5px 0 5px 15px;
+    &:before{
+      border-width: 25px 0 25px 20px;
+      border-color: transparent transparent transparent #F8F8F8;
+      right:-20px;
+      left:unset;
+    }
+  }
+}

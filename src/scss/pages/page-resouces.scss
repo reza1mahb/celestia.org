@@ -403,6 +403,11 @@
 
       &:nth-child(1){
         border-right:1px solid #E7E4E4;
+
+        @include media-breakpoint-down(md) {
+          border-right:none;
+          border-bottom:1px solid #E7E4E4;
+        }
       }
       &:nth-child(3){
         display:none;
@@ -412,6 +417,10 @@
         background:#FFF !important;
         box-shadow:none;
         padding:40px 50px;
+
+        @include media-breakpoint-down(md) {
+          padding:30px 0;
+        }
 
         .image{
           height:75px;
