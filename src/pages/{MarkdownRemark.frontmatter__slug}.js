@@ -64,7 +64,7 @@ export default function Template({
 
 
                                 <a href={data.markdownRemark.frontmatter.edit} className={'suggest-button'} target={'_blank'} rel={'noreferrer'}>
-                                    <i className={'icon-edit'}></i>SUGGEST AN EDIT
+                                    <i className={'icon-edit'}/>SUGGEST AN EDIT
                                 </a>
                             </div>
                         </Sticky>
@@ -74,7 +74,7 @@ export default function Template({
                             dangerouslySetInnerHTML={{ __html: html }}
                         />
 
-                        <FeaturedLearn current={frontmatter.slug}/>
+                        <FeaturedLearn withArrow={true} current={frontmatter.slug}/>
                     </div>
                 </div>
             </main>
@@ -93,6 +93,7 @@ export const pageQuery = graphql`
               id
               frontmatter {
                 title
+                order
                 slug
                 category
                 subcategory

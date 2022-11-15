@@ -1,4 +1,5 @@
 ---
+order: "6"
 path: "/learn/"
 slug: "/learn/modular-settlement-layers"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-settlement-layers.md"

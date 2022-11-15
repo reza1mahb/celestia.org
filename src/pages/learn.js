@@ -12,7 +12,7 @@ const LearnPage = ({
    }) => {
     const Posts = edges
         .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-        .map(edge => <div className={'col col-12 col-md-6 pt-5'}><LearnBox learnmodules={edges} key={edge.node.id} post={edge.node} /></div>)
+        .map(edge => <div className={'col col-12 col-md-6 pt-5'}><LearnBox withArrow={false} learnmodules={edges} key={edge.node.id} post={edge.node} /></div>)
 
     return <Layout footerBoxes={FooterBoxes}>
         <div className={'learn-page'}>
@@ -32,7 +32,7 @@ export default LearnPage
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
-    sort: { order: DESC, fields: [frontmatter___date] }
+    sort: { order: ASC, fields: [frontmatter___order] }
     filter: {fileAbsolutePath: {regex: "/learn/"}}
     ) {
       edges {
