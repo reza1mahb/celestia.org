@@ -14,7 +14,6 @@ export default function Template({
      }) {
     const { markdownRemark } = data // data.markdownRemark holds your post data
 
-    console.log(markdownRemark);
     const { frontmatter, html, headings } = markdownRemark
 
     return (
@@ -86,7 +85,10 @@ export default function Template({
 export const pageQuery = graphql`
   query($id: String!) {
 
-    allMarkdownRemark {
+    allMarkdownRemark(
+        sort: { order: ASC, fields: [frontmatter___order] }
+        filter: {fileAbsolutePath: {regex: "/learn/"}}
+        ){
         group(field: frontmatter___category) {
           edges {
             node {
