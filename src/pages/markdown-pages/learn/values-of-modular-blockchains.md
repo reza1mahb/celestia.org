@@ -1,12 +1,12 @@
 ---
-order: "0"
+order: "3"
 path: "/learn/"
 slug: "/learn/values-of-modular-blockchains"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/values-of-modular-blockchains.md"
 date: "2022-05-15"
 icon: "/images/values-of-modular-blockchains.png"
-category: ""
-subcategory: ""
+category: "Beginner"
+subcategory: "Values of modular blockchains"
 title: "Values of modular blockchains"
 description: "The values that modular blockchains aim for."
 ---

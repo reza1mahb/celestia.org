@@ -8,6 +8,7 @@ import Layout from "../components/layout";
 import FeaturedLearn from "../components/modules/featured-learn";
 import TocGroup from "../components/modules/toc-groups";
 
+const toc = require('./markdown-pages/learn/_toc.json');
 
 export default function Template({
          data, props // this prop will be injected by the GraphQL query below.
@@ -32,7 +33,7 @@ export default function Template({
                                 <ol className="breadcrumb">
                                     <Link to={frontmatter.path}>
                                         <li className="breadcrumb-item ps-0 pb-0 mb-0">{frontmatter.path.includes("resources") ? 'Resources' : 'Learn modular'}
-                                            <i className={'icon-dropdown'}></i></li>
+                                            <i className={'icon-dropdown'}/></li>
                                     </Link>
                                     <li className="breadcrumb-item active ps-0 ps-md-4 pb-0 mb-0" aria-current="page">
                                         {frontmatter.title}
@@ -54,7 +55,7 @@ export default function Template({
                         <Sticky topOffset={-100}>
                             <div className={'toc'}>
                                 <div className={'toc-inner'}>
-                                    {data.allMarkdownRemark.group.map((group, groupIndex) =>{
+                                    {toc.map((group, groupIndex) =>{
                                         return(
                                             <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
                                         )
@@ -108,6 +109,7 @@ export const pageQuery = graphql`
                 id
                 frontmatter {
                   title
+                  order
                   category
                   subcategory
                   slug

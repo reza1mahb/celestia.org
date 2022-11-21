@@ -1,12 +1,12 @@
 ---
-order: "5"
+order: "6"
 path: "/learn/"
 slug: "/learn/modular-scalability"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-scalability.md"
 date: "2022-03-01"
 icon: "/images/modular-scalability.png"
 category: "Intermediate"
-subcategory: "Intermediate - 1"
+subcategory: "Modular scalability"
 title: "Modular scalability"
 description: "The scalability properties of different types of modular blockchains."
 ---

@@ -6,7 +6,7 @@ edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-
 date: "2022-05-01"
 icon: "/images/modular-architectures.png"
 category: "Intermediate"
-subcategory: "Intermediate - 1"
+subcategory: "Modular architectures"
 title: "Modular architectures"
 description: "A look into the different ways in which modular blockchains can be interconnected."
 ---

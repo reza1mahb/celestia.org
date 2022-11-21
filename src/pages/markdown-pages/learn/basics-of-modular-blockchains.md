@@ -6,7 +6,7 @@ edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-
 date: "2022-06-01"
 icon: "/images/basics-of-modular-blockchains.png"
 category: "Beginner"
-subcategory: "Beginner - 1"
+subcategory: "Basics of modular blockchains"
 title: "Basics of modular blockchains"
 description: "What are modular blockchains and what makes them different to their monolithic counterparts?"
 ---

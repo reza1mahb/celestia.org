@@ -4,17 +4,14 @@ import ToC from "./toc";
 import {useState} from "react";
 
 const RenderSubCategory = function (subCategory, markdownRemark){
-    const opened = subCategory.edges[0].node.frontmatter.subcategory === '' || subCategory.edges[0].node.frontmatter.subcategory === markdownRemark.frontmatter.subcategory ? true : false;
-    const isActive = subCategory.edges[0].node.frontmatter.slug ===  markdownRemark.frontmatter.slug ? true : false;
+    const opened = subCategory.title === '' || subCategory.title === markdownRemark.frontmatter.subcategory ? true : false;
+    const isActive = subCategory.slug ===  markdownRemark.frontmatter.slug ? true : false;
 
     const [isOpen,setIsOpen] = useState(opened)
 
-    console.log(subCategory.edges[0].node.frontmatter.slug)
-    console.log(markdownRemark.frontmatter.slug)
-
     function showFirstElement(){
         if(!isOpen){
-            navigate(subCategory.edges[0].node.frontmatter.slug)
+            navigate(subCategory.articles[0].slug)
         }else{
             setIsOpen(!isOpen)
         }
@@ -22,14 +19,14 @@ const RenderSubCategory = function (subCategory, markdownRemark){
 
     return(
         <>
-            <div className={'subcategory-title'} onClick={()=>showFirstElement()}>{subCategory.edges[0].node.frontmatter.subcategory}</div>
+            <div className={'subcategory-title'} onClick={()=>showFirstElement()}>{subCategory.title}</div>
             <div className={`subcategory-items ${isOpen ? 'opened' : 'closed'}`}>
-                {subCategory.edges.map((article,index) => {
+                {subCategory.articles.map((article,index) => {
                     return (
                         <div key={index} className={'row'}>
                             <div className={'col-12'}>
                                 <div className={'article-title'}>
-                                    <Link className={`article-link ${article.node.frontmatter.slug ===  markdownRemark.frontmatter.slug && 'active'}`} to={article.node.frontmatter.slug} activeClassName={'active'}>{article.node.frontmatter.title}</Link>
+                                    <Link className={`article-link ${article.slug ===  markdownRemark.frontmatter.slug && 'active'}`} to={article.slug} activeClassName={'active'}>{article.title}</Link>
                                 </div>
                             </div>
                         </div>
@@ -46,16 +43,16 @@ export default function TocGroup(props) {
     const headings = props.headings;
     const markdownRemark = props.markdownRemark;
 
-    const opened = group.edges[0].node.frontmatter.category === '' || group.edges[0].node.frontmatter.category === markdownRemark.frontmatter.category ? true : false;
+    const opened = group.category === '' || group.category === markdownRemark.frontmatter.category ? true : false;
 
     const [isOpen,setIsOpen] = useState(opened)
 
     return (
         <div key={props.key} className={`col-12 ${isOpen ? 'opened' : 'closed'}`}>
             <div className={'group-title'} onClick={()=>setIsOpen(!isOpen)}>
-                {group.edges[0].node.frontmatter.category}
+                {group.category}
 
-                {group.edges[0].node.frontmatter.category !== '' && <svg  viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                {group.category !== '' && <svg  viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                         <g transform="translate(-485.000000, -1044.000000)">
                             <g transform="translate(227.000000, 410.000000)">
@@ -69,8 +66,7 @@ export default function TocGroup(props) {
                 </svg>}
             </div>
             <div className={'group-items'}>
-
-                {group.group.map(function(subCategory, subCategoryIndex){
+                {group.subcategories && group.subcategories.map(function(subCategory, subCategoryIndex){
                     return(
                         <>
                             {RenderSubCategory(subCategory,markdownRemark)}

@@ -1,0 +1,89 @@
+[
+  {
+    "category": "",
+    "subcategories": [
+      {
+        "title": "",
+        "articles": [
+          {
+            "title": "Introduction",
+            "slug": "/learn/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Beginner",
+    "subcategories": [
+      {
+        "title": "First Principles of Modular Blockchains",
+        "articles": [
+          {
+            "title": "First Principles of Modular Blockchains",
+            "slug": "/learn/first-principles-of-modular-blockchains"
+          }
+        ]
+      },
+      {
+        "title": "Basics of modular blockchains",
+        "articles": [
+          {
+            "title": "Basics of modular blockchains",
+            "slug": "/learn/basics-of-modular-blockchains"
+          }
+        ]
+      },
+      {
+        "title": "Values of modular blockchains",
+        "articles": [
+          {
+            "title": "Values of modular blockchains",
+            "slug": "/learn/values-of-modular-blockchains"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategories": [
+      {
+        "title": "Modular architectures",
+        "articles": [
+          {
+            "title": "Modular architectures",
+            "slug": "/learn/modular-architectures"
+          }
+        ]
+      },
+      {
+        "title": "Modular settlement layers",
+        "articles": [
+          {
+            "title": "Modular settlement layers",
+            "slug": "/learn/modular-settlement-layers"
+          }
+        ]
+      },
+      {
+        "title": "Modular scalability",
+        "articles": [
+          {
+            "title": "Modular scalability",
+            "slug": "/learn/modular-scalability"
+          }
+        ]
+      },
+      {
+        "title": "Creating new blockchains",
+        "articles": [
+          {
+            "title": "Creating new blockchains",
+            "slug": "/learn/creating-new-blockchains"
+          }
+        ]
+      }
+    ]
+  }
+]
