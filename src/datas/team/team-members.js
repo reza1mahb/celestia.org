@@ -366,7 +366,7 @@ export const teamMembers = [
          }
      },{
         id : 32,
-        name : 'Connor O' Hara',
+        name : 'Connor O Hara',
         title: 'Software engineer',
         text: 'Cryptography and distributed systems enthusiast',
         image: 'team/ConnorOHara.png',
