@@ -1,10 +1,16 @@
 export const videos = [
     {
+        id: 27,
+        category: 'video',
+        title: 'Modular Blockchain Stack: The ENDGAME of Cosmos - Nick White',
+        image: 'resources/nick-cosmoverse-thumbnail.png',
+        url: 'https://youtu.be/s6GyXwF9CuU',    
+    },{
         id: 26,
         category: 'video',
-        title: 'L1 Dreams: Why a Better Base Layer Is Possible',
-        image: 'resources/L1-dreams-messari-thumbnail.png',
-        url: 'https://youtu.be/IXSksnzTP94',     
+        title: 'John Adler — Proof-of-Stake in the Model of Accountability',
+        image: 'resources/john-sbc-thumbnail.png',
+        url: 'https://youtu.be/c3I_1v_9CNE',     
     },{
         id: 25,
         category: 'video',
