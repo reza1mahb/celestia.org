@@ -365,19 +365,6 @@ export const teamMembers = [
             linkedin : '',
          }
      },{
-        id : 32,
-        name : 'Connor O Hara',
-        title: 'Software engineer',
-        text: 'Cryptography and distributed systems enthusiast',
-        image: 'team/ConnorOHara.png',
-        socials: {
-            twitter : 'https://twitter.com/colludingnode',
-            discord : '',
-            github : 'https://github.com/S1nus',
-            email : '',
-            linkedin : '',
-         }
-     },{
         id : 33,
         name : 'Callum Waters',
         title: 'Software engineer',
