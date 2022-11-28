@@ -380,7 +380,7 @@ export const teamMembers = [
      },{
         id : 33,
         name : 'Callum Waters',
-        title: 'Software engineer',
+        title: 'Software Engineer',
         text: 'Former lead engineer of the Tendermint consensus protocol. Chief instigator of deadlocks, race conditions and memory leaks.',
         image: 'team/CallumWaters.png',
         socials: {
