@@ -1,5 +1,5 @@
 ---
-order: "3"
+order: 3
 path: "/learn/"
 slug: "/learn/values-of-modular-blockchains"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/values-of-modular-blockchains.md"

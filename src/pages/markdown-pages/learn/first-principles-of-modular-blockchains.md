@@ -1,5 +1,5 @@
 ---
-order: "1"
+order: 1
 path: "/learn/"
 slug: "/learn/first-principles-of-modular-blockchains"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/first-principles-of-modular-blockchains.md"

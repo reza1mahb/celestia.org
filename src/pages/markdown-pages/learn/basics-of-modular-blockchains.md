@@ -1,5 +1,5 @@
 ---
-order: "2"
+order: 2
 path: "/learn/"
 slug: "/learn/basics-of-modular-blockchains"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/basics-of-modular-blockchains.md"

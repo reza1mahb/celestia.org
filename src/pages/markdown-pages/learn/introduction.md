@@ -1,5 +1,5 @@
 ---
-order: "0"
+order: 0
 path: "/learn/"
 slug: "/learn/"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/introduction.md"

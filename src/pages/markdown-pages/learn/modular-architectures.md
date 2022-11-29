@@ -1,5 +1,5 @@
 ---
-order: "4"
+order: 4
 path: "/learn/"
 slug: "/learn/modular-architectures"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-architectures.md"

@@ -52,27 +52,33 @@ export default function Template({
                             <Image alt={frontmatter.title} filename={frontmatter.image} />
                         </div>}
 
-                        <Sticky topOffset={-100}>
-                            <div className={'toc'}>
-                                <div className={'toc-inner'}>
-                                    {toc.map((group, groupIndex) =>{
-                                        return(
-                                            <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
-                                        )
-                                    })}
-                                </div>
+                        <div className={'row'}>
+                            <div className={'d-none d-lg-block col-lg-4'} style={{minHeight:"600px"}}>
+                                <Sticky topOffset={-100}>
+                                    <div className={'toc'}>
+                                        <div className={'toc-inner'}>
+                                            {toc.map((group, groupIndex) =>{
+                                                return(
+                                                    <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
+                                                )
+                                            })}
+                                        </div>
 
 
-                                <a href={data.markdownRemark.frontmatter.edit} className={'suggest-button'} target={'_blank'} rel={'noreferrer'}>
-                                    <i className={'icon-edit'}/>SUGGEST AN EDIT
-                                </a>
+                                        <a href={data.markdownRemark.frontmatter.edit} className={'suggest-button'} target={'_blank'} rel={'noreferrer'}>
+                                            <i className={'icon-edit'}/>SUGGEST AN EDIT
+                                        </a>
+                                    </div>
+                                </Sticky>
                             </div>
-                        </Sticky>
+                            <div className={'col-12 col-lg-8 ps-lg-5'}>
 
-                        <div
-                            className="blog-post-content"
-                            dangerouslySetInnerHTML={{ __html: html }}
-                        />
+                                <div
+                                    className="blog-post-content"
+                                    dangerouslySetInnerHTML={{ __html: html }}
+                                />
+                            </div>
+                        </div>
 
                         <FeaturedLearn withArrow={true} current={frontmatter.slug}/>
                     </div>

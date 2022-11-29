@@ -137,7 +137,6 @@
   }
 
   .blog-post-content{
-    padding-left:400px;
 
     @include media-breakpoint-down(md) {
       padding-left:0;
@@ -174,9 +173,10 @@
 
 
 .toc{
-  position: absolute;
-  left:0px;
-  width:315px;
+  //position: absolute;
+  left:0;
+  width:100%;
+  float:left;
 
   @include media-breakpoint-down(md) {
     display:none;
