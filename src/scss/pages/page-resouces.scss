@@ -1,6 +1,13 @@
 .resources-page{
-  //background:url(../images/BG/team.png) no-repeat scroll center right transparent;
   position:relative;
+
+  main{
+    overflow:unset;
+  }
+}
+
+.resources-body{
+  background-image:url(../images/BG/learn.png);
 }
 
 .blog-post{
@@ -317,9 +324,6 @@
   }
 }
 
-.sticky{
-  top:100px !important;
-}
 
 .blog-section{
   .section-inner{
@@ -466,4 +470,19 @@
       overflow:hidden;
     }
   }
+}
+
+.sticky-container{
+  clip-path: inset(0 0 0 0);
+}
+
+.sticky-box{
+  position:relative;
+  margin-top:100px;
+  transform:unset;
+}
+
+.toc{
+  position:sticky;
+  top:100px;
 }

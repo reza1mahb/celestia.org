@@ -7,6 +7,7 @@ import {FooterBoxes} from "../datas/resources/content";
 import Layout from "../components/layout";
 import FeaturedLearn from "../components/modules/featured-learn";
 import TocGroup from "../components/modules/toc-groups";
+import {Helmet} from "react-helmet";
 
 const toc = require('./markdown-pages/learn/_toc.json');
 
@@ -17,9 +18,13 @@ export default function Template({
 
     const { frontmatter, html, headings } = markdownRemark
 
+
     return (
 
         <Layout footerBoxes={FooterBoxes}>
+            <Helmet>
+                <body className="resources-body" />
+            </Helmet>
         <div className="resources-page">
 
             <main>
@@ -52,10 +57,9 @@ export default function Template({
                             <Image alt={frontmatter.title} filename={frontmatter.image} />
                         </div>}
 
-                        <div className={'row'}>
-                            <div className={'d-none d-lg-block col-lg-4'} style={{minHeight:"600px"}}>
-                                <Sticky topOffset={-100}>
-                                    <div className={'toc'}>
+                        <div className={'row sticky-row'}>
+                            <div className={'sticky-container d-none d-lg-block col-lg-4'}>
+                                <div className={'toc'}>
                                         <div className={'toc-inner'}>
                                             {toc.map((group, groupIndex) =>{
                                                 return(
@@ -69,7 +73,6 @@ export default function Template({
                                             <i className={'icon-edit'}/>SUGGEST AN EDIT
                                         </a>
                                     </div>
-                                </Sticky>
                             </div>
                             <div className={'col-12 col-lg-8 ps-lg-5'}>
 

@@ -343,9 +343,9 @@ h6{
 }
 
 main{
-  padding-top:100px;
   overflow:hidden;
   width:100%;
+  padding-top:40px;
 
   @include media-breakpoint-down(xl) {
     padding-top:50px;
