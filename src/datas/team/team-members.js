@@ -126,20 +126,6 @@ export const teamMembers = [
         }
     },
     {
-        id : 11,
-        name : 'Josh Bowen',
-        title: 'Software Engineer',
-        text: 'Former software engineer at Google',
-        image: 'team/JoshBowen.png',
-        socials: {
-            twitter : 'https://twitter.com/Jskybowen',
-            discord : '',
-            github : 'https://github.com/jbowen93',
-            email : '',
-            linkedin : 'https://www.linkedin.com/in/jbowen93/',
-        }
-    },
-    {
         id : 13,
         name : 'Rachid Chami',
         title: 'Software Engineer',
@@ -383,6 +369,45 @@ export const teamMembers = [
         title: 'Software Engineer',
         text: 'Former lead engineer of the Tendermint consensus protocol. Chief instigator of deadlocks, race conditions and memory leaks.',
         image: 'team/CallumWaters.png',
+        socials: {
+            twitter : '',
+            discord : '',
+            github : '',
+            email : '',
+            linkedin : '',
+         }
+     },{
+        id : 34,
+        name : 'Joseph Al-Chami',
+        title: 'Product Manager',
+        text: 'Former Product Manager at Figment',
+        image: 'team/JosephAlChami.png',
+        socials: {
+            twitter : '',
+            discord : '',
+            github : '',
+            email : '',
+            linkedin : '',
+         }
+     },{
+        id : 35,
+        name : 'Eugenia Acosta',
+        title: 'Product Manager',
+        text: 'Former product marketing manager at Snap Inc. and Fit Analytics',
+        image: 'team/EugeniaAcosta.png',
+        socials: {
+            twitter : '',
+            discord : '',
+            github : '',
+            email : '',
+            linkedin : '',
+         }
+     },{
+        id : 36,
+        name : 'Amy Yu',
+        title: 'Operations Manager',
+        text: 'Previously in the realm of esports. Now exploring the web3 frontier.',
+        image: 'team/AmyYu.png',
         socials: {
             twitter : '',
             discord : '',
