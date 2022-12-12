@@ -15,9 +15,9 @@ description: "What is Learn Modular?"
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@CelestiaOrg">
   <meta name="twitter:creator" content="@likebeckett">
-  <meta name="twitter:title" content="Basics of Modular Blockchains">
-  <meta name="twitter:description" content="Blockchain researchers have long grappled with the challenge of creating the optimal system. Many architectures have been tried whose goal was to accommodate all users on a single chain or a tightly coupled group of chains that live under a single network.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/Learn_Modular_Twitter_Card%201.png">
+  <meta name="twitter:title" content="Learn Modular">
+  <meta name="twitter:description" content="Welcome to learn modular, your go-to place to learn about modular blockchains and everything in between.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
 <head/>
 
 #### Summary
