@@ -63,9 +63,9 @@ export default function Template({
                             <div className={'sticky-container col-lg-4'}>
                                 <div className={'toc'}>
 
-                                    <div className={`mobile-toc ${showTocCategories && 'opened'}`} onClick={()=>setShowTocCategories(!showTocCategories)}>
+                                    <div className={`mobile-toc ${showTocCategories && 'show'}`} onClick={()=>setShowTocCategories(!showTocCategories)}>
                                         Select category
-                                        <svg viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                        <svg id={'mobile-category'} viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                             <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                                 <g transform="translate(-485.000000, -1044.000000)">
                                                     <g transform="translate(227.000000, 410.000000)">
@@ -81,7 +81,7 @@ export default function Template({
 
                                         <div className={'toc-inner'}>
 
-                                            <div className={`category-menu ${showTocCategories && 'opened'}`}>
+                                            <div className={`category-menu ${showTocCategories && 'show'}`}>
                                                 {toc.map((group, groupIndex) =>{
                                                     return(
                                                         <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>

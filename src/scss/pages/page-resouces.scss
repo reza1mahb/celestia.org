@@ -193,7 +193,7 @@
       transition:500ms all ease-in-out;
       margin-top:0;
 
-      &.opened{
+      &.show{
         max-height:200vh;
         margin-top:25px;
         margin-bottom:25px;
@@ -218,7 +218,7 @@
       display:block;
     }
 
-    svg{
+    #mobile-category{
       width:22px;
       height:22px;
       float:right;
@@ -226,8 +226,8 @@
       transition:300ms all ease-in-out;
     }
 
-    &.opened{
-      svg{
+    &.show{
+      #mobile-category{
         transform:rotate(180deg);
       }
     }
