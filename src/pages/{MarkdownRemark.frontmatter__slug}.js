@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import {graphql, Link} from "gatsby"
 import Sticky from 'react-sticky-el';
 import Image from "../components/imageComponent";
@@ -17,6 +17,8 @@ export default function Template({
     const { markdownRemark } = data // data.markdownRemark holds your post data
 
     const { frontmatter, html, headings } = markdownRemark
+
+    const [showTocCategories,setShowTocCategories] = useState(false);
 
 
     return (
@@ -58,18 +60,38 @@ export default function Template({
                         </div>}
 
                         <div className={'row sticky-row'}>
-                            <div className={'sticky-container d-none d-lg-block col-lg-4'}>
+                            <div className={'sticky-container col-lg-4'}>
                                 <div className={'toc'}>
+
+                                    <div className={`mobile-toc ${showTocCategories && 'opened'}`} onClick={()=>setShowTocCategories(!showTocCategories)}>
+                                        Select category
+                                        <svg viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                            <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                                <g transform="translate(-485.000000, -1044.000000)">
+                                                    <g transform="translate(227.000000, 410.000000)">
+                                                        <g transform="translate(269.000000, 645.000000) rotate(-90.000000) translate(-269.000000, -645.000000) translate(258.000000, 634.000000)">
+                                                            <rect fill="#EDEDED" x="0" y="0" width="22" height="22" rx="4"/>
+                                                            <polyline stroke="#000000" strokeWidth="1.5" strokeLinecap="round" transform="translate(10.694444, 11.152778) rotate(-270.000000) translate(-10.694444, -11.152778) " points="7.94444444 9.77777778 10.6944444 12.5277778 13.4444444 9.77777778"/>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+
                                         <div className={'toc-inner'}>
-                                            {toc.map((group, groupIndex) =>{
-                                                return(
-                                                    <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
-                                                )
-                                            })}
+
+                                            <div className={`category-menu ${showTocCategories && 'opened'}`}>
+                                                {toc.map((group, groupIndex) =>{
+                                                    return(
+                                                        <TocGroup key={groupIndex} markdownRemark={markdownRemark} group={group} headings={headings} frontmatter={frontmatter}/>
+                                                    )
+                                                })}
+                                            </div>
                                         </div>
 
 
-                                        <a href={data.markdownRemark.frontmatter.edit} className={'suggest-button'} target={'_blank'} rel={'noreferrer'}>
+                                        <a href={data.markdownRemark.frontmatter.edit} className={'d-none d-lg-flex suggest-button pl-0 ps-lg-4'} target={'_blank'} rel={'noreferrer'}>
                                             <i className={'icon-edit'}/>SUGGEST AN EDIT
                                         </a>
                                     </div>
@@ -80,6 +102,11 @@ export default function Template({
                                     className="blog-post-content"
                                     dangerouslySetInnerHTML={{ __html: html }}
                                 />
+
+
+                                <a href={data.markdownRemark.frontmatter.edit} className={'d-lg-none suggest-button pl-0 ps-lg-4'} target={'_blank'} rel={'noreferrer'}>
+                                    <i className={'icon-edit'}/>SUGGEST AN EDIT
+                                </a>
                             </div>
                         </div>
 

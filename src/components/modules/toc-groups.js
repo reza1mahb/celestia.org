@@ -48,7 +48,7 @@ export default function TocGroup(props) {
     const [isOpen,setIsOpen] = useState(opened)
 
     return (
-        <div key={props.key} className={`col-12 ${isOpen ? 'opened' : 'closed'}`}>
+        <div key={props.key} className={`col-12 group ${isOpen ? 'opened' : 'closed'}`}>
             <div className={'group-title'} onClick={()=>setIsOpen(!isOpen)}>
                 {group.category}
 
