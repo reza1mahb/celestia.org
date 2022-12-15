@@ -415,5 +415,18 @@ export const teamMembers = [
             email : '',
             linkedin : '',
          }
+     },{
+        id : 37,
+        name : 'Natalie Kubalova',
+        title: 'DevRel Program Manager',
+        text: 'Former Head of Relationships at DAO Maker, Namaste in Crypto.',
+        image: 'team/NatalieKubalova.JPG',
+        socials: {
+            twitter : 'https://twitter.com/natn3t',
+            discord : '',
+            github : '',
+            email : '',
+            linkedin : '',
+         }
      }
 ]
