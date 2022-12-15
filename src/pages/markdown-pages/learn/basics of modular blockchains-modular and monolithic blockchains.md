@@ -21,42 +21,39 @@ description: "What are modular blockchains and what makes them different to thei
 <head/>
 
 #### Summary
-1. A modular blockchain is a type of blockchain that is part of a modular stack. A modular stack consists of layers of specialized blockchains that utilize each other to create a complete system.
-2. Monolithic blockchains are limited by handling all functions on a single layer. To increase throughput, security or decentralization must be sacrificed.
-3. Modular blockchains provide many benefits over their monolithic counterparts, some of which include efficiently creating new blockchains, sovereignty, and scalability.
-  
-  
+1. The first approach to building blockchains was a monolithic design where a single blockchain does everything.
+2. The idea of a modular blockchain is that it can specialize in a couple of functions instead of trying to do everything. Namely, modular blockchains decouple consensus from execution.
+3. The monolithic approach causes some inherent problems with scaling, which includes expensive hardware, limited control, and high overhead.
+
 #### Introduction
-Blockchain researchers have long grappled with the challenge of creating the optimal system. Many architectures have been tried whose goal was to accommodate all users on a single chain or a tightly coupled group of chains that live under a single network. This approach has proved limited and complex in scaling a system for millions or billions of users. Solutions to this challenge progressed with sharding and layer 2 blockchains to provide additional scale to layer 1. The concept of splitting blockchains up into separate components introduced the idea that a single blockchain doesn’t need to do everything on its own.
+Blockchain researchers have long grappled with the challenge of creating the optimal system. Many architectures have been tried whose goal was to accommodate all users on a single chain or a tightly coupled group of chains that live under a single network. This approach has proved limited and complex in scaling a system for billions of users. Solutions to this challenge progressed with sharding and layer 2 blockchains to provide additional scale to layer 1. The concept of splitting blockchains up into separate components introduced the idea that a single blockchain doesn’t need to do everything on its own.
 
 The next evolution of that concept is modular blockchains. By making the blockchain modular and splitting up its processes among multiple specialized layers, a more optimal system can be created that is sovereign, scalable, and secure.
 
 #### Modular blockchains
-The framework behind modular blockchains is rooted in the principle of modular design, which is the concept of dividing a system into smaller parts that can be independently created or exchanged between different systems.
+The framework behind modular blockchains lies in the principle of modular design. A design is modular if it divides a system into smaller parts that can be exchanged or replaced.
 
-A modular blockchain is a type of blockchain that specializes in only a few functions, rather than all of them. Because of this, modular blockchains are arranged in a stack that combine to achieve the same functions as a monolithic chain.
+The idea of a modular blockchain is that it can specialize in a couple of functions instead of trying to do everything. A more scalable and customizable system can be created by combining multiple specialized blockchains.
 
 ##### The functions that modular blockchains can specialize in are:
 
-- Execution: Processes transactions.
-- Settlement: Dispute resolution and bridge (optional).
-- Consensus: Orders transactions.
-- Data availability: Ensures data is available.
+- **Execution:** Process transactions.
+- **Settlement:** Dispute resolution and bridge (optional).
+- **Consensus:** Order transactions.
+- **Data availability:** Ensure data is available.
 
-While naive implementations of modular stacks were first introduced with rollups, rather than scaling monolithic chains an entirely new stack of purpose-built modular blockchains can be used to take advantage of this new paradigm.
-
-Rollups are a type of modular blockchain that specialize in execution, off-loading settlement, consensus, and <a href="https://celestia.org/glossary/data-availability" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">data availability</a> to separate layers. Celestia is another modular blockchain that specializes in consensus and data availability, off-loading execution to separate chains, such as <a href="https://celestia.org/glossary/rollup" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">rollups</a>.
+For example, <a href="https://celestia.org/glossary/rollup" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">rollups</a> are a type of modular blockchain that specialize in execution. This allows them to offload work to other specialized modular blockchains. Celestia is an example of a modular blockchain that provides the other functions that rollups depend on, like consensus and <a href="https://celestia.org/glossary/data-availability" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">**data availability**</a>.
 
 ![GATSBY_EMPTY_ALT](./images/Celestia_DA_Execution.png)
 
-Celestia is different from previous blockchain designs, which had execution as core functionality. Recognizing that modularity allows blockchains to be created for specific purposes, there is no need for execution because that can be the job of a separate chain. Doing so alleviates the largest bottlenecks associated with a monolithic chain from the base layer: transaction execution and state bloat.
+Celestia is different from previous blockchain designs, which had execution as core functionality. Recognizing that modularity allows blockchains to be created for specific purposes, there is no need for execution because that can be the job of a separate chain. Doing so enables a more efficient and scalable blockchain.
 
 #### Monolithic blockchains
-Monolithic blockchains are chains that handle all four functions. Where a modular stack splits up components across multiple layers, monolithic blockchains do everything at the same time on a single layer.
+Monolithic blockchains were the first design approach to building blockchains. The idea being that a blockchain can do everything. That includes things like processing transactions, checking whether they’re correct, and getting nodes to agree on them. As opposed to modular blockchains that spread out functions over multiple specialized chains, monolithic blockchains do everything on a single blockchain.
 
 ![GATSBY_EMPTY_ALT](./images/Monolithic-Modular_V2_without_logo.png)
 
-##### Some of the constraints that monolithic blockchains face include:
+This monolithic approach causes some inherent problems with scaling while retaining the core principle of decentralization:
 
 - **High hardware requirements:** Monolithic chains can increase the number of transactions they process, but it comes at a cost. That cost is higher hardware requirements for nodes to verify the chain.
 - **Bootstrapping validators:** Deploying a new monolithic blockchain requires the overhead of bootstrapping a secure validator set and maintaining a consensus network.
