@@ -21,7 +21,7 @@ title: "The Celestia reading list"
 
 #### Advanced
 1. <a href="https://blog.celestia.org/sovereign-rollup-chains/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Rollups as sovereign chains</a>
-2. <a href="https://medium.com/@adlerjohn/the-why-s-of-optimistic-rollup-7c6a22cbb61a" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Modular settlement layers</a>
+2. <a href="https://celestia.org/learn/modular-settlement-layers/settlement-in-the-modular-stack" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Modular settlement layers</a>
 3. <a href="https://blog.celestia.org/celestiums/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Quantum Gravity Bridge: Secure off-chain data availability for Ethereum L2s</a>
 4. <a href="https://blog.celestia.org/clusters/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Clusters: how trusted & trust-minimized bridges shape the multi-chain landscape</a>
 5. <a href="https://members.delphidigital.io/reports/the-complete-guide-to-rollups" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">The complete guide to rollups</a>
