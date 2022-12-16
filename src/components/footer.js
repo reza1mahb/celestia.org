@@ -52,6 +52,10 @@ const navigation = [
         text: "Forum",
         url: "https://forum.celestia.org",
         type: 'external'
+    },{
+        text: "Ecosystem Jobs",
+        url: "https://celestia.pallet.com/jobs",
+        type: 'external'
     },
 ]
 
