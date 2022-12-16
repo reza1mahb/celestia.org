@@ -42,7 +42,7 @@ The idea of a modular blockchain is that it can specialize in a couple of functi
 - **Consensus:** Order transactions.
 - **Data availability:** Ensure data is available.
 
-For example, <a href="https://celestia.org/glossary/rollup" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">rollups</a> are a type of modular blockchain that specialize in execution. This allows them to offload work to other specialized modular blockchains. Celestia is an example of a modular blockchain that provides the other functions that rollups depend on, like consensus and <a href="https://celestia.org/glossary/data-availability" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">**data availability**</a>.
+For example, <a href="https://celestia.org/glossary/rollup" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">rollups</a> are a type of modular blockchain that specialize in execution. This allows them to offload work to other specialized modular blockchains. Celestia is an example of a modular blockchain that provides the other functions that rollups depend on, like consensus and <a href="https://celestia.org/glossary/data-availability" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">data availability</a>.
 
 ![GATSBY_EMPTY_ALT](./images/Celestia_DA_Execution.png)
 
