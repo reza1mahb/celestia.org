@@ -2,11 +2,11 @@ export const faqs = [
     {
         id: 1,
         question: 'What is Celestia?',
-        text: 'Celestia is the first modular blockchain network that makes it effortless to deploy a new blockchain. It allows sovereign blockchains to break free from the constraints of monolithic architectures so that they can build with flexibility and freedom on their own terms.<br><br>Celestia is a unique layer 1 blockchain whose only job is to order transactions and verify that the published data is available. This allows specialized blockchains for hosting applications to deploy on top of it. By taking this approach, Celestia achieves properties of scalability, flexibility and interoperability unmatched by previous blockchain designs.',
+        text: 'Celestia is the first modular blockchain network. By decoupling consensus from execution, Celestia enables anyone to easily deploy their own blockchain, without the overhead of bootstrapping a new consensus network. Blockchains on Celestia are simultaneously scalable, sovereign and secure.',
     },{
         id: 2,
         question: 'What stage of development is Celestia in?',
-        text: 'Celestia is still in the early stages of development. In May 2022, we launched the Mamaki testnet for developers to openly test the network’s functionality. In 2022 we plan to upgrade the testnet and gradually build up to a mainnet launch in 2023.',
+        text: 'Celestia is at the testnet stage of development, approaching a mainnet launch later next year. In May 2022, we launched the Mamaki testnet for developers to openly test the network’s functionality. In December 2022, we upgraded the Mamaki testnet to Mocha and introduced a new developer-focused testnet, Arabica. In 2023, we plan to launch an incentivized testnet in the lead up to mainnet.',
     },{
         id: 3,
         question: 'Will Celestia have a token and if so, what will it be used for?',
@@ -17,8 +17,8 @@ export const faqs = [
         text: 'Celestia is able to scale as the number of users (light nodes) in the network increases. Celestia remains secure so long as there are enough nodes on the network to sample the entire block. This means that as more nodes join the network and sample, the block size can increase accordingly without sacrificing security or decentralization. Doing so on a traditional blockchain would sacrifice decentralization because a bigger block size would create a larger hardware requirement for nodes to download and verify data. Rollups also depend on data availability for their scalability, so better scaling potential for Celestia will also translate to better scaling potential for the rollups utilizing Celestia.',
     },{
         id: 5,
-        question: 'What is data availability?',
-        text: '"Data availability" and the "data availability problem" are terms used to refer to a specific problem faced in various blockchain scaling strategies. Data availability refers to the ability for transaction data to be made available for nodes to download. The data availability problem asks: how can nodes be sure that when a new block is produced, that all of the data in that block was actually published to the network? The dilemma is that if a block producer doesn\'t release all of the data in a block, no one could detect if there is a malicious transaction hidden within that block.<br><br>For more information about data availability, <a href="https://coinmarketcap.com/alexandria/article/what-is-data-availability" target="_blank" rel="noreferrer">this post</a> by Celestia Labs co-founder Mustafa Al-Bassam is a good place to start.',
+        question: 'What is data availability and why is it important?',
+        text: '<a href="https://docs.celestia.org/concepts/data-availability-faq" target="_blank" rel="noreferrer">Data availability</a> is critical to the security of any blockchain because it ensures that anyone can inspect the record of transactions and verify it. Data availability is the answer to the question, has this data been published? Users of a monolithic blockchain simply download all the data to check that it is available.<br><br>Data availability becomes a problem when you want to scale a blockchain. As the blocks get bigger, it becomes impractical for normal users to download all the data, and therefore users can no longer verify the chain. Through a new technique we call data availability sampling, normal users can check if the data has been published by downloading a tiny portion of the data, making it possible to verify very large blocks at a low cost.',
     },{
         id: 6,
         question: 'What is a rollup?',
@@ -30,7 +30,7 @@ export const faqs = [
     },{
         id: 8,
         question: 'How do I run a node on Celestia?',
-        text: 'There are multiple types of nodes that you can run on Celestia’s Mamaki testnet. Information on setting up nodes can be found in our <a href="https://docs.celestia.org/nodes/overview" target="_blank" rel="noreferrer">documentation</a>.',
+        text: 'There are multiple types of nodes that users can run on Celestia’s Mocha and Arabica testnets. Information on setting up nodes can be found in our <a href="https://docs.celestia.org/nodes/overview" target="_blank" rel="noreferrer">documentation</a>.',
     },{
         id: 9,
         question: 'Can Celestia support both zk rollups and optimistic rollups?',
@@ -45,7 +45,7 @@ export const faqs = [
         text: 'Celestia is a blockchain that focuses on data availability whereas blockchains like Filecoin and Arweave are focused on the separate problem of data storage.<br><br>Data availability is concerned with whether the data published in the latest block is available. This is distinctly different from data storage, which is concerned with storing data securely and providing guarantees that it can be accessed when needed.<br><br>These distinct focuses lead to differences between their target use-cases. Data storage blockchains are particularly focused on providing a decentralized way for data to be stored and accessed. Conversely, Celestia is designed to provide secure and scalable data availability for blockchains and specialized execution environments, like rollups.<br><br>For more information about data availability, <a href="https://coinmarketcap.com/alexandria/article/what-is-data-availability" target="_blank" rel="noreferrer">this post</a> by Celestia Labs co-founder Mustafa Al-Bassam is a good place to start.',
     },{
         id: 12,
-        question: 'What guarantees for data retrievability does Celestia provide?',
-        text: 'Celestia makes the same assumptions for data retrieval that many other blockchains do, which is that Celestia assumes that once the data has been published there will be at least one copy of it somewhere on the internet. This copy could come directly from Celestia nodes, or from third party data providers, such as block explorers or data indexers like The Graph.'
+        question: 'What guarantees for data storage does Celestia provide?',
+        text: 'Celestia’s purpose is to provide a secure and scalable way to verify the availability of data. Once data has been verified as available, the job of storing and retrieving historical data is left up to other entities that require the data. Luckily, there are natural incentives for outside parties to store and serve historical data to users. There are multiple types of actors that may be likely to store historical data, such as block explorers, indexers, applications, and users themselves.',
     },
 ]
