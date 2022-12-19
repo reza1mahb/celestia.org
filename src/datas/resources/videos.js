@@ -26,7 +26,7 @@ export const videos = [
     },{
         id: 23,
         category: 'video',
-        title: 'BUIDL Asia 2022 Panel: The Interoperability Round Table',
+        title: 'BUIDL Asia 2022: Rollups as Sovereign Chains',
         image: 'resources/mustafa-buidl-talk-thumbnail.png',
         url: 'https://youtu.be/FQI0gR-63PI',     
     },{
