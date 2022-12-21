@@ -12,7 +12,10 @@ class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>A type of blockchain that posts their blocks to a parent chain to receive consensus and ensure data availability. Rollups provide the environment where applications are deployed for users to interact with. Over time, two primary designs have emerged for rollups, optimistic and zk-Rollups.
+                <p>A rollup is a type of blockchain that offloads some work to a layer 1, like Celestia. Rollups host applications and process user transactions. Once those transactions get processed, they are then published to layer 1. It’s layer 1s job to order those transactions and check that they are available, at minimum.
+                </p>
+
+                <p> Over time, two primary designs emerged for rollups: <a href="https://celestia.org/glossary/optimistic-rollup/">optimistic</a> and <a href="https://celestia.org/glossary/zk-rollup">zk rollups</a>.
                 </p>
 
 
