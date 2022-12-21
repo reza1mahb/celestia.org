@@ -12,16 +12,11 @@ class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>The condition of whether or not transaction data was made available for nodes to download, when a block was proposed. Verifying data availability is the only way to prevent data withholding, a devastating attack that breaks the fundamental security of any blockchain. In the event that a block is proposed where the underlying data is unavailable, the rest of the network won’t be able to confirm the validity of the transactions in the block, or won’t be able to perform a state transition using the update from the proposed block.
+                <p>Data availability answers the question, has this data been published? Specifically, a node will verify data availability when it receives a new block that is getting added to the chain. The node will attempt to download all the transaction data for the new block to verify availability. If the node can download all the transaction data, then it successfully verified data availability, proving that the block data was actually published to the network.
                 </p>
 
-                <p>In traditional blockchains, data availability is verified by requiring full nodes to download all the block data. This approach does not scale, hence the need for specialized schemes such as data availability sampling which allow nodes to verify data availability without downloading the entire block.
-                </p>
-
-                <p>See the <a href="https://www.celestia.org/glossary/the-data-availability-problem">data availability problem</a>.
-                </p>
                 
-                <p> Read more about <a href="https://coinmarketcap.com/alexandria/article/what-is-data-availability">data availability</a>.
+                <p> For an overview on data availability, read <a href="https://coinmarketcap.com/alexandria/article/what-is-data-availability">What is Data Availability?</a>
                 </p>
 
             </div>
