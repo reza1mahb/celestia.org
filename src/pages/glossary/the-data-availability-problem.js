@@ -12,13 +12,13 @@ class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>A problem that is concerned with whether the data in the proposed block can be verified that it is available. The problem commonly arises in sharded blockchains and with off-chain scaling solutions, L2s, because their architectures increase the attack vector for data withholding attacks.
+                <p>The problem with data availability occurs when the transaction data for a newly proposed block cannot be downloaded and verified. This type of attack by a block producer is called a <a href="https://celestia.org/glossary/data-withholding-attack">data withholding attack</a>, which sees the block producer withhold transaction data of a new block.
                 </p>
 
-                <p>While data availability is trivial for monolithic blockchains that do not scale, a more scalable modular approach introduces situations where ensuring data availability can become problematic.
+                <p>Since transaction data is withheld, nodes cannot update to the latest state. Such an attack can have numerous consequences, from halting a chain to gaining the ability to steal funds. The severity of the consequences will depend on the type of blockchain (L1 or L2) and whether data availability is kept on-chain or off-chain. The data availability problem commonly arises around L2 scaling solutions like <a href="https://celestia.org/glossary/rollup">rollups</a> and <a href="https://celestia.org/glossary/validium">validiums</a>.
                 </p>
 
-                <p>Read more about <a href="https://coinmarketcap.com/alexandria/article/what-is-data-availability/"> data availability</a>.
+                <p>Read more about <a href="https://coinmarketcap.com/alexandria/article/what-is-data-availability/">the data availability problem</a>.
                 </p>
 
             </div>
