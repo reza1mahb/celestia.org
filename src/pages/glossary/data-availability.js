@@ -17,7 +17,6 @@ class GlossaryContent extends React.Component {
                 </p>
                 
                 <img src={Image}/>
-                <br><br/>
                 
                 <p> For an overview on data availability, read <a href="https://coinmarketcap.com/alexandria/article/what-is-data-availability">What is Data Availability?</a>
                 </p>
