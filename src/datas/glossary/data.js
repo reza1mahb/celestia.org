@@ -26,6 +26,10 @@ export const glossaries = [
                 title: 'Composability',
                 text: 'The ability for applications on a blockchain to read and write state to each other.',
             },{
+                url: 'consensus-algorithm',
+                title: 'Consensus algorithm',
+                text: 'A consensus algorithm is a set of rules that blockchains use to determine how nodes produce new blocks and agree to finalize them.',
+            },{
                 url: 'cosmos-sdk',
                 title: 'Cosmos SDK',
                 text: 'The Cosmos SDK is a development kit for building PoS layer 1 blockchains with Tendermint as the consensus mechanism.',
@@ -45,6 +49,10 @@ export const glossaries = [
                 url: 'data-availability',
                 title: 'Data availability',
                 text: 'The condition of whether or not transaction data was made available for nodes to download, when a block was proposed.',
+            },{
+                url: 'data-availability-committee',
+                title: 'Data availability committee',
+                text: 'A data availability committee (DAC) is a permissioned group of nodes responsible for providing data availability to a blockchain.',
             },{
                 url: 'data-throughput',
                 title: 'Data throughput',
@@ -113,6 +121,10 @@ export const glossaries = [
                 url: 'light-client',
                 title: 'Light client',
                 text: 'A type of node that only downloads and verifies block headers, relying on an honest majority assumption that the state of the chain indicated by the block header is valid.',
+            },{
+                url: 'liveness',
+                title: 'Liveness',
+                text: 'Liveness is a property of blockchains where validators produce new blocks and successfully finalize transactions.',
             }
         ]
     },{
@@ -124,8 +136,28 @@ export const glossaries = [
             }
         ]
     },{
+        'N':[
+            {
+                url: 'namespace-merkle-tree',
+                title: 'Namespace Merkle Tree',
+                text: 'A Namespace Merkle Tree (NMT) is a type of binary Merkle tree where each node in the tree is tagged by the minimum and maximum namespace of their children.',
+            },{
+                url: 'node',
+                title: 'Node',
+                text: 'A node is a device that participates in a blockchain protocol by running its software.',
+            }
+        ]
+    },{
         'O':[
             {
+                url: 'off-chain-data-availability',
+                title: 'Off-chain data availability',
+                text: 'Off-chain data availability occurs when an L2 publishes its transaction data somewhere separate from the L1 it settles on.',
+            },{
+                url: 'on-chain-data-availability',
+                title: 'On-chain data availability',
+                text: 'On-chain data availability occurs when an L2 publishes its transaction data to its designated L1.',
+            },{
                 url: 'optimistic-rollup',
                 title: 'Optimistic rollup',
                 text: 'A type of rollup that posts its blocks to a separate chain without any cryptographic proofs that attest to their validity.',
@@ -137,6 +169,10 @@ export const glossaries = [
                 url: 'peer-to-peer-network',
                 title: 'Peer to peer network',
                 text: 'A network in which nodes are connected and can communicate directly with each other without reliance on a third party to facilitate communication.',
+            },{
+                url: 'proof-of-stake',
+                title: 'Proof of Stake',
+                text: 'Proof of Stake is a mechanism that requires blockchain participants to stake a token to participate in consensus.',
             }
         ]
     },{
@@ -150,6 +186,18 @@ export const glossaries = [
     },{
         'S':[
             {
+                url: 'safety',
+                title: 'Safety',
+                text: 'Safety is a property of blockchains that a chain will not fork.',
+            },{
+                url: 'scalability',
+                title: 'Scalability',
+                text: 'Scalability is the ability of a blockchain to increase its capacity without an equal increase in the cost to run a node that verifies the chain.',
+            },{
+                url: 'sequencer',
+                title: 'Sequencer',
+                text: 'A sequencer is a type of rollup node that is responsible for collecting transactions and producing new blocks.',
+            },{
                 url: 'sharding',
                 title: 'Sharding',
                 text: 'The process of separating a blockchain from a single chain into multiple chains (shards).',
@@ -161,6 +209,10 @@ export const glossaries = [
                 url: 'slashing',
                 title: 'Slashing',
                 text: 'A mechanism employed in PoS blockchains that is used to deter and punish malicious behavior.',
+            },{
+                url: 'smart-contract',
+                title: 'Smart contract',
+                text: 'A smart contract is a program that runs on a blockchain.',
             },{
                 url: 'social-consensus',
                 title: 'Social consensus',
