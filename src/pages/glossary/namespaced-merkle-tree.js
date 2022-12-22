@@ -8,14 +8,14 @@ import GlossaryNav from "../../components/glossary-nav";
 import {Helmet} from "react-helmet";
 import twitterCardImage from "../../images/glossary-twitter-card.png";
 
-const title = 'Namespace Merkle Tree';
+const title = 'Namespaced Merkle Tree';
 
 class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
 
-                <p>A Namespace Merkle Tree (NMT) is a type of binary Merkle tree where each node in the tree is tagged by the minimum and maximum namespace of their children. The leaves in the tree are ordered by the namespace identifiers of the messages. This enables Merkle proofs of inclusion to be created that prove to a verifier all elements of the tree of a specific namespace have been included. Celestia uses an NMT to make it easy to prove inclusion of data for rollups.
+                <p>A Namespaced Merkle Tree (NMT) is a type of binary Merkle tree where each node in the tree is tagged by the minimum and maximum namespace of their children. The leaves in the tree are ordered by the namespace identifiers of the messages. This enables Merkle proofs of inclusion to be created that prove to a verifier all elements of the tree of a specific namespace have been included. Celestia uses an NMT to make it easy to prove inclusion of data for rollups.
                 </p>
 
             </div>
