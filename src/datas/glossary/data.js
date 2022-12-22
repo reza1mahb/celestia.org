@@ -138,9 +138,9 @@ export const glossaries = [
     },{
         'N':[
             {
-                url: 'namespace-merkle-tree',
-                title: 'Namespace Merkle Tree',
-                text: 'A Namespace Merkle Tree (NMT) is a type of binary Merkle tree where each node in the tree is tagged by the minimum and maximum namespace of their children.',
+                url: 'namespaced-merkle-tree',
+                title: 'Namespaced Merkle Tree',
+                text: 'A Namespaced Merkle Tree (NMT) is a type of binary Merkle tree where each node in the tree is tagged by the minimum and maximum namespace of their children.',
             },{
                 url: 'node',
                 title: 'Node',
