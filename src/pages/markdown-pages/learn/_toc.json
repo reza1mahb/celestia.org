@@ -1,95 +1,103 @@
 [
-    {
-      "category": "",
-      "subcategories": [
-        {
-          "title": "",
-          "articles": [
-            {
-              "title": "Introduction",
-              "slug": "/learn/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Beginner",
-      "subcategories": [
-        {
-          "title": "First Principles",
-          "articles": [
-            {
-              "title": "Modular blockchains and first principles",
-              "slug": "/learn/first-principles/modular-blockchains-and-first-principles"
-            }
-          ]
-        },
-        {
-          "title": "Basics of modular blockchains",
-          "articles": [
-            {
-              "title": "Modular and monolithic blockchains",
-              "slug": "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains"
-            },{
-                "title": "Benefits of modular blockchains",
-                "slug": "/learn/basics-of-modular-blockchains/benefits-of-modular-blockchains"
-            }
-          ]
-        },
-        {
-          "title": "Values of modular blockchains",
-          "articles": [
-            {
-              "title": "Modular blockchains are user-first",
-              "slug": "/learn/values-of-modular-blockchains/modular-blockchains-are-user-first"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Intermediate",
-      "subcategories": [
-        {
-          "title": "Modular architectures",
-          "articles": [
-            {
-              "title": "The modular stack",
-              "slug": "/learn/modular-architectures/the-modular-stack"
-            }
-          ]
-        },
-        {
-          "title": "Modular settlement layers",
-          "articles": [
-            {
-              "title": "Settlement in the modular stack",
-              "slug": "/learn/modular-settlement-layers/settlement-in-the-modular-stack"
-            }
-          ]
-        },
-        {
-          "title": "Modular scalability",
-          "articles": [
-            {
-              "title": "Execution layers",
-              "slug": "/learn/modular-scalability/execution-layers"
-            },{
-                "title": "Data availability and settlement layers",
-                "slug": "/learn/modular-scalability/data-availability-and-settlement-layers"
-            }
-          ]
-        },
-        {
-          "title": "Building blockchains",
-          "articles": [
-            {
-              "title": "Deploying new blockchains in the modular stack",
-              "slug": "/learn/building-blockchains/deploying-new-blockchains-in-the-modular-stack"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  {
+    "category": "",
+    "subcategories": [
+      {
+        "title": "",
+        "articles": [
+          {
+            "title": "Introduction",
+            "slug": "/learn/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Beginner",
+    "subcategories": [
+      {
+        "title": "First Principles",
+        "articles": [
+          {
+            "title": "Modular blockchains and first principles",
+            "slug": "/learn/first-principles/modular-blockchains-and-first-principles"
+          }
+        ]
+      },
+      {
+        "title": "Basics of modular blockchains",
+        "articles": [
+          {
+            "title": "Modular and monolithic blockchains",
+            "slug": "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains"
+          },{
+              "title": "Benefits of modular blockchains",
+              "slug": "/learn/basics-of-modular-blockchains/benefits-of-modular-blockchains"
+          }
+        ]
+      },
+      {
+        "title": "Values of modular blockchains",
+        "articles": [
+          {
+            "title": "Modular blockchains are user-first",
+            "slug": "/learn/values-of-modular-blockchains/modular-blockchains-are-user-first"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategories": [
+      {
+        "title": "Modular architectures",
+        "articles": [
+          {
+            "title": "The modular stack",
+            "slug": "/learn/modular-architectures/the-modular-stack"
+          }
+        ]
+      },{
+        "title": "Modular software",
+        "articles": [
+          {
+            "title": "The differences of modular software",
+            "slug": "/learn/modular-software/the-differences-of-modular-software"
+          }
+        ]
+      },
+      {
+        "title": "Modular settlement layers",
+        "articles": [
+          {
+            "title": "Settlement in the modular stack",
+            "slug": "/learn/modular-settlement-layers/settlement-in-the-modular-stack"
+          }
+        ]
+      },
+      {
+        "title": "Modular scalability",
+        "articles": [
+          {
+            "title": "Execution layers",
+            "slug": "/learn/modular-scalability/execution-layers"
+          },{
+              "title": "Data availability and settlement layers",
+              "slug": "/learn/modular-scalability/data-availability-and-settlement-layers"
+          }
+        ]
+      },
+      {
+        "title": "Building blockchains",
+        "articles": [
+          {
+            "title": "Deploying new blockchains in the modular stack",
+            "slug": "/learn/building-blockchains/deploying-new-blockchains-in-the-modular-stack"
+          }
+        ]
+      }
+    ]
+  }
+]
