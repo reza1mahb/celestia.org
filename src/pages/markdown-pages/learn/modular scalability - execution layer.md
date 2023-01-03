@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 8
 path: "/learn/"
 slug: "/learn/modular-scalability/execution-layers"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-scalability-execution-layers.md"
