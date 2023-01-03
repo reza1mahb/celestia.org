@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 9
 path: "/learn/"
 slug: "/learn/modular-scalability/data-availability-and-settlement-layers"
 edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-scalability-data-availability-and-settlement-layers.md"
