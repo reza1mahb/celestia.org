@@ -35,17 +35,17 @@ Modular software and modular blockchains share the same idea: a blockchain's cor
 - **Modular blockchain:** A blockchain that specializes in one or two core functions. Modular blockchains with different specialties combine together to fulfill all the core functions needed.
 - **Modular software:** Software for building blockchains that separates the core functions among different pieces of software.
 
-![GATSBY_EMPTY_ALT](./images/execution-layer+monolithic.png)
+![GATSBY_EMPTY_ALT](./images/Celestia_cosmos_celestia.png)
 
 The key difference between the two is that modular software is the code that is used to build the blockchain, while a modular blockchain is a live blockchain network.
 
 An example of a modular blockchain is a rollup because it specializes in a single function - execution. A rollup processes transactions and sends them to another modular blockchain to handle the other core functions - consensus and data availability.
 
-![GATSBY_EMPTY_ALT](./images/execution-layer+monolithic.png)
+![GATSBY_EMPTY_ALT](./images/Celestia_modular_blockchain.png)
 
 On the other hand, an example of modular software is Tendermint and the Cosmos SDK. Tendermint is the consensus software that validators run to produce new blocks. The Cosmos SDK is the execution environment that processes transactions. Together, Tendermint and the Cosmos SDK serve as a toolkit for building blockchains.
 
-![GATSBY_EMPTY_ALT](./images/execution-layer+monolithic.png)
+![GATSBY_EMPTY_ALT](./images/Celestia_monolithic_blockchain.png)
 
 Since the software is modular, it is easier to change or swap out specific parts of the blockchain. For example, a developer can build a blockchain that uses Tendermint for consensus and use a different execution environment, like the EVM.
 
