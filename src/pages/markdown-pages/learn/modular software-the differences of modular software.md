@@ -21,10 +21,10 @@ description: "What is modular software and how is it different to modular blockc
 <head/>
 
 #### Summary
-- Modular software and modular blockchains are often confused for one another, but they mean very different things
-- Modular software separates the core functions of a blockchain among different pieces of software, enabling a more flexible and efficient blockchain development process.
-- Modular blockchains are live blockchain networks that specialize in one or two core functions.
-- <a href="https://github.com/celestiaorg/rollmint" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Rollmint</a> is a development kit that combines the principles of modular software and modular blockchains, enabling developers to easily deploy new blockchains with minimal overhead.
+1. Modular software and modular blockchains are often confused for one another, but they mean very different things
+2. Modular software separates the core functions of a blockchain among different pieces of software, enabling a more flexible and efficient blockchain development process.
+3. Modular blockchains are live blockchain networks that specialize in one or two core functions.
+4. <a href="https://github.com/celestiaorg/rollmint" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Rollmint</a> is a development kit that combines the principles of modular software and modular blockchains, enabling developers to easily deploy new blockchains with minimal overhead.
 
 #### Intro
 Modularity is an essential concept in the design and development of blockchains. It enables developers to focus on customizing the parts of the blockchain they care about most. Many blockchains exist that use modular software to improve their development process. However, a blockchain built using modular software should not be confused with a modular blockchain. Let’s look at some of the differences between modular blockchains and modular software.
