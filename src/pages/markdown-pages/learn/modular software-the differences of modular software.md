@@ -29,7 +29,7 @@ description: "What is modular software and how is it different to modular blockc
 #### Intro
 Modularity is an essential concept in the design and development of blockchains. It enables developers to focus on customizing the parts of the blockchain they care about most. Many blockchains exist that use modular software to improve their development process. However, a blockchain built using modular software should not be confused with a modular blockchain. Let’s look at some of the differences between modular blockchains and modular software.
 
-#### Modular blockchains and modular software
+#### The differences
 Modular software and modular blockchains share the same idea: a blockchain's core functions can be distinct components. But the two go about it in different ways.
 
 - **Modular blockchain:** A blockchain that specializes in one or two core functions. Modular blockchains with different specialties combine together to fulfill all the core functions needed.
