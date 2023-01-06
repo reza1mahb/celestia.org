@@ -2,7 +2,7 @@
 order: 6
 path: "/learn/"
 slug: "/learn/modular-software/the-differences-of-modular-software"
-edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-software-the-differences-of-modular-software.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/modular%20software-the%20differences%20of%20modular%20software.md"
 date: "2023-01-03"
 icon: ""
 category: "Intermediate"
