@@ -2,7 +2,7 @@
 order: 7
 path: "/learn/"
 slug: "/learn/modular-settlement-layers/settlement-in-the-modular-stack"
-edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-settlement-layers-settlement-in-the-modular-stack.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/modular%20settlement%20layers-settlement%20in%20the%20modular%20stack.md"
 date: "2022-04-01"
 icon: ""
 category: "Intermediate"
