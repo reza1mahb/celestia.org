@@ -2,7 +2,7 @@
 order: 5
 path: "/learn/"
 slug: "/learn/modular-architectures/the-modular-stack"
-edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/modular-architectures-the-modular-stack.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/modular%20architectures%20-%20the%20modular%20stack.md"
 date: "2022-05-01"
 icon: ""
 category: "Intermediate"
