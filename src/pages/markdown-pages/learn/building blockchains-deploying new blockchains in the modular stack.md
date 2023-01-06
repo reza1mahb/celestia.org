@@ -2,7 +2,7 @@
 order: 10
 path: "/learn/"
 slug: "/learn/building-blockchains/deploying-new-blockchains-in-the-modular-stack"
-edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/building-blockchains-deploying-new-blockchains-in-the-modular-stack.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/building%20blockchains-deploying%20new%20blockchains%20in%20the%20modular%20stack.md"
 date: "2022-02-01"
 icon: ""
 category: "Intermediate"
