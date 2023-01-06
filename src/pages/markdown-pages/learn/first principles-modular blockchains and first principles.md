@@ -2,7 +2,7 @@
 order: 1
 path: "/learn/"
 slug: "/learn/first-principles/modular-blockchains-and-first-principles"
-edit: "https://github.com/celestiaorg/celestia.org/tree/main/src/pages/markdown-pages/learn/first-principles-modular-blockchains-and-first-principles.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/first%20principles-modular%20blockchains%20and%20first%20principles.md"
 date: "2022-07-14"
 icon: ""
 category: "Beginner"
