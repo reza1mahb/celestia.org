@@ -1,7 +1,7 @@
 export const FooterBoxes = [
     {
         title: 'Experiment with testnet',
-        text: 'Join a growing ecosystem of developers building rollups and applications on the Mamaki testnet.',
+        text: 'Join a growing ecosystem of developers building rollups and applications on the Mocha testnet.',
         button: {
             text: 'Get started',
             href: 'https://docs.celestia.org/',

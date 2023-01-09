@@ -12,7 +12,7 @@ export const heroData = {
                 text: 'Build on Testnet',
                 class: 'white',
                 type: 'external',
-                url: 'https://docs.celestia.org/nodes/mamaki-testnet'
+                url: 'https://docs.celestia.org/nodes/mocha-testnet'
             }
         ]
 }

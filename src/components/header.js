@@ -34,7 +34,7 @@ const navigation = [
             {
                 text: "Build on testnet",
                 subtext: "Testnet",
-                url: "https://docs.celestia.org/nodes/mamaki-testnet",
+                url: "https://docs.celestia.org/nodes/mocha-testnet",
                 icon: "menu/devnet.svg",
                 type: 'external'
             },

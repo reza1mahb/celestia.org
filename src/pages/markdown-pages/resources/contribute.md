@@ -10,7 +10,7 @@ The Celestia community is made up of many individuals with a wide range of skill
 #### Builders
 <p>
     <ul style="line-height:140%">
-      <li>Experiment with the non-incentivized <a href="https://docs.celestia.org/nodes/mamaki-testnet" style="color:#7B2BF9;">Mamaki Testnet</a></li>
+      <li>Experiment with the non-incentivized <a href="https://docs.celestia.org/nodes/mocha-testnet" style="color:#7B2BF9;">Mocha Testnet</a></li>
       <li>Tackle a good first issue on one of Celestia's <a href="https://github.com/celestiaorg" style="color:#7B2BF9;">repos</a></li>
       <li>Stay up to date with development <a href="https://blog.celestia.org/july-engineering-update/" style="color:#7B2BF9;">progress</a></li>
     </ul>
