@@ -428,5 +428,19 @@ export const teamMembers = [
             email : '',
             linkedin : '',
          }
+     },
+     {
+        id : 38,
+        name : 'Diego Ferrer',
+        title: 'Solutions Engineer',
+        text: 'Former Smart Contract Engineer at Tessera, Celestia Modular Fellow',
+        image: 'team/DiegoFerrer.JPG',
+        socials: {
+            twitter : 'https://twitter.com/dferrersan',
+            discord : '',
+            github : 'https://twitter.com/dferrersan',
+            email : '',
+            linkedin : '',
+         }
      }
 ]
