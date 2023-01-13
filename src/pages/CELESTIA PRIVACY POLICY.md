@@ -11,6 +11,9 @@ sidemenu: "true"
 .padding {
     padding-left: 24px;
 }
+.twopadding {
+    padding-top: 15px;
+}
 mark { 
   background-color: #06FAFF;
   color: black;
@@ -38,19 +41,23 @@ If you are located in the EEA or the UK, you have certain rights in relation to 
 <p>a)	<u>Right of access and information</u></p>
 </div>
 You have the right to request from us free confirmation of the processing of the data or information in question and to be informed of such data and to receive further information and a copy of the data in accordance with the provisions of the law. The subject of the information is the stored personal data themselves, the origin of the data, their recipients, and the purpose of the data processing (cf. Art. 15 GDPR).
-<div class="padding">
+
+<div class="twopadding">
 <p>b)	<u>Right of rectification</u></p>
 </div>
 You have the right to correct your data when it is inaccurate or incomplete (for example, change your address).
-<div class="padding">
+
+<div class="twopadding">
 <p>c)	<u>Right to cancellation or blocking</u></p>
 </div>
 You have the right to demand from us as the responsible party the immediate deletion of the data concerned or, alternatively, to demand that the processing of the data be restricted in accordance with the statutory provisions (cf. Art. 17, 18 GDPR).
-<div class="padding">
+
+<div class="twopadding">
 <p>d)	<u>Right to data transfer</u></p>
 </div>
-<p>You have the right to demand from us that we hand over to you or pass on to third parties the data concerning you which you have made available to us in accordance with the statutory provisions (cf. Art. 20 GDPR). Direct transfer to another responsible party is subject to technical feasibility.<p>
-<div class="padding">
+You have the right to demand from us that we hand over to you or pass on to third parties the data concerning you which you have made available to us in accordance with the statutory provisions (cf. Art. 20 GDPR). Direct transfer to another responsible party is subject to technical feasibility.
+
+<div class="twopadding">
 <p>e)	<u>Right to object and withdraw your consent</u></p>
 </div>
 You may withdraw consent at any time where we are relying on consent to process your data. However, we note that this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain services to you. We will of course advise you if this is the case at the time you withdraw your consent. At any time, you may withdraw your consent or object to the receipt of newsletters and advertising emails, the personalization of advertisements or the sharing of your data with our partners (except for technical service providers) by email request to privacy@celestia.org 
