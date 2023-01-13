@@ -12,6 +12,7 @@ sidemenu: "true"
     padding-left: 24px;
 }
 .twopadding {
+    padding-left: 24px;
     padding-top: 15px;
 }
 mark { 
