@@ -21,7 +21,7 @@ export default function Template({
 
     const [showTocCategories,setShowTocCategories] = useState(false);
 
-    const enableSidebar = frontmatter.path == '/learn/' || (frontmatter.path !== '/learn/' && (frontmatter.sidemenu === "true" || frontmatter.edit)) ? true : false;
+    const enableSidebar = frontmatter.path == '/learn/' || (frontmatter.path != '/learn/' && (frontmatter.sidemenu === "true")) ? true : false;
     console.log(enableSidebar);
 
     return (
