@@ -26,12 +26,12 @@ As we are committed to protect and respect your privacy, the following informati
 
 Please read this Privacy Policy carefully. By using, accessing, or downloading any of the Services, you agree to the collection, use, and disclosure of your information as described in this Privacy Policy. If you do not agree to this Privacy Policy, please do not use, access, or download any of the Services. 
 
-##### 1.   UPDATING THIS PRIVACY POLICY
+#### 1.   UPDATING THIS PRIVACY POLICY
 We may modify this Privacy Policy from time to time in which case we will update the “Last Revised” date at the top of this Privacy Policy. If we make material changes to the way in which we use information we collect, we will use reasonable efforts to notify you (such as by emailing you at the last email address you provided us, by posting notice of such changes on the Services, or by other means consistent with applicable law) and will take additional steps as required by applicable law. If you do not agree to any updates to this Privacy Policy, please do not access or continue to use the Services.
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
-##### 2.	YOUR LEGAL RIGHTS
+#### 2.	YOUR LEGAL RIGHTS
 If you are located in the EEA or the UK, you have certain rights in relation to your personal information:
 
 <div class="padding">
@@ -66,7 +66,7 @@ Certain personal information may be exempt from such requests in certain circums
 
 We may request you provide us with information necessary to confirm your identity before responding to any request you make.
 
-##### 3.	COMPANY’S COLLECTION AND USE OF INFORMATION
+#### 3.	COMPANY’S COLLECTION AND USE OF INFORMATION
 When you access or use the Services, we may collect, use, store, and transfer certain categories of information about you from a variety of sources.
 
 Some features of the Services may require you to directly enter certain personal information about yourself. You may elect not to provide this personal information but doing so may prevent you from using or accessing these features. Personal information that you directly submit through our Services may include:
@@ -105,7 +105,7 @@ Any information we receive from third-party sources will be treated in accordanc
 
 In addition to the foregoing, we may use any of the above information to comply with any applicable legal obligations, improve and develop the Services and our product offerings, including as we describe in our <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Terms of Service</a>, to enforce any applicable terms of service, to protect or defend the Services, our rights, and the rights of our users or others, and for the purpose of combatting fraud, or to otherwise operate our business.
 
-##### 4.	LEGAL BASIS FOR PROCESSING INFORMATION UNDER THE GDPR
+#### 4.	LEGAL BASIS FOR PROCESSING INFORMATION UNDER THE GDPR
 We may process information and any other data collected by us under the following conditions:
 
 <div class="padding">
@@ -120,7 +120,7 @@ We may process information and any other data collected by us under the followin
 
 In any case, the Company will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of data is a statutory requirement or a contractual or pre-contractual requirement.
 
-##### 5.	HOW THE COMPANY SHARES YOUR INFORMATION
+#### 5.	HOW THE COMPANY SHARES YOUR INFORMATION
 In certain circumstances, the Company may share your information with third parties for legitimate purposes subject to this Privacy Policy. Such circumstances may include: 
 
 <div class="padding">
@@ -136,7 +136,7 @@ In certain circumstances, the Company may share your information with third part
 </ul>
 </div>
 
-##### 6.	COOKIES AND OTHER TRACKING TECHNOLOGIES
+#### 6.	COOKIES AND OTHER TRACKING TECHNOLOGIES
 *Do Not Track Signals*
 
 Your browser settings may allow you to transmit a “Do Not Track” signal when you visit various websites. Like many websites, our website is not designed to respond to “Do Not Track” signals received from browsers. To learn more about “Do Not Track” signals, you can visit <a href="http://www.allaboutdnt.com/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">http://www.allaboutdnt.com/</a>.
@@ -147,35 +147,35 @@ Most browsers accept cookies automatically, but you may be able to control the w
 
 If you have questions regarding the specific information about you that we process or retain, as well as your choices regarding our collection and use practices, please contact us using the information listed below.
 
-##### 7.	USER GENERATED CONTENT
+#### 7.	USER GENERATED CONTENT
 The Services also include a forum (<a href="https://forum.celestia.org/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">https://forum.celestia.org/</a>), which users may elect to join and/or participate in. The purpose of these features is to engage in discussions with other users and use the forum as a shared community resource. Through your participation, you may submit information (e.g., messages, photos, webpages, and other information) (“**User-Generated Content**” or “**UGC**”). We or others may store, display, reproduce, publish, or otherwise use UGC. Others may also have access to UGC and may have the ability to share it with third parties. If you choose to submit UGC to any public area of the Services, your UGC will be considered “public” and will be accessible by anyone, including the Company.
 
 Please note that we do not control who will have access to the information that you choose to make available to others and cannot ensure that parties who have access to such information will respect your privacy or keep it secure.  We are not responsible for the privacy or security of any information that you make publicly available on the features permitting creation of UGC or what others do with information you share with them on such platforms.  We are not responsible for the accuracy, use or misuse of any UGC that you disclose or receive from third parties through the forums or email lists.
 
-##### 8.	SOCIAL FEATURES
+#### 8.	SOCIAL FEATURES
 Certain features of the Services permit you to initiate interactions between the Services and third-party services or platforms, such as social networks (“**Social Features**”). Social Features include features that allow you to click and access the Company’s pages on certain third-party platforms, such as Discord and Twitter, and from there to “like” or “share” our content on those platforms. Use of Social Features may entail a third party’s collection and/or use of your data. If you use Social Features or similar third-party services, information you post or otherwise make accessible may be publicly displayed by the third-party service you are using. Both the Company and the third party may have access to information about you and your use of both the Services and the third-party service. The information that they collect about you can be found in the privacy statements of the respective third-party providers.
 
-##### 9.	THIRD PARTY WEBSITES AND LINKS
+#### 9.	THIRD PARTY WEBSITES AND LINKS
 We may provide links to websites or other online platforms operated by third parties. When you click on a link to any other website or location, you will leave our Service and go to another website, and another entity may collect data from you.  We have no control over, do not review, and cannot be responsible for these third-party websites or their content.  If you follow links to sites not affiliated or controlled by us, you should review their privacy and security policies and other terms and conditions.  We do not guarantee and are not responsible for the privacy or security of these sites, including the accuracy, completeness, or reliability of information found on these sites. Information you provide on public or semi-public venues, including information you share on third-party social networking platforms (such as Discord or Twitter) may also be viewable by other users of the Services and/or users of those third-party online platforms without limitation as to its use by us or by a third party. Our inclusion of such links does not, by itself, imply any endorsement of the content on such platforms or of their owners or operators, except as disclosed on the Services.
 
-##### 10.	CHILDREN’S PRIVACY
+#### 10.	CHILDREN’S PRIVACY
 Children under the age of 13 are not permitted to use the Services, and we do not seek or knowingly collect any personal information about children under 13 years of age. If we become aware that we have unknowingly collected information about a child under 13 years of age, we will make commercially reasonable efforts to delete such information from our database.
 
 If you are the parent or guardian of a child under 13 years of age who has provided us with their personal information, you may contact us using the below information to request that it be deleted.
 
-##### 11.	DATA SECURITY
+#### 11.	DATA SECURITY
 Please be aware that, despite our reasonable efforts to protect your information, no security measures are perfect or impenetrable, and we cannot guarantee “perfect security.” Please further note that any information you send to us electronically, while using the Services or otherwise interacting with us, may not be secure while in transit. We recommend that you do not use insecure channels to communicate sensitive or confidential information to us.
 
-##### 12.	DATA TRANSFERS
+#### 12.	DATA TRANSFERS
 Personal information may be exported outside of the jurisdiction in which you reside. Under those circumstances, the governments, courts, law enforcement or regulatory agencies of that country or those countries may be able to obtain access to your personal information through foreign laws. You need to be aware that the privacy standards of those countries may be lower than those of the jurisdiction in which you reside. You should note that you are not obliged to give your personal information to us, but if you choose not to do so, we may not be able to provide our Services, or your access to our Services may be limited.
 
-##### 13.	DATA TRANSFER TO NON-EU COUNTRIES
+#### 13.	DATA TRANSFER TO NON-EU COUNTRIES
 We use tools and services of companies domiciled outside the EU. If such tools are active and your personal data is being transferred outside the EU, we make sure that the transfer is made only to countries that have been declared as offering an adequate level of protection through a European Commission decision (an “**Adequacy Decision**”). In absence of an Adequacy Decision, appropriate safeguards are in place and asserted by each contractual party.
 
-##### 14.	HOW LONG WE STORE YOUR PERSONAL INFORMATION
+#### 14.	HOW LONG WE STORE YOUR PERSONAL INFORMATION
 Unless a more specific storage period has been specified in this Privacy Policy, your information and data will remain with us until the purpose for which it was collected no longer applies. If you assert a justified request for deletion or revoke your consent to data processing, your data will be deleted, unless we have other legally permissible obligations for storing your personal data; in the latter case, the deletion will take place after these obligations cease to apply.
 
-##### 15.	HOW TO CONTACT US
+#### 15.	HOW TO CONTACT US
 If you have any questions about this Privacy Policy, including any requests, please use the contact details set out below.
 
 Full name of legal entity:	**Strange Loop Labs AG**
