@@ -26,7 +26,7 @@ As we are committed to protect and respect your privacy, the following informati
 
 Please read this Privacy Policy carefully. By using, accessing, or downloading any of the Services, you agree to the collection, use, and disclosure of your information as described in this Privacy Policy. If you do not agree to this Privacy Policy, please do not use, access, or download any of the Services. 
 
-##### 1.   UPDATING THIS PRIVACY POLICY
+#### 1.   UPDATING THIS PRIVACY POLICY
 We may modify this Privacy Policy from time to time in which case we will update the “Last Revised” date at the top of this Privacy Policy. If we make material changes to the way in which we use information we collect, we will use reasonable efforts to notify you (such as by emailing you at the last email address you provided us, by posting notice of such changes on the Services, or by other means consistent with applicable law) and will take additional steps as required by applicable law. If you do not agree to any updates to this Privacy Policy, please do not access or continue to use the Services.
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
