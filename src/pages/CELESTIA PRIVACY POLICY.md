@@ -26,7 +26,7 @@ As we are committed to protect and respect your privacy, the following informati
 
 Please read this Privacy Policy carefully. By using, accessing, or downloading any of the Services, you agree to the collection, use, and disclosure of your information as described in this Privacy Policy. If you do not agree to this Privacy Policy, please do not use, access, or download any of the Services. 
 
-#### 1.   UPDATING THIS PRIVACY POLICY
+##### 1.   UPDATING THIS PRIVACY POLICY
 We may modify this Privacy Policy from time to time in which case we will update the “Last Revised” date at the top of this Privacy Policy. If we make material changes to the way in which we use information we collect, we will use reasonable efforts to notify you (such as by emailing you at the last email address you provided us, by posting notice of such changes on the Services, or by other means consistent with applicable law) and will take additional steps as required by applicable law. If you do not agree to any updates to this Privacy Policy, please do not access or continue to use the Services.
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
@@ -42,19 +42,14 @@ You have the right to request from us free confirmation of the processing of the
 <p>b)	<u>Right of rectification</u></p>
 </div>
 You have the right to correct your data when it is inaccurate or incomplete (for example, change your address).
-
 <div class="padding">
 <p>c)	<u>Right to cancellation or blocking</u></p>
 </div>
 You have the right to demand from us as the responsible party the immediate deletion of the data concerned or, alternatively, to demand that the processing of the data be restricted in accordance with the statutory provisions (cf. Art. 17, 18 GDPR).
-
 <div class="padding">
 <p>d)	<u>Right to data transfer</u></p>
 </div>
-<div>
 <p>You have the right to demand from us that we hand over to you or pass on to third parties the data concerning you which you have made available to us in accordance with the statutory provisions (cf. Art. 20 GDPR). Direct transfer to another responsible party is subject to technical feasibility.<p>
-</div>
-
 <div class="padding">
 <p>e)	<u>Right to object and withdraw your consent</u></p>
 </div>
