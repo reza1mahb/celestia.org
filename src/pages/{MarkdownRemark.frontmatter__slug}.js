@@ -38,7 +38,7 @@ export default function Template({
                         <div className={'inner small'}>
                             <h1 className={'h2'}>{frontmatter.title}</h1>
 
-                            {!frontmatter.path.includes("resources") &&
+                            {frontmatter.path.includes("learn") &&
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <Link to={frontmatter.path}>
