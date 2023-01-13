@@ -51,7 +51,9 @@ You have the right to demand from us as the responsible party the immediate dele
 <div class="padding">
 <p>d)	<u>Right to data transfer</u></p>
 </div>
-You have the right to demand from us that we hand over to you or pass on to third parties the data concerning you which you have made available to us in accordance with the statutory provisions (cf. Art. 20 GDPR). Direct transfer to another responsible party is subject to technical feasibility.
+<div>
+<p>You have the right to demand from us that we hand over to you or pass on to third parties the data concerning you which you have made available to us in accordance with the statutory provisions (cf. Art. 20 GDPR). Direct transfer to another responsible party is subject to technical feasibility.<p>
+</div>
 
 <div class="padding">
 <p>e)	<u>Right to object and withdraw your consent</u></p>
