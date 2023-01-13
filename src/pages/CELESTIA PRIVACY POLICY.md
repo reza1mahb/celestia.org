@@ -2,8 +2,8 @@
 path: "/celestia/"
 slug: "/celestia/privacy-policy"
 edit: ""
-title: "CELESTIA PRIVACY POLICY"
-sidemenu: "true"
+title: "PRIVACY POLICY"
+sidemenu: "false"
 ---
 
 <head>
