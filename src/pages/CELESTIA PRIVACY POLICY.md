@@ -175,10 +175,21 @@ Unless a more specific storage period has been specified in this Privacy Policy,
 #### 15.	HOW TO CONTACT US
 If you have any questions about this Privacy Policy, including any requests, please use the contact details set out below.
 
-Full name of legal entity:	**Strange Loop Labs AG**
-Registration number:		**FL-0002.638.646-0**
-Email Address:			    **privacy@celestia.org** 
-Postal Address:			    **Pradafant 11, 9490 Vaduz, Liechtenstein**
+<div>
+<p>Full name of legal entity: <b>Strange Loop Labs AG</b></p>
+</div>
+
+<div> 
+<p>Registration number: <b>FL-0002.638.646-0</b></p>
+</div>
+    
+<div>
+<p>Email Address: <b>privacy@celestia.org</b></p> 
+</div>
+    
+<div>
+<p>Postal Address: <b>Pradafant 11, 9490 Vaduz, Liechtenstein</b></p>
+</div>
 
 When you contact us by email, the data you provide (your email address, name, and telephone number, if applicable) will be stored by us in order to answer your questions. We delete the data accruing in this context, if the inquiry is assigned to a contract, after the time limits for the term of the contract, otherwise after the storage is no longer necessary, or restrict the processing if there are legal obligations to retain data. The processing of such data is based on Art. 6(1)(b) of the GDPR if your request is related to the execution of a contract or if it is necessary to carry out pre-contractual measures, and in all other cases based on our legitimate interest in the effective processing of requests addressed to us (Art. 6(1)(f)) or on your agreement (Art. 6(1)(a)).
 
