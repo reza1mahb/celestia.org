@@ -3,6 +3,7 @@ path: "/resources/"
 slug: "/resources/reading-list"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/resources/reading-list.md"
 title: "The Celestia reading list"
+sidemenu: "true"
 ---
 
 

@@ -21,6 +21,8 @@ export default function Template({
 
     const [showTocCategories,setShowTocCategories] = useState(false);
 
+    const enableSidebar = frontmatter.path == '/learn/' || (frontmatter.path !== '/learn/' && (frontmatter.sidemenu === "true" || frontmatter.edit)) ? true : false;
+    console.log(enableSidebar);
 
     return (
 
@@ -61,7 +63,7 @@ export default function Template({
                         </div>}
 
                         <div className={'row sticky-row'}>
-                            <div className={'sticky-container col-lg-4'}>
+                            {enableSidebar && <div className={'sticky-container col-lg-4'}>
 
                                 <div className={'toc'}>
 
@@ -93,7 +95,7 @@ export default function Template({
                                     }
 
 
-                                    {frontmatter.path !== '/learn/' &&
+                                    {frontmatter.path !== '/learn/' && enableSidebar &&
                                         <div className={'toc-inner'}>
                                             <div className={`category-menu ${showTocCategories && 'show'}`}>
                                                 <ToC headings={headings} frontmatter={frontmatter}/>
@@ -106,8 +108,8 @@ export default function Template({
                                             <i className={'icon-edit'}/>SUGGEST AN EDIT
                                         </a>}
                                 </div>
-                            </div>
-                            <div className={'col-12 col-lg-8 ps-lg-5'}>
+                            </div>}
+                            <div className={`col-12 ${enableSidebar ? 'col-lg-8 ps-lg-5' : 'col-lg-12'}`}>
 
                                 <div
                                     className="blog-post-content"
@@ -182,6 +184,7 @@ export const pageQuery = graphql`
         title
         category
         subcategory
+        sidemenu
         image
         author{
             name

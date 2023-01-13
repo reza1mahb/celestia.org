@@ -5,6 +5,7 @@ date: "2020-11-11"
 title: "Optimistic Rollups for the Rest of Us"
 image: "resources/test-resource/main-image.png"
 author: {name: "John Doe", avatar: "authors/JohnAdler.png"}
+sidemenu: "true"
 ---
 
 Optimistic rollups (ORUs) are the most promising avenue for scaling Ethereum - and blockchains in general - today. But what are they, and why are Ethereum developers and scalability researchers so excited about them?
