@@ -22,6 +22,7 @@
     "@popperjs/core": "^2.9.3",
     "axios": "^0.23.0",
     "bootstrap": "^5.1.0",
+    "canvas": "^2.11.0",
     "gatsby": "^4.17.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
