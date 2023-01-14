@@ -56,6 +56,14 @@ const navigation = [
         text: "Ecosystem Jobs",
         url: "https://celestia.pallet.com/jobs",
         type: 'external'
+    },{
+        text: "Privacy Policy",
+        url: "/privacy/",
+        type: 'internal'
+    },{
+        text: "Terms of Service",
+        url: "/tos/",
+        type: 'internal'
     },
 ]
 
