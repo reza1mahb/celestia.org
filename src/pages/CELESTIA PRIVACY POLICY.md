@@ -1,6 +1,6 @@
 ---
-path: "/celestia/"
-slug: "/celestia/privacy-policy"
+path: ""
+slug: "/privacy"
 edit: ""
 title: "PRIVACY POLICY"
 sidemenu: "false"
@@ -22,7 +22,7 @@ mark {
 </style>
 </head>
 
-***Last Revised on [Date of Posting]***
+***Last Revised on January 16, 2023***
 
 This Privacy Policy for Strange Loop Labs AG (“**Company**”, “**we**”, “**us**”, or “**our**”) describes how we collect, use, and disclose information about users of the Company’s website (<a href="https://celestia.org/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">www.celestia.org/</a>) and any other applications, services, tools and features we operate (collectively, the “**Services**”).  For the purposes of this Privacy Policy, “**you**” and “**your**” means you as the user of the Services and for the purpose of applicable data protection laws, we are the data controller. 
 
@@ -108,7 +108,7 @@ We may obtain information about you from third-party sources, and may combine in
 
 Any information we receive from third-party sources will be treated in accordance with this Privacy Policy. We are not responsible or liable for the accuracy of the information provided to us by third parties and are not responsible for any third party’s policies or practices. See Section 9 below for more information.
 
-In addition to the foregoing, we may use any of the above information to comply with any applicable legal obligations, improve and develop the Services and our product offerings, including as we describe in our <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Terms of Service</a>, to enforce any applicable terms of service, to protect or defend the Services, our rights, and the rights of our users or others, and for the purpose of combatting fraud, or to otherwise operate our business.
+In addition to the foregoing, we may use any of the above information to comply with any applicable legal obligations, improve and develop the Services and our product offerings, including as we describe in our <a href="https://celestia.org/tos" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">Terms of Service</a>, to enforce any applicable terms of service, to protect or defend the Services, our rights, and the rights of our users or others, and for the purpose of combatting fraud, or to otherwise operate our business.
 
 #### 4.	LEGAL BASIS FOR PROCESSING INFORMATION UNDER THE GDPR
 We may process information and any other data collected by us under the following conditions:
