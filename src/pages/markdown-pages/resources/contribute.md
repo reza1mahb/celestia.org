@@ -1,6 +1,7 @@
 ---
-path: "/contribute/"
-slug: "/contribute/"
+path: "/resources/"
+slug: "/resources/contribute"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/resources/contribute.md"
 title: "Contribute"
 sidemenu: "true"
 ---
