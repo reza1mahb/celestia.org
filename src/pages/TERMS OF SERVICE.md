@@ -1,6 +1,6 @@
 ---
-path: "/celestia/"
-slug: "/celestia/terms-of-service"
+path: ""
+slug: "/tos"
 edit: ""
 title: "TERMS OF SERVICE"
 sidemenu: "false"
@@ -19,7 +19,7 @@ mark {
 </style>
 </head>
 
-***Last Revised on []***
+***Last Revised on January 16, 2023***
 
 Welcome to the Terms of Service (these “**Terms**”) for the Celestia website and documentation accessible at https://celestia.org/ (the “**Website**”) as operated on behalf of Strange Loop Labs AG (“**Company**”, “**we**”, or “**us**”).  The Website and any content, documentation, tools, features and functionality offered on or through our Website are collectively referred to as the “**Services**”.
 
@@ -48,7 +48,7 @@ The Celestia protocol is a decentralized modular blockchain protocol created to 
 <p>3.3	<u>No Monetary Value</u>.  In your use of a Testnet, you may accumulate “<b>Testnet Tokens</b>,” such as through a faucet, which are not, and shall never convert to or accrue to become any other tokens or virtual assets outside of the respective Testnet on which the Testnet Tokens were issued. Testnet Tokens are virtual items with no monetary value.  Testnet Tokens do not constitute any currency or property of any type and are not redeemable, refundable, or eligible for any fiat or virtual currency or anything else of value.  Testnet Tokens are not transferable between users outside of the respective Testnet on which the Testnet Tokens were issued, and you may not attempt to sell, trade, or transfer any Testnet Tokens outside of that respective Testnet, or obtain any manner of credit using any Testnet Tokens.  Any attempt to sell, trade, or transfer any Testnet Tokens outside of the respective Testnet will be null and void.  Testnet Tokens will not be converted into any future rewards offered by the Company.</p>
 
 <h3><b>4.	LOCATION OF OUR PRIVACY POLICY</b></h3>
-<p>4.1	<u>Privacy Policy</u>. Our Privacy Policy describes how we handle the information you provide to us when you use the Services. For an explanation of our privacy practices, please visit our Privacy Policy located at <a href="https://google.com/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">FILL IN HERE</a>. If a specific Service is governed by a separate set of terms, those terms may also contain privacy-related information.</p>
+<p>4.1	<u>Privacy Policy</u>. Our Privacy Policy describes how we handle the information you provide to us when you use the Services. For an explanation of our privacy practices, please visit our Privacy Policy located at <a href="https://celestia.org/privacy" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">https://celestia.org/privacy</a>. If a specific Service is governed by a separate set of terms, those terms may also contain privacy-related information.</p>
 
 <h3><b>5.	RIGHTS WE GRANT YOU</b></h3>
 <p>5.1	<u>Right to Use Services</u>. We hereby permit you to use the Services for your personal non-commercial use only, provided that you comply with these Terms in connection with all such use.  If any software, content or other materials owned or controlled by us are distributed to you as part of your use of the Services, we hereby grant you, a personal, non-assignable, non-sublicensable, non-transferrable, and non-exclusive right and license to access and display such software, content and materials provided to you as part of the Services, in each case for the sole purpose of enabling you to use the Services as permitted by these Terms. Your access and use of the Services may be interrupted from time to time for any of several reasons, including, without limitation, the malfunction of equipment, periodic updating, maintenance or repair of the Service or other actions that the Company, in its sole discretion, may elect to take.</p>
