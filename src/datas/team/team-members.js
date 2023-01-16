@@ -438,7 +438,7 @@ export const teamMembers = [
         socials: {
             twitter : 'https://twitter.com/dferrersan',
             discord : '',
-            github : 'https://twitter.com/dferrersan',
+            github : 'https://github.com/Ferret-san',
             email : '',
             linkedin : '',
          }
