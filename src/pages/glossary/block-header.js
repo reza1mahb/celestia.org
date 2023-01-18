@@ -23,7 +23,6 @@ class GlossaryContent extends React.Component {
 
 class GlossarySubpage extends React.Component {
     render() {
-        console.log(this.props.location)
         return (
             <Layout footerBoxes={FooterBoxes}>
                 <Helmet>

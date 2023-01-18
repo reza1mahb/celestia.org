@@ -34,7 +34,7 @@ class GlossaryContent extends React.Component {
             <Layout footerBoxes={FooterBoxes}>
                 <Helmet>
                     <title>Celestia - {title}</title>
-                    <meta property="og:url" content={this.props.location.href} />
+                    <meta property="og:url" content={location.href} />
                     <meta property="og:title" content={'Celestia - '+title} />
                     <meta property="og:description" content="" />
                     <meta property="og:image" content={twitterCardImage} />
