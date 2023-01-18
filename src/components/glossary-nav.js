@@ -2,10 +2,14 @@ import * as React from "react"
 import { Link } from "gatsby"
 import {glossaries} from "../datas/glossary/data";
 
-class GlossaryNav extends React.Component {
-    render() {
+const GlossaryNav = ({url}) => {
+
+        const paths = url.split("/").filter(entry => entry !== "");
+        const lastPath = paths[paths.length - 1];
+
         const allGlossaries = []
         let prev, next = []
+
 
         glossaries.map(glossary =>{
             Object.values(glossary)[0].map(result=>{
@@ -13,8 +17,9 @@ class GlossaryNav extends React.Component {
             })
         })
 
+
         allGlossaries.map((glossary,index) => {
-            if(glossary.url === this.props.url){
+            if(glossary.url === lastPath){
                 prev = allGlossaries[index-1] ? allGlossaries[index-1] : allGlossaries[allGlossaries.length-1]
                 next = allGlossaries[index+1] ? allGlossaries[index+1] : allGlossaries[0]
             }
@@ -49,7 +54,6 @@ class GlossaryNav extends React.Component {
             </div> : <div/>}
             </div>
         )
-    }
 }
 
 export default GlossaryNav

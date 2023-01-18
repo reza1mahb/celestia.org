@@ -27,8 +27,7 @@ class GlossaryContent extends React.Component {
     }
 }
 
-class GlossarySubpage extends React.Component {
-    render() {
+    const GlossarySubpage = ({location}) => {
         return (
             <Layout footerBoxes={FooterBoxes}>
                 <div className={'glossary-subpage'}>
@@ -37,20 +36,19 @@ class GlossarySubpage extends React.Component {
                             <BreadCrumb title={title}/>
                             <h1 className={'main mb-4'}>{title}</h1>
 
-                            <SocialShare title={title} url={this.props.location.href}/>
+                            <SocialShare title={title} url={location && location.href}/>
 
                             <GlossaryContent/>
 
                         </div>
 
                         <div className={'container wide'}>
-                            <GlossaryNav url={this.props.location.state && this.props.location.state.url}/>
+                            <GlossaryNav url={location && location.pathname}/>
                         </div>
                     </main>
                 </div>
             </Layout>
         )
-    }
 }
 
 export default GlossarySubpage

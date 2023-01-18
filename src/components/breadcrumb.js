@@ -14,7 +14,7 @@ class BreadCrumb extends React.Component {
                     <Link to={'/glossary/'}>
                         <li className="breadcrumb-item">Glossary <i className={'icon-dropdown'}></i></li>
                     </Link>
-                    <Link to={'/glossary#'+alpha}>
+                    <Link to={'/glossary#'+alpha+'/'}>
                         <li className="breadcrumb-item text-uppercase">{alpha} <i className={'icon-dropdown'}></i></li>
                     </Link>
                     <li className="breadcrumb-item active" aria-current="page">

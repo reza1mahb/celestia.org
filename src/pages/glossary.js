@@ -15,7 +15,7 @@ class Result extends React.Component {
     render() {
         return (
             <li className={'row result'}>
-                <Link to={`/glossary/${this.props.result.url}`} state={{url: this.props.result.url}}>
+                <Link to={`/glossary/${this.props.result.url}/`} state={{url: this.props.result.url}}>
                     <div className={'col-12'}>
                         <div className={'title'}>{this.props.result.title}</div>
                         {this.props.result.text}
@@ -94,12 +94,12 @@ function GetGlossaries(props){
                                 <ul className={'list-group list-group-horizontal'}>
                                     <li className={'list-group-item expand'} role={'button'} tabIndex={0} onClick={() => {toggleSearch(false );toggleFilter(true );}} onKeyDown={() => {toggleSearch(false );toggleFilter(true );}}><i className={'icon-dropdown'} aria-label={'Hide search'}></i></li>
                                     <li className={(!filter && props.alpha == 'all') ? 'list-group-item flex-fill active' : 'list-group-item flex-fill'} key={'all'}>
-                                        <Link to={`/glossary`} state={{ alpha: 'all' }} onClick={() => {toggleSearch(false ); toggleFilter(false)}}>{'ALL'}</Link>
+                                        <Link to={`/glossary/`} state={{ alpha: 'all' }} onClick={() => {toggleSearch(false ); toggleFilter(false)}}>{'ALL'}</Link>
                                     </li>
                                     {glossaries.map((glossary,index) => {
                                             const alpha = String(Object.keys(glossary))
                                             return (<li className={(!search && filter && !props.alpha && index == 0) ? 'list-group-item flex-fill active' : props.alpha === alpha && filter && !search ? 'list-group-item flex-fill active' : 'list-group-item flex-fill'} key={alpha}>
-                                                <Link to={`/glossary#${alpha}`} state={{ alpha: alpha }} onClick={() => {toggleSearch(false ); toggleFilter(true)}}>{alpha}</Link>
+                                                <Link to={`/glossary#${alpha}/`} state={{ alpha: alpha }} onClick={() => {toggleSearch(false ); toggleFilter(true)}}>{alpha}</Link>
                                             </li>)
                                         }
                                     )}
