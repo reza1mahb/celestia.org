@@ -102,7 +102,15 @@ module.exports = {
               verboseOutput: true,
             },
           },
-          `gatsby-remark-autolink-headers`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              removeAccents: true,
+              isIconAfterHeader: false,
+              enableCustomId: true,
+              offsetY: `100`
+            },
+          }
         ],
       },
     },{
