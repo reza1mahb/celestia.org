@@ -9,12 +9,16 @@ import {FooterBoxes} from "../datas/team/content";
 import {teamMembers} from "../datas/team/team-members";
 import {advisors} from "../datas/team/advisors";
 import Layout from "../components/layout";
+import {Helmet} from "react-helmet";
 
 
 
 const TeamPage = () => {
     return (
         <Layout footerBoxes={FooterBoxes}>
+            <Helmet>
+                <title>Celestia - {content.title}</title>
+            </Helmet>
         <div className={'team-page'}>
             <main>
                 <div className={'container'}>

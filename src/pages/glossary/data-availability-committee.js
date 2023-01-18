@@ -15,7 +15,7 @@ class GlossaryContent extends React.Component {
         return (
             <div className={'glossary-content'}>
 
-                <p>A data availability committee (DAC) is a permissioned group of nodes responsible for providing data availability to a blockchain. DAC’s are an insecure source of data availability because they make an honest majority assumption and don’t have any stake to slash if a data withholding attack is attempted. Data availability committees are primarily used to provide a cheap and less secure source of data availability to L2s. 
+                <p>A data availability committee (DAC) is a permissioned group of nodes responsible for providing data availability to a blockchain. DAC’s are an insecure source of data availability because they make an honest majority assumption and don’t have any stake to slash if a data withholding attack is attempted. Data availability committees are primarily used to provide a cheap and less secure source of data availability to L2s.
                 </p>
 
             </div>
@@ -28,16 +28,17 @@ class GlossarySubpage extends React.Component {
         return (
             <Layout footerBoxes={FooterBoxes}>
                 <Helmet>
+                    <title>Celestia - {title}</title>
                     <meta property="og:url" content={this.props.location.href} />
                     <meta property="og:title" content={'Celestia - '+title} />
                     <meta property="og:description" content="" />
-                    <meta property="og:image" content={this.props.location.origin + twitterCardImage} />
+                    <meta property="og:image" content={twitterCardImage} />
 
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:site" content="@CelestiaOrg" />
                     <meta name="twitter:title" content={'Celestia - '+title} />
                     <meta name="twitter:description" content="" />
-                    <meta name="twitter:image" content={this.props.location.origin + twitterCardImage} />
+                    <meta name="twitter:image" content={twitterCardImage} />
                 </Helmet>
                 <div className={'glossary-subpage'}>
                     <main>

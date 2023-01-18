@@ -4,6 +4,8 @@ import Layout from "../components/layout";
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import ReactModal from "react-modal";
 import {Link} from "gatsby";
+import {Helmet} from "react-helmet";
+import {content} from "../datas/technology/content";
 
 class JoinOurCommunityPage extends React.Component {
     constructor(props) {
@@ -104,6 +106,9 @@ class JoinOurCommunityPage extends React.Component {
     render() {
         return (
             <Layout footerBoxes={FooterBoxes}>
+                <Helmet>
+                    <title>Celestia - Join our global community</title>
+                </Helmet>
             <div className={'faq-page'}>
                 <main>
                     <div className={'container'}>

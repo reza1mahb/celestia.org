@@ -18,6 +18,8 @@ import {podcasts} from "../datas/resources/podcasts";
 import {communityposts} from "../datas/resources/community-posts";
 import Carousel from "react-multi-carousel";
 import Layout from "../components/layout";
+import {Helmet} from "react-helmet";
+import {content} from "../datas/technology/content";
 
 const responsive = {
     desktop: {
@@ -104,6 +106,9 @@ class ResourcesPage extends React.Component {
     render() {
         return (
             <Layout footerBoxes={FooterBoxes}>
+                <Helmet>
+                    <title>Celestia - Resources</title>
+                </Helmet>
             <div className={'resources-page'}>
                 <main>
                     <div className={'container'}>

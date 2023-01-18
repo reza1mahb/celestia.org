@@ -27,6 +27,7 @@ export default function Template({
         <Layout footerBoxes={FooterBoxes}>
             <Helmet>
                 <body className="resources-body" />
+                <title>Celestia - {frontmatter.title}</title>
             </Helmet>
         <div className="resources-page">
 

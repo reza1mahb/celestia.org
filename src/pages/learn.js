@@ -4,6 +4,8 @@ import {FooterBoxes} from "../datas/resources/content";
 import Layout from "../components/layout";
 
 import LearnBox from "../components/learn-box"
+import {Helmet} from "react-helmet";
+import {content} from "../datas/technology/content";
 
 const LearnPage = ({
        data: {
@@ -15,6 +17,9 @@ const LearnPage = ({
         .map(edge => <div className={'col col-12 col-md-6 pt-5'}><LearnBox withArrow={false} learnmodules={edges} key={edge.node.id} post={edge.node} /></div>)
 
     return <Layout footerBoxes={FooterBoxes}>
+        <Helmet>
+            <title>Celestia - Learn Modular</title>
+        </Helmet>
         <div className={'learn-page'}>
             <main>
                 <div className={'container'}>

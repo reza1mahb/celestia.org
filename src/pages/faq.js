@@ -4,10 +4,15 @@ import {FooterBoxes} from "../datas/team/content";
 import {faqs} from "../datas/faq/faqs";
 import Faq from "../components/modules/faq";
 import Layout from "../components/layout";
+import {Helmet} from "react-helmet";
+import {content} from "../datas/technology/content";
 
 const TeamPage = () => {
     return (
         <Layout footerBoxes={FooterBoxes}>
+            <Helmet>
+                <title>Celestia - FAQ</title>
+            </Helmet>
             <div className={'faq-page'}>
                 <main>
                     <div className={'container'}>

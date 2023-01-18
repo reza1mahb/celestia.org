@@ -28,16 +28,17 @@ class GlossarySubpage extends React.Component {
         return (
             <Layout footerBoxes={FooterBoxes}>
                 <Helmet>
+                    <title>Celestia - {title}</title>
                     <meta property="og:url" content={this.props.location.href} />
                     <meta property="og:title" content={'Celestia - '+title} />
                     <meta property="og:description" content="" />
-                    <meta property="og:image" content={this.props.location.origin + twitterCardImage} />
+                    <meta property="og:image" content={twitterCardImage} />
 
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:site" content="@CelestiaOrg" />
                     <meta name="twitter:title" content={'Celestia - '+title} />
                     <meta name="twitter:description" content="" />
-                    <meta name="twitter:image" content={this.props.location.origin + twitterCardImage} />
+                    <meta name="twitter:image" content={twitterCardImage} />
                 </Helmet>
                 <div className={'glossary-subpage'}>
                     <main>

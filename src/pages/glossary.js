@@ -176,6 +176,7 @@ class GlossaryPage extends React.Component {
         return (
             <Layout footerBoxes={FooterBoxes}>
                 <Helmet>
+                    <title>Celestia - Glossary</title>
                     <meta property="og:url" content={this.props.location.href} />
                     <meta property="og:title" content={'Celestia - Glossary'} />
                     <meta property="og:description" content="" />

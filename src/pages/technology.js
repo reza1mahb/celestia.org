@@ -5,10 +5,14 @@ import ColumnWithIcon from "../components/modules/columnWithIcon";
 
 import {content, Technologies, FooterBoxes} from "../datas/technology/content";
 import Layout from "../components/layout";
+import {Helmet} from "react-helmet";
 
 const TechnologyPage = () => {
     return (
         <Layout footerBoxes={FooterBoxes}>
+            <Helmet>
+                <title>Celestia - {content.title}</title>
+            </Helmet>
         <div className={'technology-page'}>
             <main>
                 <div className={'container'}>

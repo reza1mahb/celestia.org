@@ -5,6 +5,8 @@ import Layout from "../../components/layout";
 import BreadCrumb from "../../components/breadcrumb";
 import SocialShare from "../../components/socialShare";
 import GlossaryNav from "../../components/glossary-nav";
+import {Helmet} from "react-helmet";
+import twitterCardImage from "../../images/glossary-twitter-card.png";
 
 const title = 'Monolithic blockchain';
 
@@ -27,6 +29,19 @@ class GlossarySubpage extends React.Component {
     render() {
         return (
             <Layout footerBoxes={FooterBoxes}>
+                <Helmet>
+                    <title>Celestia - {title}</title>
+                    <meta property="og:url" content={this.props.location.href} />
+                    <meta property="og:title" content={'Celestia - '+title} />
+                    <meta property="og:description" content="" />
+                    <meta property="og:image" content={twitterCardImage} />
+
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:site" content="@CelestiaOrg" />
+                    <meta name="twitter:title" content={'Celestia - '+title} />
+                    <meta name="twitter:description" content="" />
+                    <meta name="twitter:image" content={twitterCardImage} />
+                </Helmet>
                 <div className={'glossary-subpage'}>
                     <main>
                         <div className={'container'}>
