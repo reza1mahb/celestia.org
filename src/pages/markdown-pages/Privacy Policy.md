@@ -3,7 +3,7 @@ path: ""
 slug: "/privacy"
 edit: ""
 title: "Privacy Policy"
-sidemenu: "false"
+sidemenu: "true"
 ---
 
 <head>
