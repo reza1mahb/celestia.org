@@ -39,19 +39,22 @@ export default function FeaturedLearn(props) {
 
                                     return (
                                         <div className={'row pb-5 learn-modules learn-modules-footer smaller'}>
-                                            <div className={'col col-12 col-md-6 pt-5 prev order-2 order-md-1'}>
+                                            <div className={`col col-12 col-md-6 pt-5 prev order-2 order-md-1 ${next === 0 ? 'border-0' : ''}`}>
                                                 <LearnBox
                                                     type={'prev'}
                                                     withArrow={props.withArrow}
                                                     key={data.allMarkdownRemark.edges[prev].node.id}
                                                     post={data.allMarkdownRemark.edges[prev].node}/>
                                             </div>
-                                            <div className={'col col-12 col-md-6 pt-5 next order-1 order-md-2'}>
-                                                <LearnBox
-                                                    type={'next'}
-                                                    withArrow={props.withArrow}
-                                                    key={data.allMarkdownRemark.edges[next].node.id}
-                                                    post={data.allMarkdownRemark.edges[next].node}/></div>
+                                            {next !== 0 &&
+                                                <div className={'col col-12 col-md-6 pt-5 next order-1 order-md-2'}>
+                                                    <LearnBox
+                                                        type={'next'}
+                                                        withArrow={props.withArrow}
+                                                        key={data.allMarkdownRemark.edges[next].node.id}
+                                                        post={data.allMarkdownRemark.edges[next].node}/>
+                                                </div>
+                                            }
                                         </div>)
                                 }
                             })
