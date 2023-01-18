@@ -32,7 +32,7 @@ const ToC = ({ headings, frontmatter }) => {
                 if (heading.depth === 4) {
                     return (
                         <div key={index} className={index === 1 ? 'selected' : ''}>
-                            <AnchorLink to={`#${heading.value.replace(/\s+/g, "-").toLowerCase()}`}>
+                            <AnchorLink to={`#${heading.id.replace(/\s+/g, "-").toLowerCase()}`}>
                                 {heading.value}
                             </AnchorLink>
                         </div>

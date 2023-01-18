@@ -3,7 +3,7 @@ path: ""
 slug: "/tos"
 edit: ""
 title: "Terms of Service"
-sidemenu: "false"
+sidemenu: "true"
 ---
 
 <head>

@@ -29,7 +29,7 @@ class GlossaryNav extends React.Component {
                         <div className={'glossary'}>
                             <div className={'title'}>
                                 {prev.title}
-                                <i className={'icon-arrow-down'}></i>
+                                <i className={'icon-arrow-down'}/>
                             </div>
                             {prev.text}
                         </div>
@@ -40,7 +40,7 @@ class GlossaryNav extends React.Component {
                         <div className={'glossary'}>
                             <div className={'title'}>
                                 {next.title}
-                                <i className={'icon-arrow-down'}></i>
+                                <i className={'icon-arrow-down'}/>
                             </div>
                             {next.text}
                         </div>
