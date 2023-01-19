@@ -285,7 +285,11 @@ export const glossaries = [
                 url: 'volition',
                 title: 'Volition',
                 text: 'A zero-knowledge rollup with options for both on-chain and off-chain data availability.',
-            },{
+            }
+        ]
+    },{
+        'Z':[
+            {
                 url: 'zk-rollup',
                 title: 'zk-Rollup',
                 text: 'A type of rollup that posts its blocks to a separate chain with a validity proof that attests to the correctness of the block.',
