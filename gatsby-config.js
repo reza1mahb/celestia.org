@@ -106,7 +106,7 @@ module.exports = {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
               removeAccents: true,
-              isIconAfterHeader: false,
+              isIconAfterHeader: true,
               enableCustomId: true,
               offsetY: `100`
             },

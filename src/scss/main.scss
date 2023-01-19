@@ -82,11 +82,8 @@ body{
   position:absolute;
 }
 .anchor{
-  &.before{
-    //margin-top:-200px;
+  &.after{
     position:absolute;
-    transform:none !important;
-    top:unset !important;
   }
 }
 
