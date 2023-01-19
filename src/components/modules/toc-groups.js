@@ -11,7 +11,7 @@ const RenderSubCategory = function (subCategory, markdownRemark){
 
     function showFirstElement(){
         if(!isOpen){
-            navigate(subCategory.articles[0].slug)
+            navigate(subCategory.articles[0].slug+'/')
         }else{
             setIsOpen(!isOpen)
         }
@@ -26,7 +26,7 @@ const RenderSubCategory = function (subCategory, markdownRemark){
                         <div key={index} className={'row'}>
                             <div className={'col-12'}>
                                 <div className={'article-title'}>
-                                    <Link className={`article-link ${article.slug ===  markdownRemark.frontmatter.slug && 'active'}`} to={article.slug} activeClassName={'active'}>{article.title}</Link>
+                                    <Link className={`article-link ${article.slug ===  markdownRemark.frontmatter.slug && 'active'}`} to={`${article.slug}/`} activeClassName={'active'}>{article.title}</Link>
                                 </div>
                             </div>
                         </div>
