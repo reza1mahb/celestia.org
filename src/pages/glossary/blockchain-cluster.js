@@ -20,7 +20,6 @@ class GlossaryContent extends React.Component {
                 <p>For example, Ethereum and its rollups are a cluster of chains, and standalone layer 1s, such as Polygon, each sit in their own cluster.
                 </p>
 
-
                 <p> Read more about the concept of <a href="https://blog.celestia.org/clusters/">clusters</a>.
                 </p>
 
