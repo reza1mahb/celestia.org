@@ -10,7 +10,7 @@ export const faqs = [
     },{
         id: 3,
         question: 'Will Celestia have a token and if so, what will it be used for?',
-        text: 'Yes, Celestia will have a token that will be used to secure the network via Proof of Stake, and to pay for transaction fees on the network. We plan to implement a fee-burn mechanism similar to EIP-1559 in Ethereum so that burnt fees will offset new token issuance as Celestia gains adoption.',
+        text: 'Celestia is designed to have a token used to secure the network via Proof of Stake and to pay for transaction fees on the network, and eventually a fee burn mechanism similar to EIP-1559 in Ethereum.',
     },{
         id: 4,
         question: 'How does Celestia scale?',
