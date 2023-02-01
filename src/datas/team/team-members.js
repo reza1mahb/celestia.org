@@ -406,7 +406,7 @@ export const teamMembers = [
         id : 36,
         name : 'Amy Yu',
         title: 'Operations Manager',
-        text: 'Previously in the realm of esports. Now exploring the web3 frontier.',
+        text: 'Previously in the realm of esports. Now exploring the web3 frontier',
         image: 'team/AmyYu.png',
         socials: {
             twitter : '',
@@ -419,7 +419,7 @@ export const teamMembers = [
         id : 37,
         name : 'Natalie Kubalova',
         title: 'DevRel Program Manager',
-        text: 'Former Head of Relationships at DAO Maker, Namaste in Crypto.',
+        text: 'Former Head of Relationships at DAO Maker, Namaste in Crypto',
         image: 'team/NatalieKubalova.JPG',
         socials: {
             twitter : 'https://twitter.com/natn3t',
@@ -428,8 +428,7 @@ export const teamMembers = [
             email : '',
             linkedin : '',
          }
-     },
-     {
+     },{
         id : 38,
         name : 'Diego Ferrer',
         title: 'Solutions Engineer',
@@ -439,6 +438,45 @@ export const teamMembers = [
             twitter : 'https://twitter.com/dferrersan',
             discord : '',
             github : 'https://github.com/Ferret-san',
+            email : '',
+            linkedin : '',
+         }
+     },{
+        id : 39,
+        name : 'Javed Khan',
+        title: 'Software Engineer',
+        text: 'Former software engineer at Optimism, Handshake and Decred. Found DoS vulnerabilities in multiple cryptocurrencies: invdos.net',
+        image: 'team/JavedKhan.png',
+        socials: {
+            twitter : '',
+            discord : '',
+            github : 'http://github.com/tuxcanfly',
+            email : '',
+            linkedin : '',
+         }
+     },{
+        id : 40,
+        name : 'Sanaz Taheri',
+        title: 'Senior Protocol Engineer',
+        text: 'Ph.D. in computer science & engineering, specialized in cryptography, applied-cryptography and distributed systems and applications. Former protocol engineer at Status.im.',
+        image: 'team/SanazTaheri.png',
+        socials: {
+            twitter : 'http://twitter.com/tuxcanfly',
+            discord : '',
+            github : 'https://github.com/staheri14',
+            email : '',
+            linkedin : '',
+         }
+     },{
+        id : 41,
+        name : 'Jose Ramon Mañes',
+        title: 'DevOps Engineer',
+        text: 'Former SRE/DevOps at Kraken',
+        image: 'team/JoseRamonManes.png',
+        socials: {
+            twitter : '',
+            discord : '',
+            github : '',
             email : '',
             linkedin : '',
          }
