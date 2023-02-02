@@ -448,7 +448,7 @@ export const teamMembers = [
         text: 'Former software engineer at Optimism, Handshake and Decred. Found DoS vulnerabilities in multiple cryptocurrencies: invdos.net',
         image: 'team/JavedKhan.png',
         socials: {
-            twitter : '',
+            twitter : 'http://twitter.com/tuxcanfly',
             discord : '',
             github : 'http://github.com/tuxcanfly',
             email : '',
@@ -461,7 +461,7 @@ export const teamMembers = [
         text: 'Ph.D. in computer science & engineering, specialized in cryptography, applied-cryptography and distributed systems and applications. Former protocol engineer at Status.im.',
         image: 'team/SanazTaheri.png',
         socials: {
-            twitter : 'http://twitter.com/tuxcanfly',
+            twitter : '',
             discord : '',
             github : 'https://github.com/staheri14',
             email : '',
