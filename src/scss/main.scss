@@ -340,7 +340,7 @@ h6{
 }
 
 main{
-  overflow:hidden;
+  //overflow:hidden;
   width:100%;
   padding-top:40px;
 
@@ -352,6 +352,8 @@ main{
     padding-top:0;
   }
 }
+
+
 
 hr:not([size]){
   border:none;

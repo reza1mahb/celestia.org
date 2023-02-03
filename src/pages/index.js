@@ -66,10 +66,10 @@ class IndexPage extends React.Component {
                               </div>
                               <div className={'row justify-content-center pt-5'}>
                                   <div className={'col-auto'}>
-                                      <a href="https://docs.celestia.org/" target={'_blank'}>
+                                  <a href="https://celestia.org/learn/" target={'_blank'}>
                                         <button className={'button button-simple button-internal'} role={'button'} tabIndex={0} id={'developer'}>Learn more</button>
-                                      </a>
-                                  </div>
+                                  </a>
+                                </div>
                               </div>
                           </section>
 
@@ -77,12 +77,14 @@ class IndexPage extends React.Component {
                           <section className={'roadmap-section'}>
                               <h2 className={'with-decor pb-5'}>Roadmap</h2>
 
-                              <ul className={'roadmap-items'}>
-                                  { roadmaps && roadmaps.map(function(roadmap,index){
-                                      return <RoadmapItem status={roadmap.status} key={roadmap.id} title={roadmap.title} text={roadmap.text}/>
-                                  })}
-                              </ul>
-                              <div className={'clear'}/>
+                              <div className={'roadmap-container'}>
+                                  <ul className={'roadmap-items'}>
+                                      { roadmaps && roadmaps.map(function(roadmap,index){
+                                          return <RoadmapItem status={roadmap.status} key={roadmap.id} title={roadmap.title} text={roadmap.text}/>
+                                      })}
+                                  </ul>
+                                  <div className={'clear'}/>
+                              </div>
                           </section>
 
                           <div className={'anchor'} id={'waitlist'}/>
@@ -90,16 +92,16 @@ class IndexPage extends React.Component {
                               <div className={'row'}>
                                   <div className={'col col-12 col-lg-6'}>
                                       <h3 className={'with-decor'}>Run a node on testnet</h3>
-                                      <div className={'text'}>Test out the Celestia network and earn rewards in our incentivized testnet.</div>
+                                      <div className={'text'}>Experiment and practice running a node on testnet in preparation for mainnet.</div>
                                       <a href="https://docs.celestia.org/nodes/overview" target={'_blank'}>
-                                          <button className={'button button-simple'} id={'operator'} role={'button'} tabIndex={0}>Learn more</button>
+                                          <button className={'button button-simple'} id={'operator'} role={'button'} tabIndex={0}>Read the Docs</button>
                                       </a>
                                   </div>
                                   <div className={'col col-12 col-lg-6'}>
                                       <h3 className={'with-decor'}>Build on our developer beta</h3>
                                       <div className={'text'}>Build on Celestia and be the first to explore the benefits of its novel architecture.</div>
                                       <a href="https://docs.celestia.org/" target={'_blank'}>
-                                          <button className={'button button-simple'} id={'developer'} role={'button'} tabIndex={0}>Learn more</button>
+                                          <button className={'button button-simple'} id={'developer'} role={'button'} tabIndex={0}>Build on Testnet</button>
                                       </a>
                                   </div>
                               </div>

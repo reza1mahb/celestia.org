@@ -6,7 +6,7 @@ export const heroData = {
                 text: 'See the roadmap',
                 class: 'simple',
                 type: 'internal',
-                url: '#roadmap'
+                url: '/#roadmap'
             },
             {
                 text: 'Build on Testnet',
