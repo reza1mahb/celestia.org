@@ -1,7 +1,7 @@
 ---
 order: 2
 path: "/learn/"
-slug: "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains"
+slug: "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/basics%20of%20modular%20blockchains-modular%20and%20monolithic%20blockchains.md"
 date: "2022-06-01"
 icon: ""
