@@ -1,7 +1,7 @@
 ---
 order: 4
 path: "/learn/"
-slug: "/learn/values-of-modular-blockchains/modular-blockchains-are-user-first"
+slug: "/learn/values-of-modular-blockchains/modular-blockchains-are-user-first/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/values%20of%20modular%20blockchains-modular%20blockchains%20are%20user%20first.md"
 date: "2022-05-15"
 icon: ""
