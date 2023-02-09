@@ -1,7 +1,7 @@
 ---
 order: 9
 path: "/learn/"
-slug: "/learn/modular-scalability/data-availability-and-settlement-layers"
+slug: "/learn/modular-scalability/data-availability-and-settlement-layers/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/modular%20scalability%20-%20data%20availability%20layer.md"
 date: "2022-03-01"
 icon: ""
