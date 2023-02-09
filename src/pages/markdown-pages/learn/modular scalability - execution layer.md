@@ -1,7 +1,7 @@
 ---
 order: 8
 path: "/learn/"
-slug: "/learn/modular-scalability/execution-layers"
+slug: "/learn/modular-scalability/execution-layers/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/modular%20scalability%20-%20execution%20layer.md"
 date: "2022-03-01"
 icon: ""
