@@ -1,5 +1,5 @@
 .what-is-celestia {
-	.text {
+	.lead-text {
 		font-family: $ruberoid;
 		font-weight: 500;
 		font-size: 18px;
@@ -8,7 +8,7 @@
 		line-height: 23px;
 		width: 80%;
 		max-width: 840px;
-		margin-bottom: 45px;
+		margin-bottom: 50px;
 
 		@include media-breakpoint-down(sm) {
 			font-size: 14px;
@@ -17,8 +17,50 @@
 		}
 	}
 	.card {
-		background: rgba(106, 37, 215, 0.05);
+		background-color: rgba(106, 37, 215, 0.05);
 		border-radius: 20px;
-		// background-image: url(../images/what-is-celestia/celestia-modular-infographics.png) no-repeat scroll top 150vw right transparent;
+		background-image: url(../images/what-is-celestia/celestia-modular-infographics.png);
+		background-repeat: no-repeat;
+		background-position: 100% 75%;
+		background-size: 45%;
+		border: 1px solid rgba(186, 186, 186, 0.2);
+		border-radius: 20px;
+		-webkit-backdrop-filter: blur(50px);
+		backdrop-filter: blur(50px);
+        padding: 80px 70px;
+
+        @include media-breakpoint-down(xl) {
+            background-position: 140% 100%;
+            background-size: 60%;
+        }
+
+        @include media-breakpoint-down(xl) {
+            background-position: 140% 100%;
+            background-size: 60%;
+        }
+
+		.text-box {
+			max-width: 500px;
+		}
+
+		.title {
+			font-family: $inter;
+			font-size: 24px;
+			font-weight: 600;
+			color: #000000;
+			letter-spacing: -0.15px;
+			line-height: 32px;
+			margin-bottom: 6px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 27px;
+			font-weight: 500;
+			font-family: $inter;
+			margin-bottom: 40px;
+			&:last-of-type {
+				margin-bottom: 0px;
+			}
+		}
 	}
 }
