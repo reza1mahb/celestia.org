@@ -13,7 +13,13 @@ const WhatIsCelestia = () => {
 				<main>
 					<div className={"container"}>
 						<h1 className={"mb-3 mb-md-5"}>What is Celestia</h1>
-						<div className={"text mb-3 mb-md-5"}>A complete beginner's guide to how Celestia works, its key benefits and how anyone in the world will be able to create their own blockchain in minutes.</div>
+						<div className={"text mb-3 mb-md-5"}>
+							A complete beginner's guide to how Celestia works, its key benefits and how anyone in the world will be able to create
+							their own blockchain in minutes.
+						</div>
+						<div className={"row card"}>
+							<div className={"col-6"}>text</div>
+						</div>
 						<section className={"column-section"}>
 							<h4 className={"main"}>Section Title</h4>
 							<div className={"subtitle"}>Section Subtitle</div>
