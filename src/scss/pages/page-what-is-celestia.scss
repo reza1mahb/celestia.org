@@ -13,37 +13,66 @@
 		@include media-breakpoint-down(sm) {
 			font-size: 14px;
 			width: 100%;
-			margin-bottom: 20px;
+			margin-bottom: 25px;
 		}
 	}
-	.card {
-		background-color: rgba(106, 37, 215, 0.05);
-		border-radius: 20px;
-		background-image: url(../images/what-is-celestia/celestia-modular-infographics.png);
+
+	.image-box--cover {
+		height: inherit;
 		background-repeat: no-repeat;
-		background-position: 100% 75%;
-		background-size: 45%;
-		border: 1px solid rgba(186, 186, 186, 0.2);
-		border-radius: 20px;
-		-webkit-backdrop-filter: blur(50px);
-		backdrop-filter: blur(50px);
-        padding: 80px 70px;
+		background-image: url(../images/what-is-celestia/celestia-modular-infographics.png);
+		background-position: 20% 75%;
+		background-size: 110%;
+		@include media-breakpoint-down(md) {
+			height: 450px;
+			background-position: 100% 100%;
+			background-size: 95%;
+		}
+		@include media-breakpoint-down(sm) {
+			height: 450px;
+			background-position: -10% 100%;
+			background-size: 140%;
+		}
+	}
 
-        @include media-breakpoint-down(xl) {
-            background-position: 140% 100%;
-            background-size: 60%;
-        }
+	.image-box--modular {
+		height: inherit;
+		background-repeat: no-repeat;
+		background-image: url(../images/what-is-celestia/celestia-monolithic-modular-diagram.png);
+		background-position: 100% 50%;
+		background-size: contain;
+		@include media-breakpoint-down(md) {
+			height: 35vw;
+			background-position: 50%;
+			background-size: 85%;
+		}
+	}
 
-        @include media-breakpoint-down(xl) {
-            background-position: 140% 100%;
-            background-size: 60%;
-        }
-
-		.text-box {
-			max-width: 500px;
+	.text-box {
+		max-width: 500px;
+		padding: 80px 50px 80px 70px;
+		@include media-breakpoint-down(md) {
+			padding: 35px 30px;
+			max-width: 100%;
 		}
 
 		.title {
+			font-family: $ruberoid;
+			font-size: 36px;
+			letter-spacing: -1px;
+			line-height: 38px;
+			font-weight: 800;
+			color: #000000;
+			letter-spacing: -0.15px;
+			margin-bottom: 20px;
+			@include media-breakpoint-down(sm) {
+				font-size: 32px;
+				letter-spacing: -0.62px;
+				line-height: 40px;
+			}
+		}
+
+		.subtitle {
 			font-family: $inter;
 			font-size: 24px;
 			font-weight: 600;
@@ -51,16 +80,45 @@
 			letter-spacing: -0.15px;
 			line-height: 32px;
 			margin-bottom: 6px;
+			@include media-breakpoint-down(sm) {
+				font-size: 18px;
+				line-height: 20px;
+			}
 		}
+
 		p {
 			font-size: 18px;
 			line-height: 27px;
 			font-weight: 500;
+			color: #000000;
 			font-family: $inter;
 			margin-bottom: 40px;
 			&:last-of-type {
 				margin-bottom: 0px;
 			}
+			@include media-breakpoint-down(sm) {
+				font-size: 14px;
+				line-height: 22px;
+			}
 		}
+	}
+
+	.card-style {
+		background-color: rgba(106, 37, 215, 0.05);
+		border-radius: 20px;
+		background-size: 45%;
+		border: 1px solid rgba(186, 186, 186, 0.2);
+		border-radius: 20px;
+		-webkit-backdrop-filter: blur(50px);
+		backdrop-filter: blur(50px);
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+	}
+
+	.two-column-box {
+	}
+
+	.image-box {
 	}
 }
