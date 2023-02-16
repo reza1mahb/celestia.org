@@ -16,46 +16,132 @@
 			margin-bottom: 25px;
 		}
 	}
+	
 
-	.image-box--cover {
-		height: inherit;
-		background-repeat: no-repeat;
-		background-image: url(../images/what-is-celestia/celestia-modular-infographics.png);
-		background-position: 20% 75%;
-		background-size: 110%;
-		@include media-breakpoint-down(md) {
-			height: 450px;
-			background-position: 100% 100%;
-			background-size: 95%;
+	.card-section {
+		background-color: rgba(106, 37, 215, 0.05);
+		border-radius: 20px;
+		background-size: 45%;
+		border: 1px solid rgba(186, 186, 186, 0.2);
+		border-radius: 20px;
+		-webkit-backdrop-filter: blur(50px);
+		backdrop-filter: blur(50px);
+		overflow: hidden;
+		padding: 0;
+		margin: 0 0 120px 0;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 64px;
 		}
-		@include media-breakpoint-down(sm) {
-			height: 450px;
-			background-position: -10% 100%;
-			background-size: 140%;
+		.text-box {
+			max-width: 630px;
+			padding: 80px 50px 80px 70px;
+			@include media-breakpoint-down(lg) {
+				padding: 50px 40px 50px 50px;
+				max-width: 100%;
+			}
+			@include media-breakpoint-down(sm) {
+				padding: 35px 30px;
+			}
+			.subtitle {
+				font-family: $inter;
+				font-size: 24px;
+				font-weight: 600;
+				color: #000000;
+				letter-spacing: -0.15px;
+				line-height: 32px;
+				margin-bottom: 6px;
+				@include media-breakpoint-down(sm) {
+					font-size: 18px;
+					line-height: 20px;
+				}
+			}
+			p {
+				font-size: 18px;
+				line-height: 27px;
+				font-weight: 500;
+				color: #000000;
+				font-family: $inter;
+				margin-bottom: 40px;
+				&:last-of-type {
+					margin-bottom: 0px;
+				}
+				@include media-breakpoint-down(sm) {
+					font-size: 14px;
+					line-height: 22px;
+				}
+			}
+		}
+		.image-box--cover {
+			height: inherit;
+			background-repeat: no-repeat;
+			background-image: url(../images/what-is-celestia/celestia-modular-infographics.png);
+			background-position: 20% 75%;
+			background-size: 110%;
+			@include media-breakpoint-down(lg) {
+				height: 450px;
+				background-position: 100% 100%;
+				background-size: 95%;
+			}
+			@include media-breakpoint-down(sm) {
+				height: 450px;
+				background-position: -10% 100%;
+				background-size: 140%;
+			}
 		}
 	}
 
-	.image-box--modular {
-		height: inherit;
-		background-repeat: no-repeat;
-		background-image: url(../images/what-is-celestia/celestia-monolithic-modular-diagram.png);
-		background-position: 100% 50%;
-		background-size: contain;
-		@include media-breakpoint-down(md) {
-			height: 35vw;
+
+	.modular-blockchain-section {
+		margin-bottom: 120px;
+		padding: 0;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 64px;
+		}
+		.image-box--modular {
+			height: inherit;
+			background-repeat: no-repeat;
+			background-image: url(../images/what-is-celestia/celestia-monolithic-modular-diagram.png);
+			background-position: 100% 50%;
+			background-size: contain;
+			background-origin: content-box;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				height: 35vw;
+				padding: 0 30px;
+			}
+		}
+	}
+
+
+	.how-different-section {
+		margin-bottom: 120px;
+		padding: 0;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 64px;
+		}
+		.image-box--different {
+			height: 607px;
+			background-repeat: no-repeat;
+			background-image: url(../images/what-is-celestia/celestia-what-is-diagram.png);
 			background-position: 50%;
-			background-size: 85%;
+			background-size: contain;
+			background-origin: content-box;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				width: 100vw;
+				padding: 0 30px;
+			}
 		}
 	}
 
+	
 	.text-box {
-		max-width: 500px;
-		padding: 80px 50px 80px 70px;
-		@include media-breakpoint-down(md) {
-			padding: 35px 30px;
-			max-width: 100%;
+		padding: 0px 50px 0px 70px;
+		@include media-breakpoint-down(lg) {
+			padding: 0px 30px 40px;
 		}
-
 		.title {
 			font-family: $ruberoid;
 			font-size: 36px;
@@ -71,25 +157,10 @@
 				line-height: 40px;
 			}
 		}
-
-		.subtitle {
-			font-family: $inter;
-			font-size: 24px;
-			font-weight: 600;
-			color: #000000;
-			letter-spacing: -0.15px;
-			line-height: 32px;
-			margin-bottom: 6px;
-			@include media-breakpoint-down(sm) {
-				font-size: 18px;
-				line-height: 20px;
-			}
-		}
-
 		p {
 			font-size: 18px;
 			line-height: 27px;
-			font-weight: 500;
+			font-weight: 300;
 			color: #000000;
 			font-family: $inter;
 			margin-bottom: 40px;
@@ -100,25 +171,9 @@
 				font-size: 14px;
 				line-height: 22px;
 			}
+			& strong {
+				font-weight: 500;
+			}
 		}
-	}
-
-	.card-style {
-		background-color: rgba(106, 37, 215, 0.05);
-		border-radius: 20px;
-		background-size: 45%;
-		border: 1px solid rgba(186, 186, 186, 0.2);
-		border-radius: 20px;
-		-webkit-backdrop-filter: blur(50px);
-		backdrop-filter: blur(50px);
-		overflow: hidden;
-		padding: 0;
-		margin: 0;
-	}
-
-	.two-column-box {
-	}
-
-	.image-box {
 	}
 }
