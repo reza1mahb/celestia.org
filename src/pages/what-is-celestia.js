@@ -103,8 +103,8 @@ const WhatIsCelestia = () => {
 								<h2 className={"title"}>Why would I use Celestia?</h2>
 							</div>
 							<div className="row">
-								<div className="col-4">
-									<div className={"row gy-3"}>
+								<div className="col-z-index order-2 order-md-1 col-sm-12 col-md-5 col-lg-6 col-xl-4">
+									<div className={"row align-items-center gy-3"}>
 										<div className={"col-12"}>
 											<div className={"why-use-card"}>
 												<h3 className={"why-use-title"}>Build blockchains easily</h3>
@@ -124,6 +124,20 @@ const WhatIsCelestia = () => {
 											</div>
 										</div>
 									</div>
+								</div>
+								<div className={"image-box--why order-1 order-md-2 col-sm-12 col-md-7 col-lg-6 col-xl-8"}>
+									<StaticImage
+										className={"d-md-none d-block"}
+										quality={100}
+										placeholder={"none"}
+										src='../images/what-is-celestia/celestia-infographics-paths-mobile.png'
+									/>
+									<StaticImage
+										className={"d-none d-md-block"}
+										quality={100}
+										placeholder={"none"}
+										src='../images/what-is-celestia/celestia-infographics-paths.png'
+									/>
 								</div>
 							</div>
 						</div>

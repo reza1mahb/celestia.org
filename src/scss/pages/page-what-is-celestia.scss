@@ -164,17 +164,26 @@
 		@include media-breakpoint-down(md) {
 			padding: 50px 0 50px 0;
 		}
+		.text-box {
+			@include media-breakpoint-down(sm) {
+				padding: 0px;
+			}
+		}
 		.text-box .title {
 			margin: 0;
 		}
 		.why-use-card {
 			height: 100%;
-			background: rgba(255, 255, 255, 0.75);
-			-webkit-backdrop-filter: blur(50px);
-			backdrop-filter: blur(75px);
+			background: rgba(255, 255, 255, 0.35);
+			-webkit-backdrop-filter: blur(45px);
+			backdrop-filter: blur(35px);
 			border: 1px solid #e9e5f0;
 			border-radius: 14px;
 			padding: 35px;
+			transition: background-color ease-in-out 200ms;
+			&:hover {
+				background: #ffffff;
+			}
 		}
 		.why-use-title {
 			font-family: $inter;
@@ -186,17 +195,62 @@
 		}
 		.why-use-text {
 			font-family: $inter;
-			font-size: 13px;
+			font-size: 14px;
+			line-height: 22px;
 			color: #414141;
-			letter-spacing: -0.08px;
-			line-height: 21px;
+			letter-spacing: -0.1px;
+		}
+		.col-z-index {
+			z-index: 1;
+		}
+
+		.image-box--why {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: inherit;
+			z-index: 0;
+			@include media-breakpoint-down(md) {
+				margin-bottom: 30px;
+			}
+			.gatsby-image-wrapper {
+				height: 80%;
+				transform: translateX(-5%);
+				overflow: visible;
+				@include media-breakpoint-down(xl) {
+					transform: translateX(-15%);
+					width: 120%;
+				}
+				@include media-breakpoint-down(lg) {
+					transform: translateX(-32%);
+					width: 120%;
+				}
+				@include media-breakpoint-down(md) {
+					height: 100%;
+					transform: translateX(0);
+					width: 100%;
+				}
+				img {
+					object-position: right;
+					@include media-breakpoint-down(xl) {
+						width: 120%;
+					}
+					@include media-breakpoint-down(lg) {
+						width: 140%;
+					}
+					@include media-breakpoint-down(md) {
+						width: 100%;
+					}
+				}
+			}
 		}
 	}
 
 	.data-availability-section {
 		margin-bottom: 120px;
-		padding: 0;
+		padding: 120px 0 0;
 		@include media-breakpoint-down(sm) {
+			padding: 80px 0 0;
 			margin-bottom: 80px;
 		}
 		.image-box--availability {
@@ -205,6 +259,9 @@
 			align-items: center;
 			height: inherit;
 			padding: 0 47px;
+			.gatsby-image-wrapper {
+				max-width: 420px;
+			}
 			@include media-breakpoint-down(lg) {
 				background-position: 50%;
 				padding: 0 30px;
@@ -335,6 +392,9 @@
 		@include media-breakpoint-down(lg) {
 			padding: 0px 30px 50px;
 		}
+		@include media-breakpoint-down(sm) {
+			padding: 0px 12px 50px;
+		}
 		.title {
 			font-family: $ruberoid;
 			font-size: 36px;
@@ -352,10 +412,11 @@
 		}
 
 		p {
+			font-family: $inter;
 			font-size: 18px;
 			line-height: 27px;
 			font-weight: 300;
-			font-family: $inter;
+			color: #414141;
 			margin-bottom: 24px;
 			&:last-of-type {
 				margin-bottom: 0px;
