@@ -16,11 +16,9 @@
 			margin-bottom: 25px;
 		}
 	}
-	
 
 	.card-section {
 		background-color: rgba(106, 37, 215, 0.05);
-		border-radius: 20px;
 		background-size: 45%;
 		border: 1px solid rgba(186, 186, 186, 0.2);
 		border-radius: 20px;
@@ -29,7 +27,7 @@
 		overflow: hidden;
 		padding: 0;
 		margin: 0 0 120px 0;
-		@include media-breakpoint-down(lg) {
+		@include media-breakpoint-down(sm) {
 			margin-bottom: 64px;
 		}
 		.text-box {
@@ -40,7 +38,7 @@
 				max-width: 100%;
 			}
 			@include media-breakpoint-down(sm) {
-				padding: 35px 30px;
+				padding: 35px;
 			}
 			.subtitle {
 				font-family: $inter;
@@ -90,57 +88,252 @@
 		}
 	}
 
-
 	.modular-blockchain-section {
 		margin-bottom: 120px;
 		padding: 0;
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 64px;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 80px;
 		}
 		.image-box--modular {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			height: inherit;
-			background-repeat: no-repeat;
-			background-image: url(../images/what-is-celestia/celestia-monolithic-modular-diagram.png);
-			background-position: 100% 50%;
-			background-size: contain;
-			background-origin: content-box;
 			padding: 0 47px;
 			@include media-breakpoint-down(lg) {
 				background-position: 50%;
-				height: 35vw;
 				padding: 0 30px;
+				.gatsby-image-wrapper {
+					width: 90%;
+					max-width: 600px;
+				}
 			}
 		}
 	}
 
-
 	.how-different-section {
 		margin-bottom: 120px;
 		padding: 0;
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 64px;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 80px;
 		}
 		.image-box--different {
-			height: 607px;
-			background-repeat: no-repeat;
-			background-image: url(../images/what-is-celestia/celestia-what-is-diagram.png);
-			background-position: 50%;
-			background-size: contain;
-			background-origin: content-box;
+			height: inherit;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			padding: 0 47px;
 			@include media-breakpoint-down(lg) {
 				background-position: 50%;
 				width: 100vw;
 				padding: 0 30px;
+				.gatsby-image-wrapper {
+					width: 90%;
+					max-width: 450px;
+				}
 			}
 		}
 	}
 
-	
+	.good-analogy-section {
+		margin-bottom: 120px;
+		padding: 0;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 80px;
+		}
+		.image-box--analogy {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: inherit;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				padding: 0 30px;
+				.gatsby-image-wrapper {
+					width: 90%;
+					max-width: 450px;
+				}
+			}
+		}
+	}
+
+	.why-use-section {
+		background-color: #fcfaff;
+		padding: 80px 0 80px 0;
+		@include media-breakpoint-down(md) {
+			padding: 50px 0 50px 0;
+		}
+		.text-box .title {
+			margin: 0;
+		}
+		.why-use-card {
+			height: 100%;
+			background: rgba(255, 255, 255, 0.75);
+			-webkit-backdrop-filter: blur(50px);
+			backdrop-filter: blur(75px);
+			border: 1px solid #e9e5f0;
+			border-radius: 14px;
+			padding: 35px;
+		}
+		.why-use-title {
+			font-family: $inter;
+			font-size: 20px;
+			line-height: 20px;
+			color: #000000;
+			letter-spacing: -0.3px;
+			font-weight: 600;
+		}
+		.why-use-text {
+			font-family: $inter;
+			font-size: 13px;
+			color: #414141;
+			letter-spacing: -0.08px;
+			line-height: 21px;
+		}
+	}
+
+	.data-availability-section {
+		margin-bottom: 120px;
+		padding: 0;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 80px;
+		}
+		.image-box--availability {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: inherit;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				padding: 0 30px;
+				.gatsby-image-wrapper {
+					width: 90%;
+					max-width: 450px;
+				}
+			}
+		}
+	}
+
+	.rollups-section {
+		margin-bottom: 120px;
+		padding: 0;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 80px;
+		}
+		.image-box--rollups {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: inherit;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				padding: 0 30px;
+				.gatsby-image-wrapper {
+					width: 90%;
+					max-width: 500px;
+				}
+			}
+		}
+	}
+
+	.rollups-section {
+		margin-bottom: 120px;
+		padding: 0;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 80px;
+		}
+		.image-box--rollups {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: inherit;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				padding: 0 30px;
+				.gatsby-image-wrapper {
+					width: 90%;
+					max-width: 500px;
+				}
+			}
+		}
+	}
+
+	.modularism-section {
+		margin-bottom: 120px;
+		padding: 0;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 80px;
+		}
+		.image-box--modularism {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: inherit;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				padding: 0 30px;
+				.gatsby-image-wrapper {
+					width: 90%;
+					max-width: 500px;
+				}
+			}
+		}
+	}
+
+	.resources-section {
+		background-color: #fcfaff;
+		padding: 70px 0 50px 0;
+		@include media-breakpoint-down(md) {
+			padding: 50px 0 50px 0;
+		}
+
+		.text-box {
+			@include media-breakpoint-down(md) {
+				padding: 0;
+			}
+		}
+
+		.resource-card {
+			height: 100%;
+			background-color: #ffffff;
+			border-radius: 14px;
+			border: 1px solid #e9e5f0;
+			padding: 35px;
+		}
+		.card-title {
+			font-family: $inter;
+			font-size: 24px;
+			line-height: 24px;
+			color: #000000;
+			letter-spacing: -0.36px;
+			font-weight: 800;
+		}
+		.card-text {
+			font-family: $inter;
+			font-size: 13px;
+			color: #414141;
+			letter-spacing: -0.08px;
+			line-height: 21px;
+		}
+		.card-link {
+			font-family: $ruberoid;
+			font-size: 15px;
+			color: #000000;
+			letter-spacing: 0;
+			line-height: 15px;
+			font-weight: 800;
+		}
+	}
+
 	.text-box {
 		padding: 0px 50px 0px 70px;
 		@include media-breakpoint-down(lg) {
-			padding: 0px 30px 40px;
+			padding: 0px 30px 50px;
 		}
 		.title {
 			font-family: $ruberoid;
@@ -157,13 +350,13 @@
 				line-height: 40px;
 			}
 		}
+
 		p {
 			font-size: 18px;
 			line-height: 27px;
 			font-weight: 300;
-			color: #000000;
 			font-family: $inter;
-			margin-bottom: 40px;
+			margin-bottom: 24px;
 			&:last-of-type {
 				margin-bottom: 0px;
 			}
@@ -175,5 +368,12 @@
 				font-weight: 500;
 			}
 		}
+	}
+}
+
+.what-is-celestia + footer {
+	padding-top: 80px;
+	@include media-breakpoint-down(md) {
+		padding-top: 20px;
 	}
 }
