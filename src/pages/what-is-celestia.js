@@ -36,7 +36,7 @@ const WhatIsCelestia = () => {
 						</section>
 
 						<section className={"modular-blockchain-section"}>
-							<div className={"row justify-content-between"}>
+							<div className={"row justify-content-between align-items-center"}>
 								<div className={"text-box col-12 col-lg-6"}>
 									<h2 className='title'>But what’s a modular blockchain?</h2>
 									<p>
@@ -80,7 +80,7 @@ const WhatIsCelestia = () => {
 						</section>
 
 						<section className={"good-analogy-section"}>
-							<div className={"row justify-content-between"}>
+							<div className={"row justify-content-between align-items-center"}>
 								<div className={"text-box col-12 col-lg-6"}>
 									<h2 className='title'>What’s a good analogy of Celestia?</h2>
 									<p>
@@ -242,7 +242,7 @@ const WhatIsCelestia = () => {
 											<h3 className={"card-title"}>FAQ</h3>
 											<p className={"card-text"}>Read more about common questions</p>
 										</div>
-										<Link className={"card-link"} type='button'>
+										<Link to={"/faq"} className={"card-link"} type='button'>
 											Read now
 											<ArrowIcon classList={"ms-3 mb-1"} />
 										</Link>
@@ -254,7 +254,7 @@ const WhatIsCelestia = () => {
 											<h3 className={"card-title"}>Learn Modular</h3>
 											<p className={"card-text"}>Dive deeper into Celestia and modular blockchains</p>
 										</div>
-										<Link className={"card-link"} type='button'>
+										<Link to={"/learn"} className={"card-link"} type='button'>
 											Read now
 											<ArrowIcon classList={"ms-3 mb-1"} />
 										</Link>
@@ -263,13 +263,13 @@ const WhatIsCelestia = () => {
 								<div className={"col-12 col-md-4"}>
 									<div className={"d-flex flex-column justify-content-between resource-card"}>
 										<div className='mb-4'>
-											<h3 className={"card-title"}>Learn Modular</h3>
-											<p className={"card-text"}>Dive deeper into Celestia and modular blockchains</p>
+											<h3 className={"card-title"}>Documentation</h3>
+											<p className={"card-text"}>Explore how to build on Celestia</p>
 										</div>
-										<Link className={"card-link"} type='button'>
+										<a href="https://docs.celestia.org/" className={"card-link"} type='button'>
 											Read now
 											<ArrowIcon classList={"ms-3 mb-1"} />
-										</Link>
+										</a>
 									</div>
 								</div>
 							</div>

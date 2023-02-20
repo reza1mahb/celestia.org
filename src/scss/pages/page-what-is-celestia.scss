@@ -1,11 +1,10 @@
 .what-is-celestia {
 	.lead-text {
-		font-family: $ruberoid;
-		font-weight: 500;
-		font-size: 18px;
+		font-family: $inter;
+		font-size: 16px;
 		color: #000000;
-		letter-spacing: 0.22px;
-		line-height: 23px;
+		letter-spacing: -0.1px;
+		line-height: 24px;
 		width: 80%;
 		max-width: 840px;
 		margin-bottom: 50px;
@@ -27,7 +26,7 @@
 		overflow: hidden;
 		padding: 0;
 		margin: 0 0 120px 0;
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(lg) {
 			margin-bottom: 64px;
 		}
 		.text-box {
@@ -91,7 +90,7 @@
 	.modular-blockchain-section {
 		margin-bottom: 120px;
 		padding: 0;
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(lg) {
 			margin-bottom: 80px;
 		}
 		.image-box--modular {
@@ -100,11 +99,14 @@
 			align-items: center;
 			height: inherit;
 			padding: 0 47px;
+			.gatsby-image-wrapper {
+				max-width: 524px;
+			}
 			@include media-breakpoint-down(lg) {
 				background-position: 50%;
 				padding: 0 30px;
 				.gatsby-image-wrapper {
-					width: 90%;
+					width: 100%;
 					max-width: 600px;
 				}
 			}
@@ -112,10 +114,10 @@
 	}
 
 	.how-different-section {
-		margin-bottom: 120px;
+		margin-bottom: 200px;
 		padding: 0;
-		@include media-breakpoint-down(sm) {
-			margin-bottom: 80px;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 64px;
 		}
 		.image-box--different {
 			height: inherit;
@@ -123,12 +125,15 @@
 			justify-content: center;
 			align-items: center;
 			padding: 0 47px;
+			.gatsby-image-wrapper {
+				max-width: 420px;
+			}
 			@include media-breakpoint-down(lg) {
 				background-position: 50%;
 				width: 100vw;
-				padding: 0 30px;
+				padding: 12px;
 				.gatsby-image-wrapper {
-					width: 90%;
+					width: 100%;
 					max-width: 450px;
 				}
 			}
@@ -136,10 +141,10 @@
 	}
 
 	.good-analogy-section {
-		margin-bottom: 120px;
+		margin-bottom: 170px;
 		padding: 0;
-		@include media-breakpoint-down(sm) {
-			margin-bottom: 80px;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 50px;
 		}
 		.image-box--analogy {
 			display: flex;
@@ -151,7 +156,7 @@
 				background-position: 50%;
 				padding: 0 30px;
 				.gatsby-image-wrapper {
-					width: 90%;
+					width: 100%;
 					max-width: 450px;
 				}
 			}
@@ -161,11 +166,11 @@
 	.why-use-section {
 		background-color: #fcfaff;
 		padding: 80px 0 80px 0;
-		@include media-breakpoint-down(md) {
+		@include media-breakpoint-down(lg) {
 			padding: 50px 0 50px 0;
 		}
 		.text-box {
-			@include media-breakpoint-down(sm) {
+			@include media-breakpoint-down(lg) {
 				padding: 0px;
 			}
 		}
@@ -182,6 +187,9 @@
 			padding: 35px;
 			transition: background-color ease-in-out 200ms;
 			&:hover {
+				background: #ffffff;
+			}
+			@include media-breakpoint-down(md) {
 				background: #ffffff;
 			}
 		}
@@ -228,7 +236,8 @@
 				@include media-breakpoint-down(md) {
 					height: 100%;
 					transform: translateX(0);
-					width: 90%;
+					width: 100%;
+					margin-right: 20px;
 				}
 				img {
 					object-position: right;
@@ -249,8 +258,8 @@
 	.data-availability-section {
 		margin-bottom: 120px;
 		padding: 120px 0 0;
-		@include media-breakpoint-down(sm) {
-			padding: 80px 0 0;
+		@include media-breakpoint-down(lg) {
+			padding: 70px 0 0;
 			margin-bottom: 80px;
 		}
 		.image-box--availability {
@@ -276,7 +285,7 @@
 	.rollups-section {
 		margin-bottom: 120px;
 		padding: 0;
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(lg) {
 			margin-bottom: 80px;
 		}
 		.image-box--rollups {
@@ -287,32 +296,9 @@
 			padding: 0 47px;
 			@include media-breakpoint-down(lg) {
 				background-position: 50%;
-				padding: 0 30px;
+				padding: 0 12px;
 				.gatsby-image-wrapper {
-					width: 90%;
-					max-width: 500px;
-				}
-			}
-		}
-	}
-
-	.rollups-section {
-		margin-bottom: 120px;
-		padding: 0;
-		@include media-breakpoint-down(sm) {
-			margin-bottom: 80px;
-		}
-		.image-box--rollups {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: inherit;
-			padding: 0 47px;
-			@include media-breakpoint-down(lg) {
-				background-position: 50%;
-				padding: 0 30px;
-				.gatsby-image-wrapper {
-					width: 90%;
+					width: 100%;
 					max-width: 500px;
 				}
 			}
@@ -322,7 +308,7 @@
 	.modularism-section {
 		margin-bottom: 120px;
 		padding: 0;
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(lg) {
 			margin-bottom: 80px;
 		}
 		.image-box--modularism {
@@ -369,6 +355,7 @@
 			color: #000000;
 			letter-spacing: -0.36px;
 			font-weight: 800;
+			margin-bottom: 12px;
 		}
 		.card-text {
 			font-family: $inter;
@@ -413,11 +400,16 @@
 
 		p {
 			font-family: $inter;
-			font-size: 18px;
-			line-height: 27px;
-			font-weight: 300;
+			font-size: 16px;
 			color: #414141;
+			letter-spacing: -0.1px;
+			line-height: 24px;
 			margin-bottom: 24px;
+			@include media-breakpoint-down(sm) {
+				font-size: 14px;
+				width: 100%;
+				margin-bottom: 25px;
+			}
 			&:last-of-type {
 				margin-bottom: 0px;
 			}
