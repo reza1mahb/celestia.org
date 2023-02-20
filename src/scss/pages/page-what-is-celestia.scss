@@ -222,8 +222,8 @@
 				margin-bottom: 40px;
 			}
 			.gatsby-image-wrapper {
-				height: 80%;
-				transform: translateX(-8%);
+				height: 82%;
+				transform: translateX(-7%) scale(.96);
 				overflow: visible;
 				@include media-breakpoint-down(xl) {
 					transform: translateX(-15%);
