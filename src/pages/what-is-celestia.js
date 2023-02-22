@@ -72,7 +72,7 @@ const WhatIsCelestia = () => {
 									</p>
 									<p>
 										Ethereum showed that it was possible to build a programmable blockchain that anyone could use to launch a
-										decentralized application. Celestia will show that it is possible to build a network that could enable anyone
+										decentralized application. Celestia will show that it is possible to build a network that enables anyone
 										to launch their own blockchain.
 									</p>
 								</div>
