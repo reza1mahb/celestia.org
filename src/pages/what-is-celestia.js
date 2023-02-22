@@ -17,7 +17,7 @@ const WhatIsCelestia = () => {
 					<div className={"container"}>
 						<h1 className={"mb-3 mb-md-5"}>What is Celestia</h1>
 						<p className={"lead-text"}>
-							A complete beginner's guide to how Celestia works, its key benefits and how anyone in the world will be able to create
+							A complete beginner's guide to how Celestia works, its key benefits, and how anyone in the world will be able to create
 							their own blockchain in minutes.
 						</p>
 
