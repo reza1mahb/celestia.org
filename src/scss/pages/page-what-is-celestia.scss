@@ -324,10 +324,11 @@
 			padding: 0 47px;
 			@include media-breakpoint-down(lg) {
 				background-position: 50%;
-				padding: 0 30px;
+				padding: 0px;
 				.gatsby-image-wrapper {
-					width: 90%;
+					width: 100%;
 					max-width: 500px;
+					transform: scale(1.1);
 				}
 			}
 		}
