@@ -2,6 +2,10 @@
 
   .roadmap-container{
     overflow:hidden;
+      padding-top: 20px;
+    @include media-breakpoint-down(md) {
+      padding-top: 8px;
+    }
   }
   .roadmap-items{
     list-style:none;

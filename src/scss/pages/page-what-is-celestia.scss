@@ -1,16 +1,17 @@
 .what-is-celestia {
 	.lead-text {
 		font-family: $inter;
-		font-size: 16px;
+		font-size: 18px;
 		color: #000000;
 		letter-spacing: -0.1px;
-		line-height: 24px;
+		line-height: 27px;
 		width: 80%;
 		max-width: 840px;
 		margin-bottom: 50px;
 
 		@include media-breakpoint-down(sm) {
-			font-size: 14px;
+			font-size: 15px;
+			line-height: 23px;
 			width: 100%;
 			margin-bottom: 25px;
 		}
@@ -63,8 +64,8 @@
 					margin-bottom: 0px;
 				}
 				@include media-breakpoint-down(sm) {
-					font-size: 14px;
-					line-height: 22px;
+					font-size: 15px;
+					line-height: 23px;
 				}
 			}
 		}
@@ -203,7 +204,7 @@
 			-webkit-backdrop-filter: blur(45px);
 			backdrop-filter: blur(35px);
 			border: 1px solid #e9e5f0;
-			border-radius: 14px;
+			border-radius: 15px;
 			padding: 35px;
 			transition: background-color ease-in-out 200ms;
 			&:hover {
@@ -223,8 +224,8 @@
 		}
 		.why-use-text {
 			font-family: $inter;
-			font-size: 14px;
-			line-height: 22px;
+			font-size: 15px;
+			line-height: 23px;
 			color: #414141;
 			letter-spacing: -0.1px;
 		}
@@ -398,7 +399,7 @@
 		.resource-card {
 			height: 100%;
 			background-color: #ffffff;
-			border-radius: 14px;
+			border-radius: 15px;
 			border: 1px solid #e9e5f0;
 			padding: 35px;
 		}
@@ -413,10 +414,10 @@
 		}
 		.card-text {
 			font-family: $inter;
-			font-size: 13px;
+			font-size: 14px;
 			color: #414141;
 			letter-spacing: -0.08px;
-			line-height: 21px;
+			line-height: 23px;
 		}
 		.card-link {
 			font-family: $ruberoid;
@@ -454,13 +455,13 @@
 
 		p {
 			font-family: $inter;
-			font-size: 16px;
+			font-size: 18px;
 			color: #414141;
 			letter-spacing: -0.1px;
-			line-height: 24px;
+			line-height: 27px;
 			margin-bottom: 24px;
 			@include media-breakpoint-down(sm) {
-				font-size: 14px;
+				font-size: 15px;
 				width: 100%;
 				margin-bottom: 25px;
 			}
@@ -468,8 +469,8 @@
 				margin-bottom: 0px;
 			}
 			@include media-breakpoint-down(sm) {
-				font-size: 14px;
-				line-height: 22px;
+				font-size: 15px;
+				line-height: 23px;
 			}
 			& strong {
 				font-weight: 500;
