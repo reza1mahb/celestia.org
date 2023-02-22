@@ -6,6 +6,14 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import ArrowIcon from "../components/modules/arrow-icon";
 
+import celestia_monolithic_modular_diagram from "../images/what-is-celestia/celestia-monolithic-modular-diagram.png";
+import celestia_what_is_diagram from "../images/what-is-celestia/celestia-what-is-diagram.png";
+import web_celestia_diagram from "../images/what-is-celestia/web-celestia-diagram.png";
+import celestia_monolithic_modular_approach from "../images/what-is-celestia/celestia-monolithic-modular-approach.png";
+import celestia_transactions from "../images/what-is-celestia/celestia-transactions.png";
+import monolithic_modular_aproach from "../images/what-is-celestia/monolithic-modular-aproach.png";
+import celestia_connections from "../images/what-is-celestia/celestia-connections.png";
+
 const WhatIsCelestia = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
@@ -23,7 +31,7 @@ const WhatIsCelestia = () => {
 
 						<section className={"card-section"}>
 							<div className={"row justify-content-between"}>
-								<div className={"order-2 order-lg-1 text-box col-12 col-lg-6"}>
+								<div className={"order-2 order-lg-1 text-box col-12 col-lg-6 col-xl-6 col-xxl-7"}>
 									<p>
 										Celestia is a new technology that powers, scales and secures Web3 applications. To achieve this, Celestia
 										introduces a new modular blockchain architecture that solves the core scaling problems of today’s blockchains.
@@ -31,7 +39,7 @@ const WhatIsCelestia = () => {
 									<h2 className='subtitle'>Confused?</h2>
 									<p>Let’s walk through the basics, step-by-step.</p>
 								</div>
-								<div className={"image-box--cover order-1 order-lg-2 col-12 col-lg-6"}></div>
+								<div className={"image-box--cover order-1 order-lg-2 col-12 col-lg-6 col-xl-6 col-xxl-5"}></div>
 							</div>
 						</section>
 
@@ -47,11 +55,9 @@ const WhatIsCelestia = () => {
 									</p>
 								</div>
 								<div className={"image-box--modular col-12 col-lg-6"}>
-									<StaticImage
-										quality={100}
-										placeholder={"none"}
-										src='../images/what-is-celestia/celestia-monolithic-modular-diagram.png'
-									/>
+									<div className='image-wrapper'>
+										<img style={{ width: `100%` }} src={celestia_monolithic_modular_diagram} />
+									</div>
 								</div>
 							</div>
 						</section>
@@ -59,7 +65,9 @@ const WhatIsCelestia = () => {
 						<section className={"how-different-section"}>
 							<div className={"row justify-content-between align-items-center"}>
 								<div className={"order-2 order-lg-1 image-box--different col-12 col-lg-6"}>
-									<StaticImage quality={100} placeholder={"none"} src='../images/what-is-celestia/celestia-what-is-diagram.png' />
+									<div className='image-wrapper'>
+										<img className='img' style={{ width: `100%` }} src={celestia_what_is_diagram} />
+									</div>
 								</div>
 								<div className={"order-1 order-lg-2 text-box col-12 col-lg-6"}>
 									<h2 className='title'>How is Celestia different from Bitcoin and Ethereum?</h2>
@@ -72,8 +80,8 @@ const WhatIsCelestia = () => {
 									</p>
 									<p>
 										Ethereum showed that it was possible to build a programmable blockchain that anyone could use to launch a
-										decentralized application. Celestia will show that it is possible to build a network that enables anyone
-										to launch their own blockchain.
+										decentralized application. Celestia will show that it is possible to build a network that enables anyone to
+										launch their own blockchain.
 									</p>
 								</div>
 							</div>
@@ -91,7 +99,9 @@ const WhatIsCelestia = () => {
 									</p>
 								</div>
 								<div className={"image-box--analogy col-12 col-lg-6"}>
-									<StaticImage quality={100} placeholder={"none"} src='../images/what-is-celestia/web-celestia-diagram.png' />
+									<div className='image-wrapper'>
+										<img className='img' style={{ width: `100%` }} src={web_celestia_diagram} />
+									</div>
 								</div>
 							</div>
 						</section>
@@ -102,13 +112,15 @@ const WhatIsCelestia = () => {
 							<div className={"row mb-5 justify-content-center"}>
 								<h2 className={"title"}>Why would I use Celestia?</h2>
 							</div>
-							<div className="row">
-								<div className="col-z-index order-2 order-md-1 col-sm-12 col-md-5 col-lg-6 col-xl-4">
+							<div className='row'>
+								<div className='col-z-index order-2 order-md-1 col-sm-12 col-md-5 col-lg-6 col-xl-4'>
 									<div className={"row align-items-center gy-3"}>
 										<div className={"col-12"}>
 											<div className={"why-use-card"}>
 												<h3 className={"why-use-title"}>Build blockchains easily</h3>
-												<p className={"why-use-text"}>Celestia reduces the cost of deploying and maintaining your own blockchain.</p>
+												<p className={"why-use-text"}>
+													Celestia reduces the cost of deploying and maintaining your own blockchain.
+												</p>
 											</div>
 										</div>
 										<div className={"col-12"}>
@@ -120,7 +132,9 @@ const WhatIsCelestia = () => {
 										<div className={"col-12"}>
 											<div className={"why-use-card"}>
 												<h3 className={"why-use-title"}>Lowers fees</h3>
-												<p className={"why-use-text"}>Celestia reduces the cost of deploying and maintaining your own blockchain.</p>
+												<p className={"why-use-text"}>
+													Celestia reduces the cost of deploying and maintaining your own blockchain.
+												</p>
 											</div>
 										</div>
 									</div>
@@ -161,11 +175,9 @@ const WhatIsCelestia = () => {
 									</p>
 								</div>
 								<div className={"image-box--availability col-12 col-lg-6"}>
-									<StaticImage
-										quality={100}
-										placeholder={"none"}
-										src='../images/what-is-celestia/celestia-monolithic-modular-approach.png'
-									/>
+									<div className='image-wrapper'>
+										<img className='img' style={{ width: `100%` }} src={celestia_monolithic_modular_approach} />
+									</div>
 								</div>
 							</div>
 						</section>
@@ -173,7 +185,9 @@ const WhatIsCelestia = () => {
 						<section className={"rollups-section"}>
 							<div className={"row justify-content-between align-items-center"}>
 								<div className={"order-2 order-lg-1 image-box--rollups col-12 col-lg-6"}>
-									<StaticImage quality={100} placeholder={"none"} src='../images/what-is-celestia/celestia-transactions.png' />
+									<div className='image-wrapper'>
+										<img className='img' style={{ width: `100%` }} src={celestia_transactions} />
+									</div>
 								</div>
 								<div className={"order-1 order-lg-2 text-box col-12 col-lg-6"}>
 									<h2 className='title'>What are rollups and how do they work with Celestia?</h2>
@@ -206,15 +220,19 @@ const WhatIsCelestia = () => {
 									<p>Modularism, not maximalism.</p>
 								</div>
 								<div className={"image-box--modularism col-12 col-lg-6"}>
-									<StaticImage quality={100} placeholder={"none"} src='../images/what-is-celestia/monolithic-modular-aproach.png' />
+									<div className='image-wrapper'>
+										<img className='img' style={{ width: `100%` }} src={monolithic_modular_aproach} />
+									</div>
 								</div>
 							</div>
 						</section>
 
-						<section className={"rollups-section"}>
+						<section className={"social-consensus"}>
 							<div className={"row justify-content-between align-items-center"}>
-								<div className={"order-2 order-lg-1 image-box--rollups col-12 col-lg-6"}>
-									<StaticImage quality={100} placeholder={"none"} src='../images/what-is-celestia/celestia-connections.png' />
+								<div className={"image-box--consensus order-2 order-lg-1 col-12 col-lg-6"}>
+									<div className='image-wrapper'>
+										<img className='img' style={{ width: `100%` }} src={celestia_connections} />
+									</div>
 								</div>
 								<div className={"order-1 order-lg-2 text-box col-12 col-lg-6"}>
 									<h2 className='title'>Layer 0 is social consensus</h2>
@@ -266,7 +284,7 @@ const WhatIsCelestia = () => {
 											<h3 className={"card-title"}>Documentation</h3>
 											<p className={"card-text"}>Explore how to build on Celestia</p>
 										</div>
-										<a href="https://docs.celestia.org/" className={"card-link"} type='button'>
+										<a href='https://docs.celestia.org/' className={"card-link"} type='button'>
 											Read now
 											<ArrowIcon classList={"ms-3 mb-1"} />
 										</a>
