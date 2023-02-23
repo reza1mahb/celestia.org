@@ -99,8 +99,15 @@ const navigation = [
         type: 'internal',
         submenus: [
             {
-                text: "FAQ",
+                text: "What is Celestia",
                 subtext: "Start here",
+                url: "/what-is-celestia/",
+                icon: "menu/logo.svg",
+                type: 'internal'
+            },
+            {
+                text: "FAQ",
+                subtext: "Learn",
                 url: "/faq/",
                 icon: "menu/faq.svg",
                 type: 'internal'

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>black_discord copy 13@1x</title>
-    <g id="CELESTIA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ALLICO" transform="translate(-672.000000, -93.000000)">
-            <g id="black_discord-copy-13" transform="translate(672.000000, 93.000000)">
-                <rect id="Rectangle" x="0" y="0" width="42" height="42"></rect>
-                <g id="lab-flask-experiment.1" transform="translate(14.000000, 12.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                    <path d="M4.71567204,1.15875806 L4.71567204,8.46860753 L0.329762364,15.6450522 C-0.0608557637,16.2037474 -0.108030083,16.9334164 0.207395748,17.5377584 C0.522821578,18.1421005 1.14840389,18.5206359 1.83010897,18.5196525 L12.169891,18.5196525 C12.8515961,18.5206359 13.4771784,18.1421005 13.7926043,17.5377584 C14.1080301,16.9334164 14.0608558,16.2037474 13.6702376,15.6450522 L9.28432796,8.46860753 L9.28432796,1.15875806 M2.48342676,0.456865591 L11.5165732,0.456865591" id="Combined-Shape"></path>
-                    <line x1="2.48342676" y1="12.1235323" x2="11.5165732" y2="12.1235323" id="Path"></line>
-                    <circle id="Oval" cx="5.09507527" cy="15.7009946" r="1"></circle>
-                </g>
-            </g>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>paper</title>
+    <g id="paper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="16x16" x="0" y="0" width="24" height="24"></rect>
+        <g id="lab-flask-experiment.1" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.000000, 4.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <path d="M4.0420046,1.03019354 L4.0420046,7.29577879 L0.282653454,13.4470171 C-0.0521620831,13.9258987 -0.0925972138,14.5513292 0.177767784,15.0693367 C0.44813278,15.5873442 0.98434619,15.9118031 1.56866483,15.9109618 L10.4313351,15.9109618 C11.0156538,15.9118031 11.5518672,15.5873442 11.8222322,15.0693367 C12.0925972,14.5513292 12.0521621,13.9258987 11.7173465,13.4470171 L7.95799538,7.29577879 L7.95799538,1.03019354 M2.1286515,0.428571428 L9.87134844,0.428571428" id="Combined-Shape"></path>
+            <line x1="2.1286515" y1="10.4285714" x2="9.87134844" y2="10.4285714" id="Path"></line>
+            <circle id="Oval" cx="4.36720737" cy="13.4949677" r="1"></circle>
         </g>
     </g>
 </svg>

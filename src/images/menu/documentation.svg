@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 43.8 43.8" style="enable-background:new 0 0 43.8 43.8;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FEFFFD;}
-</style>
-<g>
-	<path class="st0" d="M38.8,39.4V15.5H24.3V0H9.4C7,0,5,2,5,4.4v39.4h29.4C36.8,43.8,38.8,41.8,38.8,39.4z"/>
-	<polygon class="st0" points="25.9,0 25.9,13.9 38.8,13.9 	"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>documentation</title>
+    <g id="documentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="16x16" x="0" y="0" width="24" height="24"></rect>
+        <g transform="translate(6.000000, 4.000000)" fill="#FEFFFD" fill-rule="nonzero" id="Path">
+            <path d="M12,13.9881657 L12,5.50295858 L6.85207101,5.50295858 L6.85207101,0 L1.56213018,0 C0.710059172,0 0,0.710059172 0,1.56213018 L0,15.5502959 L10.4378698,15.5502959 C11.2899408,15.5502959 12,14.8402367 12,13.9881657 Z"></path>
+            <polygon points="7.42011834 0 7.42011834 4.93491124 12 4.93491124"></polygon>
+        </g>
+    </g>
 </svg>
