@@ -158,9 +158,9 @@ const WhatIsCelestia = () => {
 											</div>
 											<div className={"col-12"}>
 												<div className={"why-use-card"}>
-													<h3 className={"why-use-title"}>Lowers fees</h3>
+													<h3 className={"why-use-title"}>Higher scale</h3>
 													<p className={"why-use-text"}>
-														Celestia reduces the cost of deploying and maintaining your own blockchain.
+														Unlock access to web3 applications for everyone with more blockspace.
 													</p>
 												</div>
 											</div>
@@ -234,7 +234,7 @@ const WhatIsCelestia = () => {
 							<section className={"modularism-section"}>
 								<div className={"row justify-content-between align-items-center"}>
 									<div className={"text-box col-12 col-lg-6"}>
-										<h2 className='title'>Modularism, not Maximalism</h2>
+										<h2 className='title'>Modularism, not maximalism</h2>
 										<p>
 											For years, crypto has endured a monolithic blockchain loop. Each new L1 has built a walled-off system,
 											where competition is fierce and zero-sum. This leads to maximalism as they all fight over users in their
@@ -278,7 +278,7 @@ const WhatIsCelestia = () => {
 						<section className={"resources-section"}>
 							<div className={"container"}>
 								<div className={"row mb-5 justify-content-center text-box text-start text-md-center"}>
-									<h2 className={"title"}>Additional Resources</h2>
+									<h2 className={"title"}>Additional resources</h2>
 									<p>If you enjoyed this and want to learn more, here are some more resources we suggest you take a look at</p>
 								</div>
 								<div className={"row gx-3 gy-3 align-items-md-stretch"}>
@@ -297,7 +297,7 @@ const WhatIsCelestia = () => {
 									<div className={"col-12 col-md-4"}>
 										<div className={"d-flex flex-column justify-content-between resource-card"}>
 											<div className='mb-4'>
-												<h3 className={"card-title"}>Learn Modular</h3>
+												<h3 className={"card-title"}>Learn modular</h3>
 												<p className={"card-text"}>Dive deeper into Celestia and modular blockchains</p>
 											</div>
 											<Link to={"/learn"} className={"card-link"} type='button'>
