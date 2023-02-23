@@ -1,11 +1,9 @@
 import * as React from "react"
-
-import {FooterBoxes} from "../datas/team/content";
+import {FooterBoxes} from "../datas/faq/content";
 import {faqs} from "../datas/faq/faqs";
 import Faq from "../components/modules/faq";
 import Layout from "../components/layout";
 import {Helmet} from "react-helmet";
-import {content} from "../datas/technology/content";
 
 const TeamPage = () => {
     return (

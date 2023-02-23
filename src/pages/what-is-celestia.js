@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { FooterBoxes } from "../datas/technology/content";
+import { FooterBoxes } from "../datas/what-is-celestia/content";
 import { Helmet } from "react-helmet";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
