@@ -2,7 +2,7 @@ import * as React from "react"
 import 'react-multi-carousel/lib/styles.css';
 import { Helmet } from 'react-helmet';
 
-import {FooterBoxes} from "../datas/resources/content";
+import {FooterBoxes} from "../datas/glossary/content";
 
 import Layout from "../components/layout";
 import {glossaries} from "../datas/glossary/data";
