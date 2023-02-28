@@ -1,7 +1,7 @@
 export const FooterBoxes = [
     {
         title: 'Explore the tech',
-        text: 'Learn about the core technology behind Celestia's innovations.',
+        text: 'Learn about the core technology behind Celestia\'s innovations.',
         button: {
             text: 'Learn more',
             href: '/technology',
