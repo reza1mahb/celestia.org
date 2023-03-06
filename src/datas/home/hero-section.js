@@ -3,13 +3,13 @@ export const heroData = {
     text: 'Celestia is a modular consensus and data network, built to enable anyone to easily deploy their own blockchain with minimal overhead.',
     buttons:[
             {
-                text: 'See the roadmap',
+                text: 'Learn the basics',
                 class: 'simple',
                 type: 'internal',
-                url: '/#roadmap'
+                url: '/what-is-celestia/'
             },
             {
-                text: 'Build on Testnet',
+                text: 'Build on testnet',
                 class: 'white',
                 type: 'external',
                 url: 'https://docs.celestia.org/nodes/mocha-testnet'
