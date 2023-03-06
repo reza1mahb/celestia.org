@@ -361,6 +361,11 @@ header{
             right:0;
           }
         }
+        &:nth-last-child(3){
+          .submenu{
+            right:0;
+          }
+        }
       }
     }
   }
