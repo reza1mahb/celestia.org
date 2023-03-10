@@ -4,21 +4,27 @@ export const ecosystemCategories = [
         name : 'Rollups as a service',
         ecosystems: [
             {
+                title: 'Astria',
+                text: '',
+                image: 'ecosystem/astria.png',
+                url: 'https://astria.org/'
+            },
+            {
                 title: 'Caldera',
                 text: '',
-                image: '',
+                image: 'ecosystem/caldera.png',
                 url: 'https://www.caldera.xyz/'
             },
             {
                 title: 'Dymension',
                 text: '',
-                image: '',
+                image: 'ecosystem/dymension.png',
                 url: 'https://dymension.xyz/'
             },
             {
                 title: 'Eclipse',
                 text: '',
-                image: '',
+                image: 'ecosystem/eclipse.png',
                 url: 'https://www.eclipse.builders/'
             }
         ]
@@ -29,7 +35,7 @@ export const ecosystemCategories = [
             {
                 title: 'Saga',
                 text: '',
-                image: '',
+                image: 'ecosystem/saga.png',
                 url: 'https://www.saga.xyz/'
             }
         ]
@@ -40,13 +46,13 @@ export const ecosystemCategories = [
             {
                 title: 'Rollkit',
                 text: '',
-                image: '',
+                image: 'ecosystem/rollkit.png',
                 url: 'https://www.rollkit.dev/'
             },
             {
                 title: 'Sovereign',
                 text: '',
-                image: '',
+                image: 'ecosystem/sovereign.png',
                 url: 'https://sovereign.xyz/'
             }
         ]
@@ -59,6 +65,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/axelar.png',
                 url: 'https://axelar.network/'
+            },
+            {
+                title: 'Hyperlane',
+                text: '',
+                image: 'ecosystem/hyperlane.png',
+                url: 'https://www.hyperlane.xyz/'
             },
             {
                 title: 'Polymer',
@@ -80,19 +92,19 @@ export const ecosystemCategories = [
             {
                 title: 'Cosmostation',
                 text: '',
-                image: '',
+                image: 'ecosystem/cosmostation.png',
                 url: 'https://www.cosmostation.io/'
             },
             {
                 title: 'Keplr',
                 text: '',
-                image: '',
+                image: 'ecosystem/keplr.png',
                 url: 'https://www.keplr.app/'
             },
             {
                 title: 'Leap wallet',
                 text: '',
-                image: '',
+                image: 'ecosystem/leap-wallet.png',
                 url: 'https://www.leapwallet.io/'
             }
         ]
@@ -103,7 +115,7 @@ export const ecosystemCategories = [
             {
                 title: 'Duality',
                 text: '',
-                image: '',
+                image: 'ecosystem/duality.png',
                 url: 'https://duality.xyz/',
             }
         ]
@@ -114,7 +126,7 @@ export const ecosystemCategories = [
             {
                 title: 'Argus',
                 text: '',
-                image: '',
+                image: 'ecosystem/argus.png',
                 url: 'https://argus.gg/'
             }
         ]
@@ -125,13 +137,13 @@ export const ecosystemCategories = [
             {
                 title: 'PK Lab',
                 text: '',
-                image: '',
+                image: 'ecosystem/pklab.png',
                 url: 'https://bakingbad.dev/'
             },
             {
                 title: 'Range',
                 text: '',
-                image: '',
+                image: 'ecosystem/range.png',
                 url: 'https://www.range.org/'
             }
         ]
@@ -153,7 +165,7 @@ export const ecosystemCategories = [
             {
                 title: 'Modular cloud',
                 text: '',
-                image: '',
+                image: 'ecosystem/modular-cloud.png',
                 url: 'https://explorer.modular.cloud/'
             }
         ]
