@@ -1,4 +1,30 @@
 .ecosystem-page{
+  position:relative;
+
+  &:before{
+    background:url(../images/BG/ecosystem.png) no-repeat scroll top right transparent;
+    background-size:contain;
+    top:-50px;
+    right:0;
+    position:absolute;
+    content:'';
+    width:500px;
+    height:500px;
+    z-index:-1;
+
+    @include media-breakpoint-down(xl) {
+      width:400px;
+      height:400px;
+    }
+    @include media-breakpoint-down(lg) {
+      width:300px;
+      height:300px;
+      top:-100px;
+    }
+    @include media-breakpoint-down(md) {
+      display:none;
+    }
+  }
 
   .subtitle{
     font-family: $ruberoid;
