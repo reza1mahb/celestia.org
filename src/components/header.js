@@ -149,6 +149,10 @@ const navigation = [
             }
         ]
     },{
+        text: "Ecosystem",
+        url: "/ecosystem/",
+        type: 'internal'
+    },{
         text: "Team",
         url: "",
         submenus: [
