@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import {Helmet} from "react-helmet";
 import {useState} from "react";
 import Image from "../components/imageComponent";
+import Ecosystem from "../components/ecosystem";
 
 
 
@@ -89,16 +90,7 @@ const EcosystemPage = () => {
                                     {ecosystemCategories.map(function(category,index){
                                         return category.ecosystems && (selectedCategory === 'all' || selectedCategory === category.id) && category.ecosystems.map(function(ecosystem,ecosystemIndex){
                                             return ecosystem && (!search || (search && ecosystem.title.toLowerCase().includes(search.toLowerCase()))) && <div className={'col-12 col-sm-6 col-lg-6 col-xl-4 p-1'} key={ecosystemIndex}>
-                                                <a href={ecosystem.url} target={'_blank'} rel={'noreferrer'}>
-                                                    <div className={'ecosystem'}>
-                                                        <div className={'logo-container'}>
-                                                            <Image alt={ecosystem.title} filename={ecosystem.image} />
-                                                        </div>
-                                                        <div className={'category'}>{category.name}</div>
-                                                        <div className={'title'}>{ecosystem.title}</div>
-                                                        <div className={'text'}>{ecosystem.text}</div>
-                                                    </div>
-                                                </a>
+                                                <Ecosystem category={category} ecosystem={ecosystem}/>
                                             </div>
                                         })
                                     })}
