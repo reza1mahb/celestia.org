@@ -113,6 +113,12 @@ export const ecosystemCategories = [
         name : 'DeFi',
         ecosystems: [
             {
+                title: 'Crescent',
+                text: '',
+                image: 'ecosystem/crescent.png',
+                url: 'https://crescent.network/',
+            },
+            {
                 title: 'Duality',
                 text: '',
                 image: 'ecosystem/duality.png',
