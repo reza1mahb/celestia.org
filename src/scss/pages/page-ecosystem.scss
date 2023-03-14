@@ -5,7 +5,7 @@
     background:url(../images/BG/ecosystem.png) no-repeat scroll top right transparent;
     background-size:contain;
     top:-50px;
-    right:0;
+    right:50px;
     position:absolute;
     content:'';
     width:500px;
@@ -20,6 +20,7 @@
       width:300px;
       height:300px;
       top:-100px;
+      right:0;
     }
     @include media-breakpoint-down(md) {
       display:none;
