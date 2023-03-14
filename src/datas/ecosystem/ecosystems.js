@@ -41,7 +41,7 @@ export const ecosystemCategories = [
         ]
     },{
         id : 3,
-        name : 'Rollup frameworks',
+        name : 'Rollup framework',
         ecosystems: [
             {
                 title: 'Rollkit',
