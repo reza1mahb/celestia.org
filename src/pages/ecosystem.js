@@ -7,6 +7,7 @@ import {Helmet} from "react-helmet";
 import {useState} from "react";
 import Image from "../components/imageComponent";
 import Ecosystem from "../components/ecosystem";
+import {content} from "../datas/careers/content";
 
 
 
@@ -36,7 +37,13 @@ const EcosystemPage = () => {
                     <div className={'container'}>
 
                         <h1 className={'main mb-3 mb-md-5'}>Celestia Ecosystem</h1>
-                        <div className={'subtitle'}>Discover a wide range of apps and services built in the Celestia ecosystem.</div>
+                        <div className={'row'}>
+                            <div className={'col-auto'}>
+                                <div className={'subtitle'}>Discover a wide range of apps and services built in the Celestia ecosystem.</div>
+                                <a href={'https://drive.google.com/drive/folders/1qx2BJze6oO-TLfaVdmMLC79VjKLzBmLR?usp=share_link'} target={'_blank'} rel={'noreferrer'}><button className={'button button-white'}>Ecosystem map</button></a>
+
+                            </div>
+                        </div>
 
                         <div className={'row my-2 pt-2 my-lg-5 pt-lg-5 pb-3'}>
                             <div className={'col-12 col-lg-4'}>
