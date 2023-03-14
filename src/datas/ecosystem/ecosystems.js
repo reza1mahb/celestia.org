@@ -147,6 +147,12 @@ export const ecosystemCategories = [
                 url: 'https://bakingbad.dev/'
             },
             {
+                title: 'Neutron',
+                text: '',
+                image: 'ecosystem/neutron.png',
+                url: 'https://neutron.org/'
+            },
+            {
                 title: 'Range',
                 text: '',
                 image: 'ecosystem/range.png',
