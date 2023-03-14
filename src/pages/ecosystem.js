@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import {ecosystemCategories} from "../datas/ecosystem/ecosystems";
-import {FooterBoxes} from "../datas/team/content";
+import {FooterBoxes} from "../datas/ecosystem-page/content";
 import Layout from "../components/layout";
 import {Helmet} from "react-helmet";
 import {useState} from "react";
