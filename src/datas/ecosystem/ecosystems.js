@@ -147,6 +147,12 @@ export const ecosystemCategories = [
                 url: 'https://bakingbad.dev/'
             },
             {
+                title: 'Modular cloud',
+                text: '',
+                image: 'ecosystem/modular-cloud.png',
+                url: 'https://explorer.modular.cloud/'
+            },
+            {
                 title: 'Neutron',
                 text: '',
                 image: 'ecosystem/neutron.png',
@@ -168,17 +174,6 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/skip.png',
                 url: 'https://skip.money/'
-            }
-        ]
-    },{
-        id : 10,
-        name : 'Block explorer',
-        ecosystems: [
-            {
-                title: 'Modular cloud',
-                text: '',
-                image: 'ecosystem/modular-cloud.png',
-                url: 'https://explorer.modular.cloud/'
             }
         ]
     }
