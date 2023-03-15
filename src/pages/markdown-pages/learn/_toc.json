@@ -21,7 +21,7 @@
           "articles": [
             {
               "title": "Modular blockchains and first principles",
-              "slug": "/learn/first-principles/modular-blockchains-and-first-principles/"
+              "slug": "/learn/first-principles/modular-blockchains-and-first-principles"
             }
           ]
         },
@@ -30,10 +30,10 @@
           "articles": [
             {
               "title": "Modular and monolithic blockchains",
-              "slug": "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains/"
+              "slug": "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains"
             },{
                 "title": "Benefits of modular blockchains",
-                "slug": "/learn/basics-of-modular-blockchains/benefits-of-modular-blockchains/"
+                "slug": "/learn/basics-of-modular-blockchains/benefits-of-modular-blockchains"
             }
           ]
         },
@@ -42,7 +42,7 @@
           "articles": [
             {
               "title": "Modular blockchains are user-first",
-              "slug": "/learn/values-of-modular-blockchains/modular-blockchains-are-user-first/"
+              "slug": "/learn/values-of-modular-blockchains/modular-blockchains-are-user-first"
             }
           ]
         }
@@ -56,7 +56,7 @@
           "articles": [
             {
               "title": "The modular stack",
-              "slug": "/learn/modular-architectures/the-modular-stack/"
+              "slug": "/learn/modular-architectures/the-modular-stack"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "articles": [
             {
               "title": "Modular software vs modular blockchains",
-              "slug": "/learn/modular-software/the-differences-of-modular-software/"
+              "slug": "/learn/modular-software/the-differences-of-modular-software"
             }
           ]
         },
@@ -74,7 +74,7 @@
             "articles": [
               {
                 "title": "An introduction to sovereign rollups",
-                "slug": "/learn/sovereign-rollups/an-introduction/"
+                "slug": "/learn/sovereign-rollups/an-introduction"
               }
             ]
           },
@@ -83,7 +83,7 @@
           "articles": [
             {
               "title": "Settlement in the modular stack",
-              "slug": "/learn/modular-settlement-layers/settlement-in-the-modular-stack/"
+              "slug": "/learn/modular-settlement-layers/settlement-in-the-modular-stack"
             }
           ]
         },
@@ -95,7 +95,7 @@
               "slug": "/learn/modular-scalability/execution-layers/"
             },{
                 "title": "Data availability and settlement layers",
-                "slug": "/learn/modular-scalability/data-availability-and-settlement-layers/"
+                "slug": "/learn/modular-scalability/data-availability-and-settlement-layers"
             }
           ]
         },
@@ -104,7 +104,7 @@
           "articles": [
             {
               "title": "Deploying new blockchains in the modular stack",
-              "slug": "/learn/building-blockchains/deploying-new-blockchains-in-the-modular-stack/"
+              "slug": "/learn/building-blockchains/deploying-new-blockchains-in-the-modular-stack"
             }
           ]
         }
