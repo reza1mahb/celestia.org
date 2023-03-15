@@ -7,7 +7,7 @@ date: "2023-01-03"
 icon: ""
 category: "Intermediate"
 subcategory: "Modular software"
-title: "The differences of modular software"
+title: "Modular software vs modular blockchains"
 description: "What is modular software and how is it different to modular blockchains?"
 ---
 
