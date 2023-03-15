@@ -2,7 +2,7 @@
 order: 7
 path: "/learn/"
 slug: "/learn/sovereign-rollups/an-introduction/"
-edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/basics%20of%20modular%20blockchains-benefits%20of%20modular%20blockchains.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/sovereign%20rollups-an%20introduction%20to%20sovereign%20rollups.md"
 date: "2023-03-15"
 icon: ""
 category: "Intermediate"
@@ -64,8 +64,8 @@ Sovereign rollups typically do not have a native trust-minimized bridge with the
 We now have an idea of what sovereign rollups are and how they work. Now, how are they different from smart contract rollups?
 
 The most notable difference between the two is where transactions are verified as correct.
-- Smart contract rollup: transactions are verified by smart contracts on the settlement layer.
-- Sovereign rollup: transactions are verified by nodes of the sovereign rollup.
+- **Smart contract rollup**: transactions are verified by smart contracts on the settlement layer.
+- **Sovereign rollup**: transactions are verified by nodes of the sovereign rollup.
 
 ##### Upgrades and sovereignty
 With a smart contract rollup, upgrades depend on the smart contracts on the settlement layer. Upgrading the rollup requires changing the smart contracts. A multisig may be needed to control who can initiate updates to the smart contracts. While it is common for teams to control the upgrade multisig, it may be possible to make the multisig controllable via governance. Since the smart contracts live on the settlement layer, they are also bound by the <a href="https://celestia.org/glossary/social-consensus/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">social consensus</a> of the settlement layer.
