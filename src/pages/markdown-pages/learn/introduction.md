@@ -7,7 +7,7 @@ date: "2022-11-18"
 icon: ""
 category: ""
 subcategory: ""
-title: "Introduction"
+title: "Learn Modular: introduction"
 description: "What is Learn Modular?"
 ---
 
