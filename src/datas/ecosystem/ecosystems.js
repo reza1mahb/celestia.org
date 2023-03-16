@@ -16,12 +16,6 @@ export const ecosystemCategories = [
                 url: 'https://www.caldera.xyz/'
             },
             {
-                title: 'Dymension',
-                text: '',
-                image: 'ecosystem/dymension.png',
-                url: 'https://dymension.xyz/'
-            },
-            {
                 title: 'Eclipse',
                 text: '',
                 image: 'ecosystem/eclipse.png',
@@ -44,6 +38,12 @@ export const ecosystemCategories = [
         name : 'Settlement layer',
         ecosystems: [
              {
+                title: 'Dymension',
+                text: '',
+                image: 'ecosystem/dymension.png',
+                url: 'https://dymension.xyz/'
+            },
+            {
                 title: 'Neutron',
                 text: '',
                 image: 'ecosystem/neutron.png',
