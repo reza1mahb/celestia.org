@@ -41,6 +41,17 @@ export const ecosystemCategories = [
         ]
     },{
         id : 3,
+        name : 'Settlement layer',
+        ecosystems: [
+             {
+                title: 'Neutron',
+                text: '',
+                image: 'ecosystem/neutron.png',
+                url: 'https://neutron.org/'
+            }
+        ]
+    },{
+        id : 4,
         name : 'Rollup framework',
         ecosystems: [
             {
@@ -57,7 +68,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 4,
+        id : 5,
         name : 'Cross chain',
         ecosystems: [
             {
@@ -92,7 +103,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 5,
+        id : 6,
         name : 'Wallet',
         ecosystems: [
             {
@@ -115,7 +126,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 6,
+        id : 7,
         name : 'DeFi',
         ecosystems: [
             {
@@ -132,7 +143,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 7,
+        id : 8,
         name : 'Gaming',
         ecosystems: [
             {
@@ -143,7 +154,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 8,
+        id : 9,
         name : 'Infrastructure',
         ecosystems: [
             {
@@ -165,12 +176,6 @@ export const ecosystemCategories = [
                 url: 'https://explorer.modular.cloud/'
             },
             {
-                title: 'Neutron',
-                text: '',
-                image: 'ecosystem/neutron.png',
-                url: 'https://neutron.org/'
-            },
-            {
                 title: 'Range',
                 text: '',
                 image: 'ecosystem/range.png',
@@ -178,7 +183,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 9,
+        id : 10,
         name : 'MEV',
         ecosystems: [
             {
