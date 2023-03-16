@@ -151,6 +151,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/argus.png',
                 url: 'https://argus.gg/'
+            },
+            {
+                title: 'Worlds',
+                text: '',
+                image: 'ecosystem/worlds.png',
+                url: 'https://www.worlds.org/'
             }
         ]
     },{
