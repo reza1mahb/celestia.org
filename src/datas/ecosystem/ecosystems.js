@@ -73,6 +73,12 @@ export const ecosystemCategories = [
                 url: 'https://www.hyperlane.xyz/'
             },
             {
+                title: 'Orb',
+                text: '',
+                image: 'ecosystem/orb.png',
+                url: 'https://www.orblabs.xyz/'
+            },
+            {
                 title: 'Polymer',
                 text: '',
                 image: 'ecosystem/polymer.png',
@@ -140,6 +146,12 @@ export const ecosystemCategories = [
         id : 8,
         name : 'Infrastructure',
         ecosystems: [
+            {
+                title: 'Fairblock',
+                text: '',
+                image: 'ecosystem/fairblock.png',
+                url: 'https://twitter.com/Fair_Block'
+            },
             {
                 title: 'PK Lab',
                 text: '',
