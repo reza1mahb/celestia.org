@@ -8,7 +8,7 @@ icon: ""
 category: "Intermediate"
 subcategory: "Sovereign rollups"
 title: "Misconceptions of sovereign rollups"
-description: "Answers to common misonceptions about sovereign rollups."
+description: "Answers to common misconceptions about sovereign rollups."
 ---
 
 <head>
