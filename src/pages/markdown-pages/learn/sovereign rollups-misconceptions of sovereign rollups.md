@@ -69,9 +69,7 @@ Importantly, sovereign rollups can have bridges between each other. These bridge
 
 ![GATSBY_EMPTY_ALT](./images/misconceptions-2.png)
 
-The design space is broad, with many possible solutions for secure bridging between sovereign rollups.
-
-> More about sovereign rollup bridging can be found <a href="https://blog.celestia.org/sovereign-rollup-chains/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">here</a>
+The design space is broad, with <a href="https://blog.celestia.org/sovereign-rollup-chains/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">many possible solutions</a> for secure bridging between sovereign rollups.
 
 #### Sovereign rollups need a settlement layer
 Smart contract rollups on Ethereum need a settlement layer. Isn’t that also true for sovereign rollups?
