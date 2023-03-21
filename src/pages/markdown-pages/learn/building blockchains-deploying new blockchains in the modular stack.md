@@ -1,5 +1,5 @@
 ---
-order: 11
+order: 12
 path: "/learn/"
 slug: "/learn/building-blockchains/deploying-new-blockchains-in-the-modular-stack/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/building%20blockchains-deploying%20new%20blockchains%20in%20the%20modular%20stack.md"
