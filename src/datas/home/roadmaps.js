@@ -13,12 +13,12 @@ export const roadmaps = [
         id: 3,
         title: '2022',
         text: 'Testnet Release',
-        status: 'current',
+        status: 'active',
     },{
         id: 4,
         title: '2023',
         text: 'Incentivized Testnet',
-        status: 'active',
+        status: 'current',
     },{
         id: 5,
         title: '2023',
