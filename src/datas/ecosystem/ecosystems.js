@@ -4,12 +4,6 @@ export const ecosystemCategories = [
         name : 'Rollups as a service',
         ecosystems: [
             {
-                title: 'Astria',
-                text: '',
-                image: 'ecosystem/astria.png',
-                url: 'https://astria.org/'
-            },
-            {
                 title: 'Caldera',
                 text: '',
                 image: 'ecosystem/caldera.png',
@@ -35,6 +29,17 @@ export const ecosystemCategories = [
         ]
     },{
         id : 3,
+        name : 'Shared sequencer network',
+        ecosystems: [
+            {
+                title: 'Astria',
+                text: '',
+                image: 'ecosystem/astria.png',
+                url: 'https://astria.org/'
+            }
+        ]
+    },{
+        id : 4,
         name : 'Settlement layer',
         ecosystems: [
              {
@@ -51,7 +56,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 4,
+        id : 5,
         name : 'Rollup framework',
         ecosystems: [
             {
@@ -68,7 +73,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 5,
+        id : 6,
         name : 'Cross chain',
         ecosystems: [
             {
@@ -103,7 +108,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 6,
+        id : 7,
         name : 'Wallet',
         ecosystems: [
             {
@@ -126,7 +131,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 7,
+        id : 8,
         name : 'DeFi',
         ecosystems: [
             {
@@ -143,7 +148,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 8,
+        id : 9,
         name : 'Gaming',
         ecosystems: [
             {
@@ -160,7 +165,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 9,
+        id : 10,
         name : 'Infrastructure',
         ecosystems: [
             {
@@ -189,7 +194,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 10,
+        id : 11,
         name : 'MEV',
         ecosystems: [
             {
