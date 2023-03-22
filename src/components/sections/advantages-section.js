@@ -14,7 +14,7 @@ export default class AdvantagesSection extends React.Component {
             </div>
             <div className={'row justify-content-center'}>
                 <div className={'col-auto'}>
-                    <Button type={'internal'} class={'simple'} url={'/technology/'} text={'Learn more'}/>
+                    <Button type={'internal'} class={'simple'} url={'/technology/'} text={'Discover more'}/>
                 </div>
             </div>
         </section>
