@@ -10,7 +10,7 @@ export const FooterBoxes = [
         title: 'Check out the FAQ',
         text: 'Get up to speed with answers to the most asked questions.',
         button: {
-            text: 'view now',
+            text: 'View now',
             href: '/faq',
             id: 'career',
             type: 'simple'
