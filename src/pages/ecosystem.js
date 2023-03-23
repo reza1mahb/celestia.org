@@ -108,9 +108,8 @@ const EcosystemPage = () => {
                                     </div>
                                 </div>
                                 <div className={'row'}>
-
                                     {ecosystems.map(function(ecosystem,index){
-                                        return ecosystem && (!search || (search && ecosystem.details.title.toLowerCase().includes(search.toLowerCase()))) && <div className={'col-12 col-sm-6 col-lg-6 col-xl-4 p-1'} key={index}>
+                                        return ecosystem && (selectedCategory === 'all' || selectedCategory === ecosystem.category.id) && (!search || (search && ecosystem.details.title.toLowerCase().includes(search.toLowerCase()))) && <div className={'col-12 col-sm-6 col-lg-6 col-xl-4 p-1'} key={index}>
                                             <Ecosystem category={ecosystem.category} ecosystem={ecosystem.details}/>
                                         </div>
                                     })}
