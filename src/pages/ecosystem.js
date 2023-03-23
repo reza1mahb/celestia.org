@@ -15,6 +15,8 @@ const EcosystemPage = () => {
     const [selectedCategory,setSelectedCategory] = useState('all')
     const [search,setSearch] = useState(false)
     const [open,setOpen] = useState(false)
+    const [orderedEcosystems,setOrderedEcosystems] = useState([])
+    var ecosystems = []
 
     function searchApp(e){
         e.preventDefault();
@@ -26,6 +28,22 @@ const EcosystemPage = () => {
         setOpen(!open);
         setSelectedCategory(category);
     }
+
+    ecosystemCategories.map(function(category,index){
+        category.ecosystems.map(function(ecosystem) {
+            ecosystems.push({details: ecosystem, category: category})
+        })
+    })
+
+    function sortByKey(array, key) {
+        return array.sort(function(a, b) {
+            var x = a.details[key];
+            var y = b.details[key];
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+        });
+    }
+
+    sortByKey(ecosystems,'title');
 
     return (
         <Layout footerBoxes={FooterBoxes}>
@@ -94,12 +112,11 @@ const EcosystemPage = () => {
                                     </div>
                                 </div>
                                 <div className={'row'}>
-                                    {ecosystemCategories.map(function(category,index){
-                                        return category.ecosystems && (selectedCategory === 'all' || selectedCategory === category.id) && category.ecosystems.map(function(ecosystem,ecosystemIndex){
-                                            return ecosystem && (!search || (search && ecosystem.title.toLowerCase().includes(search.toLowerCase()))) && <div className={'col-12 col-sm-6 col-lg-6 col-xl-4 p-1'} key={ecosystemIndex}>
-                                                <Ecosystem category={category} ecosystem={ecosystem}/>
-                                            </div>
-                                        })
+
+                                    {ecosystems.map(function(ecosystem,index){
+                                        return ecosystem && (!search || (search && ecosystem.details.title.toLowerCase().includes(search.toLowerCase()))) && <div className={'col-12 col-sm-6 col-lg-6 col-xl-4 p-1'} key={index}>
+                                            <Ecosystem category={ecosystem.category} ecosystem={ecosystem.details}/>
+                                        </div>
                                     })}
                                 </div>
                             </div>
