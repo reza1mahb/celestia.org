@@ -5,11 +5,7 @@ import {FooterBoxes} from "../datas/ecosystem-page/content";
 import Layout from "../components/layout";
 import {Helmet} from "react-helmet";
 import {useState} from "react";
-import Image from "../components/imageComponent";
 import Ecosystem from "../components/ecosystem";
-import {content} from "../datas/careers/content";
-
-
 
 const EcosystemPage = () => {
     const [selectedCategory,setSelectedCategory] = useState('all')

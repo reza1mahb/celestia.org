@@ -39,8 +39,6 @@ const CareersPage = () => {
             }
         `)
 
-    console.log(jobs);
-
     return (
         <Layout footerBoxes={FooterBoxes}>
             <Helmet>
