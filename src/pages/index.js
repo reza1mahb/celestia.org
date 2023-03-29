@@ -109,7 +109,7 @@ class IndexPage extends React.Component {
 
                       </div>
                         <ImageSection logo={true} image={'home/celestia-team.png'} title={'Built by industry-leading engineers, researchers and entrepreneurs'} text={<Button class={'external-big'} type={'internal'} url={'/team/'} text={'View the team'}/>}/>
-                        <PurpleSection enableBackers={this.enableBackers} anchor={'join-the-community'} purpleData={purpleData}/>
+                        <PurpleSection enableBackers={this.enableBackers} anchor={'join-our-global-community'} purpleData={purpleData}/>
                         <BackersSection enableBackers={this.enableBackers} backers={backers}/>
                   </main>
                   <ReactModal
