@@ -186,7 +186,7 @@ class Footer extends React.Component {
 
                     <div className={'row justify-content-center'}>
                         <div className={'col col-12 col-sm-6'}>
-                            <p>This website is maintained by Celestia Labs, trading name of Strange Loop Labs AG, Pradafant 11, 9490 Vaduz, Liechtenstein.</p>
+                            <p>This website is maintained by Celestia Labs.</p>
                         </div>
                     </div>
 
