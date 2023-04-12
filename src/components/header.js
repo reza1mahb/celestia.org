@@ -26,6 +26,13 @@ const navigation = [
                 type: 'internal'
             },
             {
+                text: "Read our blog",
+                subtext: "Celestia Blog",
+                url: "https://blog.celestia.org/",
+                icon: "menu/documentation.svg",
+                type: 'external'
+            },
+            {
                 text: "Technology",
                 subtext: "Tech",
                 url: "/technology/",
@@ -103,23 +110,8 @@ const navigation = [
         ]
     },{
         text: "Community",
-        url: "",
-        submenus: [
-            {
-                text: "Join the community",
-                subtext: "Social forums",
-                url: "/#join-our-global-community",
-                icon: "menu/forum.svg",
-                type: 'internal'
-            },
-            {
-                text: "Read our blog",
-                subtext: "Celestia Blog",
-                url: "https://blog.celestia.org/",
-                icon: "menu/documentation.svg",
-                type: 'external'
-            },
-        ]
+        url: "#join-our-global-community",
+        type: 'internal'
     },{
         text: "Ecosystem",
         url: "/ecosystem/",
