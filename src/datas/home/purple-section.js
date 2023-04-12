@@ -4,16 +4,6 @@ export const purpleData = {
         boxes: [
             {
                 id : 1,
-                title : 'Community Chat',
-                text : 'Ask general questions and chat with the worldwide community on Telegram.',
-                icon: 'home/purple-box-1.svg',
-                button:{
-                    title:'Start Chatting',
-                    url: 'https://t.me/CelestiaCommunity'
-                }
-            },
-            {
-                id : 2,
                 title : 'Twitter',
                 text : 'Follow @celestiaorg to get the latest news and updates from across the ecosystem.',
                 icon: 'home/purple-box-2.svg',
@@ -23,13 +13,23 @@ export const purpleData = {
                 }
             },
             {
-                id : 3,
-                title : 'Developer Chat',
+                id : 2,
+                title : 'Discord',
                 text : 'Have technical questions about Celestia tools? Ask a developer on the Community Discord.',
                 icon: 'home/purple-box-3.svg',
                 button:{
                     title:'Ask a question',
                     url: 'https://discord.com/invite/YsnTPcSfWQ'
+                }
+            },
+            {
+                id : 3,
+                title : 'Telegram',
+                text : 'Ask general questions and chat with the worldwide community on Telegram.',
+                icon: 'home/purple-box-1.svg',
+                button:{
+                    title:'Start Chatting',
+                    url: 'https://t.me/CelestiaCommunity'
                 }
             },
             {
