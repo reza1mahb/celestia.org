@@ -103,8 +103,23 @@ const navigation = [
         ]
     },{
         text: "Community",
-        url: "/#join-our-global-community",
-        type: 'internal'
+        url: "",
+        submenus: [
+            {
+                text: "Join the community",
+                subtext: "Social forums",
+                url: "/#join-our-global-community",
+                icon: "menu/forum.svg",
+                type: 'internal'
+            },
+            {
+                text: "Read our blog",
+                subtext: "Celestia Blog",
+                url: "https://blog.celestia.org/",
+                icon: "menu/documentation.svg",
+                type: 'external'
+            },
+        ]
     },{
         text: "Ecosystem",
         url: "/ecosystem/",
