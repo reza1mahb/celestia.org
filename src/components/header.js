@@ -80,6 +80,13 @@ const navigation = [
                 type: 'external'
             },
             {
+                text: "Join our Forum",
+                subtext: "Forum",
+                url: "https://forum.celestia.org",
+                icon: "menu/forum.svg",
+                type: 'external'
+            },
+            {
                 text: "View our GitHub repos",
                 subtext: "GitHub repositories",
                 url: "https://github.com/celestiaorg",
@@ -96,51 +103,8 @@ const navigation = [
         ]
     },{
         text: "Community",
-        url: "",
-        submenus: [
-            {
-                text: "Join our Discord Channel",
-                subtext: "Discord",
-                url: "https://discord.com/invite/YsnTPcSfWQ",
-                icon: "menu/discord.svg",
-                type: 'external'
-            },
-            {
-                text: "Join our Telegram group",
-                subtext: "Telegram",
-                url: "https://t.me/CelestiaCommunity",
-                icon: "menu/telegram.svg",
-                type: 'external'
-            },
-            {
-                text: "Follow us on twitter",
-                subtext: "Twitter",
-                url: "https://twitter.com/CelestiaOrg",
-                icon: "menu/twitter.svg",
-                type: 'external'
-            },
-            {
-                text: "Join our Forum",
-                subtext: "Forum",
-                url: "https://forum.celestia.org",
-                icon: "menu/forum.svg",
-                type: 'external'
-            },
-            {
-                text: "Watch our YouTube videos",
-                subtext: "YouTube",
-                url: "https://www.youtube.com/channel/UCLlvAEzXBFZ-P3zS6BF2Bjg",
-                icon: "menu/resources.svg",
-                type: 'external'
-            },
-            {
-                text: "Join our subreddit",
-                subtext: "Reddit",
-                url: "https://www.reddit.com/r/CelestiaNetwork/",
-                icon: "menu/reddit.svg",
-                type: 'external'
-            }
-        ]
+        url: "/#join-our-global-community",
+        type: 'internal'
     },{
         text: "Ecosystem",
         url: "/ecosystem/",
