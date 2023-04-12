@@ -7,46 +7,6 @@ import Image from "./imageComponent";
 
 const navigation = [
     {
-        text: "Developers",
-        url: "",
-        submenus: [
-            {
-                text: "Build on testnet",
-                subtext: "Testnet",
-                url: "https://docs.celestia.org/",
-                icon: "menu/devnet.svg",
-                type: 'external'
-            },
-            {
-                text: "Read our docs",
-                subtext: "Celestia Docs",
-                url: "https://docs.celestia.org/",
-                icon: "menu/documentation.svg",
-                type: 'external'
-            },
-            {
-                text: "View our GitHub repos",
-                subtext: "GitHub repositories",
-                url: "https://github.com/celestiaorg",
-                icon: "menu/github.svg",
-                type: 'external'
-            },
-            {
-                text: "Read the LazyLedger whitepaper",
-                subtext: "Research paper",
-                url: "https://arxiv.org/pdf/1905.09274.pdf",
-                icon: "menu/research.svg",
-                type: 'external'
-            },
-            {
-                text: "Read the contributors guide",
-                subtext: "Contribute",
-                url: "/resources/contribute/",
-                icon: "menu/briefcase.svg",
-                type: 'internal'
-            },
-        ]
-    },{
         text: "Learn",
         url: "/resources/",
         type: 'internal',
@@ -102,6 +62,39 @@ const navigation = [
             }
         ]
     },{
+        text: "Build",
+        url: "",
+        submenus: [
+            {
+                text: "Build on testnet",
+                subtext: "Testnet",
+                url: "https://docs.celestia.org/",
+                icon: "menu/devnet.svg",
+                type: 'external'
+            },
+            {
+                text: "Read our docs",
+                subtext: "Celestia Docs",
+                url: "https://docs.celestia.org/",
+                icon: "menu/documentation.svg",
+                type: 'external'
+            },
+            {
+                text: "View our GitHub repos",
+                subtext: "GitHub repositories",
+                url: "https://github.com/celestiaorg",
+                icon: "menu/github.svg",
+                type: 'external'
+            },
+            {
+                text: "Read the LazyLedger whitepaper",
+                subtext: "Research paper",
+                url: "https://arxiv.org/pdf/1905.09274.pdf",
+                icon: "menu/research.svg",
+                type: 'external'
+            },
+        ]
+    },{
         text: "Community",
         url: "",
         submenus: [
@@ -152,29 +145,6 @@ const navigation = [
         text: "Ecosystem",
         url: "/ecosystem/",
         type: 'internal'
-    },{
-        text: "Team",
-        url: "",
-        submenus: [
-            {
-                text: "Meet the team",
-                subtext: "Team",
-                url: "/team/",
-                icon: "menu/team.svg",
-                type: 'internal'
-            },
-            {
-                text: "View our job postings",
-                subtext: "Careers",
-                url: "/careers/",
-                icon: "menu/careers.svg",
-                type: 'internal'
-            }
-        ]
-    },{
-        text: "Blog",
-        url: "https://blog.celestia.org",
-        type: 'external'
     },
 ]
 
