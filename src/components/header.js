@@ -109,7 +109,7 @@ const navigation = [
             },
         ]
     },{
-        text: "Community",
+        text: "Explore",
         url: "",
         submenus: [
             {
