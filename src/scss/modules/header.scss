@@ -270,9 +270,7 @@ header{
               text-align:left;
 
               &:last-child{
-                .submenu{
-                     right:0;
-                 }
+                border:none;
               }
 
               .subtitle{
