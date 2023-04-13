@@ -271,7 +271,9 @@ header{
 
               &:last-child{
                 border:none;
-                right:0;
+                .submenu{
+                     right:0;
+                 }
               }
 
               .subtitle{
