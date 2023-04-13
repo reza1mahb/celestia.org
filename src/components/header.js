@@ -110,12 +110,23 @@ const navigation = [
         ]
     },{
         text: "Community",
-        url: "#join-our-global-community",
-        type: 'internal'
-    },{
-        text: "Ecosystem",
-        url: "/ecosystem/",
-        type: 'internal'
+        url: "",
+        submenus: [
+            {
+                text: "Join the community",
+                subtext: "Social channels",
+                url: "/#join-our-global-community",
+                icon: "menu/forum.svg",
+                type: 'internal'
+            },
+            {
+                text: "Explore the ecosystem",
+                subtext: "Celestia ecosystem",
+                url: "/ecosystem/",
+                icon: "menu/careers.svg",
+                type: 'internal'
+            },
+        ]
     },
 ]
 
