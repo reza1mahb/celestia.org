@@ -87,13 +87,6 @@ const navigation = [
                 type: 'external'
             },
             {
-                text: "Join our Forum",
-                subtext: "Forum",
-                url: "https://forum.celestia.org",
-                icon: "menu/forum.svg",
-                type: 'external'
-            },
-            {
                 text: "View our GitHub repos",
                 subtext: "GitHub repositories",
                 url: "https://github.com/celestiaorg",
@@ -125,6 +118,13 @@ const navigation = [
                 url: "/ecosystem/",
                 icon: "menu/careers.svg",
                 type: 'internal'
+            },
+            {
+                text: "Join our Forum",
+                subtext: "Forum",
+                url: "https://forum.celestia.org",
+                icon: "menu/forum.svg",
+                type: 'external'
             },
         ]
     },
