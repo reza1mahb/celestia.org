@@ -162,73 +162,73 @@ class Header extends React.Component {
     render() {
         return (
             <>
-            <header id={'header'}>
-                <Helmet>
-                    <title>Celestia</title>
-                </Helmet>
-                <div className={'blurry'}/>
-                <div className={'container'}>
-                    <button id={'hamburger'} className="hamburger hamburger--slider" type="button" onClick={this.toggleMenu}>
+                <header id={'header'}>
+                    <Helmet>
+                        <title>Celestia</title>
+                    </Helmet>
+                    <div className={'blurry'}/>
+                    <div className={'container'}>
+                        <button id={'hamburger'} className="hamburger hamburger--slider" type="button" onClick={this.toggleMenu}>
                       <span className="hamburger-box">
                         <span className="hamburger-inner"/>
                       </span>
-                    </button>
-                    <div className={'logo'}>
-                        <Link to="/"><img src={logo} alt="Celestia"/></Link>
-                    </div>
-                    <nav>
-                        <ul>
-                            {navigation.map((link, index) => (
-                                <li key={index}>
-                                    {link.submenus ? <div className={'hasSubmenu'}>{link.text} <i className={'icon-dropdown'}/></div> : link.type === 'external' ?
-                                        <a href={link.url} target={'_blank'} rel={'noreferrer'}>{link.text}</a> : <Link to={`${link.url}`} activeClassName="active">{link.text} {link.submenus && <i className={'icon-dropdown'}/>}</Link>}
-                                    {link.submenus &&
+                        </button>
+                        <div className={'logo'}>
+                            <Link to="/"><img src={logo} alt="Celestia"/></Link>
+                        </div>
+                        <nav>
+                            <ul>
+                                {navigation.map((link, index) => (
+                                    <li key={index}>
+                                        {link.submenus ? <div className={'hasSubmenu'}>{link.text} <i className={'icon-dropdown'}/></div> : link.type === 'external' ?
+                                            <a href={link.url} target={'_blank'} rel={'noreferrer'}>{link.text}</a> : <Link to={`${link.url}`} activeClassName="active">{link.text} {link.submenus && <i className={'icon-dropdown'}/>}</Link>}
+                                        {link.submenus &&
                                         <div className={'submenu'}>
                                             <ul>
                                                 {link.submenus.map((submenu, index) => (
                                                     <li key={index}>
                                                         {submenu.type === 'external' ?
                                                             (<a href={submenu.url} target={'_blank'} rel="noreferrer">
-                                                            <div className={'row d-table w-100'}>
-                                                                <div className={'col-2 align-middle d-table-cell'}>
-                                                                    <div className={'icon'}>
-                                                                        <Image alt={submenu.text} filename={submenu.icon} />
+                                                                <div className={'row d-table w-100'}>
+                                                                    <div className={'col-2 align-middle d-table-cell'}>
+                                                                        <div className={'icon'}>
+                                                                            <Image alt={submenu.text} filename={submenu.icon} />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className={'col-10 align-middle d-table-cell'}>
+                                                                        <div className={'subtitle'}>{submenu.subtext}</div>
+                                                                        <div className={'title'}>{submenu.text}</div>
                                                                     </div>
                                                                 </div>
-                                                                <div className={'col-10 align-middle d-table-cell'}>
-                                                                    <div className={'subtitle'}>{submenu.subtext}</div>
-                                                                    <div className={'title'}>{submenu.text}</div>
-                                                                </div>
-                                                            </div>
-                                                        </a>)
+                                                            </a>)
                                                             :
                                                             (<Link to={submenu.url} >
-                                                            <div className={'row d-table w-100'}>
-                                                                <div className={'col-2 align-middle d-table-cell'}>
-                                                                    <div className={'icon'}>
-                                                                        <Image alt={submenu.text} filename={submenu.icon} />
+                                                                <div className={'row d-table w-100'}>
+                                                                    <div className={'col-2 align-middle d-table-cell'}>
+                                                                        <div className={'icon'}>
+                                                                            <Image alt={submenu.text} filename={submenu.icon} />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className={'col-10 align-middle d-table-cell'}>
+                                                                        <div className={'subtitle'}>{submenu.subtext}</div>
+                                                                        <div className={'title'}>{submenu.text}</div>
                                                                     </div>
                                                                 </div>
-                                                                <div className={'col-10 align-middle d-table-cell'}>
-                                                                    <div className={'subtitle'}>{submenu.subtext}</div>
-                                                                    <div className={'title'}>{submenu.text}</div>
-                                                                </div>
-                                                            </div>
-                                                        </Link>)}
+                                                            </Link>)}
                                                     </li>
                                                 ))}
                                             </ul>
                                         </div>
-                                    }
+                                        }
 
-                                </li>
-                            ))}
-                        </ul>
-                    </nav>
-                    <div className={'clear'}/>
-                </div>
-            </header>
-                </>
+                                    </li>
+                                ))}
+                            </ul>
+                        </nav>
+                        <div className={'clear'}/>
+                    </div>
+                </header>
+            </>
         );
     }
 }
