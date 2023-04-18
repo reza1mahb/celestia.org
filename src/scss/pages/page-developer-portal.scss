@@ -1,0 +1,68 @@
+.developer-portal {
+	position: relative;
+	&:before {
+		background: url(../images/BG/ecosystem.png) no-repeat scroll top right transparent;
+		background-size: contain;
+
+		top: -10px;
+		right: 140px;
+		position: absolute;
+		content: "";
+		width: 580px;
+		height: 580px;
+		z-index: -1;
+
+		@include media-breakpoint-down(xl) {
+			width: 400px;
+			height: 400px;
+		}
+		@include media-breakpoint-down(lg) {
+			width: 300px;
+			height: 300px;
+			top: -100px;
+			right: 0;
+		}
+		@include media-breakpoint-down(md) {
+			display: none;
+		}
+	}
+
+	main {
+		padding-top: 100px;
+	}
+
+	.main {
+		font-family: $ruberoid;
+		font-weight: bold;
+		font-size: 110px;
+		color: #000000;
+		letter-spacing: 1.38px;
+		line-height: 106px;
+		max-width: 600px;
+	}
+
+	.subtitle {
+		font-family: $ruberoid;
+		font-weight: 500;	
+		font-size: 18px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 25px;
+		margin-bottom: 30px;
+		max-width: 400px;
+	}
+
+	.get-started {
+		padding-top: 160px;
+	}
+
+	.button-simple,
+	.button-white,
+	.button-icon,
+	.button-external {
+		margin-right: 20px;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 20px;
+		}
+	}
+}
