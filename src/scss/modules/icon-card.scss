@@ -43,17 +43,34 @@
 		display: flex;
 		align-items: center;
 
+		@include media-breakpoint-down(md) {
+			display: block;
+		}
+
 		& .logo-container {
 			margin-right: 30px;
 			margin-top: 0;
+
+			&.top {
+				align-self: flex-start;
+			}
+			&.center {
+				align-self: center;
+			}
 		}
 
 		& .title {
 			margin-top: 0;
+			@include media-breakpoint-down(md) {
+				margin-top: 32px;
+			}
 		}
 
 		& .text {
 			margin-top: 18px;
+			@include media-breakpoint-down(md) {
+				margin-top: 26px;
+			}
 		}
 
 		& .text-box {

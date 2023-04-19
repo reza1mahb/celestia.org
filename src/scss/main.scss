@@ -104,11 +104,9 @@ h1{
   font-family: $ruberoid;
   font-weight:bold;
   font-size: 110px;
-  font-size: 100px;
   color: #000000;
   letter-spacing: 1.38px;
-  line-height: 126px;
-  line-height: 116px;
+  line-height: 106px;
   display:inline-block;
 
   &.main{
@@ -118,23 +116,23 @@ h1{
   @include media-breakpoint-down(xl) {
     font-size: 80px;
     letter-spacing: 1px;
-    line-height: 90px;
+    line-height: 82px;
   }
 
   @include media-breakpoint-down(lg) {
     font-size: 60px;
     letter-spacing: 0.8px;
-    line-height: 70px;
+    line-height: 64px;
   }
   @include media-breakpoint-down(md) {
     font-size: 50px;
     letter-spacing: 0.62px;
-    line-height: 60px;
+    line-height: 52px;
   }
   @include media-breakpoint-down(sm) {
     font-size: 32px;
     letter-spacing: 0.4px;
-    line-height: 40px;
+    line-height: 38px;
   }
 }
 
@@ -142,6 +140,7 @@ h2, .h2{
   font-family: $ruberoid;
   font-weight:bold;
   font-size: 70px;
+  line-height: 74px;
   color: #000000;
   letter-spacing: 0.2px;
   position:relative;
@@ -150,8 +149,8 @@ h2, .h2{
   &.with-decor{
     &:before{
       position:absolute;
-      left:-20px;
-      top:-15px;
+      left: -6px;
+      top: -31px;
       content:'';
       width:100px;
       height:118px;
@@ -161,6 +160,7 @@ h2, .h2{
 
   @include media-breakpoint-down(lg) {
     font-size:66px;
+    line-height: 70px;
     letter-spacing:0.15px;
 
     &.with-decor{
@@ -168,37 +168,39 @@ h2, .h2{
         width:88px;
         height:104px;
         background-size:contain;
-        top:-10px;
-        left:-15px;
+        top: -27px;
+        left: -11px;
       }
     }
   }
 
   @include media-breakpoint-down(md) {
     font-size:46px;
+    line-height: 48px;
     letter-spacing:0.125px;
 
     &.with-decor{
       &:before{
-        width:75px;
-        height:89px;
-        background-size:contain;
-        top:-15px;
-        left:-20px;
+        width: 58px;
+        height: 72px;
+        background-size: contain;
+        top: -20px;
+        left: -12px;
       }
     }
   }
 
   @include media-breakpoint-down(sm) {
     font-size:36px;
+    line-height: 38px;
     letter-spacing:0.1px;
 
     &.with-decor{
       &:before{
-        width:50px;
-        height:59px;
-        top:-5px;
-        left:-16px;
+        width: 50px;
+        height: 59px;
+        top: -17px;
+        left: -10px;
       }
     }
   }
@@ -216,11 +218,11 @@ h3{
   &.with-decor{
     &:before{
       position:absolute;
-      left:-32px;
-      top:-18px;
-      content:'';
-      width:78px;
-      height:98px;
+      left: -6px;
+      top: -20px;
+      content: "";
+      width: 58px;
+      height: 78px;
       background:url(../images/h2-decor.svg) no-repeat scroll center left transparent;
       background-size:contain;
     }
@@ -233,11 +235,11 @@ h3{
 
     &.with-decor{
       &:before{
-        left: -20px;
+        left: -10px;
         top: -18px;
         content: "";
-        width: 64px;
-        height: 80px;
+        width: 50px;
+        height: 66px;
       }
     }
   }
@@ -249,11 +251,11 @@ h3{
 
     &.with-decor{
       &:before{
-        width:50px;
-        height:59px;
-        background-size:contain;
-        top:-8px;
-        left:-11px;
+        width: 40px;
+        height: 50px;
+        background-size: contain;
+        top: -12px;
+        left: -8px;
       }
     }
   }
