@@ -14,11 +14,11 @@ import IconCard from "../components/modules/icon-card";
 import Button from "../components/buttons/button";
 import Faq from "../components/modules/faq";
 
-const EcosystemPage = () => {
+const DevPortal = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<Helmet>
-				<title>Celestia - Ecosystem</title>
+				<title>Celestia - Developer Portal</title>
 			</Helmet>
 			<div className={"developer-portal"}>
 				<main>
@@ -118,4 +118,4 @@ const EcosystemPage = () => {
 	);
 };
 
-export default EcosystemPage;
+export default DevPortal;
