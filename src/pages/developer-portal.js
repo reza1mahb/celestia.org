@@ -7,7 +7,7 @@ import { connect } from "../datas/developer-portal/connect";
 import { concepts } from "../datas/developer-portal/concepts";
 import { faqs } from "../datas/developer-portal/faq";
 import { community } from "../datas/developer-portal/community";
-import { FooterBoxes } from "../datas/developer-portal//content";
+import { FooterBoxes } from "../datas/developer-portal/content";
 import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 import IconCard from "../components/modules/icon-card";
