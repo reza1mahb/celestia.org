@@ -40,14 +40,14 @@ const DevPortal = () => {
 								{getStarted.items.map(function (item) {
 									return (
 										<div className='col-12 col-md min-width-33'>
-											<IconCard key={item.id} content={item} flexDirection={"vertical"} />
+											<IconCard key={item.id} content={item} flexDirection={"anchor"} />
 										</div>
 									);
 								})}
 							</div>
 						</section>
 
-						<section className='tutorials'>
+						<section id={`${getStarted.items[0].title.replace(/\s+/g, "-").toLowerCase()}`}  className='tutorials'>
 							<h2 className={"with-decor"}>{tutorials.title}</h2>
 							{tutorials.description && <div className={"description"}>{tutorials.description}</div>}
 							<div className={"row gx-3 gy-3 my-2 pt-4 pb-3"}>
@@ -61,7 +61,7 @@ const DevPortal = () => {
 							</div>
 						</section>
 
-						<section className='connect'>
+						<section id={`${getStarted.items[1].title.replace(/\s+/g, "-").toLowerCase()}`}  className='connect'>
 							<div className={"row justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
 								<div className='col-12 col-xl-4 mb-5'>
 									<h2 className={"with-decor"}>{connect.title}</h2>
@@ -81,7 +81,7 @@ const DevPortal = () => {
 							</div>
 						</section>
 
-						<section className='concepts'>
+						<section id={`${getStarted.items[2].title.replace(/\s+/g, "-").toLowerCase()}`} className='concepts'>
 							<div className={"row flex-wrap-reverse flex-xl-wrap justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
 								<div className='col-12 col-xl-7'>
 									<div className='gx-3 gy-3 row'>
