@@ -7,7 +7,7 @@ export const connect = {
 			title: "Celestia node API documentation",
 			text: "Documentation for submitting and retrieving data from Celestia.",
 			image: "developer-portal/placeholder-img.png",
-			type: "external",
+			type: "internal",
 			url: "/",
 		},
 		{
@@ -15,7 +15,7 @@ export const connect = {
 			title: "Celestia node API playground",
 			text: "Simulate celestia node API functions.",
 			image: "developer-portal/placeholder-img.png",
-			type: "external",
+			type: "internal",
 			url: "/",
 		},
 	],

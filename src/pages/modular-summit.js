@@ -14,11 +14,11 @@ import IconCard from "../components/modules/icon-card";
 import Button from "../components/buttons/button";
 import Faq from "../components/modules/faq";
 
-const DevPortal = () => {
+const ModularSummit = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<Helmet>
-				<title>Celestia - Developer Portal</title>
+				<title>Celestia - Modular Summit</title>
 			</Helmet>
 			<div className={"developer-portal"}>
 				<main>
@@ -36,13 +36,9 @@ const DevPortal = () => {
 						<section className='get-started'>
 							<h2 className={"with-decor"}>{getStarted.title}</h2>
 							{getStarted.description && <div className={"description"}>{getStarted.description}</div>}
-							<div className={"row gx-3 gy-3 pt-4 pb-3"}>
+							<div className={"row gx-3 gy-3 row-cols-1 row-cols-lg-3 pt-4 pb-3"}>
 								{getStarted.items.map(function (item) {
-									return (
-										<div className='col-12 col-md min-width-33'>
-											<IconCard key={item.id} content={item} flexDirection={"vertical"} />
-										</div>
-									);
+									return <IconCard key={item.id} content={item} flexDirection={"vertical"} />;
 								})}
 							</div>
 						</section>
@@ -50,13 +46,9 @@ const DevPortal = () => {
 						<section className='tutorials'>
 							<h2 className={"with-decor"}>{tutorials.title}</h2>
 							{tutorials.description && <div className={"description"}>{tutorials.description}</div>}
-							<div className={"row gx-3 gy-3 my-2 pt-4 pb-3"}>
+							<div className={"row gx-3 gy-3 row-cols-1 row-cols-lg-3 my-2 pt-4 pb-3"}>
 								{tutorials.items.map(function (item) {
-									return (
-										<div className='col-12 col-md min-width-33'>
-											<IconCard key={item.id} content={item} flexDirection={"vertical"} />
-										</div>
-									);
+									return <IconCard key={item.id} content={item} flexDirection={"vertical"} />;
 								})}
 							</div>
 						</section>
@@ -70,11 +62,7 @@ const DevPortal = () => {
 								<div className='col-12 col-xl-7'>
 									<div className='gx-3 gy-3 row'>
 										{connect.items.map(function (item) {
-											return (
-												<div className='col-12'>
-													<IconCard key={item.id} content={item} flexDirection={"horizontal"} />
-												</div>
-											);
+											return <IconCard key={item.id} content={item} flexDirection={"horizontal"} />;
 										})}
 									</div>
 								</div>
@@ -84,13 +72,9 @@ const DevPortal = () => {
 						<section className='concepts'>
 							<div className={"row flex-wrap-reverse flex-xl-wrap justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
 								<div className='col-12 col-xl-7'>
-									<div className='gx-3 gy-3 row'>
+									<div className='gx-3 gy-3 row row-cols-1 row-cols-lg-2'>
 										{concepts.items.map(function (item) {
-											return (
-												<div className='col-12 col-md'>
-													<IconCard key={item.id} content={item} flexDirection={"horizontal"} />
-												</div>
-											);
+											return <IconCard key={item.id} content={item} flexDirection={"horizontal"} />;
 										})}
 									</div>
 								</div>
@@ -121,13 +105,9 @@ const DevPortal = () => {
 						<section className='community'>
 							<h2 className={"with-decor community-title"}>{community.title}</h2>
 							{community.description && <div className={"description community-description"}>{community.description}</div>}
-							<div className={"row gx-3 gy-3 my-2 pt-4 pb-3"}>
+							<div className={"row gx-3 gy-3 row-cols-1 row-cols-lg-2 my-2 pt-4 pb-3"}>
 								{community.items.map(function (item) {
-									return (
-										<div className='col-12 col-md min-width-50'>
-											<IconCard key={item.id} content={item} flexDirection={"horizontal"} iconPosition={"top"} />
-										</div>
-									);
+									return <IconCard key={item.id} content={item} flexDirection={"horizontal"} iconPosition={'top'} />;
 								})}
 							</div>
 						</section>
@@ -138,4 +118,4 @@ const DevPortal = () => {
 	);
 };
 
-export default DevPortal;
+export default ModularSummit;
