@@ -72,7 +72,7 @@ const DevPortal = () => {
 										{connect.items.map(function (item) {
 											return (
 												<div className='col-12'>
-													<IconCard key={item.id} content={item} flexDirection={"horizontal"} />
+													<IconCard imageClass={'square'} key={item.id} content={item} flexDirection={"horizontal"} />
 												</div>
 											);
 										})}

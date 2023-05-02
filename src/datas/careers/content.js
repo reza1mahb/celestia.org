@@ -23,7 +23,7 @@ export const content = {
                 image: 'careers/careers-2.svg',
                 animation: perkAnimation2
             },{
-                title: 'A share of the initial token supply',
+                title: 'Meaningful long-term compensation package',
                 image: 'careers/careers-3.svg',
                 animation: perkAnimation3
             },{

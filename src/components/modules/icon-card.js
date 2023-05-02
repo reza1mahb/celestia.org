@@ -3,12 +3,12 @@ import Image from "../imageComponent";
 import { Link } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-export default function IconCard({ content, flexDirection, iconPosition = "center" }) {
+export default function IconCard({imageClass, content, flexDirection, iconPosition = "center" }) {
 	if (content.type === "internal") {
 		return (
 			<Link to={`${content.url}`} id={"internal"}>
 				<div className={`icon-card ${flexDirection}`}>
-					<div className={`logo-container ${iconPosition}`}>
+					<div className={`logo-container ${iconPosition} ${imageClass}`}>
 						<Image alt={content.title} filename={content.image} />
 					</div>
 					<div className='text-box'>
@@ -22,7 +22,7 @@ export default function IconCard({ content, flexDirection, iconPosition = "cente
 		return (
 			<a href={content.url} target={"_blank"} rel={"noreferrer"} aria-label={content.text} id={"external"}>
 				<div className={`icon-card ${flexDirection}`}>
-					<div className={`logo-container ${iconPosition}`}>
+					<div className={`logo-container ${iconPosition} ${imageClass}`}>
 						<Image alt={content.title} filename={content.image} />
 					</div>
 					<div className='text-box'>
@@ -36,7 +36,7 @@ export default function IconCard({ content, flexDirection, iconPosition = "cente
 		return (
 			<AnchorLink to={`/developer-portal#${content.title.replace(/\s+/g, "-").toLowerCase()}`}>
 				<div className={`icon-card ${flexDirection}`}>
-					<div className={`logo-container ${iconPosition}`}>
+					<div className={`logo-container ${iconPosition} ${imageClass}`}>
 						<Image alt={content.title} filename={content.image} />
 					</div>
 					<div className='text-box'>

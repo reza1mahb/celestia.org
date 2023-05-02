@@ -1,5 +1,5 @@
 .icon-card {
-	background: #f4f4f5;
+	background: #F7F7F7;
 	border-radius: 12px;
 	padding: 30px;
 	width: 100%;
@@ -12,8 +12,8 @@
 		display: flex;
 
 		.gatsby-image-wrapper {
+			height: auto;
 			width: 60px;
-			height: 60px;
 		}
 
 		img {
@@ -34,7 +34,7 @@
 		font-weight: 300;
 		font-size: 14px;
 		color: #393939;
-		letter-spacing: 0;
+		letter-spacing: 0;              
 		line-height: 20px;
 		margin-top: 26px;
 		max-width: 450px;
@@ -58,6 +58,13 @@
 			&.center {
 				align-self: center;
 			}
+		}
+
+		& .square {
+			padding: 10px;
+			background-color: white;
+			border-radius: 6px;
+			border: 1px solid #e9e9e9;
 		}
 
 		& .title {
