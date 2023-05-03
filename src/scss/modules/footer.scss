@@ -11,10 +11,10 @@ footer{
     background-size:auto 1800px;
   }
   @include media-breakpoint-down(md) {
-    background-size:auto 2300px;
+    background-size:auto 2000px;
   }
   @include media-breakpoint-down(sm) {
-    background-size:auto 2600px;
+    background-size:auto 2400px;
   }
 
   .footer-boxes{
