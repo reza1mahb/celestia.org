@@ -1,5 +1,41 @@
 .developer-portal {
 	position: relative;
+
+	z-index: 0;
+	background: url(../images/BG/technology.png) no-repeat scroll top 500px right transparent;
+
+	@include media-breakpoint-down(xl) {
+		background-position: top 320px right;
+	}
+	@include media-breakpoint-down(lg) {
+		background-position: top 350px right;
+	}
+	@include media-breakpoint-down(md) {
+		background-position: top 450px right;
+	}
+	@include media-breakpoint-down(sm) {
+		background-position: -210px 450px;
+	}
+
+	main {
+		z-index: 0;
+		background: url(../images/BG/home.png) no-repeat scroll top 1800px left transparent;
+
+		@include media-breakpoint-down(xl) {
+			background-position: top 2000px left;
+		}
+		@include media-breakpoint-down(lg) {
+			background-position: top 2000px left;
+		}
+		@include media-breakpoint-down(md) {
+			background-position: top 3400px left;
+		}
+		@include media-breakpoint-down(sm) {
+			background-position: top 3300px left
+		}
+	
+	}
+
 	&:before {
 		background: url(../images/BG/developer-page.png) no-repeat scroll top right transparent;
 		background-size: contain;
