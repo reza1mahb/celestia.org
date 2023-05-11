@@ -89,27 +89,6 @@
               "slug": "/learn/modular-settlement-layers/settlement-in-the-modular-stack"
             }
           ]
-        },
-        {
-          "title": "Modular scalability",
-          "articles": [
-            {
-              "title": "Execution layers",
-              "slug": "/learn/modular-scalability/execution-layers/"
-            },{
-                "title": "Data availability and settlement layers",
-                "slug": "/learn/modular-scalability/data-availability-and-settlement-layers"
-            }
-          ]
-        },
-        {
-          "title": "Building blockchains",
-          "articles": [
-            {
-              "title": "Deploying new blockchains in the modular stack",
-              "slug": "/learn/building-blockchains/deploying-new-blockchains-in-the-modular-stack"
-            }
-          ]
         }
       ]
     }
