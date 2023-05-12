@@ -122,7 +122,7 @@ const WhatIsCelestia = () => {
 											Think of Celestia as a power grid, except instead of providing electricity, Celestia provides the
 											essential resource to power a blockchain: consensus and data availability. Similar to how anyone can plug
 											into an electricity grid to power their appliance, anyone can plug into Celestia’s network to power their
-											own blockchain. The Celestia token is the currency you use to pay for electricity.
+											own blockchain.
 										</p>
 									</div>
 									<div className={"image-box--analogy col-12 col-lg-6"}>
