@@ -8,7 +8,10 @@ export const community = {
 			text: "Ask general questions and chat with the worldwide community on Telegram.",
 			image: "developer-portal/discord.png",
 			type: "external",
-			url: "/",
+			link: {
+				text:"Visit Forum",
+				url: "/",
+			},
 		},
 		{
 			id: 2,
@@ -16,7 +19,10 @@ export const community = {
 			text: "Follow @celestiaorg to get the latest news and updates from across the ecosystem.",
 			image: "developer-portal/forum.png",
 			type: "external",
-			url: "/",
+			link: {
+				text:"Join Discord",
+				url: "/",
+			},
 		},
 	],
 };

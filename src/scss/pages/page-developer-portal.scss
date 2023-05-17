@@ -31,9 +31,8 @@
 			background-position: top 3400px left;
 		}
 		@include media-breakpoint-down(sm) {
-			background-position: top 3300px left
+			background-position: top 3300px left;
 		}
-	
 	}
 
 	&:before {
@@ -138,6 +137,70 @@
 		@include media-breakpoint-down(sm) {
 			padding-top: 90px;
 		}
+
+		& .icon-card-wrapper:nth-child(1) {
+			& .icon-card {
+				background-color: #f3ecff;
+			}
+		}
+		& .icon-card-wrapper:nth-child(2) {
+			& .icon-card {
+				background-color: #def7ff;
+			}
+		}
+		& .icon-card-wrapper:nth-child(3) {
+			& .icon-card {
+				background-color: #fff2e1;
+			}
+		}
+	}
+
+	.tutorials {
+		& .icon-card-wrapper {
+			& .icon-card {
+				background-color: transparent;
+				& .logo-container {
+					padding: 12px;
+					background-color: #e8e8e8;
+					border-radius: 9999px;
+				}
+			}
+		}
+		& .icon-card-wrapper:nth-child(2) .icon-card .logo-container {
+			padding: 12px;
+			background-color: #f3e4ce;
+			border-radius: 9999px;
+		}
+	}
+
+	.connect {
+		background-color: #fff2e1;
+		padding: 0 75px;
+		.icon-card {
+			@include media-breakpoint-down(md) {
+				padding: 30px 0px;
+			}
+		}
+		@include media-breakpoint-down(md) {
+			padding: 40px 30px;
+		}
+		& .icon-card-wrapper .icon-card {
+			background: transparent;
+		}
+	}
+
+	.concepts {
+		padding: 40px 75px;
+		@include media-breakpoint-down(md) {
+			padding: 75px 0px 0px 0px;
+		}
+		& .icon-card-wrapper .icon-card {
+			background: transparent;
+			padding: 10px;
+			@include media-breakpoint-down(md) {
+				padding: 0px 30px;
+			}
+		}
 	}
 
 	.connect,
@@ -149,6 +212,17 @@
 				max-width: 100%;
 			}
 		}
+	}
+	.faqs {
+		@include media-breakpoint-down(md) {
+			padding-top: 75px;
+			padding-bottom: 0px;
+		}
+	}
+
+	.discover {
+		padding-top: 75px;
+		padding-bottom: 0px;
 	}
 
 	.button-simple,

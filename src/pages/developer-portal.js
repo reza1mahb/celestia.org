@@ -5,6 +5,7 @@ import { getStarted } from "../datas/developer-portal/get-started";
 import { tutorials } from "../datas/developer-portal/tutorials";
 import { connect } from "../datas/developer-portal/connect";
 import { concepts } from "../datas/developer-portal/concepts";
+import { discover } from "../datas/developer-portal/discover";
 import { faqs } from "../datas/developer-portal/faq";
 import { community } from "../datas/developer-portal/community";
 import { FooterBoxes } from "../datas/developer-portal/content";
@@ -39,31 +40,25 @@ const DevPortal = () => {
 							<div className={"row gx-3 gy-3 pt-4 pb-3"}>
 								{getStarted.items.map(function (item) {
 									return (
-										<div className='col-12 col-md min-width-33'>
-											<IconCard key={item.id} content={item} flexDirection={"anchor"} />
-										</div>
+										<IconCard className='icon-card-wrapper col-12 col-md min-width-33' key={item.id} content={item} variant={"anchor no-image"} />
 									);
 								})}
 							</div>
 						</section>
 
-						<section id={`${getStarted.items[0].title.replace(/\s+/g, "-").toLowerCase()}`}  className='tutorials'>
+						<section className='tutorials' id={`${getStarted.items[0].title.replace(/\s+/g, "-").toLowerCase()}`}>
 							<h2 className={"with-decor"}>{tutorials.title}</h2>
 							{tutorials.description && <div className={"description"}>{tutorials.description}</div>}
 							<div className={"row gx-3 gy-3 my-2 pt-4 pb-3"}>
 								{tutorials.items.map(function (item) {
-									return (
-										<div className='col-12 col-md min-width-33'>
-											<IconCard key={item.id} content={item} flexDirection={"vertical"} />
-										</div>
-									);
+									return <IconCard className='icon-card-wrapper col-12 col-md min-width-33' key={item.id} content={item} variant={"vertical"} />;
 								})}
 							</div>
 						</section>
 
-						<section id={`${getStarted.items[1].title.replace(/\s+/g, "-").toLowerCase()}`}  className='connect'>
-							<div className={"row justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
-								<div className='col-12 col-xl-4 mb-5'>
+						<section className='connect' id={`${getStarted.items[1].title.replace(/\s+/g, "-").toLowerCase()}`}>
+							<div className={"row align-items-center justify-content-between my-2 py-2 py-lg-5"}>
+								<div className='col-12 col-xl-4 mb-5 mb-md-0'>
 									<h2 className={"with-decor"}>{connect.title}</h2>
 									{connect.description && <div className={"description"}>{connect.description}</div>}
 								</div>
@@ -71,9 +66,13 @@ const DevPortal = () => {
 									<div className='gx-3 gy-3 row'>
 										{connect.items.map(function (item) {
 											return (
-												<div className='col-12'>
-													<IconCard imageClass={'square'} key={item.id} content={item} flexDirection={"horizontal"} />
-												</div>
+												<IconCard
+													className='col-12 icon-card-wrapper'
+													imageClass={"square"}
+													key={item.id}
+													content={item}
+													variant={"horizontal"}
+												/>
 											);
 										})}
 									</div>
@@ -81,23 +80,31 @@ const DevPortal = () => {
 							</div>
 						</section>
 
-						<section id={`${getStarted.items[2].title.replace(/\s+/g, "-").toLowerCase()}`} className='concepts'>
-							<div className={"row flex-wrap-reverse flex-xl-wrap justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
-								<div className='col-12 col-xl-7'>
+						<section className='concepts' id={`${getStarted.items[2].title.replace(/\s+/g, "-").toLowerCase()}`} >
+							<div className={"row flex-wrap-reverse flex-xl-wrap align-items-center justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
+								<div className='col-12 col-xl-8'>
 									<div className='gx-3 gy-3 row'>
 										{concepts.items.map(function (item) {
-											return (
-												<div className='col-12 col-md'>
-													<IconCard key={item.id} content={item} flexDirection={"horizontal"} />
-												</div>
-											);
+											return <IconCard className='icon-card-wrapper col-12 col-md-6' key={item.id} content={item} variant={"vertical"} />;
 										})}
 									</div>
 								</div>
-								<div className='col-12 col-xl-4 mb-5'>
+								<div className='col-12 col-xl-4 mb-5 mb-md-0'>
 									<h2 className={"with-decor"}>{concepts.title}</h2>
 									{concepts.description && <div className={"description"}>{concepts.description}</div>}
 								</div>
+							</div>
+						</section>
+
+						<section className='discover'>
+							<h2 className={"with-decor"}>{discover.title}</h2>
+							{discover.description && <div className={"description"}>{discover.description}</div>}
+							<div className={"row gx-3 gy-3 pt-4 pb-3"}>
+								{discover.items.map(function (item) {
+									return (
+										<IconCard className='icon-card-wrapper col-12 col-md min-width-33' key={item.id} content={item} variant={"no-image"} />
+									);
+								})}
 							</div>
 						</section>
 
@@ -124,9 +131,13 @@ const DevPortal = () => {
 							<div className={"row gx-3 gy-3 my-2 pt-4 pb-3"}>
 								{community.items.map(function (item) {
 									return (
-										<div className='col-12 col-md min-width-50'>
-											<IconCard key={item.id} content={item} flexDirection={"horizontal"} iconPosition={"top"} />
-										</div>
+										<IconCard
+											className='icon-card-wrapper col-12 col-md min-width-50'
+											key={item.id}
+											content={item}
+											variant={"horizontal"}
+											iconPosition={"top"}
+										/>
 									);
 								})}
 							</div>

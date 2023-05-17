@@ -6,9 +6,12 @@ export const concepts = {
 			id: 1,
 			title: "Celestia code concepts",
 			text: "",
-			image: "developer-portal/node.png",
+			image: "developer-portal/lightbulb.png",
 			type: "external",
-			url: "/",
+			link: {
+				text:"Explore concepts",
+				url: "/",
+			},
 		},
 		{
 			id: 2,
@@ -16,7 +19,10 @@ export const concepts = {
 			text: "",
 			image: "developer-portal/availability.png",
 			type: "external",
-			url: "/",
+			link: {
+				text:"Start now",
+				url: "/",
+			},
 		},
 		{
 			id: 3,
@@ -24,7 +30,10 @@ export const concepts = {
 			text: "",
 			image: "developer-portal/why-build-mod.png",
 			type: "external",
-			url: "/",
+			link: {
+				text:"Learn more",
+				url: "/",
+			},
 		}, 
 		{
 			id: 4,
@@ -32,7 +41,10 @@ export const concepts = {
 			text: "",
 			image: "developer-portal/modular.png",
 			type: "external",
-			url: "/",
+			link: {
+				text:"Read more",
+				url: "/",
+			},
 		},
 	],
 };

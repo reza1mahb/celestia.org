@@ -1,5 +1,5 @@
 .icon-card {
-	background: #F7F7F7;
+	background: #f7f7f7;
 	border-radius: 12px;
 	padding: 30px;
 	width: 100%;
@@ -34,15 +34,40 @@
 		font-weight: 300;
 		font-size: 14px;
 		color: #393939;
-		letter-spacing: 0;              
+		letter-spacing: 0;
 		line-height: 20px;
 		margin-top: 26px;
 		max-width: 450px;
 	}
+	.link-wrapper {
+		margin-top: 20px;
+		.link {
+			font-family: $ruberoid;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1em;
+			padding: 8px 0;
+			margin: -8px 0;
+			color: #000000;
+			transition: all 0.2s ease-in-out;
+			&:hover {
+				color: #393939;
+				& svg {
+					transform: translateX(4px) translateY(-2px);
+				}
+			}
+		}
+		svg {
+			margin-left: 8px;
+			transform: translateY(-2px);
+			transition: all 0.2s ease-in-out;
+		}
+	}
 
 	&.horizontal {
 		display: flex;
-		align-items: center;
+		align-items: start;
 
 		@include media-breakpoint-down(md) {
 			display: block;
@@ -93,6 +118,12 @@
 
 		& .text-box {
 			display: block;
+		}
+	}
+
+	&.no-image {
+		& .title {
+			margin-top: unset;
 		}
 	}
 }

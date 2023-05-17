@@ -8,7 +8,10 @@ export const tutorials = {
 			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
 			image: "developer-portal/rollkit.png",
 			type: "internal",
-			url: "/",
+			link: {
+				text:"Start with RollKit",
+				url: "/",
+			},
 		},
 		{
 			id: 2,
@@ -16,7 +19,10 @@ export const tutorials = {
 			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
 			image: "developer-portal/dymension.png",
 			type: "internal",
-			url: "/",
+			link: {
+				text:"Explore Dymension",
+				url: "/",
+			},
 		},
 		{
 			id: 3,
@@ -24,7 +30,10 @@ export const tutorials = {
 			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
 			image: "developer-portal/layer.png",
 			type: "internal",
-			url: "/",
+			link: {
+				text:"Try OP Stack",
+				url: "/",
+			},
 		},
 	],
 };

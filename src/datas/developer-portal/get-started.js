@@ -5,23 +5,32 @@ export const getStarted = {
 		{
 			id: 1,
 			title: "Tutorials",
-			image: "developer-portal/tutorial.png",
+			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
+			// image: "developer-portal/tutorial.png",
 			type: "anchor",
-			url: "/",
+			link: {
+				text:"Learn",
+			},
 		},
 		{
 			id: 2,
 			title: "Integrate Celestia",
-			image: "developer-portal/integrate.png",
+			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
+			// image: "developer-portal/integrate.png",
 			type: "anchor",
-			url: "/",
+			link: {
+				text:"Learn",
+			},
 		},
 		{
 			id: 3,
 			title: "Core concepts",
-			image: "developer-portal/concepts.png",
+			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
+			// image: "developer-portal/concepts.png",
 			type: "anchor",
-			url: "/",
+			link: {
+				text:"Learn",
+			},
 		},
 	],
 };
