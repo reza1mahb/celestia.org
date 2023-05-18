@@ -54,14 +54,14 @@
 			&:hover {
 				color: #393939;
 				& svg {
-					transform: translateX(4px) translateY(-2px);
+					margin-left: 16px;
 				}
 			}
 		}
 		svg {
 			margin-left: 8px;
-			transform: translateY(-2px);
 			transition: all 0.2s ease-in-out;
+			will-change: margin;
 		}
 	}
 
