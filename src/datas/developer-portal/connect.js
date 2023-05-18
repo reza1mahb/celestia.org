@@ -4,13 +4,13 @@ export const connect = {
 	items: [
 		{
 			id: 1,
-			title: "Celestia node API documentation",
-			text: "Documentation for submitting and retrieving data from Celestia.",
+			title: "Node API documentation",
+			text: "Documentation for publishing and retrieving data from Celestia.",
 			image: "developer-portal/api-doc.png",
-			type: "internal",
+			type: "external",
 			link: {
-				text:"Api Documentation",
-				url: "/",
+				text: "Api Documentation",
+				url: "https://docs.celestia.org/category/node-api/",
 			},
 		},
 		{
@@ -20,7 +20,7 @@ export const connect = {
 			image: "developer-portal/api-play.png",
 			type: "internal",
 			link: {
-				text:"Api Playground",
+				text: "Api Playground",
 				url: "/",
 			},
 		},

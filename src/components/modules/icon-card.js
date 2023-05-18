@@ -66,7 +66,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 				</div>
 			</div>
 		);
-	} else if (content.type === "anchor" || content.type === undefined) {
+	} else if (content.type === "anchor") {
 		return (
 			<div className={className}>
 				<div className={`icon-card ${variant}`}>
