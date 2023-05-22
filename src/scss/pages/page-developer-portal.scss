@@ -36,9 +36,9 @@
 	}
 
 	&:before {
-		background: url(../images/BG/developer-page.png) no-repeat scroll top right transparent;
+		background: url(../images/developer-portal/developer-portal.png) no-repeat scroll top right transparent;
 		background-size: contain;
-		top: -10px;
+		top: 30px;
 		right: 0;
 		left: 50%;
 		position: absolute;
@@ -55,30 +55,27 @@
 			left: unset;
 		}
 		@include media-breakpoint-down(lg) {
-			width: 400px;
-			height: 400px;
-			top: 40px;
+			width: 380px;
+			height: 380px;
+			top: 70px;
 			right: 50px;
 		}
 		@include media-breakpoint-down(md) {
-			width: 300px;
-			height: 300px;
+			width: 80%;
+			height: 80%;
+			max-width: 450px;
 			right: unset;
 			left: 50%;
 			transform: translateX(-50%);
-		}
-		@include media-breakpoint-down(sm) {
-			width: 67%;
-			height: 67%;
 		}
 	}
 
 	.container {
 		@include media-breakpoint-down(md) {
-			padding-top: 265px;
+			padding-top: 415px;
 		}
 		@include media-breakpoint-down(sm) {
-			padding-top: 60vw;
+			padding-top: 67vw;
 		}
 	}
 
@@ -100,6 +97,9 @@
 			max-width: 350px;
 		}
 		@include media-breakpoint-down(md) {
+			max-width: 100%;
+		}
+		@include media-breakpoint-down(sm) {
 			max-width: 300px;
 		}
 	}
@@ -134,6 +134,9 @@
 
 	.get-started {
 		padding-top: 160px;
+		@include media-breakpoint-down(md) {
+			padding-top: 120px;
+		}
 		@include media-breakpoint-down(sm) {
 			padding-top: 90px;
 		}
