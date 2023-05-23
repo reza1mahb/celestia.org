@@ -23,47 +23,67 @@ const DevPortal = () => {
 			</Helmet>
 			<div className={"developer-portal"}>
 				<main>
-					<div className={"container"}>
-						<h1 className={"main mb-3 mb-md-4"}>{heroData.title}</h1>
-						<div className={"row"}>
-							<div className={"col-auto"}>
-								<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
-								{heroData.buttons.map((button, index) => (
-									<Button key={index} class={button.class} type={button.type} text={button.text} url={button.url} />
-								))}
+					<section className='hero'>
+						<div className={"container"}>
+							<h1 className={"main mb-3 mb-md-4"}>{heroData.title}</h1>
+							<div className={"row"}>
+								<div className={"col-auto"}>
+									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
+									{heroData.buttons.map((button, index) => (
+										<Button key={index} class={button.class} type={button.type} text={button.text} url={button.url} />
+									))}
+								</div>
 							</div>
 						</div>
+					</section>
 
-						<section className='get-started'>
+					<section className='get-started'>
+						<div className={"container"}>
 							<h2 className={"with-decor"}>{getStarted.title}</h2>
 							{getStarted.description && <div className={"description"}>{getStarted.description}</div>}
 							<div className={"row gx-3 gy-3 pt-4 pb-3"}>
 								{getStarted.items.map(function (item) {
 									return (
-										<IconCard className='icon-card-wrapper col-12 col-md min-width-33' key={item.id} content={item} variant={"anchor no-image"} />
+										<IconCard
+											className='icon-card-wrapper col-12 col-md min-width-33'
+											key={item.id}
+											content={item}
+											variant={"anchor no-image"}
+										/>
 									);
 								})}
 							</div>
-						</section>
+						</div>
+					</section>
 
-						<section className='tutorials' id={`${getStarted.items[0].title.replace(/\s+/g, "-").toLowerCase()}`}>
+					<section className='tutorials' id={`${getStarted.items[0].title.replace(/\s+/g, "-").toLowerCase()}`}>
+						<div className={"container"}>
 							<h2 className={"with-decor"}>{tutorials.title}</h2>
 							{tutorials.description && <div className={"description"}>{tutorials.description}</div>}
-							<div className={"row gx-3 gy-3 my-2 pt-4 pb-3"}>
+							<div className={"row gx-3 gy-5 gy-md-3 my-2 pt-0 pt-md-4 pb-3"}>
 								{tutorials.items.map(function (item) {
-									return <IconCard className='icon-card-wrapper col-12 col-md min-width-33' key={item.id} content={item} variant={"vertical"} />;
+									return (
+										<IconCard
+											className='icon-card-wrapper col-12 col-md min-width-33'
+											key={item.id}
+											content={item}
+											variant={"vertical"}
+										/>
+									);
 								})}
 							</div>
-						</section>
+						</div>
+					</section>
 
-						<section className='connect' id={`${getStarted.items[1].title.replace(/\s+/g, "-").toLowerCase()}`}>
+					<section className='connect' id={`${getStarted.items[1].title.replace(/\s+/g, "-").toLowerCase()}`}>
+						<div className={"connect-container"}>
 							<div className={"row align-items-center justify-content-between my-2 py-2 py-lg-5"}>
 								<div className='col-12 col-xl-4 mb-5 mb-md-0'>
 									<h2 className={"with-decor"}>{connect.title}</h2>
 									{connect.description && <div className={"description"}>{connect.description}</div>}
 								</div>
 								<div className='col-12 col-xl-7'>
-									<div className='gx-3 gy-3 row'>
+									<div className='gx-3 gy-5 row'>
 										{connect.items.map(function (item) {
 											return (
 												<IconCard
@@ -78,14 +98,23 @@ const DevPortal = () => {
 									</div>
 								</div>
 							</div>
-						</section>
+						</div>
+					</section>
 
-						<section className='concepts' id={`${getStarted.items[2].title.replace(/\s+/g, "-").toLowerCase()}`} >
+					<section className='concepts' id={`${getStarted.items[2].title.replace(/\s+/g, "-").toLowerCase()}`}>
+						<div className={"container"}>
 							<div className={"row flex-wrap-reverse flex-xl-wrap align-items-center justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
 								<div className='col-12 col-xl-8'>
-									<div className='gx-3 gy-3 row'>
+									<div className='gx-3 gy-5 row'>
 										{concepts.items.map(function (item) {
-											return <IconCard className='icon-card-wrapper col-12 col-md-6' key={item.id} content={item} variant={"vertical"} />;
+											return (
+												<IconCard
+													className='icon-card-wrapper col-12 col-md-6'
+													key={item.id}
+													content={item}
+													variant={"vertical"}
+												/>
+											);
 										})}
 									</div>
 								</div>
@@ -94,21 +123,30 @@ const DevPortal = () => {
 									{concepts.description && <div className={"description"}>{concepts.description}</div>}
 								</div>
 							</div>
-						</section>
+						</div>
+					</section>
 
-						<section className='discover'>
+					<section className='discover'>
+						<div className={"container"}>
 							<h2 className={"with-decor"}>{discover.title}</h2>
 							{discover.description && <div className={"description"}>{discover.description}</div>}
 							<div className={"row gx-3 gy-3 pt-4 pb-3"}>
 								{discover.items.map(function (item) {
 									return (
-										<IconCard className='icon-card-wrapper col-12 col-md min-width-33' key={item.id} content={item} variant={"no-image"} />
+										<IconCard
+											className='icon-card-wrapper col-12 col-md min-width-33'
+											key={item.id}
+											content={item}
+											variant={"no-image"}
+										/>
 									);
 								})}
 							</div>
-						</section>
+						</div>
+					</section>
 
-						<section className='faqs'>
+					<section className='faqs'>
+						<div className={"container"}>
 							<div className={"row justify-content-between my-2 pt-2 pt-lg-5 pb-3"}>
 								<div className='col-12 col-xl-4 mb-5'>
 									<h2 className={"with-decor"}>{faqs.title}</h2>
@@ -123,9 +161,11 @@ const DevPortal = () => {
 									<div className={"clear"} />
 								</div>
 							</div>
-						</section>
+						</div>
+					</section>
 
-						<section className='community'>
+					<section className='community'>
+						<div className={"container"}>
 							<h2 className={"with-decor community-title"}>{community.title}</h2>
 							{community.description && <div className={"description community-description"}>{community.description}</div>}
 							<div className={"row gx-3 gy-3 my-2 pt-4 pb-3"}>
@@ -141,8 +181,8 @@ const DevPortal = () => {
 									);
 								})}
 							</div>
-						</section>
-					</div>
+						</div>
+					</section>
 				</main>
 			</div>
 		</Layout>

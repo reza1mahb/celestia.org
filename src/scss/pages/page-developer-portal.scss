@@ -61,21 +61,12 @@
 			right: 50px;
 		}
 		@include media-breakpoint-down(md) {
-			width: 80%;
-			height: 80%;
+			width: 78%;
+			height: 78%;
 			max-width: 450px;
 			right: unset;
 			left: 50%;
 			transform: translateX(-50%);
-		}
-	}
-
-	.container {
-		@include media-breakpoint-down(md) {
-			padding-top: 415px;
-		}
-		@include media-breakpoint-down(sm) {
-			padding-top: 67vw;
 		}
 	}
 
@@ -132,13 +123,28 @@
 		}
 	}
 
+	.hero {
+		@include media-breakpoint-down(md) {
+			padding-top: 415px;
+		}
+		@include media-breakpoint-down(sm) {
+			padding-top: 70vw;
+		}
+	}
+
 	.get-started {
-		padding-top: 160px;
+		padding-top: 140px;
 		@include media-breakpoint-down(md) {
 			padding-top: 120px;
 		}
 		@include media-breakpoint-down(sm) {
-			padding-top: 90px;
+			padding-top: 35px;
+		}
+
+		& .icon-card {
+			@include media-breakpoint-down(md) {
+				padding: 30px;
+			}
 		}
 
 		& .icon-card-wrapper:nth-child(1) {
@@ -159,6 +165,10 @@
 	}
 
 	.tutorials {
+		padding-top: 100px;
+		@include media-breakpoint-down(md) {
+			padding-top: 50px;
+		}
 		& .icon-card-wrapper {
 			& .icon-card {
 				background-color: transparent;
@@ -176,16 +186,25 @@
 		}
 	}
 
-	.connect {
+
+	.connect-container {
 		background-color: #fff2e1;
-		padding: 0 75px;
-		.icon-card {
-			@include media-breakpoint-down(md) {
-				padding: 30px 0px;
-			}
+		padding: 50px 20px;
+		@include media-breakpoint-up(md) {
+			width: 90%;
+			margin: auto;
+			max-width: 1300px;
+			padding: 0 75px;
+			border-radius: 8px;;
 		}
-		@include media-breakpoint-down(md) {
-			padding: 40px 30px;
+	}
+
+	.connect {
+		padding: 0px;
+		& .icon-card {
+			@include media-breakpoint-down(md) {
+				padding: 0px;
+			}
 		}
 		& .icon-card-wrapper .icon-card {
 			background: transparent;
@@ -195,13 +214,13 @@
 	.concepts {
 		padding: 40px 75px;
 		@include media-breakpoint-down(md) {
-			padding: 75px 0px 0px 0px;
+			padding: 50px 0px 0px 0px;
 		}
 		& .icon-card-wrapper .icon-card {
 			background: transparent;
 			padding: 10px;
 			@include media-breakpoint-down(md) {
-				padding: 0px 30px;
+				padding: 0px;
 			}
 		}
 	}
@@ -218,7 +237,7 @@
 	}
 	.faqs {
 		@include media-breakpoint-down(md) {
-			padding-top: 75px;
+			padding-top: 50px;
 			padding-bottom: 0px;
 		}
 	}
@@ -226,6 +245,11 @@
 	.discover {
 		padding-top: 75px;
 		padding-bottom: 0px;
+		& .icon-card {
+			@include media-breakpoint-down(md) {
+				padding: 30px;
+			}
+		}
 	}
 
 	.button-simple,
@@ -240,8 +264,13 @@
 
 	.community {
 		padding-bottom: 100px;
-		@include media-breakpoint-down(sm) {
-			padding-bottom: 80px;
+		@include media-breakpoint-down(md) {
+			padding-bottom: 50px;
+		}
+		& .icon-card {
+			@include media-breakpoint-down(md) {
+				padding: 30px;
+			}
 		}
 	}
 
