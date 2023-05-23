@@ -1,12 +1,12 @@
 .hero-section{
-  padding:0 0 140px;
+  padding:0 0 120px;
 
   @include media-breakpoint-down(md) {
     padding:0 0 120px;
   }
 
   @include media-breakpoint-down(sm) {
-    padding:0 0 85px;
+    padding:0 0 55px;
   }
 
   .container{

@@ -1,5 +1,9 @@
 .cards-section{
   width:100%;
+  padding-top: 100px;
+  @include media-breakpoint-down(md) {
+    padding-top: 50px;
+  }
 
   .subtitle{
     font-family: $inter;

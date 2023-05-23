@@ -1,36 +1,52 @@
-.advantage{
-  .gatsby-image-wrapper, img, svg{
-    max-width:170px;
-    margin:auto;
-    width:100%;
-  }
+.advantage {
+	border-radius: 12px;
+	background: rgba(247, 247, 247, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.04);
+	padding: 35px 25px;
+	height: 100%;
+	@include media-breakpoint-down(md) {
+		height: auto;
+	}
 
-  .title{
-    font-family: $ruberoid;
-    font-weight:bold;
-    margin-bottom:20px;
-    font-size: 32px;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: 40px;
+	.image-wrapper {
+		margin-bottom: 32px;
+		max-width: 170px;
+	}
 
-    @include media-breakpoint-down(md) {
-      font-size:24px;
-      line-height:27px;
-    }
-  }
+	.gatsby-image-wrapper,
+	img,
+	svg {
+		max-width: 170px;
+		margin: auto;
+		width: 100%;
+	}
 
-  .text{
-    font-family: $inter;
-    font-weight:300;
-    font-size: 18px;
-    color: #414141;
-    letter-spacing: -0.1px;
-    line-height: 27px;
+	.title {
+		font-family: $ruberoid;
+		font-weight: bold;
+		margin-bottom: 20px;
+		font-size: 32px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 40px;
 
-    @include media-breakpoint-down(md) {
-      font-size:15px;
-      line-height:23px;
-    }
-  }
+		@include media-breakpoint-down(md) {
+			font-size: 24px;
+			line-height: 27px;
+		}
+	}
+
+	.text {
+		font-family: $inter;
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 26px;
+		color: #414141;
+		letter-spacing: -0.1px;
+
+		@include media-breakpoint-down(md) {
+			font-size: 15px;
+			line-height: 23px;
+		}
+	}
 }
