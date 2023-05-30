@@ -10,7 +10,7 @@ const Advantage = ({ key, title, text, image }) => {
 				</div>
 				<div className={"col col-12"}>
 					<div className={"title"}>{title}</div>
-					<div className={"text"}>{text}</div>
+					<div className={"text"} dangerouslySetInnerHTML={{ __html: text }}></div>
 				</div>
 			</div>
 		</div>

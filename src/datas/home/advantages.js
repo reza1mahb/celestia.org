@@ -17,7 +17,7 @@ export const advantages = [
     },{
         id: '4',
         title: 'Sovereign',
-        text: 'Build sovereign rollups, a new type of self-governing blockchain with minimal platform risk',
+        text: 'Build sovereign rollups, a new type of <a href="https://www.google.com/">https://www.google.com/</a> self-governing blockchain with minimal platform risk',
         image: 'advantages/advantage-4.png',
     },
 ]
