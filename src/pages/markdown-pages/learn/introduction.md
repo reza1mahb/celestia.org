@@ -7,7 +7,7 @@ date: "2022-11-18"
 icon: ""
 category: ""
 subcategory: ""
-title: "Learn Modular: introduction"
+title: "Learn Modular"
 description: "What is Learn Modular?"
 ---
 
@@ -20,9 +20,17 @@ description: "What is Learn Modular?"
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
 <head/>
 
-#### Summary
-Welcome to learn modular, your go-to place to learn about modular blockchains and everything in between. We are building Learn Modular to cater to many different stages of learning, so hopefully there is content that will help you get a better grasp on the ideas behind modular blockchains.
+Modular blockchains are amazing, right?
 
-Learn modular has three distinct categories; beginner, intermediate, and advanced. The beginner section focuses on the fundamentals. Specifically, bringing you up to speed on the basics of blockchains and the first principles behind modular blockchains. The intermediate section dives into more of the details behind modular blockchains and many of the new concepts that you will encounter when learning about Celestia. Finally, the advanced section explores the concepts learned in the intermediate section at a deeper level, and of course including a couple new concepts.
+You’ve probably heard something along those lines. Maybe from a friend or someone on twitter.
 
-We hope you enjoy the material!
+Now you’re trying to figure out what a modular blockchain is.
+
+Well, this page is for you.
+
+Whether you’re a developer, researcher, or a blockchain enthusiast, Learn Modular was made to help anyone easily understand modular blockchains.
+
+#### So, where should you start?
+- Developers: <a href="https://docs.celestia.org/concepts/how-celestia-works/introduction/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">start here</a>.
+- Enthusiasts: <a href="https://celestia.org/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">begin here</a>.
+- Researchers: <a href="https://celestia.org/learn/sovereign-rollups/an-introduction/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">enter here</a>.
