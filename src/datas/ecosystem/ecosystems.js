@@ -36,6 +36,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/astria.png',
                 url: 'https://astria.org/'
+            },
+            {
+                title: 'Radius',
+                text: '',
+                image: 'ecosystem/radius.png',
+                url: 'https://www.theradius.xyz/'
             }
         ]
     },{
@@ -53,6 +59,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/neutron.png',
                 url: 'https://neutron.org/'
+            },
+            {
+                title: 'Berachain',
+                text: '',
+                image: 'ecosystem/berachain.png',
+                url: 'https://berachain.com/'
             }
         ]
     },{
@@ -70,6 +82,18 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/sovereign.png',
                 url: 'https://sovereign.xyz/'
+            },
+            {
+                title: 'Optimism',
+                text: '',
+                image: 'ecosystem/optimism.png',
+                url: 'https://www.optimism.io/'
+            },
+            {
+                title: 'Stackr',
+                text: '',
+                image: 'ecosystem/stackr.png',
+                url: 'https://www.stackrlabs.xyz/'
             }
         ]
     },{
@@ -145,6 +169,18 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/duality.png',
                 url: 'https://duality.xyz/',
+            },
+            {
+                title: 'Catalyst',
+                text: '',
+                image: 'ecosystem/catalyst.png',
+                url: 'https://catalyst.exchange/',
+            },
+            {
+                title: 'Noble',
+                text: '',
+                image: 'ecosystem/noble.png',
+                url: 'https://nobleassets.xyz/',
             }
         ]
     },{
