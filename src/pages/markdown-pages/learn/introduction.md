@@ -30,7 +30,7 @@ Well, this page is for you.
 
 Whether you’re a developer, researcher, or a blockchain enthusiast, Learn Modular was made to help anyone easily understand modular blockchains.
 
-#### So, where should you start?
-- Developers: <a href="https://docs.celestia.org/concepts/how-celestia-works/introduction/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">start here</a>.
-- Enthusiasts: <a href="https://celestia.org/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">begin here</a>.
-- Researchers: <a href="https://celestia.org/learn/sovereign-rollups/an-introduction/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">enter here</a>.
+##### So, where should you start?
+- **Developers**: <a href="https://docs.celestia.org/concepts/how-celestia-works/introduction/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">start here</a>.
+- **Enthusiasts**: <a href="https://celestia.org/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">begin here</a>.
+- **Researchers**: <a href="https://celestia.org/learn/sovereign-rollups/an-introduction/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">enter here</a>.
