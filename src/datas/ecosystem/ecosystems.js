@@ -14,6 +14,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/eclipse.png',
                 url: 'https://www.eclipse.builders/'
+            },
+            {
+                title: 'Vistara',
+                text: '',
+                image: 'ecosystem/vistara.png',
+                url: 'https://docs.vistara.dev/'
             }
         ]
     },{
@@ -98,6 +104,23 @@ export const ecosystemCategories = [
         ]
     },{
         id : 6,
+        name : 'Virtual machine',
+        ecosystems: [
+            {
+                title: 'Risc Zero',
+                text: '',
+                image: 'ecosystem/risczero.png',
+                url: 'https://www.risczero.com/'
+            },
+            {
+                title: 'Polaris',
+                text: '',
+                image: 'ecosystem/berachain.png',
+                url: 'https://berachain.com/'
+            }
+        ]
+    },{
+        id : 7,
         name : 'Cross chain',
         ecosystems: [
             {
@@ -132,7 +155,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 7,
+        id : 8,
         name : 'Wallet',
         ecosystems: [
             {
@@ -155,7 +178,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 8,
+        id : 9,
         name : 'DeFi',
         ecosystems: [
             {
@@ -181,10 +204,16 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/noble.png',
                 url: 'https://nobleassets.xyz/',
+            },
+            {
+                title: 'Shogun',
+                text: '',
+                image: 'ecosystem/shogun.png',
+                url: 'https://twitter.com/shogunfi',
             }
         ]
     },{
-        id : 9,
+        id : 10,
         name : 'Gaming',
         ecosystems: [
             {
@@ -201,7 +230,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 10,
+        id : 11,
         name : 'Infrastructure',
         ecosystems: [
             {
@@ -230,7 +259,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 11,
+        id : 12,
         name : 'MEV',
         ecosystems: [
             {
