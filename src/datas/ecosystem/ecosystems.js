@@ -71,6 +71,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/berachain.png',
                 url: 'https://berachain.com/'
+            },
+            {
+                title: 'Layer N',
+                text: '',
+                image: 'ecosystem/layern.png',
+                url: 'https://www.layern.com/'
             }
         ]
     },{
