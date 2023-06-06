@@ -1,0 +1,213 @@
+.community {
+	position: relative;
+	background: url(../images/BG/technology.png) no-repeat scroll top 400px right transparent;
+	background-size: 600px;
+
+	@include media-breakpoint-down(xl) {
+		background-position: top 520px right;
+		background-size: 600px;
+	}
+	@include media-breakpoint-down(lg) {
+		background-position: top 250px right;
+		background-size: 800px;
+	}
+	@include media-breakpoint-down(md) {
+		background-position: top 600px right;
+		background-size: 600px;
+	}
+	@include media-breakpoint-down(sm) {
+		background-position: -100px 250px;
+		background-size: 800px;
+	}
+	&:before {
+		background: url(../images/community/community.png) no-repeat scroll top right transparent;
+		background-size: contain;
+		top: 30px;
+		right: 0;
+		left: 55%;
+		position: absolute;
+		content: "";
+		width: 560px;
+		height: 560px;
+		z-index: 0;
+
+		@include media-breakpoint-down(xl) {
+			width: 480px;
+			height: 480px;
+			top: 30px;
+			right: 60px;
+			left: unset;
+		}
+		@include media-breakpoint-down(lg) {
+			width: 380px;
+			height: 380px;
+			top: 70px;
+			right: 50px;
+		}
+		@include media-breakpoint-down(md) {
+			width: 72%;
+			height: 72%;
+			max-width: 450px;
+			right: unset;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+
+	main {
+		padding-top: 100px;
+		background: url(../images/BG/home.png) no-repeat scroll top 1000px left transparent;
+		background-size: 600px;
+
+		@include media-breakpoint-down(xl) {
+			background-position: top 1000px left;
+			background-size: 600px;
+		}
+		@include media-breakpoint-down(lg) {
+			background-position: top 1600px left;
+			background-size: 600px;
+		}
+		@include media-breakpoint-down(md) {
+			background-position: top 1700px left;
+			background-size: 800px;
+		}
+		@include media-breakpoint-down(sm) {
+			background-position: top 1800px left;
+			background-size: 600px;
+		}
+	}
+	section {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		@include media-breakpoint-down(sm) {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+
+	.main {
+		max-width: 600px;
+		@include media-breakpoint-down(lg) {
+			max-width: 350px;
+		}
+		@include media-breakpoint-down(md) {
+			max-width: 100%;
+		}
+		@include media-breakpoint-down(sm) {
+			max-width: 100%;
+		}
+	}
+
+	.subtitle {
+		font-family: $ruberoid;
+		font-weight: 500;
+		font-size: 18px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 25px;
+		margin-bottom: 30px;
+		max-width: 400px;
+		@include media-breakpoint-down(sm) {
+			max-width: 100%;
+		}
+	}
+
+	.description {
+		font-family: $inter;
+		font-weight: 300;
+		font-size: 16px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 24px;
+		margin-top: 22px;
+		max-width: 400px;
+		@include media-breakpoint-down(sm) {
+			max-width: 100%;
+		}
+	}
+
+	.hero {
+		@include media-breakpoint-down(md) {
+			padding-top: 455px;
+		}
+		@include media-breakpoint-down(sm) {
+			padding-top: 70vw;
+		}
+	}
+
+	.social-channels {
+		padding-top: 100px;
+		@include media-breakpoint-down(md) {
+			padding-top: 60px;
+		}
+		.title {
+			max-width: 452px;
+		}
+	}
+
+	.explore {
+		padding-top: 70px;
+		padding-bottom: 60px;
+		.title {
+			max-width: 452px;
+		}
+	}
+
+	.ecosystem {
+		padding-bottom: 100px;
+		@include media-breakpoint-down(md) {
+			padding-bottom: 70px;
+		}
+		.title {
+			max-width: 452px;
+			margin-bottom: 30px;
+			@include media-breakpoint-down(md) {
+				margin-bottom: 16px;
+			}
+		}
+		.text {
+			margin-bottom: 30px;
+		}
+		.image-wrapper {
+			margin-left: auto;
+			margin-right: auto;
+			@include media-breakpoint-down(lg) {
+				max-width: 70%;
+			}
+			@include media-breakpoint-down(md) {
+				max-width: 80%;
+			}
+			@include media-breakpoint-down(sm) {
+				max-width: 90%;
+			}
+		}
+	}
+
+	.connect,
+	.concepts,
+	.faqs {
+		.description {
+			max-width: 350px;
+			@include media-breakpoint-down(sm) {
+				max-width: 100%;
+			}
+		}
+	}
+
+	.button-simple,
+	.button-white,
+	.button-icon,
+	.button-external {
+		margin-right: 20px;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 20px;
+		}
+	}
+
+	.min-width-50 {
+		min-width: 50%;
+	}
+	.min-width-33 {
+		min-width: 33%;
+	}
+}
