@@ -15,7 +15,7 @@ const Community = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<Helmet>
-				<title>Celestia - Developer Portal</title>
+				<title>Celestia - Community</title>
 			</Helmet>
 			<div className={"community"}>
 				<main>
