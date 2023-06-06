@@ -9,11 +9,10 @@ export const heroData = {
                 url: '/what-is-celestia/'
             },
             {
-                text: 'Build on testnet',
+                text: 'Build modular',
                 class: 'white',
-                type: 'external',
-                url: 'https://docs.celestia.org/'
+                type: 'internal',
+                url: '/developer-portal/'
             }
         ]
 }
-

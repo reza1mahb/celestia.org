@@ -73,11 +73,11 @@ const navigation = [
         url: "",
         submenus: [
             {
-                text: "Build on testnet",
-                subtext: "Testnet",
-                url: "https://docs.celestia.org/",
+                text: "Start with the dev portal",
+                subtext: "Developer portal",
+                url: "/developer-portal/",
                 icon: "menu/devnet.svg",
-                type: 'external'
+                type: 'internal'
             },
             {
                 text: "Read our docs",
