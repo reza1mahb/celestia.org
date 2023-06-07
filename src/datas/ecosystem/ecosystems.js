@@ -97,7 +97,7 @@ export const ecosystemCategories = [
                 url: 'https://sovereign.xyz/'
             },
             {
-                title: 'Optimism',
+                title: 'OP Stack',
                 text: '',
                 image: 'ecosystem/optimism.png',
                 url: 'https://www.optimism.io/'
