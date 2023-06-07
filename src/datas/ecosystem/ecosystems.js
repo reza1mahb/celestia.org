@@ -24,17 +24,6 @@ export const ecosystemCategories = [
         ]
     },{
         id : 2,
-        name : 'Sequencer as a service',
-        ecosystems: [
-            {
-                title: 'Saga',
-                text: '',
-                image: 'ecosystem/saga.png',
-                url: 'https://www.saga.xyz/'
-            }
-        ]
-    },{
-        id : 3,
         name : 'Shared sequencer network',
         ecosystems: [
             {
@@ -48,10 +37,16 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/radius.png',
                 url: 'https://www.theradius.xyz/'
+            },
+            {
+                title: 'Fairblock',
+                text: '',
+                image: 'ecosystem/fairblock.png',
+                url: 'https://twitter.com/Fair_Block'
             }
         ]
     },{
-        id : 4,
+        id : 3,
         name : 'Settlement layer',
         ecosystems: [
              {
@@ -77,10 +72,16 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/layern.png',
                 url: 'https://www.layern.com/'
+            },
+            {
+                title: 'Saga',
+                text: '',
+                image: 'ecosystem/saga.png',
+                url: 'https://www.saga.xyz/'
             }
         ]
     },{
-        id : 5,
+        id : 4,
         name : 'Rollup framework',
         ecosystems: [
             {
@@ -109,7 +110,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 6,
+        id : 5,
         name : 'Virtual machine',
         ecosystems: [
             {
@@ -123,10 +124,16 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/berachain.png',
                 url: 'https://berachain.com/'
+            },
+            {
+                title: 'CosmWasm',
+                text: '',
+                image: 'ecosystem/cosmwasm.png',
+                url: 'https://cosmwasm.com/'
             }
         ]
     },{
-        id : 7,
+        id : 6,
         name : 'Cross chain',
         ecosystems: [
             {
@@ -158,10 +165,16 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/squid.png',
                 url: 'https://www.squidrouter.com/'
+            },
+            {
+                title: 'Skip',
+                text: '',
+                image: 'ecosystem/skip.png',
+                url: 'https://skip.money/'
             }
         ]
     },{
-        id : 8,
+        id : 7,
         name : 'Wallet',
         ecosystems: [
             {
@@ -184,7 +197,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 9,
+        id : 8,
         name : 'DeFi',
         ecosystems: [
             {
@@ -206,12 +219,6 @@ export const ecosystemCategories = [
                 url: 'https://catalyst.exchange/',
             },
             {
-                title: 'Noble',
-                text: '',
-                image: 'ecosystem/noble.png',
-                url: 'https://nobleassets.xyz/',
-            },
-            {
                 title: 'Shogun',
                 text: '',
                 image: 'ecosystem/shogun.png',
@@ -219,7 +226,7 @@ export const ecosystemCategories = [
             }
         ]
     },{
-        id : 10,
+        id : 9,
         name : 'Gaming',
         ecosystems: [
             {
@@ -233,18 +240,24 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/worlds.png',
                 url: 'https://www.worlds.org/'
+            },
+            {
+                title: 'Bullieverse',
+                text: '',
+                image: 'ecosystem/bullieverse.png',
+                url: 'https://twitter.com/Bullieverse'
+            },
+            {
+                title: 'Aether Games',
+                text: '',
+                image: 'ecosystem/aethergames.png',
+                url: 'https://www.aethergames.io/'
             }
         ]
     },{
-        id : 11,
+        id : 10,
         name : 'Infrastructure',
         ecosystems: [
-            {
-                title: 'Fairblock',
-                text: '',
-                image: 'ecosystem/fairblock.png',
-                url: 'https://twitter.com/Fair_Block'
-            },
             {
                 title: 'PK Lab',
                 text: '',
@@ -262,17 +275,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/range.png',
                 url: 'https://www.range.org/'
-            }
-        ]
-    },{
-        id : 12,
-        name : 'MEV',
-        ecosystems: [
+            },
             {
-                title: 'Skip',
+                title: 'Noble',
                 text: '',
-                image: 'ecosystem/skip.png',
-                url: 'https://skip.money/'
+                image: 'ecosystem/noble.png',
+                url: 'https://nobleassets.xyz/',
             }
         ]
     }
