@@ -114,12 +114,6 @@ export const ecosystemCategories = [
         name : 'Virtual machine',
         ecosystems: [
             {
-                title: 'Risc Zero',
-                text: '',
-                image: 'ecosystem/risczero.png',
-                url: 'https://www.risczero.com/'
-            },
-            {
                 title: 'Polaris',
                 text: '',
                 image: 'ecosystem/berachain.png',
@@ -281,6 +275,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/noble.png',
                 url: 'https://nobleassets.xyz/',
+            },
+            {
+                title: 'Risc Zero',
+                text: '',
+                image: 'ecosystem/risczero.png',
+                url: 'https://www.risczero.com/'
             }
         ]
     }
