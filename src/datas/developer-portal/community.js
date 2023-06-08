@@ -15,14 +15,15 @@ export const community = {
 		},
 		{
 			id: 2,
-			title: "Celestia Forum",
-			text: "Engage in technical discussions or post your own content.",
+			title: "Modular Meetup",
+			text: "Host your own grassroots meetup about modular blockchains.",
 			image: "developer-portal/forum.png",
 			type: "external",
 			link: {
-				text:"Visit forum",
-				url: "https://forum.celestia.org/",
+				text:"Host now",
+				url: "https://docs.celestia.org/community/modular-meetup-intro/",
 			},
 		},
+		
 	],
 };
