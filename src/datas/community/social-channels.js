@@ -5,7 +5,7 @@ export const socialChannels = {
         {
 			id: 1,
 			title: "Twitter",
-			text: "The latest news and updates across the ecosystem.",
+			text: "The latest news and updates.",
 			image: "community/twitter.png",
 			type: "external",
 			url: "https://twitter.com/CelestiaOrg",
@@ -13,7 +13,7 @@ export const socialChannels = {
         {
 			id: 2,
 			title: "Discord",
-			text: "The community hub for developers, node operators, and enthusiasts.",
+			text: "A hub for developers, node operators, and enthusiasts.",
 			image: "community/discord.png",
 			type: "external",
 			url: "https://discord.com/invite/YsnTPcSfWQ",
@@ -37,7 +37,7 @@ export const socialChannels = {
         {
 			id: 5,
 			title: "Github",
-			text: "Take part in developer discussions and contribute to the core protocol.",
+			text: "Developer discussions and protocol contributions.",
 			image: "community/github.png",
 			type: "external",
 			url: "https://github.com/celestiaorg",
