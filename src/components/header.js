@@ -108,7 +108,7 @@ const navigation = [
             {
                 text: "Join the community",
                 subtext: "Social channels",
-                url: "/#join-our-global-community",
+                url: "/community/",
                 icon: "menu/forum.svg",
                 type: 'internal'
             },
