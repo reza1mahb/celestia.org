@@ -25,9 +25,9 @@ const Community = () => {
 							<div className={"row"}>
 								<div className={"col-auto"}>
 									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
-									{heroData.buttons.map((button, index) => (
+									{/* {heroData.buttons.map((button, index) => (
 										<Button key={index} class={button.class} type={button.type} text={button.text} url={button.url} />
-									))}
+									))} */}
 								</div>
 							</div>
 						</div>
