@@ -1,6 +1,6 @@
 export const tutorials = {
-	title: "Tutorials",
-	description: "Explore tutorials to start building on Celestia.",
+	title: "Frameworks",
+	description: "Explore frameworks to start building on Celestia.",
 	items: [
 		{
 			id: 1,
