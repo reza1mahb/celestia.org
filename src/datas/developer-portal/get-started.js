@@ -4,8 +4,8 @@ export const getStarted = {
 	items: [
 		{
 			id: 1,
-			title: "Tutorials",
-			text: "Explore tutorials to get started building on Celestia.",
+			title: "Frameworks",
+			text: "Explore Frameworks to get started building on Celestia.",
 			// image: "developer-portal/tutorial.png",
 			type: "anchor",
 			link: {
