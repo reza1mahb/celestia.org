@@ -10,7 +10,7 @@ export const tutorials = {
 			type: "external",
 			link: {
 				text:"Explore RollKit",
-				url: "https://docs.celestia.org/developers/rollkit/#tutorials",
+				url: "https://rollkit.dev/",
 			},
 		},
 		{
