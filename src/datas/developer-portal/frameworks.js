@@ -9,7 +9,7 @@ export const frameworks = {
 			image: "developer-portal/rollkit.png",
 			type: "external",
 			link: {
-				text:"Explore RollKit",
+				text:"Explore Rollkit",
 				url: "https://rollkit.dev/",
 			},
 		},
@@ -48,13 +48,13 @@ export const frameworks = {
 		},
 		{
 			id: 5,
-			title: "Caldera SDK",
-			text: "Caldera makes it easy to launch performant, customizable blockchain rollups.",
+			title: "Caldera",
+			text: "Caldera makes it easy to launch performant, customizable blockchain rollups using the OP Stack.",
 			image: "developer-portal/caldera.png",
 			type: "external",
 			link: {
 				text:"Explore Caldera",
-				url: "https://calderaxyz.gitbook.io/caldera-documentation/getting-started/overview",
+				url: "https://docs.celestia.org/developers/taro-testnet/",
 			},
 		},
 	],
