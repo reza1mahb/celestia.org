@@ -5,8 +5,8 @@ export const heroData = {
 		{
 			text: "Build Modular",
 			class: "simple",
-			type: "external",
-			url: "https://docs.celestia.org/developers/rollkit/#tutorials",
+			type: "anchor",
+			url: "frameworks",
 		},
 		{
 			text: "Ask a question",

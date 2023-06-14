@@ -2,7 +2,7 @@ import * as React from "react";
 
 import { heroData } from "../datas/developer-portal/hero-data";
 import { getStarted } from "../datas/developer-portal/get-started";
-import { tutorials } from "../datas/developer-portal/tutorials";
+import { frameworks } from "../datas/developer-portal/frameworks";
 import { connect } from "../datas/developer-portal/connect";
 import { concepts } from "../datas/developer-portal/concepts";
 import { discover } from "../datas/developer-portal/discover";
@@ -12,7 +12,7 @@ import { FooterBoxes } from "../datas/developer-portal/content";
 import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 import IconCard from "../components/modules/icon-card";
-import Button from "../components/buttons/button";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Faq from "../components/modules/faq";
 
 const DevPortal = () => {
@@ -29,9 +29,8 @@ const DevPortal = () => {
 							<div className={"row"}>
 								<div className={"col-auto"}>
 									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
-									{heroData.buttons.map((button, index) => (
-										<Button key={index} class={button.class} type={button.type} text={button.text} url={button.url} />
-									))}
+									<AnchorLink to={`/developer-portal#${heroData.buttons[0].url}`} className={'button button-'+heroData.buttons[0].class} stripHash>{heroData.buttons[0].text}</AnchorLink>
+									<a href={`${heroData.buttons[1].url}`} className={'button button-'+heroData.buttons[1].class} target={"_blank"} rel={"noreferrer"}>{heroData.buttons[1].text}</a>
 								</div>
 							</div>
 						</div>
@@ -56,15 +55,15 @@ const DevPortal = () => {
 						</div>
 					</section>
 
-					<section className='tutorials' id={`${getStarted.items[0].title.replace(/\s+/g, "-").toLowerCase()}`}>
+					<section className='frameworks' id={`${getStarted.items[0].title.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
-							<h2 className={"with-decor"}>{tutorials.title}</h2>
-							{tutorials.description && <div className={"description"}>{tutorials.description}</div>}
-							<div className={"row gx-3 gy-5 gy-md-3 my-2 pt-0 pt-md-4 pb-3"}>
-								{tutorials.items.map(function (item) {
+							<h2 className={"with-decor"}>{frameworks.title}</h2>
+							{frameworks.description && <div className={"description"}>{frameworks.description}</div>}
+							<div className={"row row-cols-1 row-cols-md-2 row-cols-lg-3 gx-3 gy-5 gy-md-3 my-2 pt-0 pt-md-4 pb-3"}>
+								{frameworks.items.map(function (item) {
 									return (
 										<IconCard
-											className='icon-card-wrapper col-12 col-md min-width-33'
+											className='icon-card-wrapper col'
 											key={item.id}
 											content={item}
 											variant={"vertical"}

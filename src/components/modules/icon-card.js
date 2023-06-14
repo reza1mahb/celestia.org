@@ -79,7 +79,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<AnchorLink className='link' to={`/developer-portal#${content.title.replace(/\s+/g, "-").toLowerCase()}`}>
+							<AnchorLink className='link' to={`/developer-portal#${content.anchorToId ? content.anchorToId : content.title.replace(/\s+/g, "-").toLowerCase()}`}>
 								{content.link.text}
 								<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none'>
 									<path stroke='#7B2BF9' stroke-linecap='square' stroke-width='1.5' d='M6.89106 1.34961L6.89106 11.9052' />

@@ -1,4 +1,4 @@
-export const tutorials = {
+export const frameworks = {
 	title: "Frameworks",
 	description: "Explore frameworks to start building on Celestia.",
 	items: [

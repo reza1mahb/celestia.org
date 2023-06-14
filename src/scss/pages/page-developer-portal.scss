@@ -164,7 +164,7 @@
 		}
 	}
 
-	.tutorials {
+	.frameworks {
 		padding-top: 100px;
 		@include media-breakpoint-down(md) {
 			padding-top: 50px;
@@ -172,17 +172,7 @@
 		& .icon-card-wrapper {
 			& .icon-card {
 				background-color: transparent;
-				& .logo-container {
-					padding: 12px;
-					background-color: #e8e8e8;
-					border-radius: 9999px;
-				}
 			}
-		}
-		& .icon-card-wrapper:nth-child(2) .icon-card .logo-container {
-			padding: 12px;
-			background-color: #f3e4ce;
-			border-radius: 9999px;
 		}
 	}
 
