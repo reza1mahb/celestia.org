@@ -40,7 +40,7 @@ export const pressData = {
 			type: "external",
 			figma: false,
 			color: "#FFF2E1",
-			url: "<a href="mailto:press@celestia.org"></a>",
+			url: '<a href="mailto:press@celestia.org"></a>',
 		},
 	],
 };
