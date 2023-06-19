@@ -14,16 +14,6 @@ export const pressData = {
 		},
         	{
 			id: 2,
-			title: "Media kit",
-			text: "",
-			image: "press/media-kit.png",
-			type: "external",
-			figma: false,
-			color: "#FFF2E1",
-			url: "https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/images/press/Celestia_Labs_Media_Kit.pdf",
-		},
-        	{
-			id: 3,
 			title: "News",
 			text: "",
 			image: "press/news.png",
@@ -33,7 +23,7 @@ export const pressData = {
 			url: "https://blog.celestia.org/celestia-raises-55m-to-launch-modular-blockchain-network/",
 		},
         	{
-			id: 4,
+			id: 3,
 			title: "Social channels",
 			text: "",
 			image: "press/social.png",
@@ -41,6 +31,16 @@ export const pressData = {
 			figma: false,
 			color: "#E7FFD4",
 			url: "/community/",
+		},
+		{
+			id: 4,
+			title: "Enquiries",
+			text: "",
+			image: "press/enquiries.png",
+			type: "external",
+			figma: false,
+			color: "#FFF2E1",
+			url: "<a href="mailto:press@celestia.org"></a>",
 		},
 	],
 };
