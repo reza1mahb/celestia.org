@@ -1,7 +1,7 @@
 export const FooterBoxes = [
     {
-        title: 'Join our global community',
-        text: 'View job openings and career opportunities in our ecosystem.',
+        title: 'Join our growing ecosystem',
+        text: 'View job openings and career opportunities in the Celestia ecosystem.',
         button: {
             text: 'Current openings',
             href: 'https://celestia.pallet.com/jobs',
