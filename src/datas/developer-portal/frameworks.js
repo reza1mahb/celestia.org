@@ -57,5 +57,16 @@ export const frameworks = {
 				url: "https://github.com/Sovereign-Labs/sovereign-sdk/tree/main/examples/demo-rollup",
 			},
 		},
+		{
+			id: 5,
+			title: "Eclipse",
+			text: "Eclipse is a customizable rollup provider for developers building decentralized applications.",
+			image: "developer-portal/eclipse.png",
+			type: "external",
+			link: {
+				text:"Explore Eclipse",
+				url: "https://docs.eclipse.builders/building-on-eclipse/run-your-own-testnet-chain",
+			},
+		},
 	],
 };
