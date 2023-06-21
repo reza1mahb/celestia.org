@@ -37,9 +37,9 @@ Some blockchains that fall into this monolithic category include Solana and Sui.
 
 We can’t forget that monolithic chains were a big first step. They showed us that you could build all sorts of new applications using blockchains. Once people started building and using apps on them, they ran into some difficulties. 
 
-- You can’t build anything you like. Sharing space on someone else’s blockchain limits what you can build for your app.
-- Expensive apps. High fees can creep up, making apps unaffordable.
-- Access isn’t open to all. Raising capacity usually means fewer people can afford to check that the network is running correctly.
+- **You can’t build anything you like**. Sharing space on someone else’s blockchain limits what you can build for your app.
+- **Expensive apps**. High fees can creep up, making apps unaffordable.
+- **Access isn’t open to all**. Raising capacity usually means fewer people can afford to check that the network is running correctly.
 
 Many of these difficulties make monolithic blockchains difficult to use or miss the reasons why we use blockchains in the first place.
 
@@ -63,8 +63,8 @@ In the modular category we have blockchains like Celestia and <a href="https://c
 ------ image here
 
 As you can tell, modular chains specialize and work together to do all the tasks a single monolithic chain does. If there’s one thing you should take away about modular and monolithic chains, it’s that:
-- Monolithic = generalist
-- Modular = specialist
+- **Monolithic = generalist**
+- **Modular = specialist**
 
 #### Why is modular an improvement?
 You know what modular blockchains are now. But, how do they improve upon the difficulties that monolithic blockchains face?
