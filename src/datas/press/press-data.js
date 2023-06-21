@@ -20,7 +20,7 @@ export const pressData = {
 			type: "external",
 			figma: false,
 			color: "#DEF7FF",
-			url: "https://blog.celestia.org/celestia-raises-55m-to-launch-modular-blockchain-network/",
+			url: "https://blog.celestia.org/",
 		},
         	{
 			id: 3,
