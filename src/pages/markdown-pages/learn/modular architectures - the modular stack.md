@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 6
 path: "/learn/"
 slug: "/learn/modular-architectures/the-modular-stack/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/modular%20architectures%20-%20the%20modular%20stack.md"
