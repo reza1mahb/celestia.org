@@ -60,7 +60,7 @@ You can think about modular blockchains like Lego pieces. You can mix and match 
 
 In the modular category we have blockchains like Celestia and <a href="https://celestia.org/glossary/rollup" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">rollups</a>. Rollups host applications and do many of the same things that monolithic blockchains do. What makes a rollup modular is that it uses another blockchain, like Celestia, to complete the tasks it doesn’t do.
 
------- image here
+![GATSBY_EMPTY_ALT](./images/Celestia-rollup.png)
 
 As you can tell, modular chains specialize and work together to do all the tasks a single monolithic chain does. If there’s one thing you should take away about modular and monolithic chains, it’s that:
 - **Monolithic = generalist**
