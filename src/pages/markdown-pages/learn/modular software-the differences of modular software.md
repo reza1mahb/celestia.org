@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 7
 path: "/learn/"
 slug: "/learn/modular-software/the-differences-of-modular-software/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/modular%20software-the%20differences%20of%20modular%20software.md"
