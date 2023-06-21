@@ -17,26 +17,14 @@
       "category": "Beginner",
       "subcategories": [
         {
-          "title": "First Principles",
-          "articles": [
-            {
-              "title": "Modular blockchains and first principles",
-              "slug": "/learn/first-principles/modular-blockchains-and-first-principles"
-            }
-          ]
-        },
-        {
-          "title": "Basics of modular blockchains",
-          "articles": [
-            {
-              "title": "Modular and monolithic blockchains",
-              "slug": "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains"
-            },{
-                "title": "Benefits of modular blockchains",
-                "slug": "/learn/basics-of-modular-blockchains/benefits-of-modular-blockchains"
-            }
-          ]
-        },
+            "title": "Modular blockchains for beginners",
+            "articles": [
+              {
+                "title": "Modular blockchains for beginners",
+                "slug": "/learn/beginners/modular-blockchains-for-beginners"
+              }
+            ]
+          },
         {
           "title": "Values of modular blockchains",
           "articles": [
@@ -46,11 +34,32 @@
             }
           ]
         }
+        {
+          "title": "First Principles",
+          "articles": [
+            {
+              "title": "Modular blockchains and first principles",
+              "slug": "/learn/first-principles/modular-blockchains-and-first-principles"
+            }
+          ]
+        },
       ]
     },
     {
       "category": "Intermediate",
       "subcategories": [
+        {
+            "title": "Basics of modular blockchains",
+            "articles": [
+              {
+                "title": "Modular and monolithic blockchains",
+                "slug": "/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains"
+              },{
+                  "title": "Benefits of modular blockchains",
+                  "slug": "/learn/basics-of-modular-blockchains/benefits-of-modular-blockchains"
+              }
+            ]
+        },
         {
           "title": "Modular architectures",
           "articles": [
