@@ -2,7 +2,7 @@ export const frameworks = {
 	title: "Frameworks",
 	description: "Explore frameworks to start building on Celestia.",
 	items: [
-        {
+        	{
 			id: 1,
 			title: "Caldera",
 			text: "Caldera makes it easy to launch performant, customizable blockchain rollups using the OP Stack.",
@@ -13,7 +13,7 @@ export const frameworks = {
 				url: "https://docs.celestia.org/developers/taro-testnet/",
 			},
 		},
-        {
+        	{
 			id: 2,
 			title: "Dymension",
 			text: "Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.",
@@ -24,8 +24,19 @@ export const frameworks = {
 				url: "https://docs.dymension.xyz/",
 			},
 		},
-        {
+		{
 			id: 3,
+			title: "Eclipse",
+			text: "Eclipse is a customizable rollup provider for developers building decentralized applications.",
+			image: "developer-portal/eclipse.png",
+			type: "external",
+			link: {
+				text:"Explore Eclipse",
+				url: "https://docs.eclipse.builders/building-on-eclipse/run-your-own-testnet-chain",
+			},
+		},
+        	{
+			id: 4,
 			title: "OP Stack",
 			text: "The OP Stack is a modular, open-source blueprint for highly scalable, highly interoperable blockchains of all kinds.",
 			image: "developer-portal/opstack.png",
@@ -36,7 +47,7 @@ export const frameworks = {
 			},
 		},
 		{
-			id: 4,
+			id: 5,
 			title: "Rollkit",
 			text: "Rollkit is a rollup framework that gives developers the freedom to deploy rollups throughout the modular stack.",
 			image: "developer-portal/rollkit.png",
@@ -47,7 +58,7 @@ export const frameworks = {
 			},
 		},
 		{
-			id: 5,
+			id: 6,
 			title: "Sovereign SDK",
 			text: "A framework for building seamlessly scalable and interoperable rollups that can run on any blockchain.",
 			image: "developer-portal/sovereign.png",
@@ -55,17 +66,6 @@ export const frameworks = {
 			link: {
 				text:"Explore Sovereign SDK",
 				url: "https://github.com/Sovereign-Labs/sovereign-sdk/tree/main/examples/demo-rollup",
-			},
-		},
-		{
-			id: 5,
-			title: "Eclipse",
-			text: "Eclipse is a customizable rollup provider for developers building decentralized applications.",
-			image: "developer-portal/eclipse.png",
-			type: "external",
-			link: {
-				text:"Explore Eclipse",
-				url: "https://docs.eclipse.builders/building-on-eclipse/run-your-own-testnet-chain",
 			},
 		},
 	],
