@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import ArrowIcon from "../components/modules/arrow-icon";
+import { graphql } from "gatsby";
 
 import celestia_monolithic_modular_diagram from "../images/what-is-celestia/celestia-monolithic-modular-diagram.png";
 import celestia_what_is_diagram from "../images/what-is-celestia/celestia-what-is-diagram.png";
@@ -14,9 +15,20 @@ import celestia_transactions from "../images/what-is-celestia/celestia-transacti
 import monolithic_modular_aproach from "../images/what-is-celestia/monolithic-modular-aproach.png";
 import celestia_connections from "../images/what-is-celestia/celestia-connections.png";
 
-import twitterCardImage from "../images/what-is-celestia/twitter-card.jpg";
+export const query = graphql`
+	{
+		site {
+			siteMetadata {
+				siteUrl
+			}
+		}
+	}
+`;
 
-const WhatIsCelestia = () => {
+const WhatIsCelestia = ({ data }) => {
+	const siteMeta = data.site.siteMetadata;
+	console.log(siteMeta);
+
 	return (
 		<>
 			<Helmet>
@@ -34,7 +46,7 @@ const WhatIsCelestia = () => {
 					property='og:description'
 					content="A complete beginner's guide to how Celestia works, its key benefits, and how anyone in the world will be able to create their own blockchain in minutes."
 				/>
-				<meta property='og:image' content={twitterCardImage} />
+				<meta property='og:image' content={`${siteMeta}/what-is-celestia-og-image.png`} />
 
 				<meta property='twitter:card' content='summary_large_image' />
 				<meta property='twitter:url' content='https://celestia.org/what-is-celestia/' />
@@ -43,7 +55,7 @@ const WhatIsCelestia = () => {
 					property='twitter:description'
 					content="A complete beginner's guide to how Celestia works, its key benefits, and how anyone in the world will be able to create their own blockchain in minutes."
 				/>
-				<meta property='twitter:image' content={twitterCardImage} />
+				<meta property='twitter:image' content={`${siteMeta}/what-is-celestia-og-image.png`} />
 			</Helmet>
 			<Layout footerBoxes={FooterBoxes}>
 				<div className={"what-is-celestia"}>
@@ -83,7 +95,7 @@ const WhatIsCelestia = () => {
 									</div>
 									<div className={"image-box--modular col-12 col-lg-6"}>
 										<div className='image-wrapper'>
-											<img style={{ width: `100%` }} src={celestia_monolithic_modular_diagram} alt={""}/>
+											<img style={{ width: `100%` }} src={celestia_monolithic_modular_diagram} alt={""} />
 										</div>
 									</div>
 								</div>
@@ -93,7 +105,7 @@ const WhatIsCelestia = () => {
 								<div className={"row justify-content-between align-items-center"}>
 									<div className={"order-2 order-lg-1 image-box--different col-12 col-lg-6"}>
 										<div className='image-wrapper'>
-											<img className='img' style={{ width: `100%` }} src={celestia_what_is_diagram} alt={""}/>
+											<img className='img' style={{ width: `100%` }} src={celestia_what_is_diagram} alt={""} />
 										</div>
 									</div>
 									<div className={"order-1 order-lg-2 text-box col-12 col-lg-6"}>
@@ -127,7 +139,7 @@ const WhatIsCelestia = () => {
 									</div>
 									<div className={"image-box--analogy col-12 col-lg-6"}>
 										<div className='image-wrapper'>
-											<img className='img' style={{ width: `100%` }} src={web_celestia_diagram} alt={""}/>
+											<img className='img' style={{ width: `100%` }} src={web_celestia_diagram} alt={""} />
 										</div>
 									</div>
 								</div>
@@ -203,7 +215,7 @@ const WhatIsCelestia = () => {
 									</div>
 									<div className={"image-box--availability col-12 col-lg-6"}>
 										<div className='image-wrapper'>
-											<img className='img' style={{ width: `100%` }} src={celestia_monolithic_modular_approach} alt={""}/>
+											<img className='img' style={{ width: `100%` }} src={celestia_monolithic_modular_approach} alt={""} />
 										</div>
 									</div>
 								</div>
@@ -213,7 +225,7 @@ const WhatIsCelestia = () => {
 								<div className={"row justify-content-between align-items-center"}>
 									<div className={"order-2 order-lg-1 image-box--rollups col-12 col-lg-6"}>
 										<div className='image-wrapper'>
-											<img className='img' style={{ width: `100%` }} src={celestia_transactions} alt={""}/>
+											<img className='img' style={{ width: `100%` }} src={celestia_transactions} alt={""} />
 										</div>
 									</div>
 									<div className={"order-1 order-lg-2 text-box col-12 col-lg-6"}>
@@ -249,7 +261,7 @@ const WhatIsCelestia = () => {
 									</div>
 									<div className={"image-box--modularism col-12 col-lg-6"}>
 										<div className='image-wrapper'>
-											<img className='img' style={{ width: `100%` }} src={monolithic_modular_aproach} alt={""}/>
+											<img className='img' style={{ width: `100%` }} src={monolithic_modular_aproach} alt={""} />
 										</div>
 									</div>
 								</div>
@@ -259,7 +271,7 @@ const WhatIsCelestia = () => {
 								<div className={"row justify-content-between align-items-center"}>
 									<div className={"image-box--consensus order-2 order-lg-1 col-12 col-lg-6"}>
 										<div className='image-wrapper'>
-											<img className='img' style={{ width: `100%` }} src={celestia_connections} alt={""}/>
+											<img className='img' style={{ width: `100%` }} src={celestia_connections} alt={""} />
 										</div>
 									</div>
 									<div className={"order-1 order-lg-2 text-box col-12 col-lg-6"}>
