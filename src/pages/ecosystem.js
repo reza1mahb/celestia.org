@@ -6,8 +6,19 @@ import Layout from "../components/layout";
 import {Helmet} from "react-helmet";
 import {useState} from "react";
 import Ecosystem from "../components/ecosystem";
+import { graphql } from "gatsby";
 
-const EcosystemPage = () => {
+export const query = graphql`
+	{
+		site {
+			siteMetadata {
+				siteUrl
+			}
+		}
+	}
+`;
+
+const EcosystemPage = ({ data }) => {
     const [selectedCategory,setSelectedCategory] = useState('all')
     const [search,setSearch] = useState(false)
     const [open,setOpen] = useState(false)
@@ -41,11 +52,37 @@ const EcosystemPage = () => {
 
     sortByKey(ecosystems,'title');
 
+    const siteMeta = data.site.siteMetadata;
+
     return (
         <Layout footerBoxes={FooterBoxes}>
             <Helmet>
-                <title>Celestia - Ecosystem</title>
-            </Helmet>
+				<title>Celestia - Ecosystem</title>
+				<meta name='title' content='Celestia - Ecosystem' />
+				<meta
+					name='description'
+					content="Celestia Ecosystem provides a wide range of apps and services built in the Celestia ecosystem. This page provides thematic focus to the diversity of services and apps developed on top of Celestia Tech."
+				/>
+
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://celestia.org/ecosystem/' />
+				<meta property='og:title' content='Celestia - Ecosystem' />
+				<meta
+					property='og:description'
+					content="Celestia Ecosystem provides a wide range of apps and services built in the Celestia ecosystem. This page provides thematic focus to the diversity of services and apps developed on top of Celestia Tech."
+				/>
+				<meta property='og:image' content={`${siteMeta}/ecosystem-page.png`} />
+
+				<meta property='twitter:card' content='summary_large_image' />
+				<meta property='twitter:url' content='https://celestia.org/ecosystem/' />
+				<meta property='twitter:title' content='Celestia - Ecosystem' />
+				<meta
+					property='twitter:description'
+					content="Celestia Ecosystem provides a wide range of apps and services built in the Celestia ecosystem. This page provides thematic focus to the diversity of services and apps developed on top of Celestia Tech."
+				/>
+				<meta property='twitter:image' content={`${siteMeta}/ecosystem-page.png`} />
+			</Helmet>
+
             <div className={'ecosystem-page'}>
                 <main>
                     <div className={'container'}>
