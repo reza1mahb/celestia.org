@@ -1,6 +1,6 @@
 export const FooterBoxes = [
     {
-        title: 'Join our global community',
+        title: 'Join our growing ecosystem',
         text: 'View job openings and career opportunities in our ecosystem.',
         button: {
             text: 'Current openings',
@@ -9,11 +9,11 @@ export const FooterBoxes = [
             type: 'simple'
         }
     },{
-        title: 'Build on our developer beta',
+        title: 'Build on testnet',
         text: 'Join a growing modular ecosystem of developers building on testnet.',
         button: {
             text: 'Get started',
-            href: 'https://docs.celestia.org/',
+            href: 'https://celestia.org/developer-portal/',
             id: 'operator',
             type: 'simple'
         }
