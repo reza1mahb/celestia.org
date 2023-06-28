@@ -49,6 +49,10 @@ const navigation = [
         url: "https://company-223625.frontify.com/d/JoSwaZS4Mjpj",
         type: 'external'
     },{
+        text: "Press",
+        url: "/press/",
+        type: 'internal'
+    },{
         text: "Forum",
         url: "https://forum.celestia.org",
         type: 'external'
