@@ -46,7 +46,7 @@ const WhatIsCelestia = ({ data }) => {
 					property='og:description'
 					content="A complete beginner's guide to how Celestia works, its key benefits, and how anyone in the world will be able to create their own blockchain in minutes."
 				/>
-				<meta property='og:image' content={`${siteMeta}/what-is-celestia-og-image.png`} />
+				<meta property='og:image' content={`${siteMeta.siteUrl}/what-is-celestia-og-image.png`} />
 
 				<meta property='twitter:card' content='summary_large_image' />
 				<meta property='twitter:url' content='https://celestia.org/what-is-celestia/' />
@@ -55,7 +55,7 @@ const WhatIsCelestia = ({ data }) => {
 					property='twitter:description'
 					content="A complete beginner's guide to how Celestia works, its key benefits, and how anyone in the world will be able to create their own blockchain in minutes."
 				/>
-				<meta property='twitter:image' content={`${siteMeta}/what-is-celestia-og-image.png`} />
+				<meta property='twitter:image' content={`${siteMeta.siteUrl}/what-is-celestia-og-image.png`} />
 			</Helmet>
 			<Layout footerBoxes={FooterBoxes}>
 				<div className={"what-is-celestia"}>
