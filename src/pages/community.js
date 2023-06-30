@@ -17,7 +17,7 @@ const Community = () => {
 			<Helmet>
 				<title>Celestia - Community</title>
 			</Helmet>
-			<div className={"community"}>
+			<div className={"community-page"}>
 				<main>
 					<section className='hero'>
 						<div className={"container"}>
