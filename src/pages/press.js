@@ -3,15 +3,17 @@ import * as React from "react";
 import { pressData } from "../datas/press/press-data";
 import { FooterBoxes } from "../datas/press/content";
 import Layout from "../components/layout";
-import { Helmet } from "react-helmet";
 import PressItem from "../components/modules/press-item";
+import SEO from "../components/seo";
 
 const Press = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<Helmet>
-				<title>Celestia - Press</title>
-			</Helmet>
+			<SEO
+				title={`Celestia - Press`}
+				// description="The homepage for Celestia developers. Tutorials. Resources. Community."
+                // image='/what-is-celestia-og-image.jpg'
+			/>
 			<div className={"press"}>
 				<main>
 					<div className={"container"}>

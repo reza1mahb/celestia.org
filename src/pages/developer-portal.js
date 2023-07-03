@@ -10,17 +10,18 @@ import { faqs } from "../datas/developer-portal/faq";
 import { community } from "../datas/developer-portal/community";
 import { FooterBoxes } from "../datas/developer-portal/content";
 import Layout from "../components/layout";
-import { Helmet } from "react-helmet";
 import IconCard from "../components/modules/icon-card";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Faq from "../components/modules/faq";
+import SEO from "../components/seo";
 
 const DevPortal = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<Helmet>
-				<title>Celestia - Developer Portal</title>
-			</Helmet>
+			<SEO
+				title="Celestia - Developer Portal"
+				description="The homepage for Celestia developers. Tutorials. Resources. Community."
+			/>
 			<div className={"developer-portal"}>
 				<main>
 					<section className='hero'>
