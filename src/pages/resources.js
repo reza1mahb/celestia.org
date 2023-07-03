@@ -19,6 +19,8 @@ import { communityposts } from "../datas/resources/community-posts";
 import Carousel from "react-multi-carousel";
 import Layout from "../components/layout";
 import { content } from "../datas/technology/content";
+
+import { seoContent } from "../datas/resources/seoContent";
 import SEO from "../components/seo";
 
 const responsive = {
@@ -123,9 +125,9 @@ class ResourcesPage extends React.Component {
 		return (
 			<Layout footerBoxes={FooterBoxes}>
 				<SEO
-					title={`Celestia - Resources`}
-					// description="The homepage for Celestia developers. Tutorials. Resources. Community."
-					// image='/what-is-celestia-og-image.jpg'
+					title={seoContent.title}
+					description={seoContent.description}
+					image={seoContent.image}
 				/>
 				<div className={"resources-page"}>
 					<main>

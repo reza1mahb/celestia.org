@@ -6,7 +6,7 @@ import ColumnWithIcon from "../components/modules/columnWithIcon";
 import {content, Technologies, FooterBoxes} from "../datas/technology/content";
 import Layout from "../components/layout";
 
-import { seoContent } from "../datas/what-is-celestia/seoContent";
+import { seoContent } from "../datas/technology/seoContent";
 import SEO from "../components/seo";
 
 const TechnologyPage = () => {

@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 import { FooterBoxes } from "../datas/learn/content";
 import Layout from "../components/layout";
 import LearnBox from "../components/learn-box";
-import SEO from "../components/seo";
 
 const LearnPage = ({
 	data: {
@@ -20,11 +19,6 @@ const LearnPage = ({
 
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<SEO
-				title={`Celestia - Learn Modular`}
-				// description="The homepage for Celestia developers. Tutorials. Resources. Community."
-                // image='/what-is-celestia-og-image.jpg'
-			/>
 			<div className={"learn-page"}>
 				<main>
 					<div className={"container"}>

@@ -4,15 +4,17 @@ import { pressData } from "../datas/press/press-data";
 import { FooterBoxes } from "../datas/press/content";
 import Layout from "../components/layout";
 import PressItem from "../components/modules/press-item";
+
+import { seoContent } from "../datas/press/seoContent";
 import SEO from "../components/seo";
 
 const Press = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<SEO
-				title={`Celestia - Press`}
-				// description="The homepage for Celestia developers. Tutorials. Resources. Community."
-                // image='/what-is-celestia-og-image.jpg'
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
 			/>
 			<div className={"press"}>
 				<main>

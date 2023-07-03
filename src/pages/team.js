@@ -9,14 +9,17 @@ import {FooterBoxes} from "../datas/team/content";
 import {teamMembers} from "../datas/team/team-members";
 import {advisors} from "../datas/team/advisors";
 import Layout from "../components/layout";
+
+import { seoContent } from "../datas/team/seoContent";
 import SEO from "../components/seo";
 
 const TeamPage = () => {
     return (
         <Layout footerBoxes={FooterBoxes}>
             <SEO
-				title={`Celestia - ${content.title}`}
-				// description="The homepage for Celestia developers. Tutorials. Resources. Community."
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
 			/>
             <div className={'team-page'}>
                 <main>
