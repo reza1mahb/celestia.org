@@ -6,6 +6,8 @@ import Button from "../components/buttons/button";
 import Perk from "../components/modules/perk";
 import Layout from "../components/layout";
 import {graphql, useStaticQuery} from "gatsby";
+
+import { seoContent } from "../datas/careers/seoContent";
 import SEO from "../components/seo";
 
 const CareersPage = () => {
@@ -42,9 +44,9 @@ const CareersPage = () => {
     return (
         <Layout footerBoxes={FooterBoxes}>
             <SEO
-				title={`Celestia - ${content.title}`}
-				description="We’re on a mission to change the way that blockchains and decentralized applications are built—making them more secure, sovereign and scalable."
-				// image="/ecosystem-page.jpg"
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
 			/>
             <div className={'careers-page'}>
                 <main>

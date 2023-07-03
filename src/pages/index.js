@@ -21,6 +21,9 @@ import BackersSection from "../components/sections/backers-sections";
 import RoadmapItem from "../components/modules/roadmapItem";
 import SignUp from "../components/modals/signUp";
 
+import { seoContent } from "../datas/home/seoContent";
+import SEO from "../components/seo";
+
 const IndexPage = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [modalType, setModalType] = useState("");
@@ -39,6 +42,11 @@ const IndexPage = () => {
 
 	return (
 		<Layout footerBoxes={FooterBoxes}>
+			<SEO
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
+			/>
 			<div className="index-page">
 				<main>
 					<HeroSection heroData={heroData} />

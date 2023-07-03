@@ -1,5 +1,5 @@
 export const seoContent = {
-	title: "Experiment with testnet",
-	description: "Join a growing ecosystem of developers building rollups and applications on the Mocha testnet.",
-    image: "/what-is-celestia-1.png",
+	title: "Celestia - Careers",
+	description: "Join our team of leading engineers, researchers and entrepreneurs in pioneering the first modular blockchain design.",
+    image: "",
 };

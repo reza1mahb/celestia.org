@@ -1,9 +1,11 @@
 import * as React from "react";
 import { ecosystemCategories } from "../datas/ecosystem/ecosystems";
-import { FooterBoxes } from "../datas/ecosystem-page/content";
+import { FooterBoxes } from "../datas/ecosystem/content";
 import Layout from "../components/layout";
 import { useState } from "react";
 import Ecosystem from "../components/ecosystem";
+
+import { seoContent } from "../datas/ecosystem/seoContent";
 import SEO from "../components/seo";
 
 const EcosystemPage = () => {
@@ -43,9 +45,9 @@ const EcosystemPage = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<SEO
-				title="Celestia - Ecosystem"
-				description="Celestia Ecosystem provides a wide range of apps and services built in the Celestia ecosystem. This page provides thematic focus to the diversity of services and apps developed on top of Celestia Tech."
-				image="/ecosystem-page.jpg"
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
 			/>
 			<div className={"ecosystem-page"}>
 				<main>

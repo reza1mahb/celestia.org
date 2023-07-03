@@ -3,15 +3,17 @@ import {FooterBoxes} from "../datas/faq/content";
 import {faqs} from "../datas/faq/faqs";
 import Faq from "../components/modules/faq";
 import Layout from "../components/layout";
+
+import { seoContent } from "../datas/faq/seoContent";
 import SEO from "../components/seo";
 
 const TeamPage = () => {
     return (
         <Layout footerBoxes={FooterBoxes}>
             <SEO
-				title="Celestia - FAQ"
-				description="What is Celestia? What is a modular blockchain? How does Celestia scale?"
-				// image="/ecosystem-page.jpg"
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
 			/>
             <div className={'faq-page'}>
                 <main>

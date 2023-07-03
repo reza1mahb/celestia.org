@@ -1,5 +1,5 @@
 export const seoContent = {
-	title: "Experiment with testnet",
-	description: "Join a growing ecosystem of developers building rollups and applications on the Mocha testnet.",
-    image: "/what-is-celestia-1.png",
+	title: "Celestia - Ecosystem",
+	description: "Celestia Ecosystem provides a wide range of apps and services built in the Celestia ecosystem. This page provides thematic focus to the diversity of services and apps developed on top of Celestia Tech.",
+    image: "/ecosystem-page.jpg",
 };

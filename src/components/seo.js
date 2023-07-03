@@ -77,7 +77,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
 						: []
 				)
 				.concat(meta)}
-			title={title}
+			title={metaTitle}
 			titleTemplate={`%s | ${site.siteMetadata.title}`}
 		/>
 	);

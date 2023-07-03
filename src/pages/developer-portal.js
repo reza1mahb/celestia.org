@@ -13,14 +13,17 @@ import Layout from "../components/layout";
 import IconCard from "../components/modules/icon-card";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Faq from "../components/modules/faq";
+
+import { seoContent } from "../datas/developer-portal/seoContent";
 import SEO from "../components/seo";
 
 const DevPortal = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<SEO
-				title="Celestia - Developer Portal"
-				description="The homepage for Celestia developers. Tutorials. Resources. Community."
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
 			/>
 			<div className={"developer-portal"}>
 				<main>

@@ -9,15 +9,17 @@ import Layout from "../components/layout";
 import CommunityItem from "../components/modules/community-item";
 import Button from "../components/buttons/button";
 import Image from "../components/imageComponent";
+
+import { seoContent } from "../datas/community/seoContent";
 import SEO from "../components/seo";
 
 const Community = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<SEO
-				title='Celestia - Community'
-				description='Discover community hubs, discussion forums, and resources that are used by the global Celestia community.'
-				// image='/ecosystem-page.jpg'
+				title={seoContent.title}
+				description={seoContent.description}
+				image={seoContent.image}
 			/>
 			<div className={"community-page"}>
 				<main>

@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import {Helmet} from "react-helmet";
 
 import logo from '../images/celestia-logo.svg'
 import Image from "./imageComponent";
@@ -163,9 +162,6 @@ class Header extends React.Component {
         return (
             <>
                 <header id={'header'}>
-                    <Helmet>
-                        <title>Celestia</title>
-                    </Helmet>
                     <div className={'blurry'}/>
                     <div className={'container'}>
                         <button id={'hamburger'} className="hamburger hamburger--slider" type="button" onClick={this.toggleMenu}>
