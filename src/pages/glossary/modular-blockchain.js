@@ -14,20 +14,20 @@ class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>A type of blockchain that specializes in only a few functions, rather than all of them. The key functions are
+                <p>Modular blockchains are specialists that only perform one or two functions. The functions that modular blockchains can specialize in are:
                 </p>
 
                 <ol>
-                  <li>Execution</li>
-                  <li>Settlement</li>
-                  <li>Consensus</li>
-                  <li>Data availability</li>
+                  <li><a href="https://celestia.org/glossary/execution/">Execution</a></li>
+                  <li><a href="https://celestia.org/glossary/settlement/">Settlement</a></li>
+                  <li><a href="https://celestia.org/glossary/consensus/">Consensus</a></li>
+                  <li><a href="https://celestia.org/glossary/data-availability/">Data availability</a></li>
                 </ol>
 
-                <p>Modular blockchains are arranged as a modular stack, with each blockchain in the stack referred to as a “layer”. Since modular blockchains only provided a subset of the key functions, this enables them to to be purpose-built for the functions it provides.
+                <p>Modular chains don’t sit alone, though. Multiple of them combine to perform all the tasks a monolithic chain does by itself. This combination of chains is what we call a <a href="https://celestia.org/glossary/modular-stack/">modular stack</a>.
                 </p>
 
-                <p>For example, Celestia is a consensus and data availability layer as it only provides ordering over transactions (consensus) and verifying that their data is available.
+                <p>For example, Celestia is a modular blockchain that specializes in providing consensus and data availability for other types of chains.
                 </p>
 
             </div>
