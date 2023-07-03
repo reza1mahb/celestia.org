@@ -8,13 +8,13 @@ import GlossaryNav from "../../components/glossary-nav";
 import {Helmet} from "react-helmet";
 import twitterCardImage from "../../images/glossary-twitter-card.png";
 
-const title = 'Monolithic blockchain';
+const title = 'Execution';
 
 class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>Monolithic blockchains are generalists that perform all functions by themselves. This is the opposite of <a href="https://celestia.org/glossary/modular-blockchain/">modular blockchains</a>, which specialize and outsource the remaining functions to other modular chains.
+                <p>Execution refers to a function of modular blockchains where transactions are executed and the new state of the chain is determined.
                 </p>
 
             </div>

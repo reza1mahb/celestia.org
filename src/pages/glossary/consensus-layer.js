@@ -8,13 +8,13 @@ import GlossaryNav from "../../components/glossary-nav";
 import {Helmet} from "react-helmet";
 import twitterCardImage from "../../images/glossary-twitter-card.png";
 
-const title = 'Monolithic blockchain';
+const title = 'Consensus layer';
 
 class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>Monolithic blockchains are generalists that perform all functions by themselves. This is the opposite of <a href="https://celestia.org/glossary/modular-blockchain/">modular blockchains</a>, which specialize and outsource the remaining functions to other modular chains.
+                <p>A consensus layer refers to a modular blockchain that provides transaction ordering for other modular blockchains, like <a href="https://celestia.org/glossary/rollup/">rollups</a>. Modular blockchains that are a consensus layer may also provide data availability, like Celestia. ‘Consensus layer’ may also refer to the <a href="https://celestia.org/glossary/consensus-algorithm/">consensus mechanism</a> of a monolithic blockchain.
                 </p>
 
             </div>

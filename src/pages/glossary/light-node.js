@@ -8,13 +8,16 @@ import GlossaryNav from "../../components/glossary-nav";
 import {Helmet} from "react-helmet";
 import twitterCardImage from "../../images/glossary-twitter-card.png";
 
-const title = 'Monolithic blockchain';
+const title = 'Light node';
 
 class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>Monolithic blockchains are generalists that perform all functions by themselves. This is the opposite of <a href="https://celestia.org/glossary/modular-blockchain/">modular blockchains</a>, which specialize and outsource the remaining functions to other modular chains.
+                <p>In Celestia, a light node is a type of node that verifies block headers and does <a href="https://celestia.org/glossary/data-availability-sampling/">data availability sampling</a>. Data availability sampling gives Celestia light nodes increased security compared to typical <a href="https://celestia.org/glossary/light-client/">light clients</a> because it lets them detect invalid blocks that have had <a href="https://celestia.org/glossary/data-withholding-attack/">data withheld</a> by block producers.
+                </p>
+
+                <p>Since light nodes don’t download all block data or execute transactions, they can run on <a href="https://docs.celestia.org/nodes/overview/">considerably cheaper hardware</a> than full nodes.
                 </p>
 
             </div>

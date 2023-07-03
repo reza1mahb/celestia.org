@@ -8,13 +8,16 @@ import GlossaryNav from "../../components/glossary-nav";
 import {Helmet} from "react-helmet";
 import twitterCardImage from "../../images/glossary-twitter-card.png";
 
-const title = 'Monolithic blockchain';
+const title = 'Modular stack';
 
 class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>Monolithic blockchains are generalists that perform all functions by themselves. This is the opposite of <a href="https://celestia.org/glossary/modular-blockchain/">modular blockchains</a>, which specialize and outsource the remaining functions to other modular chains.
+                <p>A modular stack is a combination of multiple modular blockchains. Multiple different types of modular stacks are possible because of how modular blockchains can be customized and combined with each other. Though, a modular stack must be made up of all functions. 
+                </p>
+
+                <p>Visit <a href="https://celestia.org/learn/modular-architectures/the-modular-stack/">this Learn Modular article</a> to learn more about the modular stack.
                 </p>
 
             </div>

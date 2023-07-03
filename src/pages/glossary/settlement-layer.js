@@ -8,13 +8,16 @@ import GlossaryNav from "../../components/glossary-nav";
 import {Helmet} from "react-helmet";
 import twitterCardImage from "../../images/glossary-twitter-card.png";
 
-const title = 'Monolithic blockchain';
+const title = 'Settlement layer';
 
 class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>Monolithic blockchains are generalists that perform all functions by themselves. This is the opposite of <a href="https://celestia.org/glossary/modular-blockchain/">modular blockchains</a>, which specialize and outsource the remaining functions to other modular chains.
+                <p>A settlement layer refers to a modular blockchain whose primary role is to provide proof verification and <a href="https://celestia.org/glossary/dispute-resolution/">dispute resolution</a> for <a href="https://celestia.org/glossary/rollup/">rollups</a>. A settlement layer may also provide other features for rollups, such as a liquidity source or bridging hub. 'Settlement layer' may also refer to a monolithic blockchain used by rollups for the function of <a href="https://celestia.org/glossary/settlement/">settlement</a>.
+                </p>
+
+                <p>Read <a href="https://celestia.org/learn/modular-settlement-layers/settlement-in-the-modular-stack/">settlement in the modular stack</a> for more information on settlement layers. 
                 </p>
 
             </div>
