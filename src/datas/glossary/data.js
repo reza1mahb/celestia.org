@@ -26,9 +26,17 @@ export const glossaries = [
                 title: 'Composability',
                 text: 'The ability for applications on a blockchain to read and write state to each other.',
             },{
+                url: 'consensus',
+                title: 'Consensus',
+                text: 'A function of modular blockchains where the ordering of transactions is agreed upon by a set of validators.',
+            },{
                 url: 'consensus-algorithm',
                 title: 'Consensus algorithm',
                 text: 'A consensus algorithm is a set of rules that blockchains use to determine how nodes produce new blocks and agree to finalize them.',
+            },{
+                url: 'consensus-layer',
+                title: 'Consensus layer',
+                text: 'A modular blockchain that provides transaction ordering for other modular blockchains, like rollups.',
             },{
                 url: 'cosmos-sdk',
                 title: 'Cosmos SDK',
@@ -54,6 +62,10 @@ export const glossaries = [
                 title: 'Data availability committee',
                 text: 'A data availability committee (DAC) is a permissioned group of nodes responsible for providing data availability to a blockchain.',
             },{
+                url: 'data-availability-layer',
+                title: 'Data availability layer',
+                text: 'A blockchain that provides for other types of chains, like rollups.',
+            },{
                 url: 'data-throughput',
                 title: 'Data throughput',
                 text: 'A measurement of the data capacity of a blockchain. Data throughput is calculated by the amount of data that a blockchain can process, measured in kb/s or mb/s.',
@@ -70,9 +82,17 @@ export const glossaries = [
     },{
         'E':[
             {
+                url: 'execution',
+                title: 'Execution',
+                text: 'A function of modular blockchains where transactions are executed and the new state of the chain is determined.',
+            },{
                 url: 'execution-environment',
                 title: 'Execution environment',
                 text: 'The virtual environment within a blockchain where transactions are processed, and accounts and smart contracts live.',
+            },{
+                url: 'execution-layer',
+                title: 'Execution layer',
+                text: 'A type of modular blockchain whose primary job is hosting smart contracts and executing transactions.',
             }
         ]
     },{
@@ -122,6 +142,10 @@ export const glossaries = [
                 title: 'Light client',
                 text: 'A type of node that only downloads and verifies block headers, relying on an honest majority assumption that the state of the chain indicated by the block header is valid.',
             },{
+                url: 'light-node',
+                title: 'Light node',
+                text: 'In Celestia, a light node is a type of node that verifies block headers and does data availability sampling.',
+            },{
                 url: 'liveness',
                 title: 'Liveness',
                 text: 'Liveness is a property of blockchains where validators produce new blocks and successfully finalize transactions.',
@@ -132,7 +156,15 @@ export const glossaries = [
             {
                 url: 'modular-blockchain',
                 title: 'Modular blockchain',
-                text: 'A type of blockchain that specializes in only a few functions, rather than all of them.',
+                text: 'A type of blockchain that specializes in one or two tasks, rather than all of them.',
+            },{
+                url: 'modular-stack',
+                title: 'Modular stack',
+                text: 'A combination of multiple modular blockchains.',
+            },{
+                url: 'monolithic-blockchain',
+                title: 'Monolithic blockchain',
+                text: 'A type of blockchain that performs all tasks by itself.',
             }
         ]
     },{
@@ -193,6 +225,14 @@ export const glossaries = [
                 url: 'scalability',
                 title: 'Scalability',
                 text: 'Scalability is the ability of a blockchain to increase its capacity without an equal increase in the cost to run a node that verifies the chain.',
+            },{
+                url: 'settlement',
+                title: 'Settlement',
+                text: 'A function of modular blockchains where transaction proofs from rollups are verified and disputes are resolved.',
+            },{
+                url: 'settlement-layer',
+                title: 'Settlement layer',
+                text: 'A modular blockchain whose primary role is to provide proof verification and dispute resolution for rollups.',
             },{
                 url: 'sequencer',
                 title: 'Sequencer',
