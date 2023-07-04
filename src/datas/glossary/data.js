@@ -50,6 +50,18 @@ export const glossaries = [
     },{
         'D':[
             {
+                url: 'da',
+                title: 'DA',
+                text: 'DA stands for Data Availability.',
+            },{
+                url: 'dac',
+                title: 'DAC',
+                text: 'DAC stands for Data Availability Committee.',
+            },{
+                url: 'das',
+                title: 'DAS',
+                text: 'DAS stands for Data Availability Sampling.',
+            },{
                 url: 'data-availability-sampling',
                 title: 'Data availability sampling',
                 text: 'A technique in which nodes can verify that data is available for a block without having to download the entire block, formerly known as data availability proofs.',
@@ -82,6 +94,10 @@ export const glossaries = [
     },{
         'E':[
             {
+                url: 'ee',
+                title: 'EE',
+                text: 'EE stands for Execution Environment.',
+            },{
                 url: 'execution',
                 title: 'Execution',
                 text: 'A function of modular blockchains where transactions are executed and the new state of the chain is determined.',
@@ -133,6 +149,10 @@ export const glossaries = [
                 url: 'inter-cluster-communication',
                 title: 'Inter-cluster communication',
                 text: 'Communication that occurs between blockchains that are in different clusters.',
+            },{
+                url: 'isr',
+                title: 'ISR',
+                text: 'ISR stands for Intermediate State Root.',
             }
         ]
     },{
@@ -174,6 +194,10 @@ export const glossaries = [
                 title: 'Namespaced Merkle Tree',
                 text: 'A Namespaced Merkle Tree (NMT) is a type of binary Merkle tree where each node in the tree is tagged by the minimum and maximum namespace of their children.',
             },{
+                url: 'nmt',
+                title: 'NMT',
+                text: 'NMT stands for Namespaced Merkle Tree.',
+            },{
                 url: 'node',
                 title: 'Node',
                 text: 'A node is a device that participates in a blockchain protocol by running its software.',
@@ -193,6 +217,10 @@ export const glossaries = [
                 url: 'optimistic-rollup',
                 title: 'Optimistic rollup',
                 text: 'A type of rollup that posts its blocks to a separate chain without any cryptographic proofs that attest to their validity.',
+            },{
+                url: 'oru',
+                title: 'ORU',
+                text: 'ORU stands for Optimistic Rollup.',
             }
         ]
     },{
@@ -202,9 +230,21 @@ export const glossaries = [
                 title: 'Peer to peer network',
                 text: 'A network in which nodes are connected and can communicate directly with each other without reliance on a third party to facilitate communication.',
             },{
+                url: 'pfb',
+                title: 'PFB',
+                text: 'PFB stands for PayforBlob.',
+            },{
                 url: 'proof-of-stake',
                 title: 'Proof of Stake',
                 text: 'Proof of Stake is a mechanism that requires blockchain participants to stake a token to participate in consensus.',
+            }
+        ]
+    },{
+        'Q':[
+            {
+                url: 'qgb',
+                title: 'QGB',
+                text: 'QGB stands for Quantum Gravity Bridge.',
             }
         ]
     },{
@@ -333,6 +373,10 @@ export const glossaries = [
                 url: 'zk-rollup',
                 title: 'zk-Rollup',
                 text: 'A type of rollup that posts its blocks to a separate chain with a validity proof that attests to the correctness of the block.',
+            },{
+                url: 'zkr',
+                title: 'ZKR',
+                text: 'ZKR stands for ZK Rollup.',
             }
         ]
     }
