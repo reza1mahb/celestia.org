@@ -14,7 +14,7 @@ class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>ISR stands for <Intermediate State Root.
+                <p>ISR stands for Intermediate State Root.
                 </p>
 
             </div>
