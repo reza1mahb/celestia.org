@@ -281,6 +281,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/risczero.png',
                 url: 'https://www.risczero.com/'
+            },
+            {
+                title: 'Dora',
+                text: '',
+                image: 'ecosystem/dora.png',
+                url: 'https://www.ondora.xyz/'
             }
         ]
     }
