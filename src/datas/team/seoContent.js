@@ -1,5 +1,5 @@
 export const seoContent = {
-	title: "Celestia - Team",
-	description: "We're building the Celestia network",
-    image: "",
+	title: "Team | celestia.org",
+	description: "Meet the team building the Celestia network.",
+    image: "celestia-default-og-image.jpg",
 };
