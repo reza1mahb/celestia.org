@@ -5,8 +5,9 @@ import Layout from "../../components/layout";
 import BreadCrumb from "../../components/breadcrumb";
 import SocialShare from "../../components/socialShare";
 import GlossaryNav from "../../components/glossary-nav";
-import {Helmet} from "react-helmet";
-import twitterCardImage from "../../images/glossary-twitter-card.png";
+
+import { seoContent } from "../../datas/glossary/seoContent";
+import SEO from "../../components/seo";
 
 const title = 'Monolithic blockchain';
 
@@ -14,7 +15,10 @@ class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>Monolithic blockchains are generalists that perform all functions by themselves. This is the opposite of <a href="https://celestia.org/glossary/modular-blockchain/">modular blockchains</a>, which specialize and outsource the remaining functions to other modular chains.
+                <p>A type of blockchain that performs all four functions at once, which are execution, settlement, consensus, and data availability. Where a modular stack splits up all components across multiple layers, monolithic blockchains do so on a single layer.
+                </p>
+
+                <p>Read more about <a href="https://celestia.org/learn/basics-of-modular-blockchains">monolithic blockchains</a>
                 </p>
 
             </div>
@@ -26,19 +30,11 @@ class GlossarySubpage extends React.Component {
     render() {
         return (
             <Layout footerBoxes={FooterBoxes}>
-                <Helmet>
-                    <title>Celestia - {title}</title>
-                    <meta property="og:url" content={this.props.location.href} />
-                    <meta property="og:title" content={'Celestia - '+title} />
-                    <meta property="og:description" content="" />
-                    <meta property="og:image" content={twitterCardImage} />
-
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:site" content="@CelestiaOrg" />
-                    <meta name="twitter:title" content={'Celestia - '+title} />
-                    <meta name="twitter:description" content="" />
-                    <meta name="twitter:image" content={twitterCardImage} />
-                </Helmet>
+                <SEO
+                    title={'Celestia - '+title}
+                    description={seoContent.description}
+                    image={seoContent.image}
+                />
                 <div className={'glossary-subpage'}>
                     <main>
                         <div className={'container'}>

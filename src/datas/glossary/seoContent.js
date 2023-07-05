@@ -1,5 +1,5 @@
 export const seoContent = {
-	title: "glossary | celestia.org",
+	title: "Glossary | celestia.org",
 	description: "Explore new terms about Celestia and modular blockchains.",
-    image: "celestia-default-og-image.jpg",
+    image: "/glossary-og-image.jpg",
 };

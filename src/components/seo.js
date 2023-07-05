@@ -17,9 +17,6 @@ function SEO({ description, lang, meta, keywords, title, image }) {
 			}
 		}
 	`);
-    
-
-    console.log(site.siteMetadata.image)
 
 	const metaTitle = title || site.siteMetadata.title;
 	const metaDescription = description || site.siteMetadata.description;
@@ -56,12 +53,12 @@ function SEO({ description, lang, meta, keywords, title, image }) {
 					content: `summary_large_image`,
 				},
 				{
-					name: `twitter:creator`,
-					content: site.siteMetadata.author,
-				},
-				{
 					name: `twitter:title`,
 					content: metaTitle,
+				},
+				{
+					name: `twitter:site`,
+					content: site.siteMetadata.author,
 				},
 				{
 					name: `twitter:description`,
