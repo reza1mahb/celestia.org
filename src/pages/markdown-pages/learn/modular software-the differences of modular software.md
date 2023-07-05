@@ -18,7 +18,7 @@ description: "What is modular software and how is it different to modular blockc
   <meta name="twitter:title" content="The differences of modular software">
   <meta name="twitter:description" content="What is modular software and how is it different to modular blockchains?">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
-<head/>
+</head>
 
 #### Summary
 1. Modular software and modular blockchains are often confused for one another, but they mean very different things

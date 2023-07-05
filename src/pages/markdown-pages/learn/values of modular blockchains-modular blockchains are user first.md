@@ -18,7 +18,7 @@ description: "The values that modular blockchains aim for."
   <meta name="twitter:title" content="Values of Modular Blockchains">
   <meta name="twitter:description" content="Blockchains are a social movement as much as they are a technology. Without values, blockchains would be no better than web2 tech companies. Here are the values that modular blockchains aim for.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
-<head/>
+</head>
 
 #### Summary
 * Modular blockchains make users first class citizens by enabling them to directly verify the blockchain.

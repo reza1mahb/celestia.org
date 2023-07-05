@@ -18,7 +18,7 @@ description: "What are modular blockchains and what makes them different to thei
   <meta name="twitter:title" content="Basics of Modular Blockchains">
   <meta name="twitter:description" content="A look at what modular and monolithic blockchains are.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
-<head/>
+</head>
 
 #### Summary
 1. The first approach to building blockchains was a monolithic design where a single blockchain does everything.

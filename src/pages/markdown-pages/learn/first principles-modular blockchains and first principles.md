@@ -18,7 +18,7 @@ description: "A first principles perspective on modular blockchains."
   <meta name="twitter:title" content="Modular blockchains and first principles">
   <meta name="twitter:description" content="A first principles perspective on modular blockchains.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
-<head/>
+</head>
 
 #### Summary
 * Modular blockchains prioritize decentralization for network security by reducing the cost for users to operate nodes and verify the network.

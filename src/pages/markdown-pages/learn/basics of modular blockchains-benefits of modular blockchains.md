@@ -18,7 +18,7 @@ description: "What are modular blockchains and what makes them different to thei
   <meta name="twitter:title" content="Benefits of Modular Blockchains">
   <meta name="twitter:description" content="The strengths and advantages of modular blockchains.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
-<head/>
+</head>
 
 #### Scalability
 Remember, a core idea of modular blockchains is that they separate functions across multiple chains. This concept also brings extra scalability. A modular L1 like Celestia can now specialize in data availability. Without smart contracts, the L1 can focus all its resources on providing data for L2s, like rollups. Specialization is key because more data the L1 can provide allows rollups to process more transactions.

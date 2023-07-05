@@ -18,7 +18,7 @@ description: "Answers to common misconceptions about sovereign rollups."
   <meta name="twitter:title" content="Misconceptions of sovereign rollups">
   <meta name="twitter:description" content="Answers to common misonceptions about sovereign rollups."> 
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/sovereign-rollups-twitter-card.png">
-<head/>
+</head>
 
 #### Summary
 - Sovereign rollups inherit multiple aspects of security from the DA layer, such as <a href="https://celestia.org/glossary/liveness/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">liveness</a>, <a href="https://celestia.org/glossary/safety/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">safety</a>, re-org resistance, and censorship resistance.

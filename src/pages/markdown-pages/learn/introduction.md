@@ -18,7 +18,7 @@ description: "What is Learn Modular?"
   <meta name="twitter:title" content="Learn Modular">
   <meta name="twitter:description" content="Welcome to learn modular, your go-to place to learn about modular blockchains and everything in between.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
-<head/>
+</head>
 
 Modular blockchains are amazing, right?
 

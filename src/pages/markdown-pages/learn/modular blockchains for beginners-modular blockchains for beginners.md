@@ -18,7 +18,7 @@ description: "What are modular blockchains exactly?"
   <meta name="twitter:title" content="Modular blockchains for beginners">
   <meta name="twitter:description" content="What are modular blockchains exactly?">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
-<head/>
+</head>
 
 Modular blockchains are changing the way we think of and build decentralized applications.
 

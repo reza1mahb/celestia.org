@@ -18,7 +18,7 @@ description: "What sovereign rollups are and how they're different to other bloc
   <meta name="twitter:title" content="An introduction to sovereign rollups">
   <meta name="twitter:description" content="What sovereign rollups are and how they're different to other blockchain designs."> 
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/sovereign-rollups-twitter-card.png">
-<head/>
+</head>
 
 #### Summary
 - Sovereign rollups publish transactions to another blockchain for ordering and data availability, leaving its nodes to determine the correct chain.
