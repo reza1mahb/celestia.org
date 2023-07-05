@@ -1,5 +1,5 @@
 export const seoContent = {
-	title: "Celestia - Resources",
-	description: "Explore the Celestia network resources and documentation to learn more about the project.",
-    image: "",
+	title: "Resources | celestia.org",
+	description: "Explore blog posts, podcasts episodes, YouTube videos, and research papers about the Celestia network.",
+    image: "celestia-default-og-image.jpg",
 };
