@@ -1,5 +1,5 @@
 export const seoContent = {
-	title: "Celestia - Developer Portal",
+	title: "Developer Portal | celestia.org",
 	description: "The homepage for Celestia developers. Tutorials. Resources. Community.",
-    image: "",
+    image: "Developer-Portal.jpg",
 };
