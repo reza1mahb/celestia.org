@@ -378,20 +378,6 @@ export const teamMembers = [
 		},
 	},
 	{
-		id: 34,
-		name: "Joseph Al-Chami",
-		title: "Product Manager",
-		text: "Former Product Manager at Figment",
-		image: "team/JosephAlChami.png",
-		socials: {
-			twitter: "",
-			discord: "",
-			github: "",
-			email: "",
-			linkedin: "",
-		},
-	},
-	{
 		id: 35,
 		name: "Eugenia Acosta",
 		title: "Product Manager",
