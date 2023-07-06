@@ -8,8 +8,8 @@ module.exports = {
     title: `The first modular blockchain network`,
     description: `Celestia is a modular consensus and data network, built to enable anyone to easily deploy their own blockchain with minimal overhead.`,
     author: `@CelestiaOrg`,
-    // siteUrl: `https://celestia.org`,
-    siteUrl: `https://dev.lazyledger.org`,
+    siteUrl: `https://celestia.org`,
+    // siteUrl: `https://dev.lazyledger.org`, <-- switch to this url for OG meta previews on https://dev.lazyledger.org
     image: `/celestia-default-og-image.jpg`,
   },
   
