@@ -5,41 +5,33 @@ import Layout from "../../components/layout";
 import BreadCrumb from "../../components/breadcrumb";
 import SocialShare from "../../components/socialShare";
 import GlossaryNav from "../../components/glossary-nav";
-import {Helmet} from "react-helmet";
-import twitterCardImage from "../../images/glossary-twitter-card.png";
+
+import { seoContent } from "../../datas/glossary/seoContent";
+import SEO from "../../components/seo";
 
 const title = 'DAS';
 
 class GlossaryContent extends React.Component {
-    render() {
-        return (
-            <div className={'glossary-content'}>
-                <p>DAS stands for <a href="https://celestia.org/glossary/data-availability-sampling/">Data Availability Sampling</a>.
-                </p>
-
-
-            </div>
-        )
-    }
+	render() {
+		return (
+			<div className={"glossary-content"}>
+				<p>
+					DAS stands for <a href='https://celestia.org/glossary/data-availability-sampling/'>Data Availability Sampling</a>.
+				</p>
+			</div>
+		);
+	}
 }
 
 class GlossarySubpage extends React.Component {
     render() {
         return (
             <Layout footerBoxes={FooterBoxes}>
-                <Helmet>
-                    <title>Celestia - {title}</title>
-                    <meta property="og:url" content={this.props.location.href} />
-                    <meta property="og:title" content={'Celestia - '+title} />
-                    <meta property="og:description" content="" />
-                    <meta property="og:image" content={twitterCardImage} />
-
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:site" content="@CelestiaOrg" />
-                    <meta name="twitter:title" content={'Celestia - '+title} />
-                    <meta name="twitter:description" content="" />
-                    <meta name="twitter:image" content={twitterCardImage} />
-                </Helmet>
+                <SEO
+                    title={'Celestia - '+title}
+                    description={seoContent.description}
+                    image={seoContent.image}
+                />
                 <div className={'glossary-subpage'}>
                     <main>
                         <div className={'container'}>
