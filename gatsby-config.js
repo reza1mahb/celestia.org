@@ -78,6 +78,18 @@ module.exports = {
       },
     },
     "gatsby-plugin-react-helmet",
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        // host: "https//https://celestia.org",
+        host: "https://dev.lazyledger.org",
+        // sitemap: "https://celestia.org/sitemap.xml",
+        sitemap: "https://dev.lazyledger.org/sitemap.xml",
+        output: "/robots.txt",
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
