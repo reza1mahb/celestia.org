@@ -82,8 +82,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: "https://dev.lazyledger.org",
-        sitemap: "https://dev.lazyledger.org/sitemap.xml",
+        host: "https://celestia.org",
+        sitemap: "https://celestia.org/sitemap.xml",
         output: "/robots.txt",
         policy: [{ userAgent: '*', allow: '/' }]
       }
