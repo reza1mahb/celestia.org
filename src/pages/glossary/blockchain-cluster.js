@@ -35,6 +35,7 @@ class GlossaryContent extends React.Component {
                 <SEO
                     title={'Celestia - '+title}
                     description={seoContent.description}
+                    ogTitle={'Celestia - '+title}
                     image={seoContent.image}
                 />
                 <div className={'glossary-subpage'}>

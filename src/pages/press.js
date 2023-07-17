@@ -14,6 +14,7 @@ const Press = () => {
 			<SEO
 				title={seoContent.title}
 				description={seoContent.description}
+                ogTitle={seoContent.ogTitle}
 				image={seoContent.image}
 			/>
 			<div className={"press"}>

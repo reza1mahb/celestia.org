@@ -252,7 +252,12 @@ class GlossaryPage extends React.Component {
 	render() {
 		return (
 			<Layout footerBoxes={FooterBoxes}>
-				<SEO title={seoContent.title} description={seoContent.description} image={seoContent.image} />
+				<SEO
+				title={seoContent.title}
+				description={seoContent.description}
+                ogTitle={seoContent.ogTitle}
+				image={seoContent.image}
+			/>
 				<div className={"glossary-page"}>
 					<main>
 						<div className={"container"}>

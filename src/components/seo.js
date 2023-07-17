@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 
-function SEO({ description, lang, meta, title, image }) {
+function SEO({ description, lang, meta, title, image, ogTitle }) {
 	const { site } = useStaticQuery(graphql`
 		query DefaultSEOQuery {
 			site {
@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title, image }) {
 	`);
 
 	const metaTitle = title || site.siteMetadata.title;
+	const metaOgTitle = ogTitle || site.siteMetadata.title;
 	const metaDescription = description || site.siteMetadata.description;
 	const metaImage = image ? site.siteMetadata.siteUrl + image : site.siteMetadata.siteUrl + site.siteMetadata.image;
 
@@ -34,7 +35,7 @@ function SEO({ description, lang, meta, title, image }) {
 				},
 				{
 					property: `og:title`,
-					content: metaTitle,
+					content: metaOgTitle,
 				},
 				{
 					property: `og:description`,
@@ -54,7 +55,7 @@ function SEO({ description, lang, meta, title, image }) {
 				},
 				{
 					name: `twitter:title`,
-					content: metaTitle,
+					content: metaOgTitle,
 				},
 				{
 					name: `twitter:site`,
@@ -65,9 +66,8 @@ function SEO({ description, lang, meta, title, image }) {
 					content: metaDescription,
 				},
 			]
-				.concat(meta)}
+			.concat(meta)}
 			title={metaTitle}
-			titleTemplate={`%s | ${site.siteMetadata.title}`}
 		/>
 	);
 }
@@ -84,6 +84,7 @@ SEO.propTypes = {
     lang: PropTypes.string,
     meta: PropTypes.array,
     title: PropTypes.string.isRequired,
+	ogTitle: PropTypes.string,
     image: PropTypes.string,
 };
 

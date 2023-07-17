@@ -13,6 +13,7 @@ const TeamPage = () => {
             <SEO
 				title={seoContent.title}
 				description={seoContent.description}
+                ogTitle={seoContent.ogTitle}
 				image={seoContent.image}
 			/>
             <div className={'faq-page'}>
