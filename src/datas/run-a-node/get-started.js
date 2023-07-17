@@ -4,29 +4,32 @@ export const getStarted = {
 	items: [
 		{
 			id: 1,
-			title: "Run a node directly on your computer via the CLI",
-			text: "(in general use) a complex network or interconnected system. add 3 line description max.I",
+			title: "Run light node via command line",
+			text: "Get your light node running with a few commands on your CLI.",
 			type: "anchor",
 			link: {
-				text:"Learn more",
+				text:"Go now",
+				url: "https://docs.celestia.org/nodes/light-node/",
 			},
 		},
 		{
 			id: 2,
-			title: "Run a node on docker via the CLI",
-			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
+			title: "Run light node via docker",
+			text: "Startup your light node in a virtual environment via the CLI.",
 			type: "anchor",
 			link: {
-				text:"Learn more",
+				text:"Start up",
+				url: "https://docs.celestia.org/nodes/docker-images/",
 			},
 		},
 		{
 			id: 3,
-			title: "Run a node on docker via the CLI",
-			text: "(in general use) a complex network or interconnected system. add 3 line description max.",
+			title: "Run light node via mac app",
+			text: "Boot up your light node via a graphical application. Note, the app is only compatible with m1 and m2 macs.",
 			type: "anchor",
 			link: {
 				text:"Learn more",
+				url: "https://www.quasarapp.xyz/",
 			},
 		},
 	],
