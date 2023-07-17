@@ -20,6 +20,18 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/vistara.png',
                 url: 'https://docs.vistara.dev/'
+            },
+            {
+                title: 'Snapchain',
+                text: '',
+                image: 'ecosystem/snapchain.png',
+                url: 'https://www.snapchain.dev/'
+            },
+            {
+                title: 'Cosmos SDK',
+                text: '',
+                image: 'ecosystem/cosmos-sdk.png',
+                url: 'https://cosmos.network/'
             }
         ]
     },{
@@ -230,6 +242,12 @@ export const ecosystemCategories = [
                 url: 'https://argus.gg/'
             },
             {
+                title: 'Curio',
+                text: '',
+                image: 'ecosystem/curio.png',
+                url: 'https://www.curio.gg/'
+            },
+            {
                 title: 'Worlds',
                 text: '',
                 image: 'ecosystem/worlds.png',
@@ -257,6 +275,11 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/pklab.png',
                 url: 'https://bakingbad.dev/'
+            },{
+                title: 'Manta Network',
+                text: '',
+                image: 'ecosystem/manta.png',
+                url: 'https://manta.network/'
             },
             {
                 title: 'Modular cloud',
@@ -287,6 +310,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/dora.png',
                 url: 'https://www.ondora.xyz/'
+            },
+            {
+                title: 'Cosmology',
+                text: '',
+                image: 'ecosystem/cosmology.png',
+                url: 'https://cosmology.tech/'
             }
         ]
     }
