@@ -9,7 +9,7 @@ import Layout from "../components/layout";
 import IconCard from "../components/modules/icon-card";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-import { seoContent } from "../datas/developer-portal/seoContent";
+import { seoContent } from "../datas/run-a-node/seoContent";
 import SEO from "../components/seo";
 
 import image1 from "../images/run-a-node/placeholder.png";
