@@ -1,9 +1,9 @@
 export const heroData = {
 	title: "Run a Node",
-	text: "Build games with new capabilities. Celestia scales with the number of users so games can scale with their usebase.",
+	text: "Enter an internet where users are first-class citizens. Own your assets while securing Celestia.",
 	buttons: [
 		{
-			text: "Build Modular",
+			text: "Become sovereign",
 			class: "simple",
 			type: "anchor",
 			url: "frameworks",
@@ -12,7 +12,7 @@ export const heroData = {
 			text: "Ask a question",
 			class: "white",
 			type: "external",
-			url: "https://forum.celestia.org/",
+			url: "https://discord.com/invite/YsnTPcSfWQ",
 		},
 	],
 };
