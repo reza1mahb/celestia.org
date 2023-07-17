@@ -55,19 +55,18 @@ const DevPortal = () => {
 									</div>
 								</div>
 								<div className={"text-box col-12 col-lg-6"}>
-									<h2 className='title'>What is a node</h2>
+									<h2 className='title'>What is a node?</h2>
 									<p>
-										Think of Celestia as a power grid, except instead of providing electricity, Celestia provides the essential
-										resource to power a blockchain: consensus and data availability. Similar to how anyone can plug into an
-										electricity grid to power their appliance, anyone can plug into Celestia’s network to power their own
-										blockchain.
+										A node is a piece of software that runs on a device, like a computer. There are many types
+										of nodes, but generally a node verifies that a blockchain is working correctly and following
+										the rules. Verifying a blockchain can involve things like checking transactions arecorrect
+										and providing other nodes with information about account balances.
 									</p>
-									<h2 className='title'>What does it mean to ‘run’ a node</h2>
+									<h2 className='title'>What about Celestia light nodes?</h2>
 									<p>
-										Think of Celestia as a power grid, except instead of providing electricity, Celestia provides the essential
-										resource to power a blockchain: consensus and data availability. Similar to how anyone can plug into an
-										electricity grid to power their appliance, anyone can plug into Celestia’s network to power their own
-										blockchain.
+										Light nodes sound like you might think. They are nodes that can run on cheaper hardware and
+										slower internet connections than other types of nodes. Celestia light nodes are different
+										from most other light nodes because they have similar security to full nodes.
 									</p>
 								</div>
 							</div>
@@ -80,10 +79,8 @@ const DevPortal = () => {
 								<div className={"text-box col-12 col-lg-6"}>
 									<h2 className='with-decor'>Start up a light node</h2>
 									<p className='description'>
-										Celestia gives developers the freedom to define their own sovereign chain, tailored for their
-										application,Celestia gives developers the freedom to define their own sovereign chain, tailored for their
-										applicationCelestia gives developers the freedom to define their own sovereign chain, tailored for their
-										application
+										Light nodes are the least intensive node type that you can run on most devices.
+										Pick the option that suits you best to get your Celestia light node started.
 									</p>
 								</div>
 								<div className={"image-box--modular col-12 col-lg-6"}>
