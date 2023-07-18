@@ -6,7 +6,7 @@ export const heroData = {
 			text: "Become sovereign",
 			class: "simple",
 			type: "anchor",
-			url: "frameworks",
+			url: "start-up-a-node",
 		},
 		{
 			text: "Ask a question",

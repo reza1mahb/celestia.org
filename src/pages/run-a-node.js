@@ -27,7 +27,7 @@ const DevPortal = () => {
 								<div className={"col-auto"}>
 									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
 									<AnchorLink
-										to={`/developer-portal#${heroData.buttons[0].url}`}
+										to={`/run-a-node#${heroData.buttons[0].url}`}
 										className={"button button-" + heroData.buttons[0].class}
 										stripHash
 									>
@@ -75,7 +75,7 @@ const DevPortal = () => {
 						</div>
 					</section>
 
-					<section className={"start-up"}>
+					<section className={"start-up"} id={`${heroData.buttons[0]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
 							<div className={"row justify-content-between align-items-center"}>
 								<div className={"text-box col-12 col-lg-6"}>
