@@ -62,7 +62,7 @@ const DevPortal = () => {
 										the rules. Verifying a blockchain can involve things like checking transactions arecorrect
 										and providing other nodes with information about account balances.
 									</p>
-									<h2 className='title'>What about Celestia light nodes?</h2>
+									<h2 className='title'>And what about Celestia light nodes?</h2>
 									<p>
 										Light nodes sound like you might think. They are nodes that can run on cheaper hardware and
 										slower internet connections than other types of nodes. Celestia light nodes are different
