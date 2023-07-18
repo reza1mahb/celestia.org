@@ -4,7 +4,7 @@ export const getStarted = {
 	items: [
 		{
 			id: 1,
-			title: "Run light node via command line",
+			title: "Run light node via CLI",
 			text: "Get your light node running with a few commands on your CLI.",
 			type: "anchor",
 			link: {
