@@ -57,16 +57,18 @@ const DevPortal = () => {
 								<div className={"text-box col-12 col-lg-6"}>
 									<h2 className='title'>What is a node?</h2>
 									<p>
-										A node is a piece of software that runs on a device, like a computer. There are many types
-										of nodes, but generally a node verifies that a blockchain is working correctly and following
-										the rules. Verifying a blockchain can involve things like checking transactions arecorrect
-										and providing other nodes with information about account balances.
+										A node is a piece of software that runs on a device like a computer or a phone.
+										Generally, a node verifies that a blockchain works correctly and follows the rules.
+										“Verifying” a blockchain can involve tasks like checking transactions are correct
+										and providing account balances to other nodes.
 									</p>
 									<h2 className='title'>And what about Celestia light nodes?</h2>
 									<p>
-										Light nodes sound like you might think. They are nodes that can run on cheaper hardware and
-										slower internet connections than other types of nodes. Celestia light nodes are different
-										from most other light nodes because they have similar security to full nodes.
+										Light nodes sound like you might expect. They are nodes that can run on cheaper
+										hardware and slower internet connections than other node types. The lower
+										requirements make it more accessible for anyone to run a node that verifies the
+										chain. What makes Celestia light nodes unique is that they keep a higher level of
+										security than most other types of light nodes.
 									</p>
 								</div>
 							</div>
@@ -79,8 +81,8 @@ const DevPortal = () => {
 								<div className={"text-box col-12 col-lg-6"}>
 									<h2 className='with-decor'>Start up a light node</h2>
 									<p className='description'>
-										Light nodes are the least intensive node type that you can run on most devices.
-										Pick the option that suits you best to get your Celestia light node started.
+										Light nodes are the most accessible Celestia node that can run on many devices.
+										Pick an option that suits your difficulty and get your Celestia light node up and running.
 									</p>
 								</div>
 								<div className={"image-box--modular col-12 col-lg-6"}>
