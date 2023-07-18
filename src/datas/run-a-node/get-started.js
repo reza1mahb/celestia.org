@@ -25,7 +25,7 @@ export const getStarted = {
 		{
 			id: 3,
 			title: "Run light node via mac app",
-			text: "Boot up your light node via a graphical application. Note, the app is only compatible with m1 and m2 macs.",
+			text: "Boot up your light node via an app (only compatible with m1 and m2 macs).",
 			type: "anchor",
 			link: {
 				text:"Learn more",
