@@ -13,7 +13,7 @@ export const FooterBoxes = [
         text: 'Join a growing modular ecosystem of developers building on testnet.',
         button: {
             text: 'Get started',
-            href: 'https://docs.celestia.org/',
+            href: '/developer-portal/',
             id: 'operator',
             type: 'simple'
         }
