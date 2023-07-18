@@ -1,38 +1,38 @@
 export const resources = {
 	title: "Resources",
-	description: "Tutorials, resources, and guides for staking.",
+	description: "Tutorials, and guides for running Celestia nodes.",
 	items: [
 		{
 			id: 1,
-			title: "Light node tutorial on YouTube",
+			title: "Light node setup walkthrough",
 			text: "",
 			image: "developer-portal/lightbulb.png",
 			type: "external",
 			link: {
-				text:"Explore concepts",
-				url: "https://docs.celestia.org/developers/build-modular/",
+				text:"Explore",
+				url: "https://youtu.be/WFubhQc8tGk",
 			},
 		},
 		{
 			id: 2,
-			title: "Values of modular chains",
+			title: "Overview of Celestia nodes",
 			text: "",
 			image: "developer-portal/availability.png",
 			type: "external",
 			link: {
-				text:"Explore concepts",
+				text:"Learn more",
 				url: "https://docs.celestia.org/nodes/overview/",
 			},
 		},
 		{
 			id: 3,
-			title: "Light node requirement",
+			title: "Node API",
 			text: "",
 			image: "developer-portal/why-build-mod.png",
-			type: "internal",
+			type: "external",
 			link: {
-				text:"Explore concepts",
-				url: "/learn/",
+				text:"Read more",
+				url: "https://docs.celestia.org/developers/node-api/",
 			},
 		},
 	],
