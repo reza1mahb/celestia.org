@@ -12,7 +12,8 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { seoContent } from "../datas/run-a-node/seoContent";
 import SEO from "../components/seo";
 
-import image1 from "../images/run-a-node/placeholder.png";
+import image2 from "../images/run-a-node/run-a-node-2.png";
+import image3 from "../images/run-a-node/run-a-node-3.png";
 
 const DevPortal = () => {
 	return (
@@ -49,9 +50,9 @@ const DevPortal = () => {
 					<section className={"what-is-a-node"}>
 						<div className={"container"}>
 							<div className={"row justify-content-between align-items-center"}>
-								<div className={"image-box--analogy col-12 col-lg-6"}>
+								<div className={"image-box--node col-12 col-lg-6"}>
 									<div className='image-wrapper'>
-										<img className='img' style={{ width: `100%`, maxWidth: `500px` }} src={image1} alt={""} />
+										<img className='img' style={{ width: `100%`, maxWidth: `500px` }} src={image2} alt={""} />
 									</div>
 								</div>
 								<div className={"text-box col-12 col-lg-6"}>
@@ -85,9 +86,9 @@ const DevPortal = () => {
 										Pick an option that suits your difficulty and get your Celestia light node up and running.
 									</p>
 								</div>
-								<div className={"image-box--modular col-12 col-lg-6"}>
+								<div className={"image-box--startup col-12 col-lg-6"}>
 									<div className='image-wrapper'>
-										<img src={image1} alt={""} />
+										<img src={image3} alt={""} />
 									</div>
 								</div>
 							</div>

@@ -36,7 +36,7 @@
 	}
 
 	&:before {
-		background: url(../images/run-a-node/placeholder.png) no-repeat scroll top right transparent;
+		background: url(../images/run-a-node/run-a-node-1.png) no-repeat scroll top right transparent;
 		background-size: contain;
 		top: 30px;
 		right: 0;
@@ -165,14 +165,20 @@
 	// new sections
 
 	.start-up {
-		padding-top: 0px;
-		padding-bottom: 0px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		@include media-breakpoint-down(lg) {
 			padding-top: 70px;
-            padding-bottom: 20px;
+			padding-bottom: 20px;
 		}
 		h2 {
 			max-width: 450px;
+		}
+
+		.image-box--startup {
+			@include media-breakpoint-down(md) {
+				padding: 16px 20px;
+			}
 		}
 
 		.description {
@@ -183,9 +189,9 @@
 		.image-wrapper img {
 			width: 100;
 			max-width: 500px;
-            @include media-breakpoint-down(md) {
-                max-width: 100%;
-            }
+			@include media-breakpoint-down(md) {
+				max-width: 100%;
+			}
 		}
 	}
 
@@ -197,6 +203,12 @@
 		}
 		@include media-breakpoint-down(sm) {
 			padding-top: 0px;
+		}
+
+		.image-box--node{
+			@include media-breakpoint-down(md) {
+				padding: 32px 20px;
+			}
 		}
 
 		.text-box {
@@ -241,10 +253,10 @@
 	.resources {
 		padding-top: 0px;
 		padding-bottom: 140px;
-        @include media-breakpoint-down(lg) {
-            padding-top: 40px;
-            padding-bottom: 60px;
-        }
+		@include media-breakpoint-down(lg) {
+			padding-top: 40px;
+			padding-bottom: 60px;
+		}
 
 		& .icon-card-wrapper .icon-card {
 			background: transparent;
@@ -267,6 +279,13 @@
 			@include media-breakpoint-down(sm) {
 				max-width: 100%;
 			}
+		}
+		.logo-container {
+			height: 100px;
+			width: 100px;
+		}
+		.gatsby-image-wrapper {
+			width: 100px;
 		}
 	}
 }

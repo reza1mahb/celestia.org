@@ -6,7 +6,7 @@ export const resources = {
 			id: 1,
 			title: "Light node setup walkthrough",
 			text: "",
-			image: "developer-portal/lightbulb.png",
+			image: "run-a-node/icon-1.png",
 			type: "external",
 			link: {
 				text:"Explore",
@@ -17,7 +17,7 @@ export const resources = {
 			id: 2,
 			title: "Overview of Celestia nodes",
 			text: "",
-			image: "developer-portal/availability.png",
+			image: "run-a-node/icon-2.png",
 			type: "external",
 			link: {
 				text:"Learn more",
@@ -28,7 +28,7 @@ export const resources = {
 			id: 3,
 			title: "Node API",
 			text: "",
-			image: "developer-portal/why-build-mod.png",
+			image: "run-a-node/icon-3.png",
 			type: "external",
 			link: {
 				text:"Read more",
