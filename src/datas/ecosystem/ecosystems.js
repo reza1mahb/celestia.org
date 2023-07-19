@@ -136,6 +136,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/cosmwasm.png',
                 url: 'https://cosmwasm.com/'
+            },
+            {
+                title: 'Cartesi',
+                text: '',
+                image: 'ecosystem/cartesi.png',
+                url: 'https://cartesi.io/'
             }
         ]
     },{
@@ -316,6 +322,18 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/cosmology.png',
                 url: 'https://cosmology.tech/'
+            },
+            {
+                title: 'Blockless',
+                text: '',
+                image: 'ecosystem/blockless.png',
+                url: 'https://blockless.network/'
+            },
+            {
+                title: 'Numia',
+                text: '',
+                image: 'ecosystem/numia.png',
+                url: 'https://www.numia.xyz/'
             }
         ]
     }
