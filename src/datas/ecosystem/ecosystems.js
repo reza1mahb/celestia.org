@@ -26,12 +26,6 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/snapchain.png',
                 url: 'https://www.snapchain.dev/'
-            },
-            {
-                title: 'Cosmos SDK',
-                text: '',
-                image: 'ecosystem/cosmos-sdk.png',
-                url: 'https://cosmos.network/'
             }
         ]
     },{
@@ -119,6 +113,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/stackr.png',
                 url: 'https://www.stackrlabs.xyz/'
+            },
+            {
+                title: 'Cosmos SDK',
+                text: '',
+                image: 'ecosystem/cosmos-sdk.png',
+                url: 'https://cosmos.network/'
             }
         ]
     },{
