@@ -8,5 +8,11 @@ export const heroData = {
 			type: "anchor",
 			url: "start-up-a-node",
 		},
+		{
+			text: "Ask a question",
+			class: "simple",
+			type: "anchor",
+			url: "https://www.google.com/",
+		},
 	],
 };
