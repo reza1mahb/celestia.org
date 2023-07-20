@@ -35,6 +35,10 @@
 		}
 	}
 
+	h1.main {
+		max-width: 650px;
+	}
+
 	&:before {
 		background: url(../images/run-a-node/run-a-node-1.png) no-repeat scroll top right transparent;
 		background-size: contain;
@@ -178,6 +182,9 @@
 		.image-box--startup {
 			@include media-breakpoint-down(md) {
 				padding: 16px 20px;
+				max-width: 85%;
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 
@@ -208,6 +215,9 @@
 		.image-box--node{
 			@include media-breakpoint-down(md) {
 				padding: 32px 20px;
+				max-width: 85%;
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 

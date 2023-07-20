@@ -34,14 +34,14 @@ const DevPortal = () => {
 									>
 										{heroData.buttons[0].text}
 									</AnchorLink>
-									<a
+									{/* <a
 										href={`${heroData.buttons[1].url}`}
 										className={"button button-" + heroData.buttons[1].class}
 										target={"_blank"}
 										rel={"noreferrer"}
 									>
 										{heroData.buttons[1].text}
-									</a>
+									</a> */}
 								</div>
 							</div>
 						</div>
