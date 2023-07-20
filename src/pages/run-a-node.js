@@ -80,7 +80,7 @@ const DevPortal = () => {
 								<div className={"text-box col-12 col-lg-6"}>
 									<h2 className='with-decor'>Start up a light node</h2>
 									<p className='description'>
-										There are many ways to run a light node. Pick an option that fits you best
+										There are many ways to run a Celestia light node. Pick an option that fits you best
 										to get your light node up and running.
 									</p>
 								</div>
