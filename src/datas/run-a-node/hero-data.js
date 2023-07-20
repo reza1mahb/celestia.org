@@ -1,9 +1,9 @@
 export const heroData = {
 	title: "Run a light node",
-	text: "Enter an internet where users are first-class citizens. Own your assets while securing Celestia.",
+	text: "Join the collective powering an open internet. Run a light node on Celestia to secure your assets and become sovereign.",
 	buttons: [
 		{
-			text: "Become sovereign",
+			text: "Show me how to start",
 			class: "simple",
 			type: "anchor",
 			url: "start-up-a-node",
