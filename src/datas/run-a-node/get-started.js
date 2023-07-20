@@ -4,8 +4,8 @@ export const getStarted = {
 	items: [
 		{
 			id: 1,
-			title: "Run light node via CLI",
-			text: "Get your light node running with a few commands on your CLI.",
+			title: "Run light node via your command line",
+			text: "Startup your light node with the command line. This option is best if you’re familiar with using the command line.",
 			type: "anchor",
 			link: {
 				text:"Go now",
@@ -14,8 +14,8 @@ export const getStarted = {
 		},
 		{
 			id: 2,
-			title: "Run light node via docker",
-			text: "Startup your light node in a virtual environment via the CLI.",
+			title: "Run light node in a virtual environment",
+			text: "Startup your light node through the command line in a virtual environment. This option still uses the command line, but it can be completed in under 3 minutes and also works on Windows devices.",
 			type: "anchor",
 			link: {
 				text:"Start up",
@@ -24,8 +24,8 @@ export const getStarted = {
 		},
 		{
 			id: 3,
-			title: "Run light node via mac app",
-			text: "Boot up your light node via an app (only compatible with m1 and m2 macs).",
+			title: "Run light node through an application",
+			text: "Boot up your light node through a user-friendly application. This is the easiest option, but it only works for m1 and m2 macs.",
 			type: "anchor",
 			link: {
 				text:"Learn more",
