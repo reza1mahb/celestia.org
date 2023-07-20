@@ -13,6 +13,6 @@ export const heroData = {
 			class: "simple",
 			type: "anchor",
 			url: "https://www.google.com/",
-		},
+		}
 	],
 };
