@@ -15,7 +15,7 @@ export const getStarted = {
 		{
 			id: 2,
 			title: "Run light node in a virtual environment",
-			text: "Startup your light node through the command line in a virtual environment. This option still uses the command line, but it can be completed in under 3 minutes and also works on Windows devices.",
+			text: "Startup your light node through the command line in a virtual environment. Though this option still uses the command line, it can be completed in under 3 minutes and also works on Windows devices.",
 			type: "anchor",
 			link: {
 				text:"Start up",
