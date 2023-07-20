@@ -28,7 +28,7 @@ const DevPortal = () => {
 								<div className={"col-auto"}>
 									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
 									<AnchorLink
-										to={`/run-a-node#${heroData.buttons[0].url}`}
+										to={`/run-a-light-node#${heroData.buttons[0].url}`}
 										className={"button button-" + heroData.buttons[0].class}
 										stripHash
 									>
