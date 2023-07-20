@@ -105,6 +105,13 @@ const navigation = [
         url: "",
         submenus: [
             {
+                text: "Run a light node",
+                subtext: "Node operator",
+                url: "/run-a-light-node/",
+                icon: "menu/technology-svg.svg",
+                type: 'internal'
+            },
+            {
                 text: "Join the community",
                 subtext: "Social channels",
                 url: "/community/",
@@ -117,13 +124,6 @@ const navigation = [
                 url: "/ecosystem/",
                 icon: "menu/careers.svg",
                 type: 'internal'
-            },
-            {
-                text: "Join our Forum",
-                subtext: "Forum",
-                url: "https://forum.celestia.org",
-                icon: "menu/forum.svg",
-                type: 'external'
             },
         ]
     },
