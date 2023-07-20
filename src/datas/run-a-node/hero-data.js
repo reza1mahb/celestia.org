@@ -7,6 +7,6 @@ export const heroData = {
 			class: "simple",
 			type: "anchor",
 			url: "start-up-a-node",
-		}
+		},
 	],
 };
