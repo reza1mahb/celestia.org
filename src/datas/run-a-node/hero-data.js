@@ -10,7 +10,7 @@ export const heroData = {
 		},
 		{
 			text: "Ask a question",
-			class: "simple",
+			class: "white",
 			type: "anchor",
 			url: "https://www.google.com/",
 		}
