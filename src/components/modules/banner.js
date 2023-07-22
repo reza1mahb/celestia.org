@@ -34,7 +34,7 @@ export default class Banner extends React.Component {
                     </div> */}
                     <div className={'col-auto'}>Modular Summit day 1 is live!</div>
 
-                    <a className={'col-auto'} href="https://youtube.com/live/lHyQKCVQTPo?feature=share" target={'_blank'} rel={'noreferrer'}>
+                    <a className={'col-auto'} href="https://youtube.com/live/WYH7n4M016A?feature=share" target={'_blank'} rel={'noreferrer'}>
                         <div>
                             <button className={'button-simple sm'}>Watch now</button>
                         </div>
