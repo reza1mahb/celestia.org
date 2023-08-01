@@ -26,6 +26,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/snapchain.png',
                 url: 'https://www.snapchain.dev/'
+            },
+            {
+                title: 'Altlayer',
+                text: '',
+                image: 'ecosystem/altlayer.png',
+                url: 'https://www.altlayer.io/'
             }
         ]
     },{
