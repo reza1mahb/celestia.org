@@ -489,4 +489,18 @@ export const teamMembers = [
 			linkedin: "",
 		},
 	},
+	{
+		id: 44,
+		name: "Geoff Costeloe",
+		title: "Associate General Counsel",
+		text: "Legal Engineer and Former internal counsel at Toku. LexDAO and LeXpunK member.",
+		image: "team/GeoffCosteloe.png",
+		socials: {
+			twitter: "",
+			discord: "",
+			github: "",
+			email: "",
+			linkedin: "",
+		},
+	},
 ];
