@@ -1,0 +1,419 @@
+.what-is-tia {
+	position: relative;
+
+	z-index: 0;
+	background: url(../images/BG/technology.png) no-repeat scroll top 500px right transparent;
+
+	@include media-breakpoint-down(xl) {
+		background-position: top 320px right;
+	}
+	@include media-breakpoint-down(lg) {
+		background-position: top 350px right;
+	}
+	@include media-breakpoint-down(md) {
+		background-position: top 450px right;
+	}
+	@include media-breakpoint-down(sm) {
+		background-position: -210px 450px;
+	}
+
+	main {
+		z-index: 0;
+		// background: url(../images/BG/home.png) no-repeat scroll top 1800px left transparent;
+
+		@include media-breakpoint-down(xl) {
+			background-position: top 2000px left;
+		}
+		@include media-breakpoint-down(lg) {
+			background-position: top 2000px left;
+		}
+		@include media-breakpoint-down(md) {
+			background-position: top 3400px left;
+		}
+		@include media-breakpoint-down(sm) {
+			background-position: top 3300px left;
+		}
+	}
+
+	h1.main {
+		max-width: 650px;
+	}
+
+	&:before {
+		background: url(../images/what-is-tia/what-is-tia-1.png) no-repeat scroll top right transparent;
+		background-size: contain;
+		top: 30px;
+		right: 0;
+		left: 55%;
+		position: absolute;
+		content: "";
+		width: 520px;
+		height: 520px;
+		z-index: -1;
+
+		@include media-breakpoint-down(xl) {
+			width: 480px;
+			height: 480px;
+			top: 30px;
+			right: 60px;
+			left: unset;
+		}
+		@include media-breakpoint-down(lg) {
+			width: 380px;
+			height: 380px;
+			top: 70px;
+			right: 50px;
+		}
+		@include media-breakpoint-down(md) {
+			width: 78%;
+			height: 78%;
+			max-width: 450px;
+			right: unset;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+
+	main {
+		padding-top: 100px;
+	}
+	section {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		@include media-breakpoint-down(sm) {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+
+	.subtitle {
+		font-family: $ruberoid;
+		font-weight: 500;
+		font-size: 18px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 25px;
+		margin-bottom: 30px;
+		max-width: 560px;
+		@include media-breakpoint-down(sm) {
+			max-width: 100%;
+		}
+	}
+
+	.description {
+		font-family: $inter;
+		font-weight: 300;
+		font-size: 16px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 24px;
+		margin-top: 22px;
+		max-width: 450px;
+		@include media-breakpoint-down(sm) {
+			max-width: 100%;
+		}
+	}
+
+	.hero {
+		@include media-breakpoint-down(md) {
+			padding-top: 415px;
+		}
+		@include media-breakpoint-down(sm) {
+			padding-top: 70vw;
+		}
+	}
+
+	.get-started {
+		padding-top: 0px;
+
+		& .icon-card {
+			@include media-breakpoint-down(md) {
+				padding: 30px;
+			}
+		}
+
+		& .icon-card-wrapper:nth-child(1) {
+			& .icon-card {
+				background-color: #f3ecff;
+			}
+		}
+		& .icon-card-wrapper:nth-child(2) {
+			& .icon-card {
+				background-color: #def7ff;
+			}
+		}
+		& .icon-card-wrapper:nth-child(3) {
+			& .icon-card {
+				background-color: #fff2e1;
+			}
+		}
+	}
+
+	.button-simple,
+	.button-white,
+	.button-icon,
+	.button-external {
+		margin-right: 20px;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 20px;
+		}
+	}
+
+	.min-width-50 {
+		min-width: 50%;
+	}
+	.min-width-33 {
+		min-width: 33%;
+	}
+
+	// new sections
+
+	.role {
+		padding-top: 20px;
+		padding-bottom: 0px;
+		.role-items {
+			margin-top: 56px;
+		}
+		.role-card {
+			height: 100%;
+			.role-image-wrapper {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				height: 150px;
+				width: 120px;
+				margin-bottom: 20px;
+				@include media-breakpoint-down(sm) {
+					height: 110px;
+					width: 80px;
+				}
+			}
+			.role-card-title {
+				color: #000;
+				font-family: $ruberoid;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 28px;
+				max-width: 320px;
+			}
+			.role-card-text {
+				color: #414141;
+				font-family: $inter;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: 21px;
+				letter-spacing: -0.1px;
+				max-width: 320px;
+			}
+		}
+	}
+
+	.start-up {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		@include media-breakpoint-down(lg) {
+			padding-top: 70px;
+			padding-bottom: 20px;
+		}
+		h2 {
+			max-width: 450px;
+		}
+
+		.image-box--startup {
+			@include media-breakpoint-down(md) {
+				padding: 16px 20px;
+				max-width: 85%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.description {
+			max-width: 460px;
+			margin-top: 30px;
+		}
+
+		.image-wrapper img {
+			width: 100;
+			max-width: 500px;
+			@include media-breakpoint-down(md) {
+				max-width: 100%;
+			}
+		}
+	}
+
+	.custody-stacking {
+		padding-top: 100px;
+		padding-bottom: 0px;
+		@include media-breakpoint-down(md) {
+			padding-top: 50px;
+		}
+		@include media-breakpoint-down(sm) {
+			padding-top: 0px;
+		}
+
+		.custody-stacking-title {
+			// margin-bottom: 56px;
+		}
+
+		.image-box--node {
+			@include media-breakpoint-down(md) {
+				padding: 32px 20px;
+				max-width: 85%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.text-box {
+			max-width: 600px;
+			.title {
+				font-size: 36px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 1.3em;
+				max-width: auto;
+				margin-bottom: 20px;
+				@include media-breakpoint-down(md) {
+					font-size: 24px;
+					max-width: 380px;
+				}
+				&:last-of-type {
+					margin-top: 60px;
+					@include media-breakpoint-down(md) {
+						margin-top: 40px;
+					}
+				}
+			}
+			.custody-text-box {
+				color: #414141;
+				font-family: $inter;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: 30px;
+				a {
+					box-shadow: inset 0 -2px 0 0 #414141;
+				}
+
+				.link-wrapper {
+					margin-top: 20px;
+					.link {
+						font-family: $ruberoid;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 1em;
+						padding: 8px 0;
+						margin: -8px 0;
+						color: #000000;
+						transition: all 0.2s ease-in-out;
+						box-shadow:none;
+						&:hover {
+							color: #393939;
+							& svg {
+								margin-left: 16px;
+							}
+						}
+					}
+					svg {
+						margin-left: 8px;
+						transition: all 0.2s ease-in-out;
+						will-change: margin;
+						margin-bottom: 2px;
+					}
+				}
+			}
+		}
+	}
+
+	.what-is-a-node {
+		padding-top: 100px;
+		padding-bottom: 0px;
+		@include media-breakpoint-down(md) {
+			padding-top: 50px;
+		}
+		@include media-breakpoint-down(sm) {
+			padding-top: 0px;
+		}
+
+		.image-box--node {
+			@include media-breakpoint-down(md) {
+				padding: 32px 20px;
+				max-width: 85%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.text-box {
+			.title {
+				font-size: 36px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 1.3em;
+				max-width: auto;
+				@include media-breakpoint-down(md) {
+					font-size: 24px;
+					max-width: 380px;
+				}
+				&:last-of-type {
+					margin-top: 60px;
+					@include media-breakpoint-down(md) {
+						margin-top: 40px;
+					}
+				}
+			}
+		}
+	}
+
+	.get-started {
+		.text-box .title {
+			font-size: 22px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 26px;
+		}
+	}
+
+	.resources {
+		padding-top: 0px;
+		padding-bottom: 140px;
+		@include media-breakpoint-down(lg) {
+			padding-top: 40px;
+			padding-bottom: 60px;
+		}
+
+		& .icon-card-wrapper .icon-card {
+			background: transparent;
+			padding: 10px;
+			@include media-breakpoint-down(md) {
+				padding: 0px;
+			}
+		}
+	}
+	.resources {
+		.text-box .title {
+			font-size: 22px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 26px;
+			margin-top: 20px;
+		}
+		.description {
+			max-width: 350px;
+			@include media-breakpoint-down(sm) {
+				max-width: 100%;
+			}
+		}
+		.logo-container {
+			height: 100px;
+			width: 100px;
+		}
+		.gatsby-image-wrapper {
+			width: 100px;
+		}
+	}
+}
