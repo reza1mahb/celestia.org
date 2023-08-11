@@ -2,7 +2,7 @@
 order: 2
 path: "/learn/"
 slug: "/learn/beginners/the-modular-stack/"
-edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/basics%20of%20modular%20blockchains-benefits%20of%20modular%20blockchains.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/The%20modular%20stack-the%20modular%20stack%20for%20beginners.md"
 date: "2023-08-22"
 icon: ""
 category: "Beginner"
