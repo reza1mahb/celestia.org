@@ -241,6 +241,12 @@ export const ecosystemCategories = [
                 text: '',
                 image: 'ecosystem/shogun.png',
                 url: 'https://twitter.com/shogunfi',
+            },
+            {
+                title: 'Osmosis',
+                text: '',
+                image: 'ecosystem/Osmosis.png',
+                url: 'https://osmosis.zone/',
             }
         ]
     },{
