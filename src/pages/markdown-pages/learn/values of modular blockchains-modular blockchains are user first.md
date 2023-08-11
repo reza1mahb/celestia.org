@@ -28,14 +28,14 @@ description: "The values that modular blockchains aim for."
 #### Introduction
 Blockchains are a social movement as much as they are a technology. They help communities of people independently organize and carry out their goals. Of course, this means that blockchains themselves need to stand for certain values. Without values, blockchains would be no better than web2 tech companies. Here are the values that modular blockchains aim for.
 
-#### Users are first-class citizens of the network
+#### Users are first-class citizens
 The point of open blockchains is that they are verifiable. Anybody should be able to run a node and personally verify that the network is operating correctly. While <a href="https://celestia.org/glossary/validator" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">validators</a> are responsible for processing transactions, the users who run nodes make sure that validators are behaving correctly. If a validator decides to act negatively, users can verify the behavior and punish it accordingly - through on-chain penalties like <a href="https://celestia.org/glossary/slashing" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">slashing</a> or socially through forking.
 
 Since blockchains depend on users running nodes to keep the network secure, modular blockchains aim to minimize the cost of running a node. If running a node is too expensive, not many users will be able to afford it. This reduces the security of the chain, which could make it easier to attack.
 
 With new innovations like <a href="https://celestia.org/glossary/state-transition-fraud-proof/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">fraud</a> or <a href="https://celestia.org/glossary/validity-proof/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">validity proofs</a> and <a href="https://celestia.org/glossary/data-availability-sampling/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">data availability sampling</a>, users can run a low-cost node that has the same security as a more expensive full node. By keeping the cost low for users to run nodes, they can personally verify and participate as first-class citizens of the network.
 
-#### Modularism not maximalism
+#### Modularism, not maximalism
 Most effort spent building blockchains has gone towards new L1s. The problem is that each new L1 creates its own walled-off ecosystem that competes with every other L1. This leads to maximalism as they all fight to bring in new users to their ecosystem.
 
 Modular blockchains create a collaborative environment with many connected chains. Each new user that a modular blockchain brings in creates value for the whole modular ecosystem, not just a single L1. Modular blockchains collaborate while monolithic L1s compete.
