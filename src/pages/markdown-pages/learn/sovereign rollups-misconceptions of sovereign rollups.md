@@ -1,5 +1,5 @@
 ---
-order: 9
+order: 10
 path: "/learn/"
 slug: "/learn/sovereign-rollups/misconceptions/"
 edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/sovereign%20rollups-misconceptions%20of%sovereign%rollups.md"
