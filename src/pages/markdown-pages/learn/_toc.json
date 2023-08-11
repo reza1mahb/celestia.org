@@ -26,6 +26,15 @@
             ]
           },
         {
+            "title": "The modular stack",
+            "articles": [
+              {
+                "title": "The modular stack for beginners",
+                "slug": "/learn/beginners/the-modular-stack/"
+              }
+            ]
+          },
+        {
           "title": "Values of modular blockchains",
           "articles": [
             {
