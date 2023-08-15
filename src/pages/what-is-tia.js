@@ -71,7 +71,7 @@ const DevPortal = () => {
 					<section className={"custody-stacking"}>
 						<div className={"container"}>
 							<h2 className='custody-stacking-title'>Custody and staking</h2>
-							<div className={"custody-stacking-item row justify-content-between align-items-center"}>
+							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-content-between align-items-center"}>
 								<div className='col-12 col-lg-6 order-1 order-lg-0'>
 									<div className={"text-box"}>
 										<h2 className='title'>You own your TIA</h2>
@@ -96,7 +96,7 @@ const DevPortal = () => {
 									</div>
 								</div>
 							</div>
-							<div className={"custody-stacking-item row justify-content-between align-items-lg-center"}>
+							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-content-between align-items-lg-center"}>
 								<div className={"image-box--node col-auto"}>
 									<div className='image-wrapper'>
 										<img className='img' style={{ width: `100%`, maxWidth: `470px` }} src={image2} alt={""} />
