@@ -1,3 +1,4 @@
+
 .what-is-tia {
 	position: relative;
 
@@ -79,10 +80,11 @@
 			right: 50px;
 		}
 		@include media-breakpoint-down(md) {
-			width: 78%;
-			height: 78%;
+			width: 88%;
+			height: 88%;
 			max-width: 450px;
 			right: unset;
+			top: 40px;
 			left: 50%;
 			transform: translateX(-50%);
 		}
@@ -246,8 +248,7 @@
 				}
 			}
 		}
-o
-		.image-box--node {
+		o .image-box--node {
 			margin-left: auto;
 			margin-right: auto;
 			@include media-breakpoint-down(lg) {
@@ -365,10 +366,16 @@ o
 				@include media-breakpoint-down(md) {
 					padding: 20px;
 				}
+				@include media-breakpoint-down(sm) {
+					padding: 16px;
+				}
 				.wallet-container {
 					display: flex;
 					align-items: center;
 					flex-direction: row;
+					@include media-breakpoint-down(sm) {
+						align-items: start;
+					}
 				}
 				.wallet-image-wrapper {
 					display: flex;
@@ -378,6 +385,11 @@ o
 					width: 63px;
 					margin-right: 20px;
 					z-index: 0;
+					@include media-breakpoint-down(md) {
+						margin-top: 5px;
+						height: 40px;
+						width: 40px;
+					}
 
 					.gatsby-image-wrapper {
 						border-radius: 9999px;
@@ -392,6 +404,9 @@ o
 					line-height: normal;
 					max-width: 320px;
 					margin-bottom: 2px;
+					@include media-breakpoint-down(sm) {
+						font-size: 20px;
+					}
 				}
 				.wallet-card-text {
 					color: #393939;
@@ -444,6 +459,10 @@ o
 				height: 134px;
 				width: 134px;
 				z-index: -1;
+				@include media-breakpoint-down(md) {
+					height: 100px;
+					width: 100px;
+				}
 				.gatsby-image-wrapper {
 					border-radius: 9999px;
 				}
@@ -493,6 +512,9 @@ o
 			border: 1px solid #e1e1e1;
 			background: #fff;
 			padding: 25px;
+			@include media-breakpoint-down(sm) {
+				padding: 16px;
+			}
 		}
 		.link-title {
 			color: #000;

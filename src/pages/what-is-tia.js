@@ -1,3 +1,4 @@
+
 import * as React from "react";
 
 import { heroData } from "../datas/what-is-tia/hero-data";
@@ -224,27 +225,29 @@ const DevPortal = () => {
 										operation.
 									</p>
 								</div>
-								<div className={"col-12 col-lg-6 link-card"}>
-									<div className='link-title'>Create wallet with celestia-app</div>
-									<div className='link-wrapper'>
-										<a className='link' href='/'>
-											CTA
-											<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-												<path
-													stroke='#7B2BF9'
-													stroke-linecap='square'
-													stroke-width='1.5'
-													d='M3.61218 12.0721L11.0761 4.60823'
-												/>
-												<path
-													stroke='#7B2BF9'
-													stroke-linecap='square'
-													stroke-linejoin='bevel'
-													stroke-width='1.5'
-													d='M11.5254 11.0752V4.00413H4.45432'
-												/>
-											</svg>
-										</a>
+								<div className={"col-12 col-lg-6"}>
+									<div className='link-card'>
+										<div className='link-title'>Create wallet with celestia-app</div>
+										<div className='link-wrapper'>
+											<a className='link' href='/'>
+												CTA
+												<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
+													<path
+														stroke='#7B2BF9'
+														stroke-linecap='square'
+														stroke-width='1.5'
+														d='M3.61218 12.0721L11.0761 4.60823'
+													/>
+													<path
+														stroke='#7B2BF9'
+														stroke-linecap='square'
+														stroke-linejoin='bevel'
+														stroke-width='1.5'
+														d='M11.5254 11.0752V4.00413H4.45432'
+													/>
+												</svg>
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
