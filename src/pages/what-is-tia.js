@@ -115,7 +115,7 @@ const DevPortal = () => {
 											validator that will stake it on their behalf. TIA delegations can always be retrieved from validators
 											after undergoing a 3-week unbonding period.
 											<div className='link-wrapper'>
-												<a className='link' href='/'>
+												<a className='link' href='https://docs.celestia.org/'>
 													View Documentation
 													<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 														<path
