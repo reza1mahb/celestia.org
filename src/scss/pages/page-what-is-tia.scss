@@ -159,10 +159,10 @@
 
 	.tia-role {
 		padding-top: 80px;
-		padding-bottom: 50px;
+		padding-bottom: 0px;
 		@include media-breakpoint-up(lg) {
 			padding-top: 145px;
-			padding-bottom: 100px;
+			padding-bottom: 0px;
 		}
 		.role-items {
 			margin-top: 32px;
@@ -220,10 +220,10 @@
 	}
 
 	.custody-stacking {
-		padding-top: 0px;
+		padding-top: 50px;
 		padding-bottom: 60px;
 		@include media-breakpoint-up(lg) {
-			padding-top: 0px;
+			padding-top: 100px;
 			padding-bottom: 100px;
 		}
 
@@ -324,9 +324,9 @@
 
 	.wallets {
 		padding-top: 0px;
-		padding-bottom: 60px;
+		padding-bottom: 0px;
 		@include media-breakpoint-up(lg) {
-			padding-bottom: 100px;
+			padding-bottom: 0px;
 		}
 		.wallets-title {
 			margin-bottom: 36px;
@@ -474,13 +474,13 @@
 	}
 
 	.managing-tia {
-		padding-top: 0px;
+		padding-top: 100px;
 		padding-bottom: 100px;
 		@include media-breakpoint-down(md) {
-			padding-top: 50px;
+			padding-top: 60px;
 		}
 		@include media-breakpoint-down(sm) {
-			padding-top: 0px;
+			padding-top: 60px;
 		}
 		.title {
 			color: #000;

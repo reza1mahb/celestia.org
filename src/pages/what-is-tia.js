@@ -16,7 +16,7 @@ import Image from "../components/imageComponent";
 import image1 from "../images/what-is-tia/what-is-tia-custody-1.png";
 import image2 from "../images/what-is-tia/what-is-tia-custody-2.png";
 
-const DevPortal = () => {
+const WhatIsTIA = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<SEO title={seoContent.title} description={seoContent.description} image={seoContent.image} />
@@ -29,20 +29,19 @@ const DevPortal = () => {
 								<div className={"col-auto"}>
 									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
 									<AnchorLink
-										to={`/run-a-light-node#${heroData.buttons[0].url}`}
+										to={`/what-is-tia#${heroData.buttons[0].url}`}
 										className={"mb-3 button button-" + heroData.buttons[0].class}
 										stripHash
 									>
 										{heroData.buttons[0].text}
 									</AnchorLink>
-									<a
-										href={`${heroData.buttons[1].url}`}
+									<AnchorLink
+										to={`/what-is-tia#${heroData.buttons[1].url}`}
 										className={"mb-3 button button-" + heroData.buttons[1].class}
-										target={"_blank"}
-										rel={"noreferrer"}
+										stripHash
 									>
 										{heroData.buttons[1].text}
-									</a>
+									</AnchorLink>
 								</div>
 							</div>
 						</div>
@@ -69,7 +68,7 @@ const DevPortal = () => {
 						</div>
 					</section>
 
-					<section className={"custody-stacking"}>
+					<section className={"custody-stacking"} id={`${heroData.buttons[1]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
 							<h2 className='custody-stacking-title'>Custody and staking</h2>
 							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-content-between align-items-lg-center"}>
@@ -211,7 +210,7 @@ const DevPortal = () => {
 						</div>
 					</section>
 
-					<section className={"managing-tia"}>
+					<section className={"managing-tia"} id={`${heroData.buttons[0]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
 							<div className={"row justify-content-between align-items-center"}>
 								<div className='col-12 col-lg-6 text-box'>
@@ -255,4 +254,4 @@ const DevPortal = () => {
 	);
 };
 
-export default DevPortal;
+export default WhatIsTIA;
