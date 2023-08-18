@@ -63,7 +63,7 @@ There’s two main ways censorship resistance can come from the DA layer:
 #### Sovereign rollups lack bridging options
 The native bridges of smart contract rollups have <a href="https://celestia.org/glossary/trust-minimized-bridge/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">trust-minimized</a> security because the settlement layer verifies the rollup’s entire block. Sovereign rollups can’t bridge to the DA layer if it doesn’t verify its transactions, right?
 
-Sovereign rollups can have a bridge with their DA layer. If the DA layer supports smart contracts, the bridge can be trust-minimized. If there is no smart contract support, like with Celestia, then the bridge would require stronger trust assumptions.
+Sovereign rollups can have a bridge with their DA layer. If the DA layer supports smart contracts, the bridge can be trust-minimized, although the bridge may require governance for the rollup to preserve sovereignty. If there is no smart contract support, like with Celestia, then the bridge would require stronger trust assumptions.
 
 Importantly, sovereign rollups can have bridges between each other. These bridges can be trust-minimized if both sovereign rollups use the same DA layer and have fraud or validity proofs. This is possible through light clients that verify proofs of bridged transactions.
 
