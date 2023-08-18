@@ -66,6 +66,8 @@ The consensus task in modular blockchains works in a similar way. Transactions g
 
 When people see the same order of transactions they can agree the order is correct - just like your friend agreeing on which team won after you both realized what games you were watching.
 
+![GATSBY_EMPTY_ALT](./images/consensus-analogy.png)
+
 #### Data availability
 Now team A and B are playing again. This time, the game is happening in your town. Of course you go to buy tickets. But it turns out that ticket prices are five times higher than usual. You can’t afford tickets to the stadium, but you could still watch the game online.
 
