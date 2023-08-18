@@ -116,7 +116,7 @@ const WhatIsTIA = () => {
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
-													<a className='link' href='https://docs.celestia.org/'>
+													<a className='link' href='https://docs.celestia.org/' target='_blank'>
 														Learn more about staking and custody
 														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 															<path
@@ -136,7 +136,7 @@ const WhatIsTIA = () => {
 													</a>
 												</div>
 												<div className='link-wrapper'>
-													<a className='link' href='https://docs.celestia.org/'>
+													<a className='link' href='https://docs.celestia.org/' target="_blank">
 														View Documentation
 														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 															<path
@@ -206,7 +206,7 @@ const WhatIsTIA = () => {
 													</div>
 												</div>
 												<div className='link-wrapper'>
-													<a className='link' href={item.url}>
+													<a className='link' href={item.url} target='_blank'>
 														Download
 														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 															<path
@@ -247,7 +247,7 @@ const WhatIsTIA = () => {
 									<div className='link-card'>
 										<div className='link-title'>Create wallet with celestia-app</div>
 										<div className='link-wrapper'>
-											<a className='link' href='https://docs.celestia.org/developers/celestia-app-wallet/'>
+											<a className='link' href='https://docs.celestia.org/developers/celestia-app-wallet/' target='_blank'>
 												Create wallet
 												<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 													<path
