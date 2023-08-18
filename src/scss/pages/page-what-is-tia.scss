@@ -247,7 +247,7 @@
 				}
 			}
 		}
-		o .image-box--node {
+		.image-box--node {
 			margin-left: auto;
 			margin-right: auto;
 			@include media-breakpoint-down(lg) {
@@ -290,32 +290,39 @@
 				a {
 					box-shadow: inset 0 -2px 0 0 #414141;
 				}
-
-				.link-wrapper {
-					margin-top: 20px;
-					.link {
-						font-family: $ruberoid;
-						font-style: normal;
-						font-weight: 700;
-						font-size: 14px;
-						line-height: 1em;
-						padding: 8px 0;
-						margin: -8px 0;
-						color: #000000;
-						transition: all 0.2s ease-in-out;
-						box-shadow: none;
-						&:hover {
-							color: #393939;
-							& svg {
-								margin-left: 16px;
+				.link-list {
+					display: flex;
+					flex-wrap: wrap;
+					margin-top: 10px;
+					.link-wrapper {
+						flex-basis: auto;
+						min-width: 180px;
+						margin-top: 10px;
+						
+						.link {
+							font-family: $ruberoid;
+							font-style: normal;
+							font-weight: 700;
+							font-size: 14px;
+							line-height: 1em;
+							padding: 8px 0;
+							margin: -8px 0;
+							color: #000000;
+							transition: all 0.2s ease-in-out;
+							box-shadow: none;
+							&:hover {
+								color: #393939;
+								& svg {
+									margin-left: 16px;
+								}
 							}
 						}
-					}
-					svg {
-						margin-left: 8px;
-						transition: all 0.2s ease-in-out;
-						will-change: margin;
-						margin-bottom: 2px;
+						svg {
+							margin-left: 8px;
+							transition: all 0.2s ease-in-out;
+							will-change: margin;
+							margin-bottom: 2px;
+						}
 					}
 				}
 			}

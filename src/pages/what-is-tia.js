@@ -113,25 +113,48 @@ const WhatIsTIA = () => {
 											Users that don’t reach the top 75 or don’t want to run a validator can delegate their TIA to an existing
 											validator that will stake it on their behalf. TIA delegations can always be retrieved from validators
 											after undergoing a 3-week unbonding period.
-											<div className='link-wrapper'>
-												<a className='link' href='https://docs.celestia.org/'>
-													View Documentation
-													<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-														<path
-															stroke='#7B2BF9'
-															stroke-linecap='square'
-															stroke-width='1.5'
-															d='M3.61218 12.0721L11.0761 4.60823'
-														/>
-														<path
-															stroke='#7B2BF9'
-															stroke-linecap='square'
-															stroke-linejoin='bevel'
-															stroke-width='1.5'
-															d='M11.5254 11.0752V4.00413H4.45432'
-														/>
-													</svg>
-												</a>
+											
+											<div className="link-list">
+												<div className='link-wrapper me-4'>
+													<a className='link' href='https://docs.celestia.org/'>
+														View Documentation
+														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
+															<path
+																stroke='#7B2BF9'
+																stroke-linecap='square'
+																stroke-width='1.5'
+																d='M3.61218 12.0721L11.0761 4.60823'
+															/>
+															<path
+																stroke='#7B2BF9'
+																stroke-linecap='square'
+																stroke-linejoin='bevel'
+																stroke-width='1.5'
+																d='M11.5254 11.0752V4.00413H4.45432'
+															/>
+														</svg>
+													</a>
+												</div>
+												<div className='link-wrapper'>
+													<a className='link' href='https://docs.celestia.org/'>
+														View Documentation
+														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
+															<path
+																stroke='#7B2BF9'
+																stroke-linecap='square'
+																stroke-width='1.5'
+																d='M3.61218 12.0721L11.0761 4.60823'
+															/>
+															<path
+																stroke='#7B2BF9'
+																stroke-linecap='square'
+																stroke-linejoin='bevel'
+																stroke-width='1.5'
+																d='M11.5254 11.0752V4.00413H4.45432'
+															/>
+														</svg>
+													</a>
+												</div>
 											</div>
 										</p>
 									</div>
