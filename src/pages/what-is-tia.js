@@ -111,7 +111,7 @@ const WhatIsTIA = () => {
 										</p>
 										<p>
 											Users can stake TIA by delegating to a validator in the active set and receive a share of
-											Celestia’s staking rewards. Delegations can always be retrieved after a 3-week unbonding period.
+											the validators’s staking rewards. Delegations can always be retrieved after a 3-week unbonding period.
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
