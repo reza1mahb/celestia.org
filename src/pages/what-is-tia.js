@@ -106,12 +106,11 @@ const WhatIsTIA = () => {
 									<h2 className='title'>Stake TIA</h2>
 									<div className='custody-text-box'>
 										<p>
-											Nodes on Celestia lock up (stake) TIA to become a validator that participates in consensus. Any node can
-											enter the validator set if they have enough tokens to join the top 75 by stake.
+											Users can stake TIA by delegating to a validator in the active set and receive a share of the validator’s
+											staking rewards. Delegations can always be retrieved after a 3-week unbonding period.
 										</p>
 										<p>
-											Users can stake TIA by delegating to a validator in the active set and receive a share of
-											the validators’s staking rewards. Delegations can always be retrieved after a 3-week unbonding period.
+											Any node can become part of the active validator set if they have enough TIA to join the top 75 by stake.
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
