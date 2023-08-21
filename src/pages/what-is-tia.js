@@ -244,9 +244,9 @@ const WhatIsTIA = () => {
 								</div>
 								<div className={"col-12 col-lg-6"}>
 									<div className='link-card'>
-										<div className='link-title'>Create wallet with celestia-app</div>
+										<div className='link-title'>Create wallet with celestia-node</div>
 										<div className='link-wrapper'>
-											<a className='link' href='https://docs.celestia.org/developers/celestia-app-wallet/' target='_blank'>
+											<a className='link' href='https://docs.celestia.org/developers/celestia-node-key/' target='_blank'>
 												Create wallet
 												<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 													<path
