@@ -77,11 +77,11 @@ const WhatIsTIA = () => {
 										<h2 className='title'>You own your TIA</h2>
 										<div className='custody-text-box'>
 											<p>
-												Anyone can download a non-custodial wallet to freely transact and control their TIA. No banks or
-												intermediaries are trusted to do this for you.
+												Anyone can download a non-custodial wallet to freely transact and control their TIA.
+												No banks or intermediaries necessary.
 											</p>
 											<p>
-												This does mean it’s important to{" "}
+												It’s important to{" "}
 												<a href='https://www.coinbase.com/security/security-tips' target='_blank'>
 													get familiar with basic wallet practices↗
 												</a>{" "}
@@ -103,16 +103,15 @@ const WhatIsTIA = () => {
 									</div>
 								</div>
 								<div className={"text-box col-12 col-lg-6"}>
-									<h2 className='title'>Staking</h2>
+									<h2 className='title'>Stake TIA</h2>
 									<div className='custody-text-box'>
 										<p>
 											Nodes on Celestia lock up (stake) TIA to become a validator that participates in consensus. Any node can
 											enter the validator set if they have enough tokens to join the top 75 by stake.
 										</p>
 										<p>
-											Users that don’t reach the top 75 or don’t want to run a validator can delegate their TIA to an existing
-											validator that will stake it on their behalf. TIA delegations can always be retrieved from validators
-											after undergoing a 3-week unbonding period.
+											Users can stake TIA by delegating to a validator in the active set and receive a share of
+											Celestia’s staking rewards. Delegations can always be retrieved after a 3-week unbonding period.
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
