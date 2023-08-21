@@ -5,7 +5,7 @@ export const wallets = {
 		{
 			id: 1,
 			title: "Keplr Wallet",
-            device: ["Mobile", "Desktop", "Staking"],
+            device: ["IOS", "Android", "Desktop", "Staking"],
 			image: "what-is-tia/kepler-icon.jpg",
             backdropClass: "opacity-50",
             url: "https://www.keplr.app/",
@@ -14,7 +14,7 @@ export const wallets = {
 		{
 			id: 2,
 			title: "Cosmostation",
-            device: ["Mobile", "Desktop", "Staking"],
+            device: ["IOS", "Android", "Desktop", "Staking"],
 			image: "what-is-tia/cosmostation-icon.jpg",
             backdropClass: "opacity-100",
             url: "https://cosmostation.io/products/cosmostation_extension",
@@ -23,7 +23,7 @@ export const wallets = {
 		{
 			id: 3,
 			title: "Leap",
-			device: ["Mobile", "Desktop", "Staking"],
+			device: ["IOS", "Android", "Desktop", "Staking"],
 			image: "what-is-tia/leap-icon.jpg",
             backdropClass: "opacity-100",
             url: "https://www.leapwallet.io/",
@@ -32,7 +32,7 @@ export const wallets = {
 		{
 			id: 4,
 			title: "Ledger",
-			device: ["Mobile", "Desktop", "Staking"],
+			device: ["IOS", "Android", "Desktop", "Staking"],
 			image: "what-is-tia/ledger-icon.jpg",
             backdropClass: "opacity-50",
             url: "https://www.ledger.com/",
