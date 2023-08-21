@@ -166,7 +166,7 @@ const WhatIsTIA = () => {
 						<div className={"container"}>
 							<h2 className='wallets-title'>{wallets.title}</h2>
 							<p>{wallets.details}</p>
-							<div className={"three-col-grid pt-4 pt-lg-5"}>
+							<div className={"two-col-flex pt-4 pt-lg-5"}>
 								{wallets.items.map(function (item) {
 									return (
 										<div className='wallet-card-wrapper'>
