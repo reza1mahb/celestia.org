@@ -4,13 +4,13 @@ export const heroData = {
 	text: "Learn about TIA, the native token of the Celestia blockchain.",
 	buttons: [
 		{
-			text: "Develop",
+			text: "Pay for Data (Developer)",
 			class: "simple",
 			type: "anchor",
 			url: "managing-tia-as-a-rollup",
 		},
 		{
-			text: "Stake and custody TIA",
+			text: "Custody & Stake TIA",
 			class: "white",
 			type: "anchor",
 			url: "staking-and-custody",
