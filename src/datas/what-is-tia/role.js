@@ -18,7 +18,7 @@ export const role = {
 		{
 			id: 3,
 			title: "Gas token for rollups",
-			text: "Developers can use TIA as a gas token for their rollups",
+			text: "Developers can use TIA as a gas token for their rollups.",
 			image: "what-is-tia/what-is-tia-role-3.png",
 			type: "external",
 		},
