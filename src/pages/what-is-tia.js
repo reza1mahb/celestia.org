@@ -110,7 +110,6 @@ const WhatIsTIA = () => {
 											staking rewards. Delegations can always be retrieved after a 3-week unbonding period.
 										</p>
 										<p>
-											Any node can become part of the active validator set if they have enough TIA to join the top 75 by stake.
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
