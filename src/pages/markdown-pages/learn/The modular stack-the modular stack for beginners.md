@@ -15,8 +15,8 @@ description: "Understanding the modular stack with football analogies."
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@CelestiaOrg">
   <meta name="twitter:creator" content="@likebeckett">
-  <meta name="twitter:title" content="Benefits of Modular Blockchains">
-  <meta name="twitter:description" content="Understanding the modular stack with football analogies.">
+  <meta name="twitter:title" content="The modular stack for beginners">
+  <meta name="twitter:description" content="Understanding the modular stack with simple football analogies.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/celestiaorg/celestia.org/main/src/pages/markdown-pages/learn/images/learn-modular-twitter-card.png">
 </head>
 
