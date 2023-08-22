@@ -131,6 +131,57 @@
 		}
 	}
 
+	.what-is-a-modular-blockchain {
+		margin-bottom: 80px;
+		padding: 0;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 70px;
+			padding-top: 40px;
+		}
+		.title {
+			margin-bottom: 0px;
+		}
+	}
+
+	.what-is-data-availability {
+		margin-bottom: 80px;
+		padding: 0;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 70px;
+		}
+		.image-box--analogy {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: inherit;
+			padding: 0 47px;
+			@include media-breakpoint-down(lg) {
+				background-position: 50%;
+				padding: 0 30px;
+				.image-wrapper {
+					width: 100%;
+					height: 100%;
+					max-width: 450px;
+				}
+			}
+		}
+	}
+
+	.what-are-rollups {
+		margin-bottom: 80px;
+		padding: 0;
+		@include media-breakpoint-down(lg) {
+			margin-bottom: 70px;
+		}
+		.image-box--different {
+			height: inherit;
+			.image-wrapper {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
 	.modular-blockchain-section {
 		margin-bottom: 120px;
 		padding: 0;
@@ -159,75 +210,7 @@
 		}
 	}
 
-	.how-different-section {
-		margin-bottom: 100px;
-		padding: 0;
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 64px;
-		}
-		.image-box--different {
-			height: inherit;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			padding: 0 47px;
-			.image-wrapper {
-				width: 100%;
-				height: 100%;
-				max-width: 420px;
-			}
-			@include media-breakpoint-down(lg) {
-				background-position: 50%;
-				width: 100vw;
-				padding: 12px;
-				.image-wrapper {
-					width: 100%;
-					max-width: 450px;
-				}
-			}
-		}
-	}
-
-	.good-analogy-section {
-		margin-bottom: 80px;
-		padding: 0;
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 70px;
-		}
-		.image-box--analogy {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: inherit;
-			padding: 0 47px;
-			@include media-breakpoint-down(lg) {
-				background-position: 50%;
-				padding: 0 30px;
-				.image-wrapper {
-					width: 100%;
-					height: 100%;
-					max-width: 450px;
-				}
-			}
-		}
-	}
-
-	.what-is-a-modular-blockchain {
-		margin-bottom: 80px;
-		padding: 0;
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 70px;
-		}
-		.image-box--different {
-			height: inherit;
-			.image-wrapper {
-				width: 100%;
-				height: 100%;
-			}
-		}
-	}
-
-	.why-use-section {
+	.whats-it-like-to-build-on-Celestia {
 		padding: 0 0 100px 0;
 		@include media-breakpoint-down(sm) {
 			padding: 0 0 80px 0;
@@ -361,7 +344,7 @@
 				margin-bottom: 60px;
 			}
 		}
-		.data-availability-section {
+		.modularism-not-maximalism {
 			margin-bottom: 120px;
 			padding: 0;
 			@include media-breakpoint-down(lg) {
@@ -393,7 +376,7 @@
 			}
 		}
 
-		.rollups-section {
+		.layer-0-social-consensus {
 			margin-bottom: 80px;
 			padding: 0;
 			@include media-breakpoint-down(lg) {
@@ -418,57 +401,9 @@
 		}
 	}
 
-	// .modularism-section {
-	// 	margin-bottom: 120px;
-	// 	padding: 0;
-	// 	@include media-breakpoint-down(lg) {
-	// 		margin-bottom: 100px;
-	// 	}
-	// 	.image-box--modularism {
-	// 		display: flex;
-	// 		justify-content: center;
-	// 		align-items: center;
-	// 		height: inherit;
-	// 		padding: 0 47px;
-	// 		@include media-breakpoint-down(lg) {
-	// 			background-position: 50%;
-	// 			padding: 0px;
-	// 			.image-wrapper {
-	// 				width: 100%;
-	// 				height: 100%;
-	// 				max-width: 500px;
-	// 				transform: scale(1.1);
-	// 			}
-	// 		}
-	// 	}
-	// }
-
-	// .social-consensus {
-	// 	margin-bottom: 120px;
-	// 	padding: 0;
-	// 	@include media-breakpoint-down(lg) {
-	// 		margin-bottom: 80px;
-	// 	}
-	// 	.image-box--consensus {
-	// 		display: flex;
-	// 		justify-content: center;
-	// 		align-items: center;
-	// 		height: inherit;
-	// 		padding: 0 47px;
-	// 		@include media-breakpoint-down(lg) {
-	// 			background-position: 50%;
-	// 			padding: 0px;
-	// 			.image-wrapper {
-	// 				width: 90%;
-	// 				height: 100%;
-	// 				max-width: 500px;
-	// 			}
-	// 		}
-	// 	}
-	// }
-
-	.toc {
-		//position: absolute;
+	.toc-2 {
+		position: sticky;
+		top: 100px;
 		left: 0;
 		width: 100%;
 		float: left;
@@ -503,7 +438,8 @@
 			margin-bottom: 10px;
 
 			@include media-breakpoint-down(lg) {
-				display: block;
+				display: flex;
+				align-items: center;
 			}
 
 			#mobile-category {
@@ -512,6 +448,18 @@
 				float: right;
 				display: inline-block;
 				transition: 300ms all ease-in-out;
+			}
+
+			.dropdown-button {
+				width: 26px;
+				height: 26px;
+				padding: 6px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #EDEDED;
+				border-radius: 4px;
+				margin-left: auto;
 			}
 
 			&.show {
@@ -527,11 +475,28 @@
 			-webkit-backdrop-filter: blur(20px);
 			backdrop-filter: blur(20px);
 			padding: 35px;
-			max-height: calc(100vh - 180px);
 			overflow: auto;
+
+			@include media-breakpoint-down(xl) {
+				padding: 35px 35px 35px 16px;
+			}
 
 			@include media-breakpoint-down(lg) {
 				padding: 0 20px;
+			}
+
+
+			.toc-title {
+				font-family: $ruberoid;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: bold;
+				line-height: normal;
+				margin-bottom: 20px;
+				margin-left: 9px;
+				@include media-breakpoint-down(lg) {
+					display: none;
+				}
 			}
 
 			.category-menu {
@@ -629,42 +594,42 @@
 			}
 		}
 
-		a:not(.suggest-button):not(.article-link) {
+		a {
 			font-family: $ruberoid;
 			font-weight: 500;
 			font-size: 13px;
 			letter-spacing: 0;
-			padding: 5px 0 5px 25px;
+			padding: 12px 0 12px 25px;
 			display: inline-block;
 			color: #414141;
-			line-height: 26px;
+			line-height: 1.3em;
 			position: relative;
-
 			&:before {
 				height: 100%;
-				width: 2px;
+				width: 3px;
 				background: #eaeaea;
 				position: absolute;
 				left: 8px;
 				content: "";
+				z-index: 1;
 			}
 		}
 
 		div.selected {
 			position: relative;
-			a:not(.suggest-button):not(.article-link) {
+			a {
 				font-weight: bold;
 				color: $purple;
-
-				&:before {
-					height: 100%;
-					width: 2px;
-					background: $purple;
-					position: absolute;
-					left: 8px;
-					border-radius: 10px;
-					content: "";
-				}
+			}
+			&:before {
+				height: 100%;
+				width: 3px;
+				background: $purple;
+				position: absolute;
+				left: 8px;
+				border-radius: 9999px;
+				content: "";
+				z-index: 2;
 			}
 		}
 	}

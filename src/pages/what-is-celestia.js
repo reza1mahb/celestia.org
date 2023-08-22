@@ -23,6 +23,39 @@ const WhatIsCelestia = () => {
 		setSelectedItem(index);
 	};
 
+	const sections = [
+		{
+			depth: 1,
+			id: "what-is-a-modular-blockchain",
+			value: "What is a modular blockchain?",
+		},
+		{
+			depth: 1,
+			id: "what-is-data-availability",
+			value: "What is data availability?",
+		},
+		{
+			depth: 1,
+			id: "what-are-rollups",
+			value: "What are rollups?",
+		},
+		{
+			depth: 1,
+			id: "whats-it-like-to-build-on-Celestia",
+			value: "What's it like to build on Celestia?",
+		},
+		{
+			depth: 1,
+			id: "modularism-not-maximalism",
+			value: "Modularism, not maximalism",
+		},
+		{
+			depth: 1,
+			id: "layer-0-social-consensus",
+			value: "Layer 0 social consensus",
+		},
+	];
+
 	return (
 		<Layout footerBoxes2={FooterBoxes2}>
 			<SEO title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
@@ -46,54 +79,44 @@ const WhatIsCelestia = () => {
 
 						<div className={"row sticky-row"}>
 							<div className={"sticky-container col-lg-3"}>
-								<div className={"toc"}>
+								<div className={"toc-2"}>
 									<div
 										className={`mobile-toc ${showTocCategories && "show"}`}
 										onClick={() => setShowTocCategories(!showTocCategories)}
 									>
 										Jump to...
-										<svg id={"mobile-category"} viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg'>
-											<g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
-												<g transform='translate(-485.000000, -1044.000000)'>
-													<g transform='translate(227.000000, 410.000000)'>
-														<g transform='translate(269.000000, 645.000000) rotate(-90.000000) translate(-269.000000, -645.000000) translate(258.000000, 634.000000)'>
-															<rect fill='#EDEDED' x='0' y='0' width='22' height='22' rx='4' />
-															<polyline
-																stroke='#000000'
-																strokeWidth='1.5'
-																strokeLinecap='round'
-																transform='translate(10.694444, 11.152778) rotate(-270.000000) translate(-10.694444, -11.152778) '
-																points='7.94444444 9.77777778 10.6944444 12.5277778 13.4444444 9.77777778'
-															/>
-														</g>
-													</g>
-												</g>
-											</g>
-										</svg>
+										<div className='dropdown-button'>
+											<svg id={"mobile-category"} fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 11'>
+												<path d='m1 4 4.5 4L10 4' stroke='#000' strokeWidth='1.5' strokeLinecap='round' />
+											</svg>
+										</div>
 									</div>
-								</div>
-
-								<div className={"toc-inner"}>
-									<div className={`category-menu ${showTocCategories && "show"}`}>
-										{/* <div className={"toc-item"}> */}
-										{/* {headings.map((heading, index) => {
-												if (heading.depth === 4) {
+									<div className={"toc-inner"}>
+										<div className={"toc-title"}>
+											Table of Contents
+										</div>
+										<div className={`category-menu ${showTocCategories && "show"}`}>
+											<div className={"toc-item"}>
+												{sections.map((item, index) => {
 													return (
-														<div key={index} className={selectedItem === index ? 'selected' : ''} onClick={() => handleItemClick(index)}>
-															<AnchorLink to={`#${heading.id.replace(/\s+/g, "-").toLowerCase()}`}>
-																{heading.value}
+														<div
+															key={index}
+															className={selectedItem === index ? "selected" : ""}
+															onClick={() => handleItemClick(index)}
+														>
+															<AnchorLink to={`#${item.id.replace(/\s+/g, "-").toLowerCase()}`}>
+																{item.value}
 															</AnchorLink>
 														</div>
-													)
-												}
-											})} */}
-										TOC
-										{/* </div> */}
+													);
+												})}
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 							<div className='col-lg-9 ps-lg-5'>
-								<section className={"what-is-a-modular-blockchain"}>
+								<section className={"what-is-a-modular-blockchain"} id={`${sections[0].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<h2 className='title'>And what is a modular blockchain?</h2>
 									<div className={"image-box--different"}>
 										<div className='image-wrapper'>
@@ -108,7 +131,7 @@ const WhatIsCelestia = () => {
 									</p>
 								</section>
 
-								<section className={"good-analogy-section"}>
+								<section className={"what-is-data-availability"} id={`${sections[1].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<div className={"row justify-content-between align-items-center"}>
 										<div className={"col-12 col-lg-6"}>
 											<h2 className='title'>What is data availability and why does it matter?</h2>
@@ -132,7 +155,7 @@ const WhatIsCelestia = () => {
 									</div>
 								</section>
 
-								<section className={"what-is-a-modular-blockchain"}>
+								<section className={"what-are-rollups"} id={`${sections[2].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<div className={"row justify-content-between align-items-center"}>
 										<div className={"order-2 order-lg-1 image-box--different col-12 col-lg-6"}>
 											<div className='image-wrapper'>
@@ -155,7 +178,7 @@ const WhatIsCelestia = () => {
 									</div>
 								</section>
 
-								<section className={"why-use-section"}>
+								<section className={"whats-it-like-to-build-on-Celestia"} id={`${sections[3].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<div className={"row mb-3 mb-md-5 justify-content-center"}>
 										<h2 className='title'>What’s it like to build on Celestia?</h2>
 									</div>
@@ -222,7 +245,7 @@ const WhatIsCelestia = () => {
 								</section>
 
 								<section className='celestia-community'>
-									<div className={"data-availability-section"}>
+									<div className={"modularism-not-maximalism"} id={`${sections[4].id.replace(/\s+/g, "-").toLowerCase()}`}>
 										<h2 className='section-title'>What the Celestia community stands for</h2>
 										<div className={"row justify-content-between align-items-center"}>
 											<div className={"col-12 col-lg-6"}>
@@ -247,7 +270,7 @@ const WhatIsCelestia = () => {
 										</div>
 									</div>
 
-									<div className={"rollups-section"}>
+									<div className={"layer-0-social-consensus"} id={`${sections[5].id.replace(/\s+/g, "-").toLowerCase()}`}>
 										<div className={"row justify-content-between align-items-center"}>
 											<div className={"order-2 order-lg-1 image-box--rollups col-12 col-lg-6"}>
 												<div className='image-wrapper'>
@@ -266,49 +289,6 @@ const WhatIsCelestia = () => {
 										</div>
 									</div>
 								</section>
-
-								{/* <section className={"modularism-section"}>
-									<div className={"row justify-content-between align-items-center"}>
-										<div className={"col-12 col-lg-6"}>
-											<h2 className='title'>Modularism, not maximalism</h2>
-											<p>
-												For years, crypto has endured a monolithic blockchain loop. Each new L1 has built a walled-off system,
-												where competition is fierce and zero-sum. This leads to maximalism as they all fight over users in
-												their ecosystems.
-											</p>
-											<p>
-												Modular blockchains create a collaborative environment with many connected chains. Each new user that
-												a modular blockchain brings in creates value for the whole modular ecosystem, not just a single L1.
-												Modular blockchains collaborate while monolithic L1s compete.
-											</p>
-											<p>Modularism, not maximalism.</p>
-										</div>
-										<div className={"image-box--modularism col-12 col-lg-6"}>
-											<div className='image-wrapper'>
-												<img className='img' style={{ width: `100%` }} src={monolithic_modular_aproach} alt={""} />
-											</div>
-										</div>
-									</div>
-								</section>
-
-								<section className={"social-consensus"}>
-									<div className={"row justify-content-between align-items-center"}>
-										<div className={"image-box--consensus order-2 order-lg-1 col-12 col-lg-6"}>
-											<div className='image-wrapper'>
-												<img className='img' style={{ width: `100%` }} src={celestia_connections} alt={""} />
-											</div>
-										</div>
-										<div className={"order-1 order-lg-2 col-12 col-lg-6"}>
-											<h2 className='title'>Layer 0 is social consensus</h2>
-											<p>
-												To us, the most important layer in blockchains is social consensus. Blockchains are a tool to allow
-												communities of people to socially coordinate in a sovereign way. Thus, our vision stems from a deeply
-												held core belief: communities have an inalienable right to independently self-organize.
-											</p>
-											<p>Modular blockchains for sovereign communities.</p>
-										</div>
-									</div>
-								</section> */}
 							</div>
 						</div>
 					</div>
