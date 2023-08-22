@@ -1,22 +1,20 @@
-export const FooterBoxes = [
+export const FooterBoxes2 = [
     {
-        title: 'Experiment with testnet',
-        text: 'Join a growing ecosystem of developers building rollups and applications on the Mocha testnet.',
-        button: {
-            text: 'Get started',
+        title: 'Start using Celestia',
+        text: 'Deploy your own chain or smart contract on Celestia’s public testnets',
+        link: {
+            text: 'Find your best option',
             href: 'https://docs.celestia.org/',
-            id: 'operator',
-            type: 'simple'
+            id: 'build',
         }
     },
     {
-        title: 'Join our growing team',
-        text: 'Join our team of leading engineers in pioneering the first modular blockchain network.',
-        button: {
-            text: 'Current openings',
+        title: 'Explore what you can do',
+        text: 'Go through Celestia’s world of apps, run your own node, learn about TIA, or even do all three.',
+        link: {
+            text: 'Show me',
             href: '/careers',
-            id: 'career',
-            type: 'simple'
+            id: 'explore',
         }
     }
 ]

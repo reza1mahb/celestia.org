@@ -1,15 +1,33 @@
 .what-is-celestia {
+	padding-top: 0px;
+	@include media-breakpoint-down(sm) {
+		padding-top: 20px;
+	}
 	h1 {
 		font-size: 48px;
-		line-height: normal;
+		line-height: 1.1em;
 		letter-spacing: 0.6px;
+		@include media-breakpoint-down(md) {
+			font-size: 40px;
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: 32px;
+		}
 	}
 
-	h2 {
+	h2, h3 {
 		font-size: 36px;
 		font-style: normal;
-		line-height: 44px;
+		line-height: 1.22em;
 		letter-spacing: -0.643px;
+		margin-bottom: 20px;
+		@include media-breakpoint-down(md) {
+			font-size: 32px;
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: 26px;
+			letter-spacing:0.1px;
+		}
 	}
 
 	.lead-text {
@@ -142,7 +160,7 @@
 	}
 
 	.how-different-section {
-		margin-bottom: 200px;
+		margin-bottom: 100px;
 		padding: 0;
 		@include media-breakpoint-down(lg) {
 			margin-bottom: 64px;
@@ -171,10 +189,10 @@
 	}
 
 	.good-analogy-section {
-		margin-bottom: 170px;
+		margin-bottom: 80px;
 		padding: 0;
 		@include media-breakpoint-down(lg) {
-			margin-bottom: 50px;
+			margin-bottom: 70px;
 		}
 		.image-box--analogy {
 			display: flex;
@@ -195,10 +213,10 @@
 	}
 
 	.what-is-a-modular-blockchain {
-		margin-bottom: 200px;
+		margin-bottom: 80px;
 		padding: 0;
 		@include media-breakpoint-down(lg) {
-			margin-bottom: 64px;
+			margin-bottom: 70px;
 		}
 		.image-box--different {
 			height: inherit;
@@ -210,9 +228,12 @@
 	}
 
 	.why-use-section {
-		padding: 80px 0 80px 0;
-		@include media-breakpoint-down(lg) {
-			padding: 50px 0 50px 0;
+		padding: 0 0 100px 0;
+		@include media-breakpoint-down(sm) {
+			padding: 0 0 80px 0;
+		}
+		.title {
+			margin-bottom: 0px;
 		}
 		.why-use-card {
 			height: 100%;
@@ -244,6 +265,9 @@
 			line-height: 23px;
 			color: #414141;
 			letter-spacing: -0.1px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
 		}
 		.col-z-index {
 			z-index: 1;
@@ -321,107 +345,127 @@
 		}
 	}
 
-	.data-availability-section {
-		margin-bottom: 120px;
-		padding: 120px 0 0;
-		@include media-breakpoint-down(lg) {
-			padding: 70px 0 0;
-			margin-bottom: 80px;
-		}
-		.image-box--availability {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: inherit;
-			padding: 0 47px;
-			.image-wrapper {
-				width: 100%;
-				height: 100%;
-				max-width: 420px;
+	.celestia-community {
+		padding: 0px;
+		.section-title {
+			text-align: center;
+			font-size: 52px;
+			font-weight: bold;
+			line-height: 1.1em;
+			margin-bottom: 70px;
+			@include media-breakpoint-down(md) {
+				font-size: 42px;
 			}
-			@include media-breakpoint-down(lg) {
-				background-position: 50%;
-				padding: 0 30px;
-				.image-wrapper {
-					width: 90%;
-					max-width: 450px;
-				}
+			@include media-breakpoint-down(sm) {
+				font-size: 36px;
+				margin-bottom: 60px;
 			}
 		}
-	}
-
-	.rollups-section {
-		margin-bottom: 120px;
-		padding: 0;
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 80px;
-		}
-		.image-box--rollups {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: inherit;
-			padding: 0 47px;
+		.data-availability-section {
+			margin-bottom: 120px;
+			padding: 0;
 			@include media-breakpoint-down(lg) {
-				background-position: 50%;
-				padding: 0 12px;
+				margin-bottom: 80px;
+			}
+			@include media-breakpoint-down(sm) {
+				margin-bottom: 40px;
+			}
+			
+			.image-box--availability {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: inherit;
+				padding: 0 47px;
 				.image-wrapper {
 					width: 100%;
 					height: 100%;
-					max-width: 500px;
+					max-width: 420px;
+				}
+				@include media-breakpoint-down(lg) {
+					background-position: 50%;
+					padding: 0 30px;
+					.image-wrapper {
+						width: 90%;
+						max-width: 450px;
+					}
 				}
 			}
 		}
-	}
 
-	.modularism-section {
-		margin-bottom: 120px;
-		padding: 0;
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 100px;
-		}
-		.image-box--modularism {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: inherit;
-			padding: 0 47px;
-			@include media-breakpoint-down(lg) {
-				background-position: 50%;
-				padding: 0px;
-				.image-wrapper {
-					width: 100%;
-					height: 100%;
-					max-width: 500px;
-					transform: scale(1.1);
-				}
-			}
-		}
-	}
-
-	.social-consensus {
-		margin-bottom: 120px;
-		padding: 0;
-		@include media-breakpoint-down(lg) {
+		.rollups-section {
 			margin-bottom: 80px;
-		}
-		.image-box--consensus {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: inherit;
-			padding: 0 47px;
+			padding: 0;
 			@include media-breakpoint-down(lg) {
-				background-position: 50%;
-				padding: 0px;
-				.image-wrapper {
-					width: 90%;
-					height: 100%;
-					max-width: 500px;
+				margin-bottom: 60px;
+			}
+			.image-box--rollups {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: inherit;
+				padding: 0 47px;
+				@include media-breakpoint-down(lg) {
+					background-position: 50%;
+					padding: 0 12px;
+					.image-wrapper {
+						width: 100%;
+						height: 100%;
+						max-width: 500px;
+					}
 				}
 			}
 		}
 	}
+
+	// .modularism-section {
+	// 	margin-bottom: 120px;
+	// 	padding: 0;
+	// 	@include media-breakpoint-down(lg) {
+	// 		margin-bottom: 100px;
+	// 	}
+	// 	.image-box--modularism {
+	// 		display: flex;
+	// 		justify-content: center;
+	// 		align-items: center;
+	// 		height: inherit;
+	// 		padding: 0 47px;
+	// 		@include media-breakpoint-down(lg) {
+	// 			background-position: 50%;
+	// 			padding: 0px;
+	// 			.image-wrapper {
+	// 				width: 100%;
+	// 				height: 100%;
+	// 				max-width: 500px;
+	// 				transform: scale(1.1);
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+	// .social-consensus {
+	// 	margin-bottom: 120px;
+	// 	padding: 0;
+	// 	@include media-breakpoint-down(lg) {
+	// 		margin-bottom: 80px;
+	// 	}
+	// 	.image-box--consensus {
+	// 		display: flex;
+	// 		justify-content: center;
+	// 		align-items: center;
+	// 		height: inherit;
+	// 		padding: 0 47px;
+	// 		@include media-breakpoint-down(lg) {
+	// 			background-position: 50%;
+	// 			padding: 0px;
+	// 			.image-wrapper {
+	// 				width: 90%;
+	// 				height: 100%;
+	// 				max-width: 500px;
+	// 			}
+	// 		}
+	// 	}
+	// }
 
 	.toc {
 		//position: absolute;
