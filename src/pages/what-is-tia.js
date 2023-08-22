@@ -81,10 +81,7 @@ const WhatIsTIA = () => {
 												No banks or intermediaries necessary.
 											</p>
 											<p>
-												It’s important to{" "}
-												<a href='https://www.coinbase.com/security/security-tips' target='_blank'>
-													get familiar with basic wallet practices↗
-												</a>{" "}
+												It’s important to get familiar with basic wallet practices
 												for safely storing and transacting with TIA on Celestia.
 											</p>
 										</div>
