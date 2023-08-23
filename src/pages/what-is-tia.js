@@ -110,7 +110,7 @@ const WhatIsTIA = () => {
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
-													<a className='link' href='https://docs.celestia.org/' target='_blank'>
+													<a className='link' href='https://docs.celestia.org/developers/faqs/#staking' target='_blank'>
 														Learn more about staking and custody
 														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 															<path
