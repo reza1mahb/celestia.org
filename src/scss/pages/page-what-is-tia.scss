@@ -59,19 +59,19 @@
 		background-size: contain;
 		top: 30px;
 		right: 0;
-		left: 55%;
+		left: 50%;
 		position: absolute;
 		content: "";
-		width: 520px;
-		height: 520px;
+		width: 600px;
+		height: 600px;
 		z-index: -1;
 
 		@include media-breakpoint-down(xl) {
-			width: 480px;
-			height: 480px;
+			width: 540px;
+			height: 540px;
 			top: 30px;
 			right: 60px;
-			left: unset;
+			left: 50%;
 		}
 		@include media-breakpoint-down(lg) {
 			width: 380px;
@@ -82,7 +82,7 @@
 		@include media-breakpoint-down(md) {
 			width: 88%;
 			height: 88%;
-			max-width: 450px;
+			max-width: 480px;
 			right: unset;
 			top: 40px;
 			left: 50%;
@@ -133,10 +133,10 @@
 	.hero {
 		padding-bottom: 0px;
 		@include media-breakpoint-down(md) {
-			padding-top: 415px;
+			padding-top: 375px;
 		}
 		@include media-breakpoint-down(sm) {
-			padding-top: 70vw;
+			padding-top: 65vw;
 		}
 	}
 
