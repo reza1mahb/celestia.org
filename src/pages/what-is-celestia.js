@@ -1,19 +1,17 @@
 import React, { useState } from "react";
 import Layout from "../components/layout";
 import { FooterBoxes2 } from "../datas/what-is-celestia/content";
+import { tableOfContent } from "../datas/what-is-celestia/toc";
 import { StaticImage } from "gatsby-plugin-image";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import { seoContent } from "../datas/what-is-celestia/seoContent";
 import SEO from "../components/seo";
 
-import celestia_modular from "../images/what-is-celestia/celestia-modular.png";
 import celestia_what_are_rollups from "../images/what-is-celestia/celestia-what-are-rollups.png";
 import celestia_data_availability from "../images/what-is-celestia/celestia-data-availability.png";
 import celestia_what_is_modular from "../images/what-is-celestia/celestia-what-is-modular.png";
 import celestia_modularizm from "../images/what-is-celestia/celestia-modularizm.png";
-import celestia_transactions from "../images/what-is-celestia/celestia-transactions.png";
-import monolithic_modular_aproach from "../images/what-is-celestia/monolithic-modular-aproach.png";
 import celestia_connections from "../images/what-is-celestia/celestia-connections.png";
 
 const WhatIsCelestia = () => {
@@ -22,39 +20,6 @@ const WhatIsCelestia = () => {
 	const handleItemClick = (index) => {
 		setSelectedItem(index);
 	};
-
-	const sections = [
-		{
-			depth: 1,
-			id: "what-is-a-modular-blockchain",
-			value: "What is a modular blockchain?",
-		},
-		{
-			depth: 1,
-			id: "what-is-data-availability",
-			value: "What is data availability?",
-		},
-		{
-			depth: 1,
-			id: "what-are-rollups",
-			value: "What are rollups?",
-		},
-		{
-			depth: 1,
-			id: "whats-it-like-to-build-on-Celestia",
-			value: "What's it like to build on Celestia?",
-		},
-		{
-			depth: 1,
-			id: "modularism-not-maximalism",
-			value: "Modularism, not maximalism",
-		},
-		{
-			depth: 1,
-			id: "layer-0-social-consensus",
-			value: "Layer 0 social consensus",
-		},
-	];
 
 	return (
 		<Layout footerBoxes2={FooterBoxes2}>
@@ -97,7 +62,7 @@ const WhatIsCelestia = () => {
 										</div>
 										<div className={`category-menu ${showTocCategories && "show"}`}>
 											<div className={"toc-item"}>
-												{sections.map((item, index) => {
+												{tableOfContent.map((item, index) => {
 													return (
 														<div
 															key={index}
@@ -115,8 +80,8 @@ const WhatIsCelestia = () => {
 									</div>
 								</div>
 							</div>
-							<div className='col-lg-9 ps-lg-5'>
-								<section className={"what-is-a-modular-blockchain"} id={`${sections[0].id.replace(/\s+/g, "-").toLowerCase()}`}>
+							<div className='col-lg-9 ps-lg-4 p-xl-5'>
+								<section className={"what-is-a-modular-blockchain"} id={`${tableOfContent[0].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<h2 className='title'>And what is a modular blockchain?</h2>
 									<div className={"image-box--different"}>
 										<div className='image-wrapper'>
@@ -131,7 +96,7 @@ const WhatIsCelestia = () => {
 									</p>
 								</section>
 
-								<section className={"what-is-data-availability"} id={`${sections[1].id.replace(/\s+/g, "-").toLowerCase()}`}>
+								<section className={"what-is-data-availability"} id={`${tableOfContent[1].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<div className={"row justify-content-between align-items-center"}>
 										<div className={"col-12 col-lg-6"}>
 											<h2 className='title'>What is data availability and why does it matter?</h2>
@@ -155,7 +120,7 @@ const WhatIsCelestia = () => {
 									</div>
 								</section>
 
-								<section className={"what-are-rollups"} id={`${sections[2].id.replace(/\s+/g, "-").toLowerCase()}`}>
+								<section className={"what-are-rollups"} id={`${tableOfContent[2].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<div className={"row justify-content-between align-items-center"}>
 										<div className={"order-2 order-lg-1 image-box--different col-12 col-lg-6"}>
 											<div className='image-wrapper'>
@@ -178,7 +143,7 @@ const WhatIsCelestia = () => {
 									</div>
 								</section>
 
-								<section className={"whats-it-like-to-build-on-Celestia"} id={`${sections[3].id.replace(/\s+/g, "-").toLowerCase()}`}>
+								<section className={"whats-it-like-to-build-on-Celestia"} id={`${tableOfContent[3].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<div className={"row mb-3 mb-md-5 justify-content-center"}>
 										<h2 className='title'>What’s it like to build on Celestia?</h2>
 									</div>
@@ -245,7 +210,7 @@ const WhatIsCelestia = () => {
 								</section>
 
 								<section className='celestia-community'>
-									<div className={"modularism-not-maximalism"} id={`${sections[4].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<div className={"modularism-not-maximalism"} id={`${tableOfContent[4].id.replace(/\s+/g, "-").toLowerCase()}`}>
 										<h2 className='section-title'>What the Celestia community stands for</h2>
 										<div className={"row justify-content-between align-items-center"}>
 											<div className={"col-12 col-lg-6"}>
@@ -270,7 +235,7 @@ const WhatIsCelestia = () => {
 										</div>
 									</div>
 
-									<div className={"layer-0-social-consensus"} id={`${sections[5].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<div className={"layer-0-social-consensus"} id={`${tableOfContent[5].id.replace(/\s+/g, "-").toLowerCase()}`}>
 										<div className={"row justify-content-between align-items-center"}>
 											<div className={"order-2 order-lg-1 image-box--rollups col-12 col-lg-6"}>
 												<div className='image-wrapper'>
