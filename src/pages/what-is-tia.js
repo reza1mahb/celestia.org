@@ -110,27 +110,7 @@ const WhatIsTIA = () => {
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
-													<a className='link' href='/' target='_blank'>
-														Learn more about staking and custody
-														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-															<path
-																stroke='#7B2BF9'
-																stroke-linecap='square'
-																stroke-width='1.5'
-																d='M3.61218 12.0721L11.0761 4.60823'
-															/>
-															<path
-																stroke='#7B2BF9'
-																stroke-linecap='square'
-																stroke-linejoin='bevel'
-																stroke-width='1.5'
-																d='M11.5254 11.0752V4.00413H4.45432'
-															/>
-														</svg>
-													</a>
-												</div>
-												<div className='link-wrapper'>
-													<a className='link' href='https://docs.celestia.org/' target="_blank">
+													<a className='link' href='https://docs.celestia.org/' target='_blank'>
 														View Documentation
 														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 															<path
