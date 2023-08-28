@@ -105,7 +105,7 @@ const WhatIsCelestia = () => {
 												critical to the security of any blockchain because it ensures that anyone can inspect the ledger of
 												transactions and verify it.
 											</p>
-											<p>Users of a monolithic blockchain download all the data to check that it is available.</p>
+											<p>Users of a monolithic blockchain usually download all the data to check that it is available.</p>
 											<p>
 												As blocks get bigger, it becomes impractical for normal users to download all the data meaning that
 												they can’t verify the chain. Modular chains solve this problem by making it possible for users to
