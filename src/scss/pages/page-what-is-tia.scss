@@ -228,7 +228,7 @@
 		}
 
 		.custody-stacking-title {
-			margin-bottom: 60px;
+			margin-bottom: 20px;
 			@include media-breakpoint-up(lg) {
 				padding-top: 10px;
 			}
@@ -248,11 +248,12 @@
 			}
 		}
 		.image-box--node {
-			margin-left: auto;
-			margin-right: auto;
+
 			@include media-breakpoint-down(lg) {
+				margin-left: auto;
+				margin-right: auto;
 				padding: 0px;
-				max-width: 85%;
+				max-width: 90%;
 			}
 		}
 
@@ -273,7 +274,7 @@
 			&:last-of-type {
 				margin-top: 0px;
 				@include media-breakpoint-up(lg) {
-					margin-top: 60px;
+					margin-top: 30px;
 				}
 			}
 			.custody-text-box {
