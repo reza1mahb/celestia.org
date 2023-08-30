@@ -1,6 +1,6 @@
 export const resources = {
 	title: "Resources",
-	description: "Tutorials, and guides for running Celestia nodes.",
+	description: "Tutorials and guides for running Celestia nodes.",
 	items: [
 		{
 			id: 1,
