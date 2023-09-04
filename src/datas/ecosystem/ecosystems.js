@@ -275,7 +275,7 @@ export const ecosystemCategories = [
                 title: 'Bullieverse',
                 text: '',
                 image: 'ecosystem/bullieverse.png',
-                url: 'https://bullieverse.com/home'
+                url: 'https://bullieverse.com/'
             },
             {
                 title: 'Aether Games',
