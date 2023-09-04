@@ -71,7 +71,7 @@ const WhatIsTIA = () => {
 					<section className={"custody-stacking"} id={`${heroData.buttons[1]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
 							<h2 className='custody-stacking-title'>Custody and staking</h2>
-							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-content-between align-items-lg-center"}>
+							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-center align-items-lg-center"}>
 								<div className='col-12 col-lg-6 order-1 order-lg-0'>
 									<div className={"text-box"}>
 										<h2 className='title'>You own your TIA</h2>
@@ -87,14 +87,14 @@ const WhatIsTIA = () => {
 										</div>
 									</div>
 								</div>
-								<div className={"image-box--node col-auto order-0 order-lg-1"}>
+								<div className={"image-box--node col-12 col-lg-6 order-0 order-lg-1"}>
 									<div className='image-wrapper'>
 										<img className='img' style={{ width: `100%`, maxWidth: `470px` }} src={image1} alt={""} />
 									</div>
 								</div>
 							</div>
-							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-content-between align-items-lg-center"}>
-								<div className={"image-box--node col-auto"}>
+							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-center align-items-lg-center"}>
+								<div className={"image-box--node col-12 col-lg-6"}>
 									<div className='image-wrapper'>
 										<img className='img' style={{ width: `100%`, maxWidth: `470px` }} src={image2} alt={""} />
 									</div>
