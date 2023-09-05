@@ -1,7 +1,157 @@
-.index-page{
-  background:url(../images/BG/home.png) no-repeat scroll center left transparent;
+.index-page {
+	background: url(../images/BG/home.png) no-repeat scroll center left transparent;
 
-  main{
-    padding-top:100px;
-  }
+	main {
+		padding-top: 100px;
+	}
+}
+
+.index-page-new {
+	background: url(../images/BG/home.png) no-repeat scroll center left transparent;
+
+	main {
+		padding-top: 100px;
+	}
+	.hero-section {
+		@include media-breakpoint-up(lg) {
+			h1 {
+				font-size: 92px;
+				line-height: 90px;
+				letter-spacing: -4px;
+				max-width: 750px;
+			}
+			.text {
+				color: #3c3c3c;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 30px;
+				letter-spacing: 0.225px;
+				max-width: 490px;
+			}
+		}
+	}
+	.explore-celestia {
+		padding-top: 140px;
+		padding-bottom: 0px;
+		.card-item {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			border-radius: 8px;
+			background: #f7f7f7;
+			padding: 50px;
+			height: 100%;
+			h3 {
+				font-size: 40px;
+				font-style: normal;
+				font-weight: bold;
+				line-height: 48px;
+
+				@include media-breakpoint-down(md) {
+					font-size: 32px;
+					letter-spacing: 0.12px;
+					line-height: 40px;
+				}
+
+				@include media-breakpoint-down(sm) {
+					font-size: 24px;
+					letter-spacing: 0.09px;
+					line-height: 30px;
+				}
+			}
+			p {
+				margin-bottom: 0;
+				color: #414141;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: 26px;
+				letter-spacing: -0.112px;
+				@include media-breakpoint-down(md) {
+					font-size: 16px;
+					line-height: 24px;
+				}
+				@include media-breakpoint-down(sm) {
+					font-size: 15px;
+					line-height: 22px;
+				}
+			}
+
+			.card-link {
+				position: absolute;
+				right: 28px;
+				top: 40px;
+				transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+				will-change: transform, box-shadow;
+				border-radius: 9999px;
+				height: 63px;
+				width: 63px;
+				&:hover {
+					transform: scale(1.1);
+					box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+				}
+				@include media-breakpoint-down(sm) {
+					height: 48px;
+					width: 48px;
+				}
+			}
+
+			.image-wrapper {
+				width: 100%;
+				max-width: 180px;
+				@include media-breakpoint-down(md) {
+					max-width: 120px;
+				}
+			}
+
+			@include media-breakpoint-down(md) {
+				padding: 30px;
+			}
+		}
+
+		.col:last-of-type {
+			.card-item {
+				flex-direction: row;
+				align-items: center;
+        @include media-breakpoint-down(lg) {
+          flex-direction: column;
+          justify-content: start;
+          align-items: start;
+        }
+			}
+			.image-wrapper {
+				// @include media-breakpoint-up(md) {
+				// 	margin-right: 80px;
+				// 	margin-left: 0px;
+				// }
+				@include media-breakpoint-up(lg) {
+					margin-right: 140px;
+					margin-left: 40px;
+				}
+			}
+		}
+
+		.col:not(:last-of-type) {
+			@include media-breakpoint-up(lg) {
+				.image-wrapper {
+					margin-bottom: 50px;
+				}
+			}
+		}
+
+		@include media-breakpoint-down(lg) {
+			.col {
+				.image-wrapper {
+					margin-bottom: 40px;
+				}
+			}
+		}
+	}
+	.cards-section {
+		padding-top: 120px;
+		@include media-breakpoint-down(sm) {
+			padding-top: 80px;
+		}
+	}
 }
