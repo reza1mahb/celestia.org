@@ -14,6 +14,7 @@ import { backers } from "../datas/home-new/backers";
 import { roadmaps } from "../datas/home-new/roadmaps";
 import { FooterBoxes } from "../datas/home-new/content";
 import { exploreCelestia } from "../datas/home-new/explore-celestia";
+import { socialChannels } from "../datas/home-new/social-channels";
 
 import Card from "../components/modules/card";
 import Button from "../components/buttons/button";
@@ -23,6 +24,7 @@ import BackersSection from "../components/sections/backers-sections";
 import RoadmapItem from "../components/modules/roadmapItem";
 import SignUp from "../components/modals/signUp";
 import Image from "../components/imageComponent";
+import CommunityItem from "../components/modules/community-item";
 
 import { seoContent } from "../datas/home/seoContent";
 import SEO from "../components/seo";
@@ -60,16 +62,11 @@ const IndexPage = () => {
 							<div className='d-flex justify-content-center'>
 								<h2 className='with-decor pb-2'>Explore Celestia</h2>
 							</div>
-							<div className='row mt-4 mt-lg-5'>
-								<div className='col col-12 col-lg-6 pe-lg-2 pb-3 pb-lg-0'>
+							<div className='three-col-grid mt-4 mt-lg-5'>
+								<div className='card-box'>
 									<div className='card-item'>
 										<Link to={exploreCelestia[0].link}>
-											<svg
-												className='card-link'
-												xmlns='http://www.w3.org/2000/svg'
-												viewBox='0 0 62 63'
-												fill='none'
-											>
+											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
 													<path
@@ -93,22 +90,17 @@ const IndexPage = () => {
 												</defs>
 											</svg>
 										</Link>
-										<div className={"col image-wrapper"}>
+										<div className={"image-wrapper"}>
 											<Image alt={exploreCelestia[0].title} filename={exploreCelestia[0].image} />
 										</div>
 										<h3>{exploreCelestia[0].title}</h3>
 										<p>{exploreCelestia[0].text} </p>
 									</div>
 								</div>
-								<div className='col col-12 col-lg-6 ps-lg-2 pb-3 pb-lg-0'>
+								<div className='card-box'>
 									<div className='card-item'>
 										<Link to={exploreCelestia[0].link}>
-											<svg
-												className='card-link'
-												xmlns='http://www.w3.org/2000/svg'
-												viewBox='0 0 62 63'
-												fill='none'
-											>
+											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
 													<path
@@ -132,22 +124,17 @@ const IndexPage = () => {
 												</defs>
 											</svg>
 										</Link>
-										<div className={"col image-wrapper"}>
+										<div className={"image-wrapper"}>
 											<Image alt={exploreCelestia[1].title} filename={exploreCelestia[1].image} />
 										</div>
 										<h3>{exploreCelestia[1].title}</h3>
 										<p>{exploreCelestia[1].text} </p>
 									</div>
 								</div>
-								<div className='col col-12 pt-lg-3'>
+								<div className='card-box span-full'>
 									<div className='card-item'>
 										<Link to={exploreCelestia[0].link}>
-											<svg
-												className='card-link'
-												xmlns='http://www.w3.org/2000/svg'
-												viewBox='0 0 62 63'
-												fill='none'
-											>
+											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
 													<path
@@ -171,7 +158,7 @@ const IndexPage = () => {
 												</defs>
 											</svg>
 										</Link>
-										<div className={"col col-sm-3 col-lg-auto image-wrapper"}>
+										<div className={"image-wrapper"}>
 											<Image alt={exploreCelestia[2].title} filename={exploreCelestia[2].image} />
 										</div>
 										<div>
@@ -222,25 +209,77 @@ const IndexPage = () => {
 							</div>
 						</section>
 
-						<div className='anchor' id='roadmap' />
-						<section className='roadmap-section'>
-							<h2 className='with-decor pb-5'>Roadmap</h2>
+						<section className='join-the-community'>
+							<h2 className='with-decor pb-2'>Join the community</h2>
+							<div className='subtitle'>Join the Celestia community online or hang out at one of the grassroots Modular Meetups</div>
 
-							<div className='roadmap-container'>
-								<ul className='roadmap-items'>
-									{roadmaps &&
-										roadmaps.map(function (roadmap, index) {
-											return <RoadmapItem status={roadmap.status} key={roadmap.id} title={roadmap.title} text={roadmap.text} />;
-										})}
-								</ul>
-								<div className='clear' />
+							<div className='d-flex'>
+								<div className='col-auto'>
+									<div className='social-wrapper'>
+										<div className='social-box'>
+											{socialChannels.items.map(function (item) {
+												return <CommunityItem className='icon-card-wrapper col-6 col-md-6' key={item.id} content={item} />;
+											})}
+										</div>
+										<div className='link-container'>
+											<a className='link' href={"/"} target={"_blank"} rel={"noreferrer"} aria-label={""}>
+												Find More
+												<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
+													<path
+														stroke='#7B2BF9'
+														stroke-linecap='square'
+														stroke-width='1.5'
+														d='M3.61218 12.0721L11.0761 4.60823'
+													/>
+													<path
+														stroke='#7B2BF9'
+														stroke-linecap='square'
+														stroke-linejoin='bevel'
+														stroke-width='1.5'
+														d='M11.5254 11.0752V4.00413H4.45432'
+													/>
+												</svg>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div className='col-12 col-lg-6'>
+									<div className={"community-image"}>
+										<div className='image'>
+											<Image alt={""} filename={"modular-summit-2023.jpg"} />
+										</div>
+										<div className='image-caption'>
+											<div className='caption-box'>
+												<div className="caption-text">Modular Summit 2023</div>
+											</div>
+											<div className="logo">
+												<Image alt={""} filename={"x-caption-logo.jpg"} />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className='col-12 col-lg-6'>
+									<div className={"community-image"}>
+										<div className='image'>
+											<Image alt={""} filename={"modular-meetup.jpg"} />
+										</div>
+										<div className='image-caption'>
+											<div className='caption-box'>
+												<div className="caption-text">Modular Summit 2023</div>
+											</div>
+											<div className="logo">
+												<Image alt={""} filename={"x-caption-logo.jpg"} />
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</section>
 
 						<div className='anchor' id='waitlist' />
 						<section className='separate-section'>
 							<div className='row'>
-								<div className='col col-12 col-lg-6'>
+								<div className='col-12 col-lg-6'>
 									<h3 className='with-decor'>Run a node on testnet</h3>
 									<div className='text'>Experiment and practice running a node on testnet in preparation for mainnet.</div>
 									<a href='https://docs.celestia.org/nodes/overview' target='_blank'>

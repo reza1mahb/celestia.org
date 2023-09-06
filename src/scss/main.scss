@@ -55,455 +55,453 @@
 @import "sections/separate-section.scss";
 
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  scroll-behavior: unset !important;
+	scroll-behavior: unset !important;
 }
 
-body{
-  font-family:$inter;
-  font-weight:300;
-  font-style:normal;
+body {
+	font-family: $inter;
+	font-weight: 300;
+	font-style: normal;
 
-  background:url(../images/header-bg.png) no-repeat scroll center top transparent;
-  background-size:100%;
+	background: url(../images/header-bg.png) no-repeat scroll center top transparent;
+	background-size: 100%;
 
-  @include media-breakpoint-down(sm) {
-    background-size:200%;
-  }
+	@include media-breakpoint-down(sm) {
+		background-size: 200%;
+	}
 }
 
-.container{
-  width:90%;
-  margin:auto;
-  max-width:1300px;
-  padding:0;
+main {
+	overflow: hidden;
 }
 
-.manualAnchor{
-  margin-top:-200px;
-  position:absolute;
-}
-.anchor{
-  &.after{
-    position:absolute;
-  }
+.container {
+	width: 90%;
+	margin: auto;
+	max-width: 1300px;
+	padding: 0;
 }
 
-section{
-  width:100%;
-  padding:65px 0;
-
-  @include media-breakpoint-down(sm) {
-    padding:30px 0;
-  }
+.manualAnchor {
+	margin-top: -200px;
+	position: absolute;
+}
+.anchor {
+	&.after {
+		position: absolute;
+	}
 }
 
-h1{
-  font-family: $ruberoid;
-  font-weight:bold;
-  font-size: 110px;
-  color: #000000;
-  letter-spacing: 1.38px;
-  line-height: 106px;
-  display:inline-block;
+section {
+	width: 100%;
+	padding: 65px 0;
 
-  &.main{
-    max-width:960px;
-  }
-
-  @include media-breakpoint-down(xl) {
-    font-size: 80px;
-    letter-spacing: 1px;
-    line-height: 82px;
-  }
-
-  @include media-breakpoint-down(lg) {
-    font-size: 60px;
-    letter-spacing: 0.8px;
-    line-height: 64px;
-  }
-  @include media-breakpoint-down(md) {
-    font-size: 50px;
-    letter-spacing: 0.62px;
-    line-height: 52px;
-  }
-  @include media-breakpoint-down(sm) {
-    font-size: 32px;
-    letter-spacing: 0.4px;
-    line-height: 38px;
-  }
+	@include media-breakpoint-down(sm) {
+		padding: 30px 0;
+	}
 }
 
-h2, .h2{
-  font-family: $ruberoid;
-  font-weight:bold;
-  font-size: 70px;
-  line-height: 74px;
-  color: #000000;
-  letter-spacing: 0.2px;
-  position:relative;
+h1 {
+	font-family: $ruberoid;
+	font-weight: bold;
+	font-size: 110px;
+	color: #000000;
+	letter-spacing: 1.38px;
+	line-height: 106px;
+	display: inline-block;
 
+	&.main {
+		max-width: 960px;
+	}
 
-  &.with-decor{
-    &:before{
-      position:absolute;
-      left: -6px;
-      top: -31px;
-      content:'';
-      width:100px;
-      height:118px;
-      background:url(../images/h2-decor.svg) no-repeat scroll center left transparent;
-    }
-  }
+	@include media-breakpoint-down(xl) {
+		font-size: 80px;
+		letter-spacing: 1px;
+		line-height: 82px;
+	}
 
-  @include media-breakpoint-down(lg) {
-    font-size:66px;
-    line-height: 70px;
-    letter-spacing:0.15px;
-
-    &.with-decor{
-      &:before{
-        width:88px;
-        height:104px;
-        background-size:contain;
-        top: -27px;
-        left: -11px;
-      }
-    }
-  }
-
-  @include media-breakpoint-down(md) {
-    font-size:46px;
-    line-height: 48px;
-    letter-spacing:0.125px;
-
-    &.with-decor{
-      &:before{
-        width: 58px;
-        height: 72px;
-        background-size: contain;
-        top: -20px;
-        left: -12px;
-      }
-    }
-  }
-
-  @include media-breakpoint-down(sm) {
-    font-size:36px;
-    line-height: 38px;
-    letter-spacing:0.1px;
-
-    &.with-decor{
-      &:before{
-        width: 50px;
-        height: 59px;
-        top: -17px;
-        left: -10px;
-      }
-    }
-  }
+	@include media-breakpoint-down(lg) {
+		font-size: 60px;
+		letter-spacing: 0.8px;
+		line-height: 64px;
+	}
+	@include media-breakpoint-down(md) {
+		font-size: 50px;
+		letter-spacing: 0.62px;
+		line-height: 52px;
+	}
+	@include media-breakpoint-down(sm) {
+		font-size: 32px;
+		letter-spacing: 0.4px;
+		line-height: 38px;
+	}
 }
 
-h3{
-  font-family: $ruberoid;
-  font-weight:bold;
-  font-size: 52px;
-  color: #000000;
-  letter-spacing: 0.15px;
-  line-height: 60px;
-  position:relative;
+h2,
+.h2 {
+	font-family: $ruberoid;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 74px;
+	color: #000000;
+	letter-spacing: 0.2px;
+	position: relative;
 
-  &.with-decor{
-    &:before{
-      position:absolute;
-      left: -6px;
-      top: -20px;
-      content: "";
-      width: 58px;
-      height: 78px;
-      background:url(../images/h2-decor.svg) no-repeat scroll center left transparent;
-      background-size:contain;
-    }
-  }
+	&.with-decor {
+		&:before {
+			position: absolute;
+			left: -6px;
+			top: -31px;
+			content: "";
+			width: 100px;
+			height: 118px;
+			background: url(../images/h2-decor.svg) no-repeat scroll center left transparent;
+		}
+	}
 
-  @include media-breakpoint-down(md) {
-    font-size:42px;
-    letter-spacing:0.12px;
-    line-height:50px;
+	@include media-breakpoint-down(lg) {
+		font-size: 66px;
+		line-height: 70px;
+		letter-spacing: 0.15px;
 
-    &.with-decor{
-      &:before{
-        left: -10px;
-        top: -18px;
-        content: "";
-        width: 50px;
-        height: 66px;
-      }
-    }
-  }
+		&.with-decor {
+			&:before {
+				width: 88px;
+				height: 104px;
+				background-size: contain;
+				top: -27px;
+				left: -11px;
+			}
+		}
+	}
 
-  @include media-breakpoint-down(sm) {
-    font-size:32px;
-    letter-spacing:0.09px;
-    line-height:40px;
+	@include media-breakpoint-down(md) {
+		font-size: 46px;
+		line-height: 48px;
+		letter-spacing: 0.125px;
 
-    &.with-decor{
-      &:before{
-        width: 40px;
-        height: 50px;
-        background-size: contain;
-        top: -12px;
-        left: -8px;
-      }
-    }
-  }
+		&.with-decor {
+			&:before {
+				width: 58px;
+				height: 72px;
+				background-size: contain;
+				top: -20px;
+				left: -12px;
+			}
+		}
+	}
 
+	@include media-breakpoint-down(sm) {
+		font-size: 36px;
+		line-height: 38px;
+		letter-spacing: 0.1px;
+
+		&.with-decor {
+			&:before {
+				width: 50px;
+				height: 59px;
+				top: -17px;
+				left: -10px;
+			}
+		}
+	}
 }
 
-h4{
-  font-family: $ruberoid;
-  font-weight:600;
-  font-size: 42px;
-  color: #000000;
-  letter-spacing: 0.55px;
-  line-height: 52px;
+h3 {
+	font-family: $ruberoid;
+	font-weight: bold;
+	font-size: 52px;
+	color: #000000;
+	letter-spacing: 0.15px;
+	line-height: 60px;
+	position: relative;
 
-  @include media-breakpoint-down(md) {
-    font-size:36px;
-    letter-spacing:0.42px;
-    line-height:42px;
-  }
+	&.with-decor {
+		&:before {
+			position: absolute;
+			left: -6px;
+			top: -20px;
+			content: "";
+			width: 58px;
+			height: 78px;
+			background: url(../images/h2-decor.svg) no-repeat scroll center left transparent;
+			background-size: contain;
+		}
+	}
 
-  @include media-breakpoint-down(sm) {
-    font-size:24px;
-    letter-spacing:0.32px;
-    line-height:32px;
-  }
+	@include media-breakpoint-down(md) {
+		font-size: 42px;
+		letter-spacing: 0.12px;
+		line-height: 50px;
+
+		&.with-decor {
+			&:before {
+				left: -10px;
+				top: -18px;
+				content: "";
+				width: 50px;
+				height: 66px;
+			}
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 32px;
+		letter-spacing: 0.09px;
+		line-height: 40px;
+
+		&.with-decor {
+			&:before {
+				width: 40px;
+				height: 50px;
+				background-size: contain;
+				top: -12px;
+				left: -8px;
+			}
+		}
+	}
 }
 
+h4 {
+	font-family: $ruberoid;
+	font-weight: 600;
+	font-size: 42px;
+	color: #000000;
+	letter-spacing: 0.55px;
+	line-height: 52px;
 
-h5{
-  font-family: $ruberoid;
-  font-weight:bold;
-  font-size: 46px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 55px;
+	@include media-breakpoint-down(md) {
+		font-size: 36px;
+		letter-spacing: 0.42px;
+		line-height: 42px;
+	}
 
-  @include media-breakpoint-down(md) {
-    font-size: 28px;
-    letter-spacing: 0.37px;
-    line-height: 32px;
-  }
-  @include media-breakpoint-down(sm) {
-    font-size: 20px;
-    letter-spacing: 0.26px;
-    line-height: 22px;
-  }
+	@include media-breakpoint-down(sm) {
+		font-size: 24px;
+		letter-spacing: 0.32px;
+		line-height: 32px;
+	}
 }
 
-h6{
-  font-family: $ruberoid;
-  font-weight:300;
-  font-size: 20px;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 25px;
-  margin-bottom:30px;
-  position:relative;
-  display:inline-block;
+h5 {
+	font-family: $ruberoid;
+	font-weight: bold;
+	font-size: 46px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 55px;
 
-  &:before{
-    width:100%;
-    height:1px;
-    background: #000000;
-    position:absolute;
-    bottom:0;
-    left:0;
-    content:'';
-  }
+	@include media-breakpoint-down(md) {
+		font-size: 28px;
+		letter-spacing: 0.37px;
+		line-height: 32px;
+	}
+	@include media-breakpoint-down(sm) {
+		font-size: 20px;
+		letter-spacing: 0.26px;
+		line-height: 22px;
+	}
 }
 
-.modal-content-inner{
-  h3{
-    font-family: $ruberoid;
-    font-weight:bold;
-    font-size: 30px;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: 36px;
-    margin-bottom:40px;
-  }
+h6 {
+	font-family: $ruberoid;
+	font-weight: 300;
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 25px;
+	margin-bottom: 30px;
+	position: relative;
+	display: inline-block;
 
-  form{
-    input[type='text']{
-      background:#fff;
-      color:#000;
-    }
-  }
+	&:before {
+		width: 100%;
+		height: 1px;
+		background: #000000;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		content: "";
+	}
 }
 
-main{
-  //overflow:hidden;
-  width:100%;
-  padding-top:40px;
+.modal-content-inner {
+	h3 {
+		font-family: $ruberoid;
+		font-weight: bold;
+		font-size: 30px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 36px;
+		margin-bottom: 40px;
+	}
 
-  @include media-breakpoint-down(xl) {
-    padding-top:50px;
-  }
-
-  @include media-breakpoint-down(md) {
-    padding-top:0;
-  }
+	form {
+		input[type="text"] {
+			background: #fff;
+			color: #000;
+		}
+	}
 }
 
+main {
+	//overflow:hidden;
+	width: 100%;
+	padding-top: 40px;
 
+	@include media-breakpoint-down(xl) {
+		padding-top: 50px;
+	}
 
-hr:not([size]){
-  border:none;
-  background:none;
-  height:auto;
-  opacity:1;
-
-  &:before{
-    content:'//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////';
-    position:relative;
-    width:100%;
-    opacity: 0.24;
-    font-family: $ruberoid;
-    font-weight:bold;
-    font-size: 10px;
-    color: #000000;
-    letter-spacing: 0;
-  }
+	@include media-breakpoint-down(md) {
+		padding-top: 0;
+	}
 }
 
-.text-container{
-  ul,ol{
-    list-style:none;
-    padding:0;
-    margin:0;
+hr:not([size]) {
+	border: none;
+	background: none;
+	height: auto;
+	opacity: 1;
 
-    li{
-      padding-left:25px;
-      position:relative;
-      margin-bottom:25px;
-
-      &:before{
-        width:8px;
-        height:8px;
-        border-radius:50%;
-        position:absolute;
-        left:0;
-        top:9px;
-        content:'';
-        background:#000;
-      }
-    }
-  }
+	&:before {
+		content: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////";
+		position: relative;
+		width: 100%;
+		opacity: 0.24;
+		font-family: $ruberoid;
+		font-weight: bold;
+		font-size: 10px;
+		color: #000000;
+		letter-spacing: 0;
+	}
 }
 
-.animation-container{
-  width:500px;
-  height:500px;
-  background:yellow;
+.text-container {
+	ul,
+	ol {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			padding-left: 25px;
+			position: relative;
+			margin-bottom: 25px;
+
+			&:before {
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				position: absolute;
+				left: 0;
+				top: 9px;
+				content: "";
+				background: #000;
+			}
+		}
+	}
 }
 
-.ReactModal__Content{
-  inset:80px 0 0 0 !important;
-  background:none !important;
-  border:none !important;
-
-  .inner{
-    transform:translateX(-50%) translateY(-50%);
-    background-color: rgba(255, 255, 255,.9);
-
-    @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
-      background-color: rgba(255, 255, 255,.7);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-    }
-
-    left:50%;
-    max-width:600px;
-    position: absolute;
-    width:90%;
-    top:50%;
-    padding:50px;
-    border-radius:10px;
-
-    @media screen and (max-height: 800px) {
-      top:80px;
-      margin-top:0;
-      transform: translateX(-50%);
-    }
-
-  }
-
-  .close-button{
-    position:absolute;
-    right:10px;
-    top:10px;
-    width:30px;
-    height:30px;
-    background:black;
-    text-align:center;
-    border:none;
-    line-height:30px;
-    font-size:10px;
-    color:#fff;
-    border-radius:5px;
-  }
-
+.animation-container {
+	width: 500px;
+	height: 500px;
+	background: yellow;
 }
 
-.ReactModal__Overlay{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(31, 17, 52,.15) !important;
-  z-index:100;
-  opacity:0;
-  transition: all 500ms ease-in-out;
+.ReactModal__Content {
+	inset: 80px 0 0 0 !important;
+	background: none !important;
+	border: none !important;
+
+	.inner {
+		transform: translateX(-50%) translateY(-50%);
+		background-color: rgba(255, 255, 255, 0.9);
+
+		@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+			background-color: rgba(255, 255, 255, 0.7);
+			backdrop-filter: blur(20px);
+			-webkit-backdrop-filter: blur(20px);
+		}
+
+		left: 50%;
+		max-width: 600px;
+		position: absolute;
+		width: 90%;
+		top: 50%;
+		padding: 50px;
+		border-radius: 10px;
+
+		@media screen and (max-height: 800px) {
+			top: 80px;
+			margin-top: 0;
+			transform: translateX(-50%);
+		}
+	}
+
+	.close-button {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		width: 30px;
+		height: 30px;
+		background: black;
+		text-align: center;
+		border: none;
+		line-height: 30px;
+		font-size: 10px;
+		color: #fff;
+		border-radius: 5px;
+	}
+}
+
+.ReactModal__Overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(31, 17, 52, 0.15) !important;
+	z-index: 100;
+	opacity: 0;
+	transition: all 500ms ease-in-out;
 }
 
 .ReactModal__Overlay--after-open {
-  opacity: 1;
-  transform: translateX(0px);
+	opacity: 1;
+	transform: translateX(0px);
 }
 
 .ReactModal__Overlay--before-close {
-  opacity: 0;
-  transform: translateX(-100px);
+	opacity: 0;
+	transform: translateX(-100px);
 }
 
+.breadcrumb {
+	.icon-dropdown {
+		transform: rotate(-90deg);
+		display: inline-block;
+		font-size: 7px;
+		margin: 0 20px;
+		float: right;
+		margin-top: 8px;
+	}
 
-.breadcrumb{
-  .icon-dropdown{
-    transform:rotate(-90deg);
-    display:inline-block;
-    font-size:7px;
-    margin:0 20px;
-    float:right;
-    margin-top:8px;
-  }
+	.breadcrumb-item {
+		font-family: $inter;
+		font-weight: 300;
+		font-size: 15px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 23px;
 
-  .breadcrumb-item{
-    font-family: $inter;
-    font-weight:300;
-    font-size: 15px;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: 23px;
-
-    &.active{
-      color:initial;
-    }
-  }
+		&.active {
+			color: initial;
+		}
+	}
 }
