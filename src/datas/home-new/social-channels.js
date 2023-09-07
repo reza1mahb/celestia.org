@@ -20,14 +20,6 @@ export const socialChannels = {
 		},
 		{
 			id: 3,
-			title: "Reddit",
-			text: "Ask the devs",
-			image: "home-new/reddit-black.png",
-			type: "external",
-			url: "https://www.reddit.com/r/CelestiaNetwork/",
-		},
-		{
-			id: 4,
 			title: "Github",
 			text: "Build with us",
 			image: "home-new/github-black.png",
@@ -35,20 +27,28 @@ export const socialChannels = {
 			url: "https://github.com/celestiaorg",
 		},
 		{
-			id: 5,
+			id: 4,
 			title: "Telegram",
 			text: "Join discussion",
 			image: "home-new/telegram-black.png",
 			type: "external",
 			url: "https://t.me/CelestiaCommunity",
 		},
-        {
-			id: 6,
+        	{
+			id: 5,
 			title: "Forum",
 			text: "Read Updates",
 			image: "home-new/forum-black.png",
 			type: "external",
 			url: "https://forum.celestia.org/",
+		},
+		{
+			id: 6,
+			title: "Reddit",
+			text: "See more",
+			image: "home-new/reddit-black.png",
+			type: "external",
+			url: "https://www.reddit.com/r/CelestiaNetwork/",
 		},
 	],
 };
