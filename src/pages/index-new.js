@@ -222,7 +222,7 @@ const IndexPage = () => {
 											})}
 										</div>
 										<div className='link-container'>
-											<Link className='link' to={"/"}>
+											<Link className='link' to={"/community/"}>
 												<div className={"button button-external"}>
 													Find more <i className={"icon-external-link"} />
 												</div>
