@@ -7,7 +7,7 @@
 }
 
 .index-page-new {
-	background: url(../images/BG/home.png) no-repeat scroll center left transparent;
+	// background: url(../images/BG/home.png) no-repeat scroll center left transparent;
 
 	main {
 		padding-top: 100px;
@@ -123,7 +123,7 @@
 
 			.image-wrapper {
 				width: 100%;
-				max-width: 180px;
+				max-width: 250px;
 				@include media-breakpoint-down(md) {
 					max-width: 120px;
 				}
@@ -167,9 +167,19 @@
 		@include media-breakpoint-down(sm) {
 			padding-top: 80px;
 		}
+		.text {
+			font-weight: 400;
+		}
 	}
 
 	.join-the-community {
+		padding: 110px 0px 130px 0px;
+		@include media-breakpoint-down(lg) {
+			padding: 80px 0px;
+		}
+		@include media-breakpoint-down(sm) {
+			padding: 50px 0px;
+		}
 		.row {
 			margin-top: 60px;
 			flex-wrap: nowrap;
@@ -177,6 +187,19 @@
 
 		.subtitle {
 			margin-bottom: 60px;
+		}
+		.scroll-box-main {
+			@include media-breakpoint-up(lg) {
+				overflow-x: scroll;
+				padding-bottom: 10px;
+			}
+		}
+
+		.scroll-box {
+			@include media-breakpoint-down(lg) {
+				overflow-x: scroll;
+				padding-bottom: 10px;
+			}
 		}
 
 		.social-wrapper {
@@ -188,12 +211,16 @@
 			padding: 55px 50px 45px 45px;
 			border-radius: 8px;
 			height: 100%;
-			margin-right: 10px;
+			@include media-breakpoint-down(sm) {
+				padding:35px 35px 25px 25px;
+			}
 
 			.social-box {
 				display: flex;
 				flex-wrap: wrap;
-				max-width: 462px;
+				@include media-breakpoint-up(lg) {
+					max-width: 420px;
+				}
 
 				.logo-container {
 					height: 40px;
@@ -218,22 +245,36 @@
 				}
 				.icon-card-wrapper {
 					.community-item {
+						display: flex;
+						align-items: center;
 						padding: 0px;
 						height: fit-content;
+						.title {
+							margin-top: 0px;
+						}
 					}
 				}
 
 				.icon-card-wrapper:nth-child(5),
 				.icon-card-wrapper:nth-child(6) {
 					width: 100%;
+					@include media-breakpoint-up(md) {
+						width: 33.33%;
+					}
+					@include media-breakpoint-up(lg) {
+						width: 100%;
+					}
 				}
 				.icon-card-wrapper:not(:last-child) {
-					margin-bottom: 45px;
+					margin-bottom: 40px;
 				}
 			}
 
 			.link-container {
 				margin-left: auto;
+				@include media-breakpoint-down(lg) {
+					margin-top: 40px;
+				}
 				.link {
 					font-family: $ruberoid;
 					font-style: normal;
@@ -265,14 +306,14 @@
 			border-radius: 8px;
 			// Generate ratio css: https://ratiobuddy.com/
 			position: relative;
-			margin-right: 10px;
+			// margin-right: 10px;
 			&:before {
 				display: block;
 				content: "";
 				width: 100%;
-				padding-top: calc((420 / 565) * 100%);
-				@include media-breakpoint-down(sm) {
-					padding-top: calc((5 / 8) * 100%);
+				padding-top: calc((400 / 565) * 100%);
+				@include media-breakpoint-up(sm) {
+					padding-top: calc((420 / 565) * 100%);
 				}
 			}
 			& > .image {

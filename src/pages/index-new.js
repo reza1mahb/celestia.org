@@ -202,7 +202,7 @@ const IndexPage = () => {
 								<div className='col-auto'>
 									<a href='https://celestia.org/learn/' target='_blank'>
 										<button className='button button-simple button-internal' role='button' tabIndex={0} id='developer'>
-											Learn more
+											Learn More
 										</button>
 									</a>
 								</div>
@@ -213,100 +213,58 @@ const IndexPage = () => {
 							<h2 className='with-decor pb-2'>Join the community</h2>
 							<div className='subtitle'>Join the Celestia community online or hang out at one of the grassroots Modular Meetups</div>
 
-							<div className='d-flex'>
-								<div className='col-auto'>
+							<div className='d-flex flex-column flex-lg-row scroll-box-main'>
+								<div className='col-12 col-lg-auto pe-2'>
 									<div className='social-wrapper'>
 										<div className='social-box'>
 											{socialChannels.items.map(function (item) {
-												return <CommunityItem className='icon-card-wrapper col-6 col-md-6' key={item.id} content={item} />;
+												return <CommunityItem className='icon-card-wrapper col-12 col-sm-6 col-md-4 col-lg-6' key={item.id} content={item} />;
 											})}
 										</div>
 										<div className='link-container'>
-											<a className='link' href={"/"} target={"_blank"} rel={"noreferrer"} aria-label={""}>
-												Find More
-												<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-													<path
-														stroke='#7B2BF9'
-														stroke-linecap='square'
-														stroke-width='1.5'
-														d='M3.61218 12.0721L11.0761 4.60823'
-													/>
-													<path
-														stroke='#7B2BF9'
-														stroke-linecap='square'
-														stroke-linejoin='bevel'
-														stroke-width='1.5'
-														d='M11.5254 11.0752V4.00413H4.45432'
-													/>
-												</svg>
-											</a>
+											<Link className='link' to={"/"}>
+												<div className={"button button-external"}>
+													Find more <i className={"icon-external-link"} />
+												</div>
+											</Link>
 										</div>
 									</div>
 								</div>
-								<div className='col-12 col-lg-6'>
-									<div className={"community-image"}>
-										<div className='image'>
-											<Image alt={""} filename={"modular-summit-2023.jpg"} />
-										</div>
-										<div className='image-caption'>
-											<div className='caption-box'>
-												<div className="caption-text">Modular Summit 2023</div>
+								<div className='d-flex col-lg-12 mt-3 mt-lg-0 scroll-box'>
+									<div className='col-12 col-lg-8 col-lg-3 col-xl-6 pe-2'>
+										<div className={"community-image"}>
+											<div className='image'>
+												<Image alt={""} filename={"modular-summit-2023.jpg"} />
 											</div>
-											<div className="logo">
-												<Image alt={""} filename={"x-caption-logo.jpg"} />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className='col-12 col-lg-6'>
-									<div className={"community-image"}>
-										<div className='image'>
-											<Image alt={""} filename={"modular-meetup.jpg"} />
-										</div>
-										<div className='image-caption'>
-											<div className='caption-box'>
-												<div className="caption-text">Modular Summit 2023</div>
-											</div>
-											<div className="logo">
-												<Image alt={""} filename={"x-caption-logo.jpg"} />
+											<div className='image-caption'>
+												<div className='caption-box'>
+													<div className='caption-text'>Modular Summit 2023</div>
+												</div>
+												<div className='logo'>
+													<Image alt={""} filename={"x-caption-logo.jpg"} />
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>
-						</section>
-
-						<div className='anchor' id='waitlist' />
-						<section className='separate-section'>
-							<div className='row'>
-								<div className='col-12 col-lg-6'>
-									<h3 className='with-decor'>Run a node on testnet</h3>
-									<div className='text'>Experiment and practice running a node on testnet in preparation for mainnet.</div>
-									<a href='https://docs.celestia.org/nodes/overview' target='_blank'>
-										<button className='button button-simple' id='operator' role='button' tabIndex={0}>
-											Read the Docs
-										</button>
-									</a>
-								</div>
-								<div className='col col-12 col-lg-6'>
-									<h3 className='with-decor'>Build on our developer beta</h3>
-									<div className='text'>Build on Celestia and be the first to explore the benefits of its novel architecture.</div>
-									<a href='https://docs.celestia.org/' target='_blank'>
-										<button className='button button-simple' id='developer' role='button' tabIndex={0}>
-											Build on Testnet
-										</button>
-									</a>
+									<div className='col-12 col-lg-8 col-lg-3 col-xl-6 pe-2'>
+										<div className={"community-image"}>
+											<div className='image'>
+												<Image alt={""} filename={"modular-meetup.jpg"} />
+											</div>
+											<div className='image-caption'>
+												<div className='caption-box'>
+													<div className='caption-text'>Modular Summit 2023</div>
+												</div>
+												<div className='logo'>
+													<Image alt={""} filename={"x-caption-logo.jpg"} />
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</section>
 					</div>
-					<ImageSection
-						logo={true}
-						image='home/celestia-team.png'
-						title='Built by industry-leading engineers, researchers and entrepreneurs'
-						text={<Button class='external-big' type='internal' url='/team/' text='View the team' />}
-					/>
-					<PurpleSection enableBackers={enableBackers} anchor='join-our-global-community' purpleData={purpleData} />
 					<BackersSection enableBackers={enableBackers} backers={backers} />
 				</main>
 				<ReactModal isOpen={isModalOpen}>

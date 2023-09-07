@@ -101,7 +101,7 @@
     color:$purple;
     font-size:12px;
     float:right;
-    line-height:26px;
+    line-height:23px;
     transform:rotate(0deg);
     transition:600ms all cubic-bezier(0.83, 0, 0.17, 1);
   }
@@ -114,7 +114,7 @@
     color:$purple;
 
     i{
-      transform:rotate(45deg);
+      transform: rotate(45deg);
     }
   }
 }
@@ -124,7 +124,7 @@
   text-decoration:none;
   font-family: $ruberoid;
   font-weight:bold;
-  font-size: 18px;
+  font-size: 18px;  
   color: #000000;
   letter-spacing: 0;
   padding-right:0;
@@ -137,7 +137,7 @@
     color:$purple;
     font-size:12px;
     float:right;
-    line-height:26px;
+    line-height:24px;
     transform:rotate(0deg);
     transition:600ms all cubic-bezier(0.83, 0, 0.17, 1);
   }
@@ -146,7 +146,7 @@
     color:$purple;
 
     i{
-      transform:rotate(45deg);
+      transform: rotate(45deg);
     }
   }
 }
