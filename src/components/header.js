@@ -11,10 +11,17 @@ const navigation = [
         type: 'internal',
         submenus: [
             {
-                text: "What is Celestia",
+                text: "What is Celestia?",
                 subtext: "Start here",
                 url: "/what-is-celestia/",
                 icon: "menu/logo.svg",
+                type: 'internal'
+            },
+            {
+                text: "Dive into modular",
+                subtext: "Dive deep",
+                url: "/learn/",
+                icon: "menu/books.svg",
                 type: 'internal'
             },
             {
@@ -25,46 +32,11 @@ const navigation = [
                 type: 'internal'
             },
             {
-                text: "Read our blog",
-                subtext: "Celestia Blog",
-                url: "https://blog.celestia.org/",
-                icon: "menu/documentation.svg",
-                type: 'external'
-            },
-            {
-                text: "Technology",
-                subtext: "Tech",
-                url: "/technology/",
-                icon: "menu/technology-svg.svg",
+                text: "Read the whitepaper",
+                subtext: "Research paper",
+                url: "/faq/",
+                icon: "menu/faq.svg",
                 type: 'internal'
-            },
-            {
-                text: "Learn Modular",
-                subtext: "Dive deep",
-                url: "/learn/",
-                icon: "menu/books.svg",
-                type: 'internal'
-            },
-            {
-                text: "Glossary",
-                subtext: "Explore",
-                url: "/glossary/",
-                icon: "menu/search.svg",
-                type: 'internal'
-            },
-            {
-                text: "Videos, Podcasts, Whitepapers",
-                subtext: "Resources",
-                url: "/resources/",
-                icon: "menu/resources.svg",
-                type: 'internal'
-            },
-            {
-                text: "Podcast",
-                subtext: "Listen",
-                url: "https://podcast.celestia.org/",
-                icon: "menu/mic.svg",
-                type: 'external'
             }
         ]
     },{
@@ -79,26 +51,19 @@ const navigation = [
                 type: 'internal'
             },
             {
-                text: "Read our docs",
-                subtext: "Celestia Docs",
+                text: "Read the docs",
+                subtext: "Celestia Documentation",
                 url: "https://docs.celestia.org/",
                 icon: "menu/documentation.svg",
                 type: 'external'
             },
             {
-                text: "View our GitHub repos",
+                text: "View the GitHub repos",
                 subtext: "GitHub repositories",
                 url: "https://github.com/celestiaorg",
                 icon: "menu/github.svg",
                 type: 'external'
-            },
-            {
-                text: "Read the LazyLedger whitepaper",
-                subtext: "Research paper",
-                url: "https://arxiv.org/pdf/1905.09274.pdf",
-                icon: "menu/research.svg",
-                type: 'external'
-            },
+            }
         ]
     },{
         text: "Explore",
