@@ -27,18 +27,13 @@ const navigation = {
 		title: "Resources",
 		links: [
 			{
-				text: "FAQ",
-				url: "/faq",
+				text: "Technology",
+				url: "/technology",
 				type: "internal",
 			},
 			{
 				text: "Glossary",
 				url: "/glossary",
-				type: "internal",
-			},
-			{
-				text: "Learn modular",
-				url: "/learn",
 				type: "internal",
 			},
 			{
@@ -50,6 +45,11 @@ const navigation = {
 				text: "Podcast",
 				url: "https://podcast.celestia.org/",
 				type: "external",
+			},
+			{
+				text: "Resources",
+				url: "/resources",
+				type: "internal",
 			},
 		],
 	},
