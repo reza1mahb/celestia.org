@@ -1,7 +1,7 @@
 export const advantages = [
     {
         id: '1',
-        title: 'Build',
+        title: 'Easy',
         text: 'Deploy your own blockchain in minutes, as easily as a smart contract',
         image: 'advantages/advantage-1.png',
     },{

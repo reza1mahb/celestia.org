@@ -170,7 +170,7 @@ export default class BackersSection extends React.Component {
 					<h2 className={"with-decor black"}>Blog</h2>
 
 					<div className={"row"}>
-						<div className={"col col-12 col-lg-7 pe-xl-5 pt-5"}>
+						<div className={"col col-12 col-lg-7 pe-xl-5 pt-4 pt-sm-5"}>
 							<Resource type={"big"} data={this.getContent(0)} />
 						</div>
 						<div className={"col col-12 col-lg-5 ps-3 ps-xl-3 pt-5 mt-n4"}>

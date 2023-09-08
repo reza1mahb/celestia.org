@@ -52,6 +52,30 @@
     color:#fff;
   }
 }
+.button-footer {
+  border-radius: 6px;
+  font-family: $ruberoid;
+  font-weight:700;
+  font-size: 14px;
+  color: #000000;
+  background:#ffffff;
+  letter-spacing: 0.2px;
+  text-align: center;
+  transition: 300ms all ease-in-out;
+  text-decoration: none;
+  padding: 10px 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height:50px;
+  line-height: 1em;
+
+  &:hover{
+    background:#ebebeb;
+    color:#000000;
+  }
+}
 
 .button-icon{
   line-height:20px;

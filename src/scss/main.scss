@@ -80,11 +80,9 @@ main {
 	overflow: hidden;
 }
 
-
 // Custom Selection //
 $selection-text: black;
 $selection-background: $purple;
-
 
 // Custom Scrollbar //
 $scrollbar-knob: $purple;
@@ -103,6 +101,31 @@ section {
 	scrollbar-width: thin;
 	scrollbar-color: $scrollbar-knob $scrollbar-background;
 }
+
+body {
+	position: relative;
+	&::before{
+		content: "";
+		background: url(../images/footer-bg.png) no-repeat scroll center bottom transparent;
+		background-size: 100% 1200px;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	
+		@include media-breakpoint-down(lg) {
+			background-size: auto 1800px;
+		}
+		@include media-breakpoint-down(md) {
+			background-size: auto 2000px;
+		}
+		@include media-breakpoint-down(sm) {
+			background-size: auto 3000px;
+		}
+	}
+}
+
 ::-webkit-scrollbar {
 	height: 2px;
 	width: 5px;
@@ -115,16 +138,12 @@ section {
 	background-color: $scrollbar-knob;
 	border-radius: 6px;
 	border: 3px solid $scrollbar-background;
+	transition: all 0.3s ease-in-out;
 }
-.scrollbar-inner-offset {
-	&::-webkit-scrollbar-track {
-		margin-top: 16px;
-		margin-bottom: 16px;
-	}
-	&::-webkit-scrollbar {
-		height: 2px; /* height of horizontal scrollbar ← You're missing this */
-		width: 2px;
-		background: --scrollbarBG;
+
+.hide-scrollbar {
+	&::-webkit-scrollbar-thumb {
+		background-color: transparent;
 	}
 }
 

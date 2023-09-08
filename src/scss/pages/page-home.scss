@@ -1,36 +1,28 @@
 .index-page {
-	background: url(../images/BG/home.png) no-repeat scroll center left transparent;
-
-	main {
-		padding-top: 100px;
-	}
-}
-
-.index-page-new {
 	// background: url(../images/BG/home.png) no-repeat scroll center left transparent;
 
 	main {
 		padding-top: 100px;
 	}
-	.hero-section {
-		@include media-breakpoint-up(lg) {
-			h1 {
-				font-size: 92px;
-				line-height: 90px;
-				letter-spacing: -4px;
-				max-width: 750px;
-			}
-			.text {
-				color: #3c3c3c;
-				font-size: 24px;
-				font-style: normal;
-				font-weight: 400;
-				line-height: 30px;
-				letter-spacing: 0.225px;
-				max-width: 490px;
-			}
-		}
-	}
+	// .hero-section {
+	// 	@include media-breakpoint-up(lg) {
+	// 		h1 {
+	// 			font-size: 92px;
+	// 			line-height: 90px;
+	// 			letter-spacing: -4px;
+	// 			max-width: 750px;
+	// 		}
+	// 		.text {
+	// 			color: #3c3c3c;
+	// 			font-size: 24px;
+	// 			font-style: normal;
+	// 			font-weight: 400;
+	// 			line-height: 30px;
+	// 			letter-spacing: 0.225px;
+	// 			max-width: 490px;
+	// 		}
+	// 	}
+	// }
 	.explore-celestia {
 		padding-top: 120px;
 		padding-bottom: 0px;
@@ -167,9 +159,6 @@
 		@include media-breakpoint-down(sm) {
 			padding-top: 80px;
 		}
-		.text {
-			font-weight: 400;
-		}
 	}
 
 	.join-the-community {
@@ -187,11 +176,21 @@
 
 		.subtitle {
 			margin-bottom: 60px;
+			@include media-breakpoint-down(sm) {
+				margin-bottom: 40px;
+			}
 		}
 		.scroll-box-main {
 			@include media-breakpoint-up(lg) {
 				overflow-x: scroll;
-				padding-bottom: 10px;
+				// padding-bottom: 10px;
+			}
+
+			img {
+				-webkit-user-drag: none; /* Chrome, Safari, Opera */
+				-moz-user-select: none; /* Firefox */
+				-ms-user-select: none; /* Internet Explorer/Edge */
+				user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 			}
 		}
 
@@ -255,17 +254,17 @@
 					}
 				}
 
-				.icon-card-wrapper:nth-child(5),
-				.icon-card-wrapper:nth-child(6) {
-					width: 100%;
-					@include media-breakpoint-up(md) {
-						width: 33.33%;
-					}
-					@include media-breakpoint-up(lg) {
-						width: 100%;
-					}
-				}
-				.icon-card-wrapper:not(:last-child) {
+				// .icon-card-wrapper:nth-child(5),
+				// .icon-card-wrapper:nth-child(6) {
+				// 	width: 100%;
+				// 	@include media-breakpoint-up(md) {
+				// 		width: 33.33%;
+				// 	}
+				// 	@include media-breakpoint-up(lg) {
+				// 		width: 100%;
+				// 	}
+				// }
+				.icon-card-wrapper {
 					margin-bottom: 40px;
 				}
 			}

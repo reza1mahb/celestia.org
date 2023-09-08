@@ -4,15 +4,15 @@ export const heroData = {
     buttons:[
             {
                 text: 'Build modular',
-                class: 'white',
+                class: 'simple',
                 type: 'internal',
                 url: '/developer-portal/'
             },
             {
-                text: 'Learn Celestia',
-                class: 'simple',
-                type: 'internal',
-                url: '/what-is-celestia/'
+                text: 'Explore',
+                class: 'white',
+                type: 'anchor',
+                url: '/#explore-celestia'
             }
         ]
 }
