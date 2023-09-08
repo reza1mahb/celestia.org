@@ -194,7 +194,7 @@ const IndexPage = () => {
 							</div>
 							<div className='row justify-content-center pt-5'>
 								<div className='col-auto'>
-									<a href='https://celestia.org/learn/' target='_blank'>
+									<a href='/what-is-celestia/' target='_blank'>
 										<button className='button button-simple button-internal' role='button' tabIndex={0} id='developer'>
 											Learn More
 										</button>
