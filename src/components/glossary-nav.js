@@ -28,7 +28,7 @@ const GlossaryNav = ({url}) => {
 
         return (
             <div>
-            {prev && next ? <div className={'row glossary-nav mt-5'}>
+            {prev && next ? <div className={'row glossary-nav pt-5 pt-md-0 mt-5'}>
                 <div className={'col col-12 col-md-6 border-right'}>
                     {prev && <Link to={'/glossary/'+prev.url+'/'} state={{url: prev.url}}>
                         <div className={'glossary'}>

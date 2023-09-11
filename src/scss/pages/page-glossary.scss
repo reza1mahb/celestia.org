@@ -1,4 +1,10 @@
 .glossary-page, .glossary-subpage{
+  min-height: 60vw;
+  position: relative;
+  z-index: 1;
+      @include media-breakpoint-down(md) {
+        min-height: 520px;
+    }
 
   .alphabets{
     width:100%;
@@ -411,9 +417,15 @@
     color: #000000;
     letter-spacing: 0;
     line-height: 20px;
+    @include media-breakpoint-down(md) {
+      padding:0px 16px 50px 16px;
+    }
 
     &.border-right{
       border-right: 1px solid #E4E4E4;
+      @include media-breakpoint-down(md) {
+        border-right: none;
+      }
     }
   }
 
