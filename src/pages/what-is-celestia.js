@@ -33,8 +33,8 @@ const WhatIsCelestia = () => {
 							<div className={"row justify-content-between"}>
 								<div className={"order-2 order-lg-1 text-box col-12 col-lg-6 col-xl-6 col-xxl-7"}>
 									<p>
-										A complete beginner's guide to how Celestia works, its key benefits, and how anyone in the world will be able
-										to create their own blockchain in minutes.
+										A complete beginner's guide to how Celestia works, its key benefits, and how anyone
+										in the world can create their own blockchain in minutes.
 									</p>
 									<p>Let’s walk through the basics, step-by-step.</p>
 								</div>
@@ -130,7 +130,7 @@ const WhatIsCelestia = () => {
 										<div className={"order-1 order-lg-2 col-12 col-lg-6"}>
 											<h2 className='title'>What are rollups and how do they work with Celestia?</h2>
 											<p>
-												Rollups are a pretty new type of blockchain. What makes them different is that they offload some of
+												Rollups are a relatively new type of blockchain. What makes them different is that they offload some of
 												their work to a layer 1 like Celestia. The simple version is that rollups publish their transaction
 												data to Celestia, which gets ordered and made available for rollup users to download. As a bonus,
 												rollups receive some of Celestia’s security.
