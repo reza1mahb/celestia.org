@@ -26,7 +26,7 @@ const DevPortal = () => {
 							<h1 className={"main mb-3 mb-md-4"}>{heroData.title}</h1>
 							<div className={"row"}>
 								<div className={"col-auto"}>
-									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
+									<div className={"text"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
 									<AnchorLink
 										to={`/run-a-light-node#${heroData.buttons[0].url}`}
 										className={"button button-" + heroData.buttons[0].class}

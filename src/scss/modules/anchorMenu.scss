@@ -1,5 +1,5 @@
 .anchorMenu{
-  a{
+  .anchor-link{
     font-family: $ruberoid;
     font-weight:bold;
     font-size: 14px;
@@ -10,6 +10,7 @@
   }
 
   @include media-breakpoint-down(md) {
-    display:none;
+    margin-top: 32px;
+    margin-bottom: 20px;
   }
 }
