@@ -1,28 +1,13 @@
 .index-page {
-	// background: url(../images/BG/home.png) no-repeat scroll center left transparent;
-
 	main {
 		padding-top: 100px;
 	}
-	// .hero-section {
-	// 	@include media-breakpoint-up(lg) {
-	// 		h1 {
-	// 			font-size: 92px;
-	// 			line-height: 90px;
-	// 			letter-spacing: -4px;
-	// 			max-width: 750px;
-	// 		}
-	// 		.text {
-	// 			color: #3c3c3c;
-	// 			font-size: 24px;
-	// 			font-style: normal;
-	// 			font-weight: 400;
-	// 			line-height: 30px;
-	// 			letter-spacing: 0.225px;
-	// 			max-width: 490px;
-	// 		}
-	// 	}
-	// }
+	.hero-section {
+		.text {
+			max-width: 490px;
+		}
+	}
+
 	.explore-celestia {
 		padding-top: 120px;
 		padding-bottom: 0px;
@@ -211,7 +196,7 @@
 			border-radius: 8px;
 			height: 100%;
 			@include media-breakpoint-down(sm) {
-				padding:35px 35px 25px 25px;
+				padding: 35px 35px 25px 25px;
 			}
 
 			.social-box {

@@ -54,16 +54,16 @@ const CareersPage = () => {
                     <div className={'container'}>
 
                         <div className={'row mb-5 pb-5'}>
-                            <div className={'col col-12 col-md-6 pe-0 pe-md-5'}>
+                            <div className={'col col-12 col-md-6 pb-5 pe-md-5'}>
                                 <h1 className={'main mb-4'}>{content.title}</h1>
-                                <div className={'subtitle'}>{content.subtitle}</div>
-                                <div className={'text'}>
+                                <div className={'text'}>{content.subtitle}</div>
+                                <div className={'paragraph'}>
                                     {content.text}
-                                    {content.button && <Button type={'external'} class={'simple'} text={content.button.text} url={content.button.url}/>}
                                 </div>
+                                {content.button && <Button type={'external'} class={'simple'} text={content.button.text} url={content.button.url}/>}
                             </div>
-                            <div className={'col col-12 col-md-6 ps-0 ps-md-5 pt-4 pt-xl-5'}>
-                                <h4 className={'main mb-3'}>{content.perks.title}</h4>
+                            <div className={'col col-12 col-md-6 ps-md-5 pt-5'}>
+                                <h4 className={'main mb-4 md:mb-3'}>{content.perks.title}</h4>
 
                                 <div className={'row'}>
                                     {content.perks.perks.map((perk,index) => (

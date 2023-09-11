@@ -1,14 +1,34 @@
 footer {
 	// background: url(../images/footer-bg.png) no-repeat scroll center bottom transparent;
 	width: 100%;
-	padding-top: 400px;
+	padding-top: 450px;
 	padding-bottom: 40px;
-	margin-top: -400px;
+	margin-top: -450px;
 	position: relative;
-	z-index: 1;
+	&::before{
+		content: "";
+		background: url(../images/footer-bg.png) no-repeat scroll center bottom transparent;
+		background-size: 100% 1200px;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: -2;
+	
+		@include media-breakpoint-down(lg) {
+			background-size: auto 1800px;
+		}
+		@include media-breakpoint-down(md) {
+			background-size: auto 2000px;
+		}
+		@include media-breakpoint-down(sm) {
+			background-size: auto 3000px;
+		}
+	}
 	@include media-breakpoint-down(sm) {
 		padding-top: 550px;
-		margin-top: -500px;
+		margin-top: -600px;
 	}
 
 	.footer-boxes {

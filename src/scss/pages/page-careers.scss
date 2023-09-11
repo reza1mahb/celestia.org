@@ -1,33 +1,45 @@
-.careers-page{
+.careers-page {
+	min-height: 60vw;
+	position: relative;
+	z-index: 1;
+	main {
+		h4.main {
+			font-size: 36px;
+			line-height: 32px;
+		}
 
-  main{
-    h4.main{
-      font-size:36px;
-      line-height:32px;
-    }
+		.text {
+			font-family: $ruberoid;
+			font-weight: 500;
+			font-size: 18px;
+			color: #000000;
+			letter-spacing: 0.22px;
+			line-height: 26px;
+			width: 100%;
+			margin-bottom: 30px;
 
-    .subtitle{
-      font-family: $ruberoid;
-      font-weight:500;
-      font-size: 18px;
-      color: #000000;
-      letter-spacing: 0;
-      line-height: 25px;
-      margin-bottom:30px;
-    }
+			@include media-breakpoint-down(md) {
+				font-size: 14px;
+				line-height: 21px;
+				width: 100%;
+				margin-bottom: 16px;
+			}
+		}
 
-    .text{
-      font-family: $inter;
-      font-weight:300;
-      font-size: 18px;
-      color: #414141;
-      letter-spacing: -0.1px;
-      line-height: 27px;
-
-      .button{
-        margin-top:50px;
-        display:table;
-      }
-    }
-  }
+		.paragraph {
+			color: #414141;
+			font-family: Inter;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 24px;
+			letter-spacing: -0.1px;
+			margin-bottom: 50px;
+			@include media-breakpoint-down(md) {
+				font-size: 14px;
+				line-height: 19px;
+				margin-bottom: 30px;
+			}
+		}
+	}
 }

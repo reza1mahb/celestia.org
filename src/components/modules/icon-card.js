@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../imageComponent";
 import { Link } from "gatsby";
+import Button from "../buttons/button";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 export default function IconCard({ imageClass, content, variant, iconPosition = "top", className }) {
@@ -17,19 +18,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<Link className='link' to={`${content.link.url}`}>
-								{content.link.text}
-								<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-									<path stroke='#7B2BF9' stroke-linecap='square' stroke-width='1.5' d='M3.61218 12.0721L11.0761 4.60823' />
-									<path
-										stroke='#7B2BF9'
-										stroke-linecap='square'
-										stroke-linejoin='bevel'
-										stroke-width='1.5'
-										d='M11.5254 11.0752V4.00413H4.45432'
-									/>
-								</svg>
-							</Link>
+							<Button type={"internal"} class={"external"} text={content.link.text} url={content.link.url} />
 						</div>
 					</div>
 				</div>
@@ -48,19 +37,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<a className='link' href={content.link.url} target={"_blank"} rel={"noreferrer"} aria-label={content.text}>
-								{content.link.text}
-								<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-									<path stroke='#7B2BF9' stroke-linecap='square' stroke-width='1.5' d='M3.61218 12.0721L11.0761 4.60823' />
-									<path
-										stroke='#7B2BF9'
-										stroke-linecap='square'
-										stroke-linejoin='bevel'
-										stroke-width='1.5'
-										d='M11.5254 11.0752V4.00413H4.45432'
-									/>
-								</svg>
-							</a>
+							<Button type={"external"} class={"external"} text={content.link.text} url={content.link.url} />
 						</div>
 					</div>
 				</div>

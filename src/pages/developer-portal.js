@@ -33,7 +33,7 @@ const DevPortal = () => {
 							<h1 className={"main mb-3 mb-md-4"}>{heroData.title}</h1>
 							<div className={"row"}>
 								<div className={"col-auto"}>
-									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
+									<div className={"text"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
 									<AnchorLink to={`/developer-portal#${heroData.buttons[0].url}`} className={'button button-'+heroData.buttons[0].class} stripHash>{heroData.buttons[0].text}</AnchorLink>
 									<a href={`${heroData.buttons[1].url}`} className={'button button-'+heroData.buttons[1].class} target={"_blank"} rel={"noreferrer"}>{heroData.buttons[1].text}</a>
 								</div>
@@ -81,7 +81,7 @@ const DevPortal = () => {
 
 					<section className='connect' id={`${getStarted.items[1].title.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"connect-container"}>
-							<div className={"row align-items-center justify-content-between my-2 py-2 py-lg-5"}>
+							<div className={"row align-items-center justify-content-between my-2 py-2 py-md-5"}>
 								<div className='col-12 col-xl-4 mb-5 mb-md-0'>
 									<h2 className={"with-decor"}>{connect.title}</h2>
 									{connect.description && <div className={"description"}>{connect.description}</div>}

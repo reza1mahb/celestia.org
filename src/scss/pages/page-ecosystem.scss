@@ -1,6 +1,7 @@
 .ecosystem-page{
   position:relative;
-
+  z-index: 1;
+  
   &:before{
     background:url(../images/BG/ecosystem.png) no-repeat scroll top right transparent;
     background-size:contain;
@@ -27,15 +28,23 @@
     }
   }
 
-  .subtitle{
-    font-family: $ruberoid;
-    font-weight:500;
-    font-size: 18px;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: 25px;
-    margin-bottom:30px;
-  }
+	.text {
+		font-family: $ruberoid;
+		font-weight: 500;
+		font-size: 18px;
+		color: #000000;
+		letter-spacing: 0.22px;
+		line-height: 26px;
+		max-width: 450px;
+		margin-bottom: 50px;
+
+		@include media-breakpoint-down(md) {
+			font-size: 14px;
+			line-height: 21px;
+			width: 100%;
+			margin-bottom: 30px;
+		}
+	}
 
   .search-input{
     background: #FFFFFF;
