@@ -23,6 +23,8 @@
 @import "modules/columnWithIcon.scss";
 @import "modules/roadmapItem.scss";
 @import "modules/learn.scss";
+@import "modules/icon-card.scss";
+@import "modules/press-item.scss";
 @import "modules/community-item.scss";
 
 @import "pages/page-home.scss";
@@ -33,9 +35,11 @@
 @import "pages/page-glossary.scss";
 @import "pages/page-what-is-celestia.scss";
 @import "pages/page-ecosystem";
+@import "pages/page-developer-portal.scss";
+@import "pages/page-press.scss";
 @import "pages/page-community.scss";
 @import "pages/page-run-a-node.scss";
-@import "pages/page-what-is-tia.scss";
+@import "pages/page-faq.scss";
 
 @import "components/team.scss";
 @import "components/technology.scss";

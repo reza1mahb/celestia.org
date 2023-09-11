@@ -1,5 +1,6 @@
 .resources-page{
   position:relative;
+	z-index: 1;
 
   main{
     overflow:unset;
@@ -7,7 +8,20 @@
 }
 
 .resources-body{
-  background-image:url(../images/BG/learn.png);
+  &::before{
+    content: "";
+    background: url(../images/BG/learn.png) no-repeat scroll center top transparent;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    @include media-breakpoint-down(sm) {
+      background-size: 200%;
+    }
+  }
 }
 
 .blog-post{
@@ -467,7 +481,6 @@
 
         @include media-breakpoint-down(md) {
           border-right:none;
-          border-bottom:1px solid #E7E4E4;
         }
       }
       &:nth-child(3){

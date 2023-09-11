@@ -1,4 +1,6 @@
 .technology-page{
+  position: relative;
+	z-index: 1;
   background:url(../images/BG/technology.png) no-repeat scroll top 100vw right transparent;
 
   @include media-breakpoint-down(xl) {
