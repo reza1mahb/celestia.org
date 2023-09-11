@@ -56,25 +56,25 @@
 
 	main {
 		padding-top: 100px;
-		background: url(../images/BG/home.png) no-repeat scroll top 1000px left transparent;
-		background-size: 600px;
+		// background: url(../images/BG/home.png) no-repeat scroll top 1000px left transparent;
+		// background-size: 600px;
 
-		@include media-breakpoint-down(xl) {
-			background-position: top 1000px left;
-			background-size: 600px;
-		}
-		@include media-breakpoint-down(lg) {
-			background-position: top 1600px left;
-			background-size: 600px;
-		}
-		@include media-breakpoint-down(md) {
-			background-position: top 1700px left;
-			background-size: 800px;
-		}
-		@include media-breakpoint-down(sm) {
-			background-position: top 1800px left;
-			background-size: 600px;
-		}
+		// @include media-breakpoint-down(xl) {
+		// 	background-position: top 1000px left;
+		// 	background-size: 600px;
+		// }
+		// @include media-breakpoint-down(lg) {
+		// 	background-position: top 1600px left;
+		// 	background-size: 600px;
+		// }
+		// @include media-breakpoint-down(md) {
+		// 	background-position: top 1700px left;
+		// 	background-size: 800px;
+		// }
+		// @include media-breakpoint-down(sm) {
+		// 	background-position: top 1800px left;
+		// 	background-size: 600px;
+		// }
 	}
 	section {
 		padding-top: 50px;
