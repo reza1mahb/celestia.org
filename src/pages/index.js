@@ -93,7 +93,7 @@ const IndexPage = () => {
 								</div>
 								<div className='card-box'>
 									<div className='card-item'>
-										<Link to={exploreCelestia[0].link}>
+										<Link to={exploreCelestia[1].link}>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
@@ -127,7 +127,7 @@ const IndexPage = () => {
 								</div>
 								<div className='card-box span-full'>
 									<div className='card-item'>
-										<Link to={exploreCelestia[0].link}>
+										<Link to={exploreCelestia[2].link}>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
