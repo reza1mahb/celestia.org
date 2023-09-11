@@ -5,6 +5,7 @@ import { heroData } from "../datas/what-is-tia/hero-data";
 import { role } from "../datas/what-is-tia/role";
 import { wallets } from "../datas/what-is-tia/wallets";
 import { FooterBoxes } from "../datas/what-is-tia/content";
+import Button from "../components/buttons/button";
 
 import Layout from "../components/layout";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
@@ -110,24 +111,7 @@ const WhatIsTIA = () => {
 											
 											<div className="link-list">
 												<div className='link-wrapper me-4'>
-													<a className='link' href='https://docs.celestia.org/' target='_blank'>
-														View Documentation
-														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-															<path
-																stroke='#7B2BF9'
-																stroke-linecap='square'
-																stroke-width='1.5'
-																d='M3.61218 12.0721L11.0761 4.60823'
-															/>
-															<path
-																stroke='#7B2BF9'
-																stroke-linecap='square'
-																stroke-linejoin='bevel'
-																stroke-width='1.5'
-																d='M11.5254 11.0752V4.00413H4.45432'
-															/>
-														</svg>
-													</a>
+													<Button type={'external'} class={'external'} text={'View Documentation'} url={'https://docs.celestia.org/'}/>
 												</div>
 											</div>
 										</p>
@@ -180,24 +164,7 @@ const WhatIsTIA = () => {
 													</div>
 												</div>
 												<div className='link-wrapper'>
-													<a className='link' href={item.url} target='_blank'>
-														Download
-														<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-															<path
-																stroke='#7B2BF9'
-																stroke-linecap='square'
-																stroke-width='1.5'
-																d='M3.61218 12.0721L11.0761 4.60823'
-															/>
-															<path
-																stroke='#7B2BF9'
-																stroke-linecap='square'
-																stroke-linejoin='bevel'
-																stroke-width='1.5'
-																d='M11.5254 11.0752V4.00413H4.45432'
-															/>
-														</svg>
-													</a>
+													<Button type={'external'} class={'external'} text={'Download'} url={item.url}/>
 												</div>
 											</div>
 										</div>
@@ -221,24 +188,7 @@ const WhatIsTIA = () => {
 									<div className='link-card'>
 										<div className='link-title'>Create wallet with celestia-node</div>
 										<div className='link-wrapper'>
-											<a className='link' href='https://docs.celestia.org/developers/celestia-node-key/' target='_blank'>
-												Create wallet
-												<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
-													<path
-														stroke='#7B2BF9'
-														stroke-linecap='square'
-														stroke-width='1.5'
-														d='M3.61218 12.0721L11.0761 4.60823'
-													/>
-													<path
-														stroke='#7B2BF9'
-														stroke-linecap='square'
-														stroke-linejoin='bevel'
-														stroke-width='1.5'
-														d='M11.5254 11.0752V4.00413H4.45432'
-													/>
-												</svg>
-											</a>
+											<Button type={'external'} class={'external'} text={'Create wallet'} url={'https://docs.celestia.org/developers/celestia-node-key/'}/>
 										</div>
 									</div>
 								</div>

@@ -1,7 +1,6 @@
 .what-is-tia {
 	position: relative;
-
-	z-index: 0;
+	z-index: 1;
 	background: url(../images/BG/technology.png) no-repeat scroll top 500px right transparent;
 
 	@include media-breakpoint-down(xl) {
@@ -301,6 +300,9 @@
 						flex-basis: auto;
 						min-width: 180px;
 						margin-top: 10px;
+						a {
+							box-shadow:none	;
+						}
 
 						.link {
 							font-family: $ruberoid;
