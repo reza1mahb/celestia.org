@@ -52,14 +52,14 @@ const IndexPage = () => {
 						<AdvantagesSection advantages={advantages} />
 					</div>
 					<div className='container'>
-						<section id="explore-celestia" className='explore-celestia'>
+						<section id='explore-celestia' className='explore-celestia'>
 							<div className='d-flex justify-content-center'>
 								<h2 className='with-decor pb-2'>Explore Celestia</h2>
 							</div>
 							<div className='three-col-grid mt-4 mt-lg-5'>
 								<div className='card-box'>
-									<div className='card-item'>
-										<Link to={exploreCelestia[0].link}>
+									<Link className="link-box" to={exploreCelestia[0].link}>
+										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
@@ -83,17 +83,17 @@ const IndexPage = () => {
 													</clipPath>
 												</defs>
 											</svg>
-										</Link>
-										<div className={"image-wrapper"}>
-											<Image alt={exploreCelestia[0].title} filename={exploreCelestia[0].image} />
+											<div className={"image-wrapper"}>
+												<Image alt={exploreCelestia[0].title} filename={exploreCelestia[0].image} />
+											</div>
+											<h3>{exploreCelestia[0].title}</h3>
+											<p>{exploreCelestia[0].text} </p>
 										</div>
-										<h3>{exploreCelestia[0].title}</h3>
-										<p>{exploreCelestia[0].text} </p>
-									</div>
+									</Link>
 								</div>
 								<div className='card-box'>
-									<div className='card-item'>
-										<Link to={exploreCelestia[1].link}>
+									<Link className="link-box" to={exploreCelestia[1].link}>
+										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
@@ -117,17 +117,17 @@ const IndexPage = () => {
 													</clipPath>
 												</defs>
 											</svg>
-										</Link>
-										<div className={"image-wrapper"}>
-											<Image alt={exploreCelestia[1].title} filename={exploreCelestia[1].image} />
+											<div className={"image-wrapper"}>
+												<Image alt={exploreCelestia[1].title} filename={exploreCelestia[1].image} />
+											</div>
+											<h3>{exploreCelestia[1].title}</h3>
+											<p>{exploreCelestia[1].text} </p>
 										</div>
-										<h3>{exploreCelestia[1].title}</h3>
-										<p>{exploreCelestia[1].text} </p>
-									</div>
+									</Link>
 								</div>
 								<div className='card-box span-full'>
-									<div className='card-item'>
-										<Link to={exploreCelestia[2].link}>
+									<Link className="link-box" to={exploreCelestia[2].link}>
+										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
 													<ellipse cx={31} cy='31.2451' rx={31} ry='31.2451' fill='white' />
@@ -151,15 +151,15 @@ const IndexPage = () => {
 													</clipPath>
 												</defs>
 											</svg>
-										</Link>
-										<div className={"image-wrapper"}>
-											<Image alt={exploreCelestia[2].title} filename={exploreCelestia[2].image} />
+											<div className={"image-wrapper"}>
+												<Image alt={exploreCelestia[2].title} filename={exploreCelestia[2].image} />
+											</div>
+											<div className='text-box'>
+												<h3>{exploreCelestia[2].title}</h3>
+												<p>{exploreCelestia[2].text} </p>
+											</div>
 										</div>
-										<div className="text-box">
-											<h3>{exploreCelestia[2].title}</h3>
-											<p>{exploreCelestia[2].text} </p>
-										</div>
-									</div>
+									</Link>
 								</div>
 							</div>
 						</section>
@@ -203,7 +203,7 @@ const IndexPage = () => {
 							</div>
 						</section>
 
-						<section id="community" className='join-the-community'>
+						<section id='community' className='join-the-community'>
 							<h2 className='with-decor pb-2'>Join the community</h2>
 							<div className='subtitle'>Join the Celestia community online or hang out at one of the grassroots Modular Meetups</div>
 
