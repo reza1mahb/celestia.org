@@ -155,7 +155,7 @@ const IndexPage = () => {
 										<div className={"image-wrapper"}>
 											<Image alt={exploreCelestia[2].title} filename={exploreCelestia[2].image} />
 										</div>
-										<div>
+										<div className="text-box">
 											<h3>{exploreCelestia[2].title}</h3>
 											<p>{exploreCelestia[2].text} </p>
 										</div>

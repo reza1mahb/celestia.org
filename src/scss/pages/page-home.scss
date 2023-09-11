@@ -119,22 +119,35 @@
 			.card-item {
 				flex-direction: row;
 				align-items: center;
+				padding: 10px;
 				@include media-breakpoint-down(md) {
 					flex-direction: column;
 					justify-content: start;
 					align-items: start;
 				}
+				@include media-breakpoint-down(lg) {
+					padding: 30px;
+				}
+			}
+			.text-box {
+				padding: 50px;
+				@include media-breakpoint-down(lg) {
+					padding: 0px;
+				}
 			}
 			.image-wrapper {
 				margin-bottom: 0px;
-				margin-right: 140px;
+				margin-right: 10px;
 				margin-left: 40px;
+				max-width: 405px;
 				@include media-breakpoint-down(lg) {
-					margin-right: 80px;
+					margin-right: 40px;
 					margin-left: 0px;
+					max-width: 305px;
 				}
 				@include media-breakpoint-down(md) {
-					margin-bottom: 40px;
+					margin-bottom: 20px;
+					max-width: 230px;
 				}
 			}
 		}
