@@ -5,6 +5,7 @@ export const FooterBoxes2 = [
         link: {
             text: 'Find your best option',
             href: '/developer-portal/',
+            type: 'internal',
             id: 'build',
         }
     },
@@ -13,7 +14,8 @@ export const FooterBoxes2 = [
         text: 'Go through Celestia’s world of apps, run your own node, learn about TIA, or even do all three!',
         link: {
             text: 'Show me',
-            href: '',
+            href: '/#explore-celestia',
+            type: 'anchor',
             id: 'explore',
         }
     }
