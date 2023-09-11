@@ -10,7 +10,7 @@ export const connect = {
 			type: "external",
 			link: {
 				text:"API Documentation",
-				url: "https://docs.celestia.org/category/node-api/",
+				url: "https://docs.celestia.org/developers/node-api/",
 			},
 		},
 	],
