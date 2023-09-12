@@ -4,7 +4,7 @@ export const heroData = {
 	text: "Learn about TIA, the native token of the Celestia blockchain.",
 	buttons: [
 		{
-			text: "Pay for Data (Developer)",
+			text: "Pay for Data",
 			class: "simple",
 			type: "anchor",
 			url: "managing-tia-as-a-rollup",
