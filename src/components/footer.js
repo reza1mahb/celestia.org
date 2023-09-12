@@ -12,6 +12,11 @@ const navigation = {
 		title: "Developers",
 		links: [
 			{
+				text: "Developer portal",
+				url: "/developer-portal",
+				type: "internal",
+			},
+			{
 				text: "Docs",
 				url: "https://docs.celestia.org/",
 				type: "external",
