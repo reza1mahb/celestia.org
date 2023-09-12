@@ -2,7 +2,7 @@
 order: 10
 path: "/learn/"
 slug: "/learn/sovereign-rollups/misconceptions/"
-edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/sovereign%20rollups-misconceptions%20of%sovereign%rollups.md"
+edit: "https://github.com/celestiaorg/celestia.org/blob/main/src/pages/markdown-pages/learn/sovereign%20rollups-misconceptions%20of%20sovereign%20rollups.md"
 date: "2023-03-21"
 icon: ""
 category: "Intermediate"
