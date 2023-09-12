@@ -10,7 +10,7 @@ export const heroData = {
 			url: "managing-tia-as-a-rollup",
 		},
 		{
-			text: "Stake & hold TIA",
+			text: "Stake TIA",
 			class: "white",
 			type: "anchor",
 			url: "staking-and-custody",
