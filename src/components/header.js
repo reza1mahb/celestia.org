@@ -66,31 +66,9 @@ const navigation = [
             }
         ]
     },{
-        text: "Explore",
-        url: "",
-        submenus: [
-            {
-                text: "Run a light node",
-                subtext: "Node operator",
-                url: "/run-a-light-node/",
-                icon: "menu/technology-svg.svg",
-                type: 'internal'
-            },
-            {
-                text: "Join the community",
-                subtext: "Social channels",
-                url: "/community/",
-                icon: "menu/forum.svg",
-                type: 'internal'
-            },
-            {
-                text: "Explore the ecosystem",
-                subtext: "Celestia ecosystem",
-                url: "/ecosystem/",
-                icon: "menu/careers.svg",
-                type: 'internal'
-            },
-        ]
+        text: "Run a node",
+        url: "/run-a-light-node/",
+        type: 'internal'
     },
 ]
 
