@@ -10,7 +10,7 @@ export const frameworks = {
 			type: "external",
 			link: {
 				text:"Explore Caldera",
-				url: "https://docs.celestia.org/developers/taro-testnet/",
+				url: "https://calderaxyz.gitbook.io/caldera-documentation/getting-started/create-a-mainnet-chain",
 			},
 		},
         	{
