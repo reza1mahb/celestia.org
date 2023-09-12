@@ -19,7 +19,7 @@ const Press = () => {
 			/>
 			<div className={"press"}>
 				<main>
-					<div className={"container"}>
+					<div className={"hero container"}>
 						<h1 className={"mb-3 mb-md-5"}>{pressData.title}</h1>
 						<p className={"text"}>{pressData.text}</p>
 					</div>

@@ -52,7 +52,7 @@ const EcosystemPage = () => {
 			/>
 			<div className={"ecosystem-page"}>
 				<main>
-					<div className={"container"}>
+					<div className={"hero container"}>
 						<h1 className={"main mb-3 mb-md-5"}>Celestia Ecosystem</h1>
 						<div className={"row"}>
 							<div className={"col-auto"}>
