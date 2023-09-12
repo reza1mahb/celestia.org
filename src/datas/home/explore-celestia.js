@@ -1,6 +1,6 @@
 export const exploreCelestia = [
     {
-        title: 'Use an app',
+        title: 'Explore the ecosystem',
         text: "Explore Celestia's ecosystem of applications and services",
         image: 'home/explore-1.png',
         link: "/ecosystem",
