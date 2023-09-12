@@ -104,8 +104,8 @@ const WhatIsTIA = () => {
 									<h2 className='title'>Stake TIA</h2>
 									<div className='custody-text-box'>
 										<p>
-											Users can stake TIA by delegating to a validator in the active set and receive a share of the validator’s
-											staking rewards. Delegations can always be retrieved after a 3-week unbonding period.
+											Users can stake TIA to a validator in the active set that participates in consensus to secure the network
+											in exchange for a share of the validator’s staking rewards. TIA staked with validators can always be retrieved after a 3-week unbonding period.
 										</p>
 										<p>
 											
