@@ -167,7 +167,7 @@ const IndexPage = () => {
 						<section className='cards-section'>
 							<h2 className='with-decor pb-2'>How it works</h2>
 							<div className='subtitle'>
-								Celestia is a minimal blockchain that only orders and publishes transactions and does not execute them. By decoupling
+								Celestia is a minimal blockchain that only orders and publishes transactions but does not execute them. By decoupling
 								the consensus and application execution layers, Celestia modularizes the blockchain technology stack and unlocks new
 								possibilities for decentralized application builders.
 							</div>
