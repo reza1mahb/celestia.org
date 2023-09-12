@@ -11,7 +11,7 @@ export const role = {
 		{
 			id: 2,
 			title: "Secure the network",
-			text: "Validators and delegators stake TIA to participate in consensus and secure Celestia.",
+			text: "Users stake TIA to participate in consensus and secure Celestia.",
 			image: "what-is-tia/what-is-tia-role-2.png",
 			type: "external",
 		},
