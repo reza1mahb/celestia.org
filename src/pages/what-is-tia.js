@@ -1,4 +1,3 @@
-
 import * as React from "react";
 
 import { heroData } from "../datas/what-is-tia/hero-data";
@@ -71,17 +70,15 @@ const WhatIsTIA = () => {
 
 					<section className={"custody-stacking"} id={`${heroData.buttons[1]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
-							<h2 className='custody-stacking-title'>Wallets</h2>
 							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-center align-items-lg-center"}>
 								<div className='col-12 col-lg-6 order-1 order-lg-0'>
 									<div className={"text-box"}>
+										<h2 className='custody-stacking-title'>Wallets</h2>
 										<div className='custody-text-box'>
+											<p>Anyone can download a non-custodial wallet to freely transact and control their TIA.</p>
 											<p>
-												Anyone can download a non-custodial wallet to freely transact and control their TIA.
-											</p>
-											<p>
-												It’s important to get familiar with basic wallet practices
-												for safely storing and transacting with TIA on Celestia.
+												It’s important to get familiar with basic wallet practices for safely storing and transacting with TIA
+												on Celestia.
 											</p>
 										</div>
 									</div>
@@ -92,37 +89,11 @@ const WhatIsTIA = () => {
 									</div>
 								</div>
 							</div>
-							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-center align-items-lg-center"}>
-								<div className={"image-box--node col-12 col-lg-6"}>
-									<div className='image-wrapper'>
-										<img className='img' style={{ width: `100%`, maxWidth: `470px` }} src={image2} alt={""} />
-									</div>
-								</div>
-								<div className={"text-box col-12 col-lg-6"}>
-									<h2 className='title'>Stake TIA</h2>
-									<div className='custody-text-box'>
-										<p>
-											Users can stake TIA to a validator in the active set, participating in consensus and securing
-											the network in exchange for a share of the validator’s staking rewards. TIA staked with validators
-											can always be retrieved after a 3-week unbonding period.
-										</p>
-										<p>
-											
-											<div className="link-list">
-												<div className='link-wrapper me-4'>
-													<Button type={'external'} class={'external'} text={'View Documentation'} url={'https://docs.celestia.org/'}/>
-												</div>
-											</div>
-										</p>
-									</div>
-								</div>
-							</div>
 						</div>
 					</section>
 
 					<section className='wallets'>
 						<div className={"container"}>
-							<h2 className='wallets-title'>{wallets.title}</h2>
 							<p>{wallets.details}</p>
 							<div className={"two-col-flex pt-4 pt-lg-5"}>
 								{wallets.items.map(function (item) {
@@ -163,7 +134,7 @@ const WhatIsTIA = () => {
 													</div>
 												</div>
 												<div className='link-wrapper'>
-													<Button type={'external'} class={'external'} text={'Download'} url={item.url}/>
+													<Button type={"external"} class={"external"} text={"Download"} url={item.url} />
 												</div>
 											</div>
 										</div>
@@ -173,7 +144,7 @@ const WhatIsTIA = () => {
 						</div>
 					</section>
 
-					<section className={"managing-tia"} id={`${heroData.buttons[0]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
+					{/* <section className={"managing-tia"} id={`${heroData.buttons[0]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
 							<div className={"row justify-content-between align-items-center"}>
 								<div className='col-12 col-lg-6 text-box'>
@@ -187,13 +158,18 @@ const WhatIsTIA = () => {
 									<div className='link-card'>
 										<div className='link-title'>Create wallet with celestia-node</div>
 										<div className='link-wrapper'>
-											<Button type={'external'} class={'external'} text={'Create wallet'} url={'https://docs.celestia.org/developers/celestia-node-key/'}/>
+											<Button
+												type={"external"}
+												class={"external"}
+												text={"Create wallet"}
+												url={"https://docs.celestia.org/developers/celestia-node-key/"}
+											/>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 				</main>
 			</div>
 		</Layout>

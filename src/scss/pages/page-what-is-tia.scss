@@ -218,17 +218,17 @@
 	}
 
 	.custody-stacking {
-		padding-top: 50px;
-		padding-bottom: 60px;
-		@include media-breakpoint-up(lg) {
-			padding-top: 100px;
-			padding-bottom: 100px;
-		}
+		padding-top: 20px;
+		padding-bottom: 0;
+		// @include media-breakpoint-up(lg) {
+		// 	padding-top: 50px;
+		// 	padding-bottom: 100px;
+		// }
 
 		.custody-stacking-title {
-			margin-bottom: 20px;
+			margin-bottom: 35px;
 			@include media-breakpoint-up(lg) {
-				padding-top: 10px;
+				padding-top: 30px;
 			}
 		}
 
@@ -336,14 +336,14 @@
 
 	.wallets {
 		padding-top: 0px;
-		padding-bottom: 0px;
+		padding-bottom: 100px;
 		@include media-breakpoint-up(lg) {
-			padding-bottom: 0px;
+			padding-bottom: 140px;
 		}
 		.wallets-title {
-			margin-bottom: 36px;
+			margin-bottom: 10px;
 			@include media-breakpoint-up(lg) {
-				margin-bottom: 56px;
+				margin-bottom: 20px;
 			}
 		}
 		.wallets-items {
