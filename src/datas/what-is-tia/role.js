@@ -3,8 +3,8 @@ export const role = {
 	items: [
 		{
 			id: 1,
-			title: "Pay for data",
-			text: "Data published by rollups and token transfers on Celestia pay fees using TIA.",
+			title: "Pay for blobspace",
+			text: "Rollups pay to publish data to Celestia’s blobspace using TIA.",
 			image: "what-is-tia/what-is-tia-role-1.png",
 			type: "external",
 		},
