@@ -71,15 +71,13 @@ const WhatIsTIA = () => {
 
 					<section className={"custody-stacking"} id={`${heroData.buttons[1]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
-							<h2 className='custody-stacking-title'>Staking</h2>
+							<h2 className='custody-stacking-title'>Wallets</h2>
 							<div className={"d-flex flex-column flex-lg-row custody-stacking-item justify-center align-items-lg-center"}>
 								<div className='col-12 col-lg-6 order-1 order-lg-0'>
 									<div className={"text-box"}>
-										<h2 className='title'>You own your TIA</h2>
 										<div className='custody-text-box'>
 											<p>
 												Anyone can download a non-custodial wallet to freely transact and control their TIA.
-												No banks or intermediaries necessary.
 											</p>
 											<p>
 												It’s important to get familiar with basic wallet practices
