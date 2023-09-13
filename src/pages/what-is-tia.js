@@ -14,7 +14,6 @@ import SEO from "../components/seo";
 import Image from "../components/imageComponent";
 
 import image1 from "../images/what-is-tia/what-is-tia-custody-1.png";
-import image2 from "../images/what-is-tia/what-is-tia-custody-2.png";
 
 const WhatIsTIA = () => {
 	return (
