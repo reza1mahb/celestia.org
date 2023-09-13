@@ -1,6 +1,6 @@
 export const wallets = {
 	title: "Wallets",
-    details: "There are multiple wallet options that support TIA. Choose the wallet that fits your requirements.",
+        details: "",
 	items: [
 		{
 			id: 1,
