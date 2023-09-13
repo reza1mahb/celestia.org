@@ -1,7 +1,7 @@
 export const content = {
         title : 'Meet the team',
-        subtitle: 'We\'re building the Celestia network',
-        text: 'Our team has deep experience building and scaling blockchains from projects like Ethereum, Cosmos and Harmony.<br/><br/>We are on a mission to change the way that blockchains and decentralized applications are built—making them more secure, scalable and sovereign. We envision a world where global communities have the power to self-organize without being burdened by existing power structures.',
+        subtitle: '',
+        text: 'We are on a mission to change the way that blockchains and decentralized applications are built—making them more secure, scalable and sovereign. We envision a world where global communities have the power to self-organize without being burdened by existing power structures.',
         menus: [
             {
                 id : 'team',
