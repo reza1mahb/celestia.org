@@ -9,7 +9,7 @@ import Button from "../components/buttons/button";
 import Layout from "../components/layout";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-import { seoContent } from "../datas/run-a-node/seoContent";
+import { seoContent } from "../datas/what-is-tia/seoContent";
 import SEO from "../components/seo";
 import Image from "../components/imageComponent";
 
@@ -51,17 +51,53 @@ const WhatIsTIA = () => {
 							<div className={"row flex-wrap align-items-center justify-content-between"}>
 								<h2>{role.title}</h2>
 								<div className='role-items'>
-									{role.items.map(function (item) {
-										return (
-											<div className='role-card'>
-												<div className='role-image-wrapper'>
-													<Image alt={item.title} filename={item.image} />
-												</div>
-												<h3 className='role-card-title'>{item.title}</h3>
-												<p className='role-card-text'>{item.text}</p>
-											</div>
-										);
-									})}
+									<div className='role-card'>
+										<div className='role-image-wrapper'>
+											<Image alt={role.items[0].title} filename={role.items[0].image} />
+										</div>
+										<h3 className='role-card-title'>{role.items[0].title}</h3>
+										<p className='role-card-text'>{role.items[0].text}</p>
+										{role.items[0].links && role.items[0].links.map(function (item) {
+												return (
+													<div className='link-wrapper'>
+														<Button type={item.type} class={"external"} text={item.text} url={item.url} />
+													</div>
+												);
+											}
+										)}
+									</div>
+
+									<div className='role-card'>
+										<div className='role-image-wrapper'>
+											<Image alt={role.items[1].title} filename={role.items[1].image} />
+										</div>
+										<h3 className='role-card-title'>{role.items[1].title}</h3>
+										<p className='role-card-text'>{role.items[1].text}</p>
+										{role.items[1].links && role.items[1].links.map(function (item) {
+												return (
+													<div className='link-wrapper'>
+														<Button type={item.type} class={"external"} text={item.text} url={item.url} />
+													</div>
+												);
+											}
+										)}
+									</div>
+
+									<div className='role-card'>
+										<div className='role-image-wrapper'>
+											<Image alt={role.items[2].title} filename={role.items[2].image} />
+										</div>
+										<h3 className='role-card-title'>{role.items[2].title}</h3>
+										<p className='role-card-text'>{role.items[2].text}</p>
+										{role.items[2].links && role.items[2].links.map(function (item) {
+												return (
+													<div className='link-wrapper'>
+														<Button type={item.type} class={"external"} text={item.text} url={item.url} />
+													</div>
+												);
+											}
+										)}
+									</div>
 								</div>
 							</div>
 						</div>

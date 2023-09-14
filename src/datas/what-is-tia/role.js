@@ -6,7 +6,18 @@ export const role = {
 			title: "Pay for blobspace",
 			text: "Rollups pay to publish data to Celestia’s blobspace using TIA.",
 			image: "what-is-tia/what-is-tia-role-1.png",
-			type: "external",
+			links: [
+				{
+					text: "Create wallet with celestia-node",
+					url: "/",
+					type: "internal",
+				},
+				{
+					text: "Learn more",
+					url: "/",
+					type: "internal",
+				},
+			],
 		},
 		{
 			id: 2,
@@ -14,6 +25,13 @@ export const role = {
 			text: "Users stake TIA to participate in consensus and secure Celestia.",
 			image: "what-is-tia/what-is-tia-role-2.png",
 			type: "external",
+			links: [
+				{
+					text: "View documentation",
+					url: "/",
+					type: "internal",
+				},
+			],
 		},
 		{
 			id: 3,
@@ -21,6 +39,7 @@ export const role = {
 			text: "Developers can use TIA as a gas token for their rollups.",
 			image: "what-is-tia/what-is-tia-role-3.png",
 			type: "external",
+			links: [],
 		},
 	],
 };
