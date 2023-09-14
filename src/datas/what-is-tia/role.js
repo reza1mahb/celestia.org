@@ -9,13 +9,13 @@ export const role = {
 			links: [
 				{
 					text: "Create wallet with celestia-node",
-					url: "/",
-					type: "internal",
+					url: "https://docs.celestia.org/developers/celestia-node-key/",
+					type: "external",
 				},
 				{
 					text: "Learn more",
-					url: "/",
-					type: "internal",
+					url: "https://docs.celestia.org/learn/submit-data/",
+					type: "external",
 				},
 			],
 		},
