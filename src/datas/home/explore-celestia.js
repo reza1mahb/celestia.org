@@ -1,7 +1,7 @@
 export const exploreCelestia = [
     {
         title: 'Explore the ecosystem',
-        text: "Explore Celestia’s ecosystem of applications and services",
+        text: "Explore Celestia’s ecosystem of rollups and modular infrastructure",
         image: 'home/explore-1.png',
         link: "/ecosystem",
     },{
