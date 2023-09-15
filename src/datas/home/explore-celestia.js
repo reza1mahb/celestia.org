@@ -5,8 +5,8 @@ export const exploreCelestia = [
         image: 'home/explore-1.png',
         link: "/ecosystem",
     },{
-        title: 'What is TIA?',
-        text: 'Learn about the token powering Celestia',
+        title: 'Use TIA',
+        text: 'Pay for blobspace, secure the network, and participate in governance',
         image: 'home/explore-2.png',
         link: "/what-is-tia",
     },{
