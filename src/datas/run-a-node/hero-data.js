@@ -1,6 +1,6 @@
 export const heroData = {
 	title: "Run a light node",
-	text: "Join the collective powering an open internet. Run a light node on Celestia to secure your assets and become sovereign.",
+	text: "Join the first modular data availability network in as little as 2 clicks.",
 	buttons: [
 		{
 			text: "Show me how to start",
