@@ -11,7 +11,7 @@ export const exploreCelestia = [
         link: "/what-is-tia",
     },{
         title: 'Run a light node',
-        text: 'Contribute to Celestia’s decentralization in as little as 2 clicks',
+        text: 'Join the first modular data availability network in as little as 2 clicks',
         image: 'home/explore-3.png',
         link: "/run-a-light-node",
     }
