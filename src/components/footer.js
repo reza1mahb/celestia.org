@@ -166,7 +166,8 @@ class Footer extends React.Component {
 		return (
 			<footer id={"footer"}>
 				<div className={"container"}>
-					{/* <FooterBox footerBoxes={this.props.FooterBoxes}/> */}
+					{/* {this.props.FooterBoxes && <FooterBox footerBoxes={this.props.FooterBoxes}/>} */}
+                    {this.props.FooterBoxes2 && <FooterBox2 footerBoxes2={this.props.FooterBoxes2}/>}
 
 					<div className={"row py-5 mt-5"}>
 						<div className={"col col-12 col-lg-4 pe-5"}>
