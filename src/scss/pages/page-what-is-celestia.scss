@@ -1,6 +1,35 @@
 .what-is-celestia {
-	position: relative;
-	z-index: 1;	
+	padding-top: 0px;
+	@include media-breakpoint-down(sm) {
+		padding-top: 20px;
+	}
+	h1 {
+		font-size: 48px;
+		line-height: 1.1em;
+		letter-spacing: 0.6px;
+		@include media-breakpoint-down(md) {
+			font-size: 40px;
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: 32px;
+		}
+	}
+
+	h2, h3 {
+		font-size: 36px;
+		font-style: normal;
+		line-height: 1.22em;
+		letter-spacing: -0.643px;
+		margin-bottom: 20px;
+		@include media-breakpoint-down(md) {
+			font-size: 32px;
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: 26px;
+			letter-spacing:0.1px;
+		}
+	}
+
 	.lead-text {
 		font-family: $inter;
 		font-size: 18px;
@@ -478,5 +507,12 @@
 				font-weight: 500;
 			}
 		}
+	}
+}
+
+.what-is-celestia + footer {
+	padding-top: 80px;
+	@include media-breakpoint-down(md) {
+		padding-top: 20px;
 	}
 }
