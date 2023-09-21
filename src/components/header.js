@@ -35,7 +35,7 @@ const navigation = [
                 text: "Read the whitepaper",
                 subtext: "Research paper",
                 url: "/faq/",
-                icon: "menu/faq.svg",
+                icon: "menu/research.svg",
                 type: 'internal'
             }
         ]
