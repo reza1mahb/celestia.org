@@ -1,6 +1,7 @@
 import * as React from "react"
 import {Link} from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+
 export default class Button extends React.Component {
     render() {
         var buttonTitle = this.props.text
@@ -19,9 +20,11 @@ export default class Button extends React.Component {
             return <a href={`${this.props.url}`} target={'_blank'} rel="noreferrer" className={'button button-'+this.props.class} aria-label={this.props.text} dangerouslySetInnerHTML={{__html: buttonTitle}}/>
         }
         else if(this.props.type === 'anchor'){
-            return <AnchorLink  to={`${this.props.url}`} className={'button button-'+this.props.class} stripHash>
-                {buttonTitle}
-                </AnchorLink>
+            return (
+            <AnchorLink to={`${this.props.url}`} className={'button button-'+this.props.class}>
+                {this.props.text} <i class="icon-external-link"></i>
+            </AnchorLink>
+            )
         }
     }
 }

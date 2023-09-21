@@ -511,8 +511,7 @@
 }
 
 .what-is-celestia + footer {
-	padding-top: 80px;
 	@include media-breakpoint-down(md) {
-		padding-top: 20px;
+		padding-top: 640px;
 	}
 }
