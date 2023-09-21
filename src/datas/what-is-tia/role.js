@@ -28,8 +28,8 @@ export const role = {
 			links: [
 				{
 					text: "View documentation",
-					url: "/",
-					type: "internal",
+					url: "https://docs.celestia.org/learn/tia",
+					type: "external",
 				},
 			],
 		},
