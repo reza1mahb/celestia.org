@@ -22,7 +22,7 @@ export default class Button extends React.Component {
         else if(this.props.type === 'anchor'){
             return (
             <AnchorLink to={`${this.props.url}`} className={'button button-'+this.props.class}>
-                {this.props.text} <i class="icon-external-link"></i>
+                {buttonTitle}
             </AnchorLink>
             )
         }

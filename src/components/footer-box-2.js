@@ -22,7 +22,9 @@ function FooterBox2({ footerBoxes2 }) {
 												{box.link.type === "internal" ? (
 													<Button type={"internal"} class={"external"} text={box.link.text} url={box.link.href} />
 												) : box.link.type === "anchor" ? (
-													<Button type={"anchor"} class={"external"} text={box.link.text} url={box.link.href} />
+													<AnchorLink to={`${box.link.href}`} className={"button button-external"}>
+														{box.link.text} <i class='icon-external-link'></i>
+													</AnchorLink>
 												) : (
 													<Button type={"external"} class={"external"} text={box.link.text} url={box.link.href} />
 												)}
