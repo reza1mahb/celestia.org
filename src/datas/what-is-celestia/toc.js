@@ -29,4 +29,9 @@ export const tableOfContent = [
 		id: "layer-0-social-consensus",
 		value: "Layer 0 social consensus",
 	},
+	{
+		depth: 1,
+		id: "start-using-celestia",
+		value: "Start using Celestia",
+	},
 ];

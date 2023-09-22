@@ -69,7 +69,7 @@ const WhatIsCelestia = () => {
 															className={selectedItem === index ? "selected" : ""}
 															onClick={() => handleItemClick(index)}
 														>
-															<AnchorLink to={`#${item.id.replace(/\s+/g, "-").toLowerCase()}`}>
+															<AnchorLink to={`/what-is-celestia/#${item.id.replace(/\s+/g, "-").toLowerCase()}`}>
 																{item.value}
 															</AnchorLink>
 														</div>

@@ -5,7 +5,7 @@ import Button from "../components/buttons/button";
 
 function FooterBox2({ footerBoxes2 }) {
 	return (
-		<div className='footer-boxes-2'>
+		<div id="start-using-celestia" className='footer-boxes-2'>
 			<h2 className='footer-title'>Start using Celestia</h2>
 			<div className={"footer-box-wrapper"}>
 				{footerBoxes2 &&
