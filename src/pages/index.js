@@ -250,7 +250,7 @@ const IndexPage = () => {
 											</div>
 											<div className='image-caption'>
 												<div className='caption-box'>
-													<div className='caption-text'>Modular Summit 2023</div>
+													<div className='caption-text'>Modular Meetup</div>
 												</div>
 											</div>
 										</div>
