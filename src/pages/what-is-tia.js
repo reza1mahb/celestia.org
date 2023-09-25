@@ -27,13 +27,14 @@ const WhatIsTIA = () => {
 							<div className={"main-text row"}>
 								<div className={"col-auto"}>
 									<div className={"subtitle"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
-									<AnchorLink
-										to={`/what-is-tia#${heroData.buttons[0].url}`}
+									<a
+										href={`${heroData.buttons[0].url}`}
 										className={"mb-3 button button-" + heroData.buttons[0].class}
-										stripHash
+										target='_blank'
+										rel='noreferrer'
 									>
 										{heroData.buttons[0].text}
-									</AnchorLink>
+									</a>
 									<AnchorLink
 										to={`/what-is-tia#${heroData.buttons[1].url}`}
 										className={"mb-3 button button-" + heroData.buttons[1].class}
