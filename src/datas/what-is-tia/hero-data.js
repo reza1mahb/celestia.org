@@ -6,7 +6,7 @@ export const heroData = {
 		{
 			text: "Pay for Data",
 			class: "simple",
-			type: "anchor",
+			type: "external",
 			url: "https://docs.celestia.org/learn/submit-data",
 		},
 		{
