@@ -7,7 +7,7 @@ export const heroData = {
 			text: "Pay for Data",
 			class: "simple",
 			type: "anchor",
-			url: "https://docs.celestia.org/learn/submit-data/",
+			url: "https://docs.celestia.org/learn/submit-data",
 		},
 		{
 			text: "Stake TIA",
