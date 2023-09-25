@@ -1,7 +1,7 @@
 export const advantages = [
     {
         id: '1',
-        title: 'Build',
+        title: 'Deploy Fast',
         text: 'Deploy your own blockchain in minutes, as easily as a smart contract',
         image: 'advantages/advantage-1.png',
     },{
@@ -16,7 +16,7 @@ export const advantages = [
         image: 'advantages/advantage-3.png',
     },{
         id: '4',
-        title: 'Sovereign',
+        title: 'Be Sovereign',
         text: 'Build <a href="https://celestia.org/glossary/sovereign-rollup/">sovereign rollups</a>, a new type of self-governing blockchain with minimal platform risk',
         image: 'advantages/advantage-4.png',
     },
