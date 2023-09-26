@@ -28,15 +28,15 @@ export default class Banner extends React.Component {
         return this.state.banner === true ? <div id={'banner'} className="banner">
             <div className={'container'}>
                 <div className={'close-banner'} onClick={this.closeBanner}><i className={'icon-close'}></i></div>
-                <div className={'row w-80 align-items-center justify-content-center'}>
+                <div className={'row w-lg-80 align-items-center justify-content-center'}>
                     {/* <div className={'col-2 position-relative d-none d-md-flex'}>
                         <Image alt={'Modular Summit'} filename={'modular-summit.svg'} />
                     </div> */}
-                    <div className={'col-auto'}>Modular Summit day 2 is live!</div>
+                    <div className={'col-auto'}>Celestia Genesis Drop is live! <div style={{fontSize: `32px`, display: `inline-block`, transform: `translateY(4px)` }}>✨</div></div>
 
-                    <a className={'col-auto'} href="https://youtube.com/live/WYH7n4M016A?feature=share" target={'_blank'} rel={'noreferrer'}>
+                    <a className={'col-auto mt-3 mt-sm-0'} href="https://genesis.celestia.org" target={'_blank'} rel={'noreferrer'}>
                         <div>
-                            <button className={'button-simple sm'}>Watch now</button>
+                            <button className={'button-simple'}>Check eligibility</button>
                         </div>
                     </a>
                 </div>

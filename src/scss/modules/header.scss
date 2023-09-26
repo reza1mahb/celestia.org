@@ -478,13 +478,16 @@ header{
 
   .close-banner{
     position:absolute;
-    top:8px;
+    top:14px;
     font-size:12px;
     right:0;
     cursor:pointer;
-
     @include media-breakpoint-down(md) {
-      top:0;
+      top:14px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      top:4px;
     }
   }
 }
