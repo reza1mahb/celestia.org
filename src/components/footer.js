@@ -167,7 +167,7 @@ class Footer extends React.Component {
 			<footer id={"footer"}>
 				<div className={"container"}>
 					{/* {this.props.FooterBoxes && <FooterBox footerBoxes={this.props.FooterBoxes}/>} */}
-                    {this.props.FooterBoxes2 && <FooterBox2 footerBoxes2={this.props.FooterBoxes2}/>}
+					{this.props.FooterBoxes2 && <FooterBox2 footerBoxes2={this.props.FooterBoxes2} />}
 
 					<div className={"row py-5 mt-5"}>
 						<div className={"col col-12 col-lg-4 pe-5"}>
@@ -247,12 +247,12 @@ class Footer extends React.Component {
 
 					<div className={"d-flex justify-content-center"}>
 						<div className={"col col-12 col-sm-6 d-flex flex-column align-items-center"}>
-							<p className="mb-4">
+							<p className='mb-4'>
 								This website is maintained by Celestia Labs, trading name of Strange Loop Labs AG, Werdenbergerweg 11, 9490 Vaduz,
 								Liechtenstein.
 							</p>
-							<p className="credit">
-								Made with <i className={"icon-heart"} /> by <a href='https://designatives.com'>Designatives</a>
+							<p className='credit'>
+								Website designed with <i className={"icon-heart"} /> by <a href='https://designatives.com'>Designatives</a>
 							</p>
 						</div>
 					</div>

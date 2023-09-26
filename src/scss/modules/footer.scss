@@ -5,7 +5,7 @@ footer {
 	padding-bottom: 40px;
 	margin-top: -450px;
 	position: relative;
-	&::before{
+	&::before {
 		content: "";
 		background: url(../images/footer-bg.png) no-repeat scroll center bottom transparent;
 		background-size: 100% 1200px;
@@ -15,7 +15,7 @@ footer {
 		bottom: 0;
 		left: 0;
 		z-index: -2;
-	
+
 		@include media-breakpoint-down(lg) {
 			background-size: auto 1800px;
 		}
@@ -229,8 +229,8 @@ footer {
 
 				.footer-box-inner {
 					border-radius: 14px;
-          border: 1px solid #E9E5F0;
-          background: #FFF;
+					border: 1px solid #e9e5f0;
+					background: #fff;
 					width: 100%;
 					background-repeat: no-repeat;
 					background-position: right bottom;
@@ -301,7 +301,7 @@ footer {
 							@include media-breakpoint-down(lg) {
 								background-size: 30%;
 							}
-              @include media-breakpoint-down(md) {
+							@include media-breakpoint-down(md) {
 								background-size: 30%;
 							}
 							@include media-breakpoint-down(sm) {
@@ -322,7 +322,7 @@ footer {
 					margin-bottom: 30px;
 					@include media-breakpoint-down(sm) {
 						font-size: 26px;
-            max-width: 200px;
+						max-width: 200px;
 					}
 				}
 
@@ -339,7 +339,7 @@ footer {
 					width: 70%;
 					@include media-breakpoint-down(sm) {
 						font-size: 16px;
-            width: 90%;
+						width: 90%;
 					}
 				}
 
@@ -491,14 +491,14 @@ footer {
 	.credit {
 		color: #fff;
 		font-family: $ruberoid;
-		font-size: 16px;
+		font-size: 15px;
 		font-style: normal;
-		font-weight: 600;
+		font-weight: 500;
 		line-height: normal;
-    opacity:1 ;
-    @include media-breakpoint-down(sm) {
-      font-size: 13px;
-    }
+		opacity: 1;
+		@include media-breakpoint-down(sm) {
+			font-size: 13px;
+		}
 	}
 }
 
