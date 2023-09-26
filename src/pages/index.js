@@ -45,12 +45,12 @@ const IndexPage = () => {
 			<div className='index-page'>
 				<main>
 					<HeroSection heroData={heroData} />
-					<div className='advantages-section'>
+					{/* <div className='advantages-section'>
 						<div className='container'>
 							<h2 className='with-decor'>Advantages</h2>
 						</div>
 						<AdvantagesSection advantages={advantages} />
-					</div>
+					</div> */}
 					<div className='container'>
 						<section id='explore-celestia' className='explore-celestia'>
 							<div className='d-flex justify-content-center'>
