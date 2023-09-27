@@ -487,19 +487,6 @@ footer {
 			width: 40px;
 		}
 	}
-
-	.credit {
-		color: #fff;
-		font-family: $ruberoid;
-		font-size: 15px;
-		font-style: normal;
-		font-weight: 500;
-		line-height: normal;
-		opacity: 1;
-		@include media-breakpoint-down(sm) {
-			font-size: 13px;
-		}
-	}
 }
 
 .hidden-field {

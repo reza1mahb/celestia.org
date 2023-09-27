@@ -247,11 +247,10 @@ class Footer extends React.Component {
 
 					<div className={"d-flex justify-content-center"}>
 						<div className={"col col-12 col-sm-6 d-flex flex-column align-items-center"}>
-							<p className='mb-4'>
-								This website is maintained by Celestia Labs, trading name of Strange Loop Labs AG, Werdenbergerweg 11, 9490 Vaduz,
-								Liechtenstein.
+							<p className='mb-3'>
+								This website is maintained by Celestia Labs.
 							</p>
-							<p className='credit'>
+							<p>
 								Website designed with <i className={"icon-heart"} /> by <a href='https://designatives.com'>Designatives</a>
 							</p>
 						</div>
