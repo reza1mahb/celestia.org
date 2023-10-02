@@ -8,7 +8,7 @@ export const explore = {
 			text: "A library of tutorials, guides, and ecosystem interviews.",
 			image: "community/youtube.png",
 			type: "external",
-			url: "https://www.youtube.com/channel/UCLlvAEzXBFZ-P3zS6BF2Bjg",
+			url: "https://www.youtube.com/channel/UCLlvAEzXBFZ-P3zS6BF2Bjg/",
 		},
         {
 			id: 2,

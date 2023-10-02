@@ -8,7 +8,7 @@ export const socialChannels = {
 			text: "The latest news and updates.",
 			image: "community/twitter.png",
 			type: "external",
-			url: "https://twitter.com/CelestiaOrg",
+			url: "https://twitter.com/CelestiaOrg/",
 		},
         {
 			id: 2,
@@ -16,7 +16,7 @@ export const socialChannels = {
 			text: "A hub for developers, node operators, and enthusiasts.",
 			image: "community/discord.png",
 			type: "external",
-			url: "https://discord.com/invite/YsnTPcSfWQ",
+			url: "https://discord.com/invite/YsnTPcSfWQ/",
 		},
         {
 			id: 3,
@@ -24,7 +24,7 @@ export const socialChannels = {
 			text: "Chat with the worldwide community.",
 			image: "community/telegram.png",
 			type: "external",
-			url: "https://t.me/CelestiaCommunity",
+			url: "https://t.me/CelestiaCommunity/",
 		},
         {
 			id: 4,
@@ -40,7 +40,7 @@ export const socialChannels = {
 			text: "Developer discussions and protocol contributions.",
 			image: "community/github.png",
 			type: "external",
-			url: "https://github.com/celestiaorg",
+			url: "https://github.com/celestiaorg/",
 		},
         {
 			id: 6,

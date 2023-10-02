@@ -2,21 +2,21 @@ export const socialChannels = {
 	title: "Social channels",
 	description: "Communication channels for the community, discussions, updates, and news.",
 	items: [
-        {
+		{
 			id: 1,
 			title: "X",
 			text: "Read the latest",
 			image: "home/twitter-black.png",
 			type: "external",
-			url: "https://twitter.com/CelestiaOrg",
+			url: "https://twitter.com/CelestiaOrg/",
 		},
-        {
+		{
 			id: 2,
 			title: "Discord",
 			text: "Get involved",
 			image: "home/discord-black.png",
 			type: "external",
-			url: "https://discord.com/invite/YsnTPcSfWQ",
+			url: "https://discord.com/invite/YsnTPcSfWQ/",
 		},
 		{
 			id: 3,
@@ -24,7 +24,7 @@ export const socialChannels = {
 			text: "Build with us",
 			image: "home/github-black.png",
 			type: "external",
-			url: "https://github.com/celestiaorg",
+			url: "https://github.com/celestiaorg/",
 		},
 		{
 			id: 4,
@@ -32,9 +32,9 @@ export const socialChannels = {
 			text: "Join discussion",
 			image: "home/telegram-black.png",
 			type: "external",
-			url: "https://t.me/CelestiaCommunity",
+			url: "https://t.me/CelestiaCommunity/",
 		},
-        	{
+		{
 			id: 5,
 			title: "Forum",
 			text: "Read Updates",

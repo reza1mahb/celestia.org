@@ -12,7 +12,7 @@ export const heroData = {
                 text: 'Explore',
                 class: 'white',
                 type: 'anchor',
-                url: '/#explore-celestia'
+                url: '/#explore-celestia/'
             }
         ]
 }

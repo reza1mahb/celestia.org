@@ -10,7 +10,7 @@ export const resources = {
 			type: "external",
 			link: {
 				text:"Explore",
-				url: "https://youtu.be/WFubhQc8tGk",
+				url: "https://youtu.be/WFubhQc8tGk/",
 			},
 		},
 		{

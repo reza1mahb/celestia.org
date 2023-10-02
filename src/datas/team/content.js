@@ -29,7 +29,7 @@ export const FooterBoxes = [
         text: 'Join our team of leading engineers in pioneering the first modular blockchain network',
         button: {
             text: 'Current openings',
-            href: '/careers',
+            href: '/careers/',
             id: 'career',
             type: 'simple'
         }

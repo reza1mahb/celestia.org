@@ -69,7 +69,7 @@ export const FooterBoxes = [
         text: 'Start your deep dive on modular blockchains.',
         button: {
             text: 'Learn modular',
-            href: '/learn',
+            href: '/learn/',
             id: 'operator',
             type: 'simple'
         }

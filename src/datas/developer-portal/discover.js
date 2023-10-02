@@ -21,7 +21,7 @@ export const discover = {
 			type: "external",
 			link: {
 				text:"Visit",
-				url: "https://docs.cosmos.network/main",
+				url: "https://docs.cosmos.network/main/",
 			},
 		},
 		{

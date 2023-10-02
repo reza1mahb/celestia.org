@@ -4,7 +4,7 @@ export const FooterBoxes = [
         text: 'View job openings and career opportunities in our ecosystem.',
         button: {
             text: 'Current openings',
-            href: 'https://celestia.pallet.com/jobs',
+            href: 'https://celestia.pallet.com/jobs/',
             id: 'operator',
             type: 'simple'
         }

@@ -10,7 +10,7 @@ export const community = {
 			type: "external",
 			link: {
 				text:"Join Discord",
-				url: "https://discord.com/invite/YsnTPcSfWQ",
+				url: "https://discord.com/invite/YsnTPcSfWQ/",
 			},
 		},
 		{

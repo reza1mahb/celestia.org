@@ -4,7 +4,7 @@ export const FooterBoxes = [
         text: 'Learn about the core technology behind Celestia\'s innovations.',
         button: {
             text: 'Learn more',
-            href: '/technology',
+            href: '/technology/',
             id: 'operator',
             type: 'simple'
         }

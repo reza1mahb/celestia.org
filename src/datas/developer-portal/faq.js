@@ -5,7 +5,7 @@ export const faqs = {
 		{
 			id: 1,
 			question: 'Where should I start?',
-			text: 'If you’re new to Celestia, you can start with some <a href="https://docs.celestia.org/developers/rollkit/#tutorials" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">beginner tutorials</a> to get a feel for Celestia’s architecture. If you feel confident, you can tackle more advanced tutorials, like <a href="https://rollkit.dev/docs/tutorials/ethermint/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">deploying an EVM rollup</a>, building a <a href="https://docs.celestia.org/developers/full-stack-modular-development-guide/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">full stack application</a>, or <a href="https://docs.celestia.org/developers/integrate-celestia/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">integrating a custom blockchain</a>.',
+			text: 'If you’re new to Celestia, you can start with some <a href="https://docs.celestia.org/developers/rollkit/#tutorials/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">beginner tutorials</a> to get a feel for Celestia’s architecture. If you feel confident, you can tackle more advanced tutorials, like <a href="https://rollkit.dev/docs/tutorials/ethermint/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">deploying an EVM rollup</a>, building a <a href="https://docs.celestia.org/developers/full-stack-modular-development-guide/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">full stack application</a>, or <a href="https://docs.celestia.org/developers/integrate-celestia/" target="_blank" rel="noopener noreferrer" style="color:#7B2BF9;">integrating a custom blockchain</a>.',
 		},
 		{
 			id: 2,

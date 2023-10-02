@@ -9,7 +9,7 @@ export const purpleData = {
                 icon: 'home/purple-box-2.svg',
                 button:{
                     title:'Follow',
-                    url: 'https://twitter.com/CelestiaOrg'
+                    url: 'https://twitter.com/CelestiaOrg/'
                 }
             },
             {
@@ -19,7 +19,7 @@ export const purpleData = {
                 icon: 'home/purple-box-3.svg',
                 button:{
                     title:'Ask a question',
-                    url: 'https://discord.com/invite/YsnTPcSfWQ'
+                    url: 'https://discord.com/invite/YsnTPcSfWQ/'
                 }
             },
             {
@@ -29,7 +29,7 @@ export const purpleData = {
                 icon: 'home/purple-box-1.svg',
                 button:{
                     title:'Start Chatting',
-                    url: 'https://t.me/CelestiaCommunity'
+                    url: 'https://t.me/CelestiaCommunity/'
                 }
             },
             {
@@ -39,7 +39,7 @@ export const purpleData = {
                 icon: 'home/purple-box-4.svg',
                 button:{
                     title:'Start contributing',
-                    url: 'https://github.com/celestiaorg'
+                    url: 'https://github.com/celestiaorg/'
                 }
             }
         ]

@@ -6,7 +6,7 @@ export const advisors = [
         text: '',
         image: 'team/MorganBeller.png',
         socials: {
-            twitter : 'https://twitter.com/beller',
+            twitter : 'https://twitter.com/beller/',
             discord : '',
             github : '',
             email : '',
@@ -20,9 +20,9 @@ export const advisors = [
         text: '',
         image: 'team/EthanBuchman.png',
         socials: {
-            twitter : 'https://twitter.com/buchmanster',
+            twitter : 'https://twitter.com/buchmanster/',
             discord : '',
-            github : 'https://github.com/ebuchman',
+            github : 'https://github.com/ebuchman/',
             email : '',
             linkedin : 'https://www.linkedin.com/in/ethan-buchman-10b34944/',
         }
@@ -34,9 +34,9 @@ export const advisors = [
         text: '',
         image: 'team/ZakiManian.png',
         socials: {
-            twitter : 'https://twitter.com/zmanian',
+            twitter : 'https://twitter.com/zmanian/',
             discord : '',
-            github : 'https://github.com/zmanian',
+            github : 'https://github.com/zmanian/',
             email : '',
             linkedin : 'https://www.linkedin.com/in/zmanian/',
         }
@@ -48,9 +48,9 @@ export const advisors = [
         text: '',
         image: 'team/JamesPrestwich.png',
         socials: {
-            twitter : 'https://twitter.com/_prestwich',
+            twitter : 'https://twitter.com/_prestwich/',
             discord : '',
-            github : 'https://github.com/prestwich',
+            github : 'https://github.com/prestwich/',
             email : '',
             linkedin : 'https://www.linkedin.com/in/prestwich/',
         }
@@ -62,9 +62,9 @@ export const advisors = [
         text: '',
         image: 'team/GeorgeDanezis.png',
         socials: {
-            twitter : 'https://twitter.com/GDanezis',
+            twitter : 'https://twitter.com/GDanezis/',
             discord : '',
-            github : 'https://github.com/gdanezis',
+            github : 'https://github.com/gdanezis/',
             email : '',
             linkedin : 'https://www.linkedin.com/in/gdanezis/',
         }
@@ -76,9 +76,9 @@ export const advisors = [
         text: '',
         image: 'team/MatthewDiFerrante.png',
         socials: {
-            twitter : 'https://twitter.com/matthewdif',
+            twitter : 'https://twitter.com/matthewdif/',
             discord : '',
-            github : 'https://github.com/mattdf',
+            github : 'https://github.com/mattdf/',
             email : '',
             linkedin : 'https://www.linkedin.com/in/matthewdiferrante/',
         }
@@ -90,9 +90,9 @@ export const advisors = [
         text: '',
         image: 'team/MarkoBaricevic.png',
         socials: {
-            twitter : 'https://twitter.com/mark0baricevic',
+            twitter : 'https://twitter.com/mark0baricevic/',
             discord : '',
-            github : 'https://github.com/marbar3778',
+            github : 'https://github.com/marbar3778/',
             email : '',
             linkedin : 'https://www.linkedin.com/in/marko-baricevic-ab0b49214/',
         }

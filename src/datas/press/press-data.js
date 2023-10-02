@@ -2,7 +2,7 @@ export const pressData = {
 	title: "Press & Media",
 	text: "",
 	items: [
-        	{
+		{
 			id: 1,
 			title: "Branding",
 			text: "",
@@ -10,9 +10,9 @@ export const pressData = {
 			type: "external",
 			figma: false,
 			color: "#F3ECFF",
-			url: "https://company-223625.frontify.com/d/JoSwaZS4Mjpj/guidelines",
+			url: "https://company-223625.frontify.com/d/JoSwaZS4Mjpj/guidelines/",
 		},
-        	{
+		{
 			id: 2,
 			title: "News",
 			text: "",
@@ -22,7 +22,7 @@ export const pressData = {
 			color: "#DEF7FF",
 			url: "https://blog.celestia.org/",
 		},
-        	{
+		{
 			id: 3,
 			title: "Social channels",
 			text: "",

@@ -10,7 +10,7 @@ export const content = {
     text: 'Join our team of leading engineers, researchers and entrepreneurs in pioneering the first modular blockchain design.',
     button: {
         text: 'Current openings',
-        url: 'https://jobs.lever.co/celestia'
+        url: 'https://jobs.lever.co/celestia/'
     },
     perks:{
         title: 'Perks',
