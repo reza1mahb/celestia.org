@@ -1,6 +1,11 @@
 .resources-page{
   position:relative;
 	z-index: 1;
+  min-height: 70vw;
+  overflow-x: hidden;
+      @include media-breakpoint-down(md) {
+        min-height: 520px;
+    } 
 
   main{
     overflow:unset;

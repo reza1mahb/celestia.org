@@ -43,7 +43,8 @@ export default function TocGroup(props) {
     const headings = props.headings;
     const markdownRemark = props.markdownRemark;
 
-    const opened = group.category === '' || group.category === markdownRemark.frontmatter.category ? true : false;
+    // const opened = group.category === '' || group.category === markdownRemark.frontmatter.category ? true : false;
+    const opened = true;
 
     const [isOpen,setIsOpen] = useState(opened)
 

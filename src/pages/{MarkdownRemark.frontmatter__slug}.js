@@ -4,7 +4,7 @@ import Image from "../components/imageComponent";
 
 import {FooterBoxes} from "../datas/resources/content";
 import Layout from "../components/layout";
-import FeaturedLearn from "../components/modules/featured-learn";
+// import FeaturedLearn from "../components/modules/featured-learn";
 import TocGroup from "../components/modules/toc-groups";
 import {Helmet} from "react-helmet";
 import ToC from "../components/modules/toc";
@@ -120,7 +120,7 @@ export default function Template({
                             </div>
                         </div>
 
-                        <FeaturedLearn withArrow={true} current={frontmatter.slug}/>
+                        {/* <FeaturedLearn withArrow={true} current={frontmatter.slug}/> */}
                     </div>
                 </div>
             </main>
