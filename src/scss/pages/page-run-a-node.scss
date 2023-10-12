@@ -93,10 +93,7 @@
 		letter-spacing: 0;
 		line-height: 24px;
 		margin-top: 22px;
-		max-width: 450px;
-		@include media-breakpoint-down(sm) {
-			max-width: 100%;
-		}
+		text-align: center;
 	}
 
 	.hero {
@@ -127,6 +124,7 @@
 
 	.get-started {
 		padding-top: 0px;
+		padding-bottom: 70px;
 
 		& .icon-card {
 			@include media-breakpoint-down(md) {
@@ -171,14 +169,14 @@
 	// new sections
 
 	.start-up {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 110px;
+		padding-bottom: 25px;
 		@include media-breakpoint-down(lg) {
-			padding-top: 70px;
+			padding-top: 100px;
 			padding-bottom: 20px;
 		}
 		h2 {
-			max-width: 450px;
+			width: fit-content;
 		}
 
 		.image-box--startup {
@@ -191,8 +189,7 @@
 		}
 
 		.description {
-			max-width: 460px;
-			margin-top: 30px;
+			margin-top: 50px;
 		}
 
 		.image-wrapper img {

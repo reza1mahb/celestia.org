@@ -38,7 +38,7 @@ const DevPortal = () => {
 										href={`${heroData.buttons[1].url}`}
 										className={"button button-" + heroData.buttons[1].class}
 										target={"_blank"}
-										rel={"noreferrer"}
+										rel={"noreferrer"}w
 									>
 										{heroData.buttons[1].text}
 									</a> */}
@@ -58,16 +58,15 @@ const DevPortal = () => {
 								<div className={"text-box col-12 col-lg-6"}>
 									<h2 className='title'>What is a node?</h2>
 									<p>
-										A node is a piece of software that runs on a device like a computer or a phone.
-										Generally, a node verifies that a blockchain works correctly and follows the rules.
-										“Verifying” a blockchain can involve tasks like checking transactions are correct.
+										A node is a piece of software that runs on a device like a computer or a phone. Generally, a node verifies
+										that a blockchain works correctly and follows the rules. “Verifying” a blockchain can involve tasks like
+										checking transactions are correct.
 									</p>
 									<h2 className='title'>What is a Celestia light node?</h2>
 									<p>
-										Light nodes sound like you might expect. They are nodes that can run on cheaper
-										hardware and slower internet connections than other node types. The lower
-										requirements make it more accessible for anyone to run a node that verifies the
-										chain.
+										Light nodes sound like you might expect. They are nodes that can run on cheaper hardware and slower internet
+										connections than other node types. The lower requirements make it more accessible for anyone to run a node
+										that verifies the chain.
 									</p>
 								</div>
 							</div>
@@ -76,19 +75,12 @@ const DevPortal = () => {
 
 					<section className={"start-up"} id={`${heroData.buttons[0]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
-							<div className={"row justify-content-between align-items-center"}>
-								<div className={"text-box col-12 col-lg-6"}>
-									<h2 className='with-decor'>Start up a light node</h2>
-									<p className='description'>
-										There are many ways to run a Celestia light node. Pick an option that fits you best
-										to get your light node up and running.
-									</p>
-								</div>
-								<div className={"image-box--startup col-12 col-lg-6"}>
-									<div className='image-wrapper'>
-										<img src={image3} alt={""} />
-									</div>
-								</div>
+							<div className={"row justify-content-center align-items-center"}>
+								<h2 className='with-decor'>Start up a light node</h2>
+								<p className='description'>
+									There are many ways to run a Celestia light node. Pick an option that fits you best to get your light node up and
+									running.
+								</p>
 							</div>
 						</div>
 					</section>
