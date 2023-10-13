@@ -72,11 +72,6 @@ const navigation = {
 				type: "internal",
 			},
 			{
-				text: "Ecosystem Jobs",
-				url: "https://celestia.pallet.com/jobs",
-				type: "external",
-			},
-			{
 				text: "Terms of Service",
 				url: "/tos/",
 				type: "internal",
