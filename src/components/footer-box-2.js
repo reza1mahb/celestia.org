@@ -20,13 +20,13 @@ function FooterBox2({ footerBoxes2 }) {
 										<div className={"footer-box-inner-bottom"}>
 											<div className='link-wrapper'>
 												{box.link.type === "internal" ? (
-													<Button type={"internal"} class={"external"} text={box.link.text} url={box.link.href} />
+													<Button type={"internal"} class={"external "+box.link.class} text={box.link.text} url={box.link.href} />
 												) : box.link.type === "anchor" ? (
-													<AnchorLink to={`${box.link.href}`} className={"button button-external"}>
+													<AnchorLink to={`${box.link.href}`} className={"button button-external "+box.link.class}>
 														{box.link.text} <i class='icon-external-link'></i>
 													</AnchorLink>
 												) : (
-													<Button type={"external"} class={"external"} text={box.link.text} url={box.link.href} />
+													<Button type={"external"} class={"external "+box.link.class} text={box.link.text} url={box.link.href} />
 												)}
 											</div>
 										</div>

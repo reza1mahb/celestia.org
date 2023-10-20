@@ -7,6 +7,7 @@ export const FooterBoxes2 = [
             href: '/developer-portal/',
             type: 'internal',
             id: 'build',
+            class: 'plausible-event-name=Find+Your+Best+Option'
         }
     },
     {
@@ -17,6 +18,7 @@ export const FooterBoxes2 = [
             href: '/#explore-celestia',
             type: 'anchor',
             id: 'explore',
+            class: 'plausible-event-name=Explore+what+you+can+do'
         }
     }
 ]

@@ -34,7 +34,7 @@ const DevPortal = () => {
 							<div className={"row"}>
 								<div className={"col-auto"}>
 									<div className={"text"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
-									<AnchorLink to={`/developer-portal#${heroData.buttons[0].url}`} className={'button button-'+heroData.buttons[0].class} stripHash>{heroData.buttons[0].text}</AnchorLink>
+									<AnchorLink to={`/developer-portal#${heroData.buttons[0].url}`} className={'plausible-event-name=Build+Modular+Developer button button-'+heroData.buttons[0].class} stripHash>{heroData.buttons[0].text}</AnchorLink>
 									<a href={`${heroData.buttons[1].url}`} className={'button button-'+heroData.buttons[1].class} target={"_blank"} rel={"noreferrer"}>{heroData.buttons[1].text}</a>
 								</div>
 							</div>
@@ -72,6 +72,7 @@ const DevPortal = () => {
 											key={item.id}
 											content={item}
 											variant={"vertical"}
+											btnClass={'plausible-event-name=Framework+Click'}
 										/>
 									);
 								})}
@@ -96,6 +97,7 @@ const DevPortal = () => {
 													key={item.id}
 													content={item}
 													variant={"horizontal"}
+													btnClass={'plausible-event-name=Node+API'}
 												/>
 											);
 										})}

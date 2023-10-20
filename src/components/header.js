@@ -15,28 +15,32 @@ const navigation = [
                 subtext: "Start here",
                 url: "/what-is-celestia/",
                 icon: "menu/logo.svg",
-                type: 'internal'
+                type: 'internal',
+                class: 'plausible-event-name=What+Is+Celestia'
             },
             {
                 text: "Dive into modular",
                 subtext: "Dive deep",
                 url: "/learn/",
                 icon: "menu/books.svg",
-                type: 'internal'
+                type: 'internal',
+                class: 'plausible-event-name=Dive+into+Modular'
             },
             {
                 text: "FAQ",
                 subtext: "Learn",
                 url: "/faq/",
                 icon: "menu/faq.svg",
-                type: 'internal'
+                type: 'internal',
+                class: ''
             },
             {
                 text: "Read the whitepaper",
                 subtext: "Research paper",
                 url: "/faq/",
                 icon: "menu/research.svg",
-                type: 'internal'
+                type: 'internal',
+                class: ''
             }
         ]
     },{
@@ -48,21 +52,24 @@ const navigation = [
                 subtext: "Developer portal",
                 url: "/developer-portal/",
                 icon: "menu/devnet.svg",
-                type: 'internal'
+                type: 'internal',
+                class: 'plausible-event-name=Dev+Portal'
             },
             {
                 text: "Read the docs",
                 subtext: "Celestia Documentation",
                 url: "https://docs.celestia.org/",
                 icon: "menu/documentation.svg",
-                type: 'external'
+                type: 'external',
+                class: 'plausible-event-name=Read+The+Docs'
             },
             {
                 text: "View the GitHub repos",
                 subtext: "GitHub repositories",
                 url: "https://github.com/celestiaorg",
                 icon: "menu/github.svg",
-                type: 'external'
+                type: 'external',
+                class: ''
             }
         ]
     },{
@@ -127,7 +134,7 @@ class Header extends React.Component {
                                                 {link.submenus.map((submenu, index) => (
                                                     <li key={index}>
                                                         {submenu.type === 'external' ?
-                                                            (<a href={submenu.url} target={'_blank'} rel="noreferrer">
+                                                            (<a href={submenu.url} target={'_blank'} rel="noreferrer" className={submenu.class}>
                                                                 <div className={'row d-table w-100'}>
                                                                     <div className={'col-2 align-middle d-table-cell'}>
                                                                         <div className={'icon'}>
@@ -141,7 +148,7 @@ class Header extends React.Component {
                                                                 </div>
                                                             </a>)
                                                             :
-                                                            (<Link to={submenu.url} >
+                                                            (<Link to={submenu.url}  className={submenu.class}>
                                                                 <div className={'row d-table w-100'}>
                                                                     <div className={'col-2 align-middle d-table-cell'}>
                                                                         <div className={'icon'}>
