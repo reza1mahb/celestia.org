@@ -7,7 +7,7 @@ export default function Layout({ children, footerBoxes, footerBoxes2 }) {
 
 	useEffect(() => {
 		if (typeof window !== `undefined` && typeof window.plausible !== `undefined`) {
-			const elements = document.querySelectorAll("[class^=plausible-event-name]")
+			const elements = document.querySelectorAll("[class*=plausible-event-name]")
 
 			elements.forEach(function (element) {
 				element.addEventListener("click", function (e) {
