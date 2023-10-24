@@ -8,14 +8,13 @@ export default function Layout({ children, footerBoxes, footerBoxes2 }) {
 	useEffect(() => {
 		const elements = document.querySelectorAll("[class^=plausible-event-name]")
 
-		if(window.plausible) {
-			elements.forEach(function (element) {
-				element.addEventListener("click", function (e) {
-					window.plausible(element.classList[0].substring(element.classList[0].indexOf('=') + 1))
-				}, false);
-			})
-		}
-	}, []);
+		elements.forEach(function (element) {
+			element.addEventListener("click", function (e) {
+				console.log('ADD EVENT: '+element.classList[0].substring(element.classList[0].indexOf('=') + 1))
+				window.plausible(element.classList[0].substring(element.classList[0].indexOf('=') + 1))
+			}, false);
+		})
+	}, [window.plausible]);
 
 	return (
 		<>
