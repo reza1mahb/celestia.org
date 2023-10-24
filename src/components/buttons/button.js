@@ -6,7 +6,7 @@ export default class Button extends React.Component {
     render() {
         var buttonTitle = this.props.text
 
-        if(this.props.class === 'external' || this.props.class === 'external-big'){
+        if(this.props.class.includes('external') || this.props.class.includes('external-big')){
             buttonTitle = this.props.text + '<i class="icon-external-link"></i>';
         }
         if(this.props.class === 'icon'){
