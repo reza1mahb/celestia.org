@@ -4,13 +4,13 @@ export const heroData = {
     buttons:[
             {
                 text: 'Build modular',
-                class: 'simple plausible-event-name=Build+Modular',
+                class: 'plausible-event-name=Build+Modular simple',
                 type: 'internal',
                 url: '/developer-portal/'
             },
             {
                 text: 'Explore',
-                class: 'white plausible-event-name=Explore',
+                class: 'plausible-event-name=Explore white',
                 type: 'anchor',
                 url: '/#explore-celestia/'
             }

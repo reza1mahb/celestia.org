@@ -6,15 +6,17 @@ import {useEffect} from "react";
 export default function Layout({ children, footerBoxes, footerBoxes2 }) {
 
 	useEffect(() => {
-		const elements = document.querySelectorAll("[class^=plausible-event-name]")
+		if (typeof window !== `undefined` && typeof window.plausible !== `undefined`) {
+			const elements = document.querySelectorAll("[class^=plausible-event-name]")
 
-		elements.forEach(function (element) {
-			element.addEventListener("click", function (e) {
-				console.log('ADD EVENT: '+element.classList[0].substring(element.classList[0].indexOf('=') + 1))
-				window.plausible(element.classList[0].substring(element.classList[0].indexOf('=') + 1))
-			}, false);
-		})
-	}, [window.plausible]);
+			elements.forEach(function (element) {
+				element.addEventListener("click", function (e) {
+					//console.log('ADD EVENT: ' + element.classList[0].substring(element.classList[0].indexOf('=') + 1))
+					window.plausible(element.classList[0].substring(element.classList[0].indexOf('=') + 1))
+				}, false);
+			})
+		}
+	});
 
 	return (
 		<>
