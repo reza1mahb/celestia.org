@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Header from "./header";
 import Footer from "./footer";
-import {useEffect} from "react";
 
 export default function Layout({ children, footerBoxes, footerBoxes2 }) {
 
+	const [loaded,setLoaded] = useState(false)
+
 	useEffect(() => {
-		if (typeof window !== `undefined`) {
+		if (typeof window !== `undefined` && loaded) {
 			const elements = document.querySelectorAll("[class*=plausible-event-name]")
 
 			elements.forEach(function (element) {
@@ -17,6 +18,10 @@ export default function Layout({ children, footerBoxes, footerBoxes2 }) {
 			})
 		}
 	});
+
+	useEffect(() => {
+		setLoaded(true)
+	}, []);
 
 	return (
 		<>
