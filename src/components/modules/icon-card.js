@@ -18,7 +18,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<Button type={"internal"} class={btnClass+" external"} text={content.link.text} url={content.link.url} />
+							<Button type={"internal"} class={"external "+btnClass} text={content.link.text} url={content.link.url} />
 						</div>
 					</div>
 				</div>
@@ -37,7 +37,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<Button type={"external"} class={btnClass+" external"} text={content.link.text} url={content.link.url} />
+							<Button type={"external"} class={"external "+btnClass} text={content.link.text} url={content.link.url} />
 						</div>
 					</div>
 				</div>
