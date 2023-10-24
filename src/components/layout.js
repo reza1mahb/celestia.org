@@ -6,7 +6,7 @@ import {useEffect} from "react";
 export default function Layout({ children, footerBoxes, footerBoxes2 }) {
 
 	useEffect(() => {
-		if (typeof window !== `undefined` && typeof window.plausible !== `undefined`) {
+		if (typeof window !== `undefined`) {
 			const elements = document.querySelectorAll("[class*=plausible-event-name]")
 
 			elements.forEach(function (element) {
