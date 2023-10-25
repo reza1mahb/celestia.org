@@ -7,7 +7,7 @@ export const FooterBoxes2 = [
             href: '/developer-portal/',
             type: 'internal',
             id: 'build',
-            class: 'plausible-event-name=Find+Your+Best+Option'
+            class: 'plausible-event-name=Build_Your_App_Button--What_Is_Celestia_Page-Start_Using_Section'
         }
     },
     {
@@ -18,7 +18,7 @@ export const FooterBoxes2 = [
             href: '/#explore-celestia',
             type: 'anchor',
             id: 'explore',
-            class: 'plausible-event-name=Explore+what+you+can+do'
+            class: 'plausible-event-name=Explore_What_You_Can_Do_Button--What_Is_Celestia_Page-Start_Using_Section'
         }
     }
 ]

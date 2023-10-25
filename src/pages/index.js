@@ -58,7 +58,7 @@ const IndexPage = () => {
 							</div>
 							<div className='three-col-grid mt-4 mt-lg-5'>
 								<div className='card-box'>
-									<Link className="plausible-event-name=Explore+The+Ecosystem link-box" to={exploreCelestia[0].link}>
+									<Link className="plausible-event-name=Explore_The_Ecosystem--Homepage-Explore_Celestia_Section link-box" to={exploreCelestia[0].link}>
 										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
@@ -92,7 +92,7 @@ const IndexPage = () => {
 									</Link>
 								</div>
 								<div className='card-box'>
-									<Link className="plausible-event-name=Use+Tia link-box" to={exploreCelestia[1].link}>
+									<Link className="plausible-event-name=Use_Tia--Homepage-Explore_Celestia_Section link-box" to={exploreCelestia[1].link}>
 										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
@@ -126,7 +126,7 @@ const IndexPage = () => {
 									</Link>
 								</div>
 								<div className='card-box span-full'>
-									<Link className="plausible-event-name=Run+A+Light+Node link-box" to={exploreCelestia[2].link}>
+									<Link className="plausible-event-name=Run_A_Light_Node--Homepage-Explore_Celestia_Section link-box" to={exploreCelestia[2].link}>
 										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>

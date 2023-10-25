@@ -16,7 +16,7 @@ const navigation = [
                 url: "/what-is-celestia/",
                 icon: "menu/logo.svg",
                 type: 'internal',
-                class: 'plausible-event-name=What+Is+Celestia'
+                class: 'plausible-event-name=What_Is_Celestia_Button--Header'
             },
             {
                 text: "Dive into modular",
@@ -24,7 +24,7 @@ const navigation = [
                 url: "/learn/",
                 icon: "menu/books.svg",
                 type: 'internal',
-                class: 'plausible-event-name=Dive+into+Modular'
+                class: 'plausible-event-name=Dive_into_Modular_Button--Header'
             },
             {
                 text: "FAQ",
@@ -53,7 +53,7 @@ const navigation = [
                 url: "/developer-portal/",
                 icon: "menu/devnet.svg",
                 type: 'internal',
-                class: 'plausible-event-name=Dev+Portal'
+                class: 'plausible-event-name=Dev_Portal_Button--Header'
             },
             {
                 text: "Read the docs",
@@ -61,7 +61,7 @@ const navigation = [
                 url: "https://docs.celestia.org/",
                 icon: "menu/documentation.svg",
                 type: 'external',
-                class: 'plausible-event-name=Read+The+Docs'
+                class: 'plausible-event-name=Read_The_Docs_Button--Header'
             },
             {
                 text: "View the GitHub repos",
