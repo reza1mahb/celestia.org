@@ -43,7 +43,7 @@ export const frameworks = {
 			type: "external",
 			link: {
 				text:"Explore OP Stack",
-				url: "https://docs.celestia.org/category/optimism/",
+				url: "https://docs.celestia.org/developers/intro-to-op-stack",
 			},
 		},
 		{
