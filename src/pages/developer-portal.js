@@ -72,7 +72,7 @@ const DevPortal = () => {
 											key={item.id}
 											content={item}
 											variant={"vertical"}
-											btnClass={'plausible-event-name=Framework_Click--Developer_Portal_Page-Framework_section'}
+											btnClass={'plausible-event-name=Framework_Click_'+item.title.replace(/\s/g, '+')+'--Developer_Portal_Page-Framework_section'}
 										/>
 									);
 								})}
