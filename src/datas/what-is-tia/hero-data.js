@@ -4,7 +4,7 @@ export const heroData = {
 	buttons: [
 		{
 			text: "Pay for Data",
-			class: "simple",
+			class: "simple plausible-event-name=Pay_for_Data_button-What_is_TIA-Hero_section",
 			type: "external",
 			url: "https://docs.celestia.org/developers/submit-data",
 		},
