@@ -27,7 +27,7 @@ export const frameworks = {
 		{
 			id: 3,
 			title: "Eclipse",
-			text: "Eclipse is a customizable rollup provider for developers building decentralized applications.",
+			text: "Ethereum's fastest Layer 2, powered by the SVM.",
 			image: "developer-portal/eclipse.png",
 			type: "external",
 			link: {
