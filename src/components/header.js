@@ -37,7 +37,7 @@ const navigation = [
             {
                 text: "Read the whitepaper",
                 subtext: "Research paper",
-                url: "/faq/",
+                url: "https://arxiv.org/abs/1905.09274",
                 icon: "menu/research.svg",
                 type: 'internal',
                 class: ''
