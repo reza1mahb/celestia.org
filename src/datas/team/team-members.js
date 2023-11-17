@@ -503,18 +503,4 @@ export const teamMembers = [
 			linkedin: "",
 		},
 	},
-	{
-		id: 45,
-		name: "Sean King",
-		title: "Software Engineer",
-		text: "Former Senior Engineer at the Interchain Foundation.",
-		image: "team/SeanKing.png",
-		socials: {
-			twitter: "",
-			discord: "",
-			github: "",
-			email: "",
-			linkedin: "",
-		},
-	},
 ];
