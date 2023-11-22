@@ -32,7 +32,7 @@ jobs:
 
             # Install all the Node dependencies for Gatsby, using your package.json file.
             - name: Install Dependencies
-              run: npm i --save
+              run: npm install --legacy-peer-deps
 
             # Speaks for itself no?
             - name: Build Gatsby Site
