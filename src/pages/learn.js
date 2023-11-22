@@ -1,19 +1,34 @@
 import * as React from "react";
-import { graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 import { FooterBoxes } from "../datas/learn/content";
 import Layout from "../components/layout";
 import LearnBox from "../components/learn-box";
 
-const LearnPage = ({
-	data: {
-		allMarkdownRemark: { edges },
-	},
-}) => {
-	const Posts = edges
+const LearnPage = () => {
+	const data = useStaticQuery(graphql`
+		query {
+			allMarkdownRemark(sort: { frontmatter: { order: ASC } }, filter: { fileAbsolutePath: { regex: "/learn/" } }) {
+				edges {
+					node {
+						id
+						frontmatter {
+							date(formatString: "MMMM DD, YYYY")
+							slug
+							icon
+							title
+							description
+						}
+					}
+				}
+			}
+		}
+	`);
+
+	const Posts = data.allMarkdownRemark.edges
 		.filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
 		.map((edge) => (
 			<div className={"col col-12 col-md-6 pt-5"}>
-				<LearnBox withArrow={false} learnmodules={edges} key={edge.node.id} post={edge.node} />
+				<LearnBox withArrow={false} learnmodules={data.allMarkdownRemark.edges} key={edge.node.id} post={edge.node} />
 			</div>
 		));
 
@@ -31,22 +46,3 @@ const LearnPage = ({
 	);
 };
 export default LearnPage;
-
-export const pageQuery = graphql`
-	query {
-		allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___order] }, filter: { fileAbsolutePath: { regex: "/learn/" } }) {
-			edges {
-				node {
-					id
-					frontmatter {
-						date(formatString: "MMMM DD, YYYY")
-						slug
-						icon
-						title
-						description
-					}
-				}
-			}
-		}
-	}
-`;

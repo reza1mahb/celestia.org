@@ -21,11 +21,11 @@ import Image from "../components/imageComponent";
 import CommunityItem from "../components/modules/community-item";
 
 import { seoContent } from "../datas/home/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const IndexPage = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
-	const [modalType, setModalType] = useState("");
+	const [modalType] = useState("");
 	const enableBackers = false;
 
 	// const handleModalOpen = (event) => {
@@ -41,14 +41,11 @@ const IndexPage = () => {
 
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<SEO title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
+			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 			<div className='index-page'>
 				<main>
 					<HeroSection heroData={heroData} />
 					<div className='advantages-section'>
-						{/* <div className='container'>
-							<h2 className='with-decor'>Advantages</h2>
-						</div> */}
 						<AdvantagesSection advantages={advantages} />
 					</div>
 					<div className='container'>
@@ -58,7 +55,10 @@ const IndexPage = () => {
 							</div>
 							<div className='three-col-grid mt-4 mt-lg-5'>
 								<div className='card-box'>
-									<Link className="plausible-event-name=Explore_The_Ecosystem--Homepage-Explore_Celestia_Section link-box" to={exploreCelestia[0].link}>
+									<Link
+										className='plausible-event-name=Explore_The_Ecosystem--Homepage-Explore_Celestia_Section link-box'
+										to={exploreCelestia[0].link}
+									>
 										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
@@ -92,7 +92,10 @@ const IndexPage = () => {
 									</Link>
 								</div>
 								<div className='card-box'>
-									<Link className="plausible-event-name=Use_Tia--Homepage-Explore_Celestia_Section link-box" to={exploreCelestia[1].link}>
+									<Link
+										className='plausible-event-name=Use_Tia--Homepage-Explore_Celestia_Section link-box'
+										to={exploreCelestia[1].link}
+									>
 										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
@@ -126,7 +129,10 @@ const IndexPage = () => {
 									</Link>
 								</div>
 								<div className='card-box span-full'>
-									<Link className="plausible-event-name=Run_A_Light_Node--Homepage-Explore_Celestia_Section link-box" to={exploreCelestia[2].link}>
+									<Link
+										className='plausible-event-name=Run_A_Light_Node--Homepage-Explore_Celestia_Section link-box'
+										to={exploreCelestia[2].link}
+									>
 										<div className='card-item'>
 											<svg className='card-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 62 63' fill='none'>
 												<g clipPath='url(#clip0_334_4082)'>
@@ -195,7 +201,7 @@ const IndexPage = () => {
 							<div className='row justify-content-center pt-5'>
 								<div className='col-auto'>
 									<a href='/what-is-celestia/' target='_blank'>
-										<button className='button button-simple button-internal' role='button' tabIndex={0} id='developer'>
+										<button className='button button-simple button-internal' tabIndex={0} id='developer'>
 											Learn More
 										</button>
 									</a>

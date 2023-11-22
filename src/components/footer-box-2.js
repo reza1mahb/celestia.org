@@ -1,11 +1,11 @@
 import * as React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby"; // Removed as it's not used
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Button from "../components/buttons/button";
 
 function FooterBox2({ footerBoxes2 }) {
 	return (
-		<div id="start-using-celestia" className='footer-boxes-2'>
+		<div id='start-using-celestia' className='footer-boxes-2'>
 			<h2 className='footer-title'>Start using Celestia</h2>
 			<div className={"footer-box-wrapper"}>
 				{footerBoxes2 &&
@@ -20,13 +20,23 @@ function FooterBox2({ footerBoxes2 }) {
 										<div className={"footer-box-inner-bottom"}>
 											<div className='link-wrapper'>
 												{box.link.type === "internal" ? (
-													<Button type={"internal"} class={"external "+box.link.class} text={box.link.text} url={box.link.href} />
+													<Button
+														type={"internal"}
+														class={"external " + box.link.class}
+														text={box.link.text}
+														url={box.link.href}
+													/>
 												) : box.link.type === "anchor" ? (
-													<AnchorLink to={`${box.link.href}`} className={"button button-external "+box.link.class}>
+													<AnchorLink to={`${box.link.href}`} className={"button button-external " + box.link.class}>
 														{box.link.text} <i class='icon-external-link'></i>
 													</AnchorLink>
 												) : (
-													<Button type={"external"} class={"external "+box.link.class} text={box.link.text} url={box.link.href} />
+													<Button
+														type={"external"}
+														class={"external " + box.link.class}
+														text={box.link.text}
+														url={box.link.href}
+													/>
 												)}
 											</div>
 										</div>

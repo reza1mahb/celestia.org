@@ -7,7 +7,7 @@ import SocialShare from "../../components/socialShare";
 import GlossaryNav from "../../components/glossary-nav";
 
 import { seoContent } from "../../datas/glossary/seoContent";
-import SEO from "../../components/seo";
+import Seo from "../../components/seo";
 
 const title = "Composability";
 
@@ -34,7 +34,7 @@ class GlossarySubpage extends React.Component {
 		return (
 			<Layout footerBoxes={FooterBoxes}>
 				<div className={"glossary-subpage"}>
-					<SEO
+					<Seo
 						title={"Celestia - " + title}
 						description={seoContent.description}
 						ogTitle={"Celestia - " + title}

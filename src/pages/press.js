@@ -6,17 +6,12 @@ import Layout from "../components/layout";
 import PressItem from "../components/modules/press-item";
 
 import { seoContent } from "../datas/press/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const Press = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<SEO
-				title={seoContent.title}
-				description={seoContent.description}
-                ogTitle={seoContent.ogTitle}
-				image={seoContent.image}
-			/>
+			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 			<div className={"press"}>
 				<main>
 					<div className={"hero container"}>

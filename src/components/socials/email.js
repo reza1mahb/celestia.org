@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
 
-export default class Email extends React.Component {
-    render() {
-        return <a href={this.props.url} target={'_blank'} rel="noreferrer">
-            <i className={'icon-email'}/>
-        </a>;
-    }
-}
+const Email = ({ url }) => {
+	return (
+		<a href={url} target={"_blank"} rel='noreferrer' aria-label='Email link'>
+			<i className={"icon-email"} />
+		</a>
+	);
+};
+
+export default Email;

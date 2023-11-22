@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
 
-export default class Github extends React.Component {
-    render() {
-        return <a href={this.props.url} target={'_blank'} rel="noreferrer">
-            <i className={'icon-github'}/>
-        </a>;
-    }
-}
+const Github = ({ url }) => {
+	return (
+		<a href={url} target={"_blank"} rel='noreferrer' aria-label='Github link'>
+			<i className={"icon-github"} />
+		</a>
+	);
+};
+
+export default Github;

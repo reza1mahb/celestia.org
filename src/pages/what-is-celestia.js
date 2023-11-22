@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import { seoContent } from "../datas/what-is-celestia/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 import celestia_what_are_rollups from "../images/what-is-celestia/celestia-what-are-rollups.png";
 import celestia_data_availability from "../images/what-is-celestia/celestia-data-availability.png";
@@ -23,7 +23,7 @@ const WhatIsCelestia = () => {
 
 	return (
 		<Layout footerBoxes2={FooterBoxes2}>
-			<SEO title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
+			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 			<div className={"what-is-celestia"}>
 				<main>
 					<div className={"container"}>
@@ -33,8 +33,8 @@ const WhatIsCelestia = () => {
 							<div className={"row justify-content-between"}>
 								<div className={"order-2 order-lg-1 text-box col-12 col-lg-6 col-xl-6 col-xxl-7"}>
 									<p>
-										A complete beginner's guide to how Celestia works, its key benefits, and how anyone
-										in the world can create their own blockchain in minutes.
+										A complete beginner's guide to how Celestia works, its key benefits, and how anyone in the world can create
+										their own blockchain in minutes.
 									</p>
 									<p>Let’s walk through the basics, step-by-step.</p>
 								</div>
@@ -48,6 +48,13 @@ const WhatIsCelestia = () => {
 									<div
 										className={`mobile-toc ${showTocCategories && "show"}`}
 										onClick={() => setShowTocCategories(!showTocCategories)}
+										onKeyDown={(event) => {
+											if (event.key === "Enter") {
+												setShowTocCategories(!showTocCategories);
+											}
+										}}
+										tabIndex={0}
+										role='button'
 									>
 										Jump to...
 										<div className='dropdown-button'>
@@ -57,9 +64,7 @@ const WhatIsCelestia = () => {
 										</div>
 									</div>
 									<div className={"toc-inner"}>
-										<div className={"toc-title"}>
-											Table of Contents
-										</div>
+										<div className={"toc-title"}>Table of Contents</div>
 										<div className={`category-menu ${showTocCategories && "show"}`}>
 											<div className={"toc-item"}>
 												{tableOfContent.map((item, index) => {
@@ -68,6 +73,13 @@ const WhatIsCelestia = () => {
 															key={index}
 															className={selectedItem === index ? "selected" : ""}
 															onClick={() => handleItemClick(index)}
+															onKeyDown={(event) => {
+																if (event.key === "Enter") {
+																	handleItemClick(index);
+																}
+															}}
+															tabIndex={0}
+															role='button'
 														>
 															<AnchorLink to={`/what-is-celestia/#${item.id.replace(/\s+/g, "-").toLowerCase()}`}>
 																{item.value}
@@ -130,8 +142,8 @@ const WhatIsCelestia = () => {
 										<div className={"order-1 order-lg-2 col-12 col-lg-6"}>
 											<h2 className='title'>What are rollups and how do they work with Celestia?</h2>
 											<p>
-												Rollups are a relatively new type of blockchain. What makes them different is that they offload some of
-												their work to a layer 1 like Celestia. The simple version is that rollups publish their transaction
+												Rollups are a relatively new type of blockchain. What makes them different is that they offload some
+												of their work to a layer 1 like Celestia. The simple version is that rollups publish their transaction
 												data to Celestia, which gets ordered and made available for rollup users to download. As a bonus,
 												rollups receive some of Celestia’s security.
 											</p>
@@ -143,7 +155,10 @@ const WhatIsCelestia = () => {
 									</div>
 								</section>
 
-								<section className={"whats-it-like-to-build-on-Celestia"} id={`${tableOfContent[3].id.replace(/\s+/g, "-").toLowerCase()}`}>
+								<section
+									className={"whats-it-like-to-build-on-Celestia"}
+									id={`${tableOfContent[3].id.replace(/\s+/g, "-").toLowerCase()}`}
+								>
 									<div className={"row mb-3 mb-md-5 justify-content-center"}>
 										<h2 className='title'>What’s it like to build on Celestia?</h2>
 									</div>
@@ -188,7 +203,7 @@ const WhatIsCelestia = () => {
 										</div>
 									</div>
 									<div className='link-wrapper'>
-										<a className='link' href='https://celestia.org/developer-portal/' target='_blank'>
+										<a className='link' href='https://celestia.org/developer-portal/' target='_blank' rel='noreferrer'>
 											Find out what you can build
 											<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 												<path

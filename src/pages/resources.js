@@ -18,10 +18,9 @@ import { podcasts } from "../datas/resources/podcasts";
 import { communityposts } from "../datas/resources/community-posts";
 import Carousel from "react-multi-carousel";
 import Layout from "../components/layout";
-import { content } from "../datas/technology/content";
 
 import { seoContent } from "../datas/resources/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const responsive = {
 	desktop: {
@@ -124,12 +123,7 @@ class ResourcesPage extends React.Component {
 	render() {
 		return (
 			<Layout footerBoxes={FooterBoxes}>
-				<SEO
-					title={seoContent.title}
-					description={seoContent.description}
-					ogTitle={seoContent.ogTitle}
-					image={seoContent.image}
-				/>
+				<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 				<div className={"resources-page"}>
 					<main>
 						<div className={"container"}>

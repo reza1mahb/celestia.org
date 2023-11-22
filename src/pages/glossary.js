@@ -8,9 +8,8 @@ import { glossaries } from "../datas/glossary/data";
 import { Link } from "gatsby";
 import { useState } from "react";
 
-
 import { seoContent } from "../datas/glossary/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 class Result extends React.Component {
 	render() {
@@ -63,6 +62,7 @@ function SearchGlossary(e) {
 			.reduce((key, obj) => {
 				filteredGlossaries.push({ [count]: [obj] });
 				count = count + 1;
+				return key;
 			}, {})
 	);
 
@@ -82,23 +82,27 @@ function GetGlossaries(props) {
 					<div className={"col-auto search-bar"}>
 						<div
 							className={"alphabets search"}
-							role={"button"}
+							role='button'
 							tabIndex={0}
 							onClick={() => {
 								toggleSearch(true);
 								toggleFilter(true);
 							}}
-							onKeyDown={() => {
-								toggleSearch(true);
-								toggleFilter(true);
+							onKeyDown={(event) => {
+								if (event.key === "Enter" || event.key === " ") {
+									toggleSearch(true);
+									toggleFilter(true);
+								}
 							}}
 						>
+							<span className='visually-hidden'>Search Input</span>
 							<ul className={"list-group list-group-horizontal"}>
 								<li className={"list-group-item px-0"}>
 									<input
 										type='text'
 										className={"form-control float-start"}
 										onKeyUp={(e) => setGlossaries(SearchGlossary(e.target.value))}
+										id='search-input'
 									/>
 									<i className={"icon-search float-end"}></i>
 								</li>
@@ -109,10 +113,8 @@ function GetGlossaries(props) {
 						<div className={"col-inner"}>
 							<div className={"alphabets float-end"}>
 								<ul className={"list-group list-group-horizontal"}>
-									<li
+									<button
 										className={"list-group-item expand"}
-										role={"button"}
-										tabIndex={0}
 										onClick={() => {
 											toggleSearch(false);
 											toggleFilter(true);
@@ -123,9 +125,11 @@ function GetGlossaries(props) {
 										}}
 									>
 										<i className={"icon-dropdown"} aria-label={"Hide search"}></i>
-									</li>
+									</button>
 									<li
-										className={!filter && props.alpha == "all" ? "list-group-item flex-fill active" : "list-group-item flex-fill"}
+										className={
+											!filter && props.alpha === "all" ? "list-group-item flex-fill active" : "list-group-item flex-fill"
+										}
 										key={"all"}
 									>
 										<Link
@@ -144,7 +148,7 @@ function GetGlossaries(props) {
 										return (
 											<li
 												className={
-													!search && filter && !props.alpha && index == 0
+													!search && filter && !props.alpha && index === 0
 														? "list-group-item flex-fill active"
 														: props.alpha === alpha && filter && !search
 														? "list-group-item flex-fill active"
@@ -214,13 +218,13 @@ function GetGlossaries(props) {
 					<div>
 						{glossaries.map(
 							(glossary, index) =>
-								Object.keys(glossary) == props.alpha &&
+								Object.keys(glossary)[0] === props.alpha &&
 								!search && (
-									<div className={"row alpha-row"} key={Object.keys(glossary)}>
+									<div className={"row alpha-row"} key={Object.keys(glossary)[0]}>
 										<div className={"col-12"}>
 											<div className={"row"}>
 												<div className={"col-12 col-md-2"}>
-													<div className={"alpha"}>{Object.keys(glossary)}</div>
+													<div className={"alpha"}>{Object.keys(glossary)[0]}</div>
 												</div>
 												<div className={"col-12 col-md-10"}>
 													<ul className={"result-list"}>
@@ -252,12 +256,7 @@ class GlossaryPage extends React.Component {
 	render() {
 		return (
 			<Layout footerBoxes={FooterBoxes}>
-				<SEO
-				title={seoContent.title}
-				description={seoContent.description}
-                ogTitle={seoContent.ogTitle}
-				image={seoContent.image}
-			/>
+				<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 				<div className={"glossary-page"}>
 					<main>
 						<div className={"container"}>

@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
 
-export default class Discord extends React.Component {
-    render() {
-        return <a href={this.props.url} target={'_blank'} rel="noreferrer">
-            <i className={'icon-social-discord'}/>
-        </a>;
-    }
-}
+const Discord = ({ url }) => {
+	return (
+		<a href={url} target={"_blank"} rel='noreferrer' aria-label='Discord link'>
+			<i className={"icon-social-discord"} />
+		</a>
+	);
+};
+
+export default Discord;

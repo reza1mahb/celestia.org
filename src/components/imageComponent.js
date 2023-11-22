@@ -1,51 +1,44 @@
-import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-// Note: You can change "images" to whatever you'd like.
+const Image = (props) => {
+	const data = useStaticQuery(graphql`
+		query {
+			images: allFile {
+				edges {
+					node {
+						relativePath
+						name
+						childImageSharp {
+							gatsbyImageData(layout: CONSTRAINED, width: 800)
+						}
+						extension
+						publicURL
+					}
+				}
+			}
+		}
+	`);
 
-const Image = props => (
-    <StaticQuery
-        query={graphql`
-      query {
-        images: allFile {
-          edges {
-            node {
-              relativePath
-              name
-              childImageSharp {
-                fluid(maxWidth: 600) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-              extension
-              publicURL
-            }
-          }
-        }
-      }
-    `}
-        render={data => {
-            // Handles SVG extension
-            const extension = props.filename.match(/[^\\]*\.(\w+)$/)[1]
+	// Handles SVG extension
+	const extension = props.filename.match(/[^\\]*\.(\w+)$/)[1];
 
-            const image = data.images.edges.find(n => {
-                return n.node.relativePath.includes(props.filename);
-            });
+	const image = data.images.edges.find((n) => {
+		return n.node.relativePath.includes(props.filename);
+	});
 
-            if (!image) {
-                return null;
-            }
+	if (!image) {
+		return null;
+	}
 
-            if (extension === "svg" || extension === "gif") {
-                return <img src={image.node.publicURL} alt={props.alt}/>
-            }
+	if (extension === "svg" || extension === "gif") {
+		return <img src={image.node.publicURL} alt={props.alt} />;
+	}
 
+	const imageData = getImage(image.node.childImageSharp);
 
-            //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
-            return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
-        }}
-    />
-);
+	return <GatsbyImage image={imageData} alt={props.alt} />;
+};
 
 export default Image;

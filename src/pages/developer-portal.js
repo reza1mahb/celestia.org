@@ -15,17 +15,12 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Faq from "../components/modules/faq";
 
 import { seoContent } from "../datas/developer-portal/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const DevPortal = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<SEO
-				title={seoContent.title}
-				description={seoContent.description}
-                ogTitle={seoContent.ogTitle}
-				image={seoContent.image}
-			/>
+			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 			<div className={"developer-portal"}>
 				<main>
 					<section className='hero'>
@@ -34,8 +29,24 @@ const DevPortal = () => {
 							<div className={"row"}>
 								<div className={"col-auto"}>
 									<div className={"text"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
-									<AnchorLink to={`/developer-portal#${heroData.buttons[0].url}`} className={'plausible-event-name=Build_Modular_Button--Developer_Portal_Page-Hero_section button button-'+heroData.buttons[0].class} stripHash>{heroData.buttons[0].text}</AnchorLink>
-									<a href={`${heroData.buttons[1].url}`} className={'button button-'+heroData.buttons[1].class} target={"_blank"} rel={"noreferrer"}>{heroData.buttons[1].text}</a>
+									<AnchorLink
+										to={`/developer-portal#${heroData.buttons[0].url}`}
+										className={
+											"plausible-event-name=Build_Modular_Button--Developer_Portal_Page-Hero_section button button-" +
+											heroData.buttons[0].class
+										}
+										stripHash
+									>
+										{heroData.buttons[0].text}
+									</AnchorLink>
+									<a
+										href={`${heroData.buttons[1].url}`}
+										className={"button button-" + heroData.buttons[1].class}
+										target={"_blank"}
+										rel={"noreferrer"}
+									>
+										{heroData.buttons[1].text}
+									</a>
 								</div>
 							</div>
 						</div>
@@ -72,7 +83,11 @@ const DevPortal = () => {
 											key={item.id}
 											content={item}
 											variant={"vertical"}
-											btnClass={'plausible-event-name=Framework_Click_'+item.title.replace(/\s/g, '+')+'--Developer_Portal_Page-Framework_section'}
+											btnClass={
+												"plausible-event-name=Framework_Click_" +
+												item.title.replace(/\s/g, "+") +
+												"--Developer_Portal_Page-Framework_section"
+											}
 										/>
 									);
 								})}
@@ -97,7 +112,7 @@ const DevPortal = () => {
 													key={item.id}
 													content={item}
 													variant={"horizontal"}
-													btnClass={'plausible-event-name=Node_API--Developer_Portal_Page-Connect_section'}
+													btnClass={"plausible-event-name=Node_API--Developer_Portal_Page-Connect_section"}
 												/>
 											);
 										})}

@@ -10,7 +10,7 @@ import Layout from "../components/layout";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import { seoContent } from "../datas/what-is-tia/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import Image from "../components/imageComponent";
 
 import image1 from "../images/what-is-tia/what-is-tia-custody-1.png";
@@ -18,7 +18,7 @@ import image1 from "../images/what-is-tia/what-is-tia-custody-1.png";
 const WhatIsTIA = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<SEO title={seoContent.title} description={seoContent.description} image={seoContent.image} />
+			<Seo title={seoContent.title} description={seoContent.description} image={seoContent.image} />
 			<div className={"what-is-tia"}>
 				<main>
 					<section className='hero'>
@@ -58,14 +58,14 @@ const WhatIsTIA = () => {
 										</div>
 										<h3 className='role-card-title'>{role.items[0].title}</h3>
 										<p className='role-card-text'>{role.items[0].text}</p>
-										{role.items[0].links && role.items[0].links.map(function (item) {
+										{role.items[0].links &&
+											role.items[0].links.map(function (item) {
 												return (
 													<div className='link-wrapper'>
 														<Button type={item.type} class={"external"} text={item.text} url={item.url} />
 													</div>
 												);
-											}
-										)}
+											})}
 									</div>
 
 									<div className='role-card'>
@@ -74,14 +74,14 @@ const WhatIsTIA = () => {
 										</div>
 										<h3 className='role-card-title'>{role.items[1].title}</h3>
 										<p className='role-card-text'>{role.items[1].text}</p>
-										{role.items[1].links && role.items[1].links.map(function (item) {
+										{role.items[1].links &&
+											role.items[1].links.map(function (item) {
 												return (
 													<div className='link-wrapper'>
 														<Button type={item.type} class={"external"} text={item.text} url={item.url} />
 													</div>
 												);
-											}
-										)}
+											})}
 									</div>
 
 									<div className='role-card'>
@@ -90,14 +90,14 @@ const WhatIsTIA = () => {
 										</div>
 										<h3 className='role-card-title'>{role.items[2].title}</h3>
 										<p className='role-card-text'>{role.items[2].text}</p>
-										{role.items[2].links && role.items[2].links.map(function (item) {
+										{role.items[2].links &&
+											role.items[2].links.map(function (item) {
 												return (
 													<div className='link-wrapper'>
 														<Button type={item.type} class={"external"} text={item.text} url={item.url} />
 													</div>
 												);
-											}
-										)}
+											})}
 									</div>
 								</div>
 							</div>

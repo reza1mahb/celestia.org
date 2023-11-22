@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "../imageComponent";
-import { Link } from "gatsby";
 import Button from "../buttons/button";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-export default function IconCard({ imageClass, content, variant, iconPosition = "top", className, btnClass = '' }) {
+export default function IconCard({ imageClass, content, variant, iconPosition = "top", className, btnClass = "" }) {
 	if (content.type === "internal") {
 		return (
 			<div className={className}>
@@ -18,7 +17,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<Button type={"internal"} class={"external "+btnClass} text={content.link.text} url={content.link.url} />
+							<Button type={"internal"} class={"external " + btnClass} text={content.link.text} url={content.link.url} />
 						</div>
 					</div>
 				</div>
@@ -37,7 +36,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<Button type={"external"} class={"external "+btnClass} text={content.link.text} url={content.link.url} />
+							<Button type={"external"} class={"external " + btnClass} text={content.link.text} url={content.link.url} />
 						</div>
 					</div>
 				</div>
@@ -56,7 +55,11 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							<AnchorLink className='link' to={`/developer-portal#${content.anchorToId ? content.anchorToId : content.title.replace(/\s+/g, "-").toLowerCase()}`}>
+							<AnchorLink
+								className='link'
+								to={`/developer-portal#${content.anchorToId ? content.anchorToId : content.title.replace(/\s+/g, "-").toLowerCase()}`}
+								stripHash
+							>
 								{content.link.text}
 								<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none'>
 									<path stroke='#7B2BF9' stroke-linecap='square' stroke-width='1.5' d='M6.89106 1.34961L6.89106 11.9052' />

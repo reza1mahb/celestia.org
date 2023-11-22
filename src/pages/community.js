@@ -11,17 +11,12 @@ import Button from "../components/buttons/button";
 import Image from "../components/imageComponent";
 
 import { seoContent } from "../datas/community/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const Community = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<SEO
-				title={seoContent.title}
-				description={seoContent.description}
-                ogTitle={seoContent.ogTitle}
-				image={seoContent.image}
-			/>
+			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 			<div className={"community-page"}>
 				<main>
 					<section className='hero'>

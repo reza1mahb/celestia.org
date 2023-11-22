@@ -6,13 +6,12 @@ import { useState } from "react";
 import Ecosystem from "../components/ecosystem";
 
 import { seoContent } from "../datas/ecosystem/seoContent";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const EcosystemPage = () => {
 	const [selectedCategory, setSelectedCategory] = useState("all");
 	const [search, setSearch] = useState(false);
 	const [open, setOpen] = useState(false);
-	const [orderedEcosystems, setOrderedEcosystems] = useState([]);
 	var ecosystems = [];
 
 	function searchApp(e) {
@@ -26,8 +25,8 @@ const EcosystemPage = () => {
 		setSelectedCategory(category);
 	}
 
-	ecosystemCategories.map(function (category, index) {
-		category.ecosystems.map(function (ecosystem) {
+	ecosystemCategories.forEach(function (category) {
+		category.ecosystems.forEach(function (ecosystem) {
 			ecosystems.push({ details: ecosystem, category: category });
 		});
 	});
@@ -44,12 +43,7 @@ const EcosystemPage = () => {
 
 	return (
 		<Layout footerBoxes={FooterBoxes}>
-			<SEO
-				title={seoContent.title}
-				description={seoContent.description}
-                ogTitle={seoContent.ogTitle}
-				image={seoContent.image}
-			/>
+			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
 			<div className={"ecosystem-page"}>
 				<main>
 					<div className={"hero container"}>
@@ -72,64 +66,81 @@ const EcosystemPage = () => {
 								<div className={"category-selector"}>
 									<div className={`category-selector-box ${open ? "opened" : ""}`}>
 										<ul>
-											<li
-												onClick={() => openCategorySelector("all")}
-												className={`${selectedCategory === "all" ? "selected" : ""}`}
-											>
-												All
-												{selectedCategory === "all" && (
-													<svg id={"mobile-category"} viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg'>
-														<g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
-															<g transform='translate(-485.000000, -1044.000000)'>
-																<g transform='translate(227.000000, 410.000000)'>
-																	<g transform='translate(269.000000, 645.000000) rotate(-90.000000) translate(-269.000000, -645.000000) translate(258.000000, 634.000000)'>
-																		<rect fill='#EDEDED' x='0' y='0' width='22' height='22' rx='4' />
-																		<polyline
-																			stroke='#000000'
-																			strokeWidth='1.5'
-																			strokeLinecap='round'
-																			transform='translate(10.694444, 11.152778) rotate(-270.000000) translate(-10.694444, -11.152778) '
-																			points='7.94444444 9.77777778 10.6944444 12.5277778 13.4444444 9.77777778'
-																		/>
-																	</g>
-																</g>
-															</g>
-														</g>
-													</svg>
-												)}
-											</li>
-											{ecosystemCategories.map(function (category, index) {
-												return (
-													<li
-														onClick={() => openCategorySelector(category.id)}
-														className={`${selectedCategory === category.id ? "selected" : ""}`}
-													>
-														{category.name}
-														{selectedCategory === category.id && (
-															<svg
-																id={"mobile-category"}
-																viewBox='0 0 22 22'
-																version='1.1'
-																xmlns='http://www.w3.org/2000/svg'
-															>
-																<g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
-																	<g transform='translate(-485.000000, -1044.000000)'>
-																		<g transform='translate(227.000000, 410.000000)'>
-																			<g transform='translate(269.000000, 645.000000) rotate(-90.000000) translate(-269.000000, -645.000000) translate(258.000000, 634.000000)'>
-																				<rect fill='#EDEDED' x='0' y='0' width='22' height='22' rx='4' />
-																				<polyline
-																					stroke='#000000'
-																					strokeWidth='1.5'
-																					strokeLinecap='round'
-																					transform='translate(10.694444, 11.152778) rotate(-270.000000) translate(-10.694444, -11.152778) '
-																					points='7.94444444 9.77777778 10.6944444 12.5277778 13.4444444 9.77777778'
-																				/>
-																			</g>
+											<li className={`${selectedCategory === "all" ? "selected" : ""}`}>
+												<div
+													onClick={() => openCategorySelector("all")}
+													onKeyDown={(e) => {
+														if (e.key === "Enter") openCategorySelector("all");
+													}}
+													tabIndex={0}
+													role='button'
+												>
+													All
+													{selectedCategory === "all" && (
+														<svg
+															id={"mobile-category"}
+															viewBox='0 0 22 22'
+															version='1.1'
+															xmlns='http://www.w3.org/2000/svg'
+														>
+															<g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
+																<g transform='translate(-485.000000, -1044.000000)'>
+																	<g transform='translate(227.000000, 410.000000)'>
+																		<g transform='translate(269.000000, 645.000000) rotate(-90.000000) translate(-269.000000, -645.000000) translate(258.000000, 634.000000)'>
+																			<rect fill='#EDEDED' x='0' y='0' width='22' height='22' rx='4' />
+																			<polyline
+																				stroke='#000000'
+																				strokeWidth='1.5'
+																				strokeLinecap='round'
+																				transform='translate(10.694444, 11.152778) rotate(-270.000000) translate(-10.694444, -11.152778) '
+																				points='7.94444444 9.77777778 10.6944444 12.5277778 13.4444444 9.77777778'
+																			/>
 																		</g>
 																	</g>
 																</g>
-															</svg>
-														)}
+															</g>
+														</svg>
+													)}
+												</div>
+											</li>
+											{ecosystemCategories.map(function (category, index) {
+												return (
+													<li className={`${selectedCategory === category.id ? "selected" : ""}`}>
+														<div
+															onClick={() => openCategorySelector(category.id)}
+															onKeyDown={(e) => {
+																if (e.key === "Enter") openCategorySelector(category.id);
+															}}
+															tabIndex={0}
+															role='button'
+														>
+															{category.name}
+															{selectedCategory === category.id && (
+																<svg
+																	id={"mobile-category"}
+																	viewBox='0 0 22 22'
+																	version='1.1'
+																	xmlns='http://www.w3.org/2000/svg'
+																>
+																	<g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
+																		<g transform='translate(-485.000000, -1044.000000)'>
+																			<g transform='translate(227.000000, 410.000000)'>
+																				<g transform='translate(269.000000, 645.000000) rotate(-90.000000) translate(-269.000000, -645.000000) translate(258.000000, 634.000000)'>
+																					<rect fill='#EDEDED' x='0' y='0' width='22' height='22' rx='4' />
+																					<polyline
+																						stroke='#000000'
+																						strokeWidth='1.5'
+																						strokeLinecap='round'
+																						transform='translate(10.694444, 11.152778) rotate(-270.000000) translate(-10.694444, -11.152778) '
+																						points='7.94444444 9.77777778 10.6944444 12.5277778 13.4444444 9.77777778'
+																					/>
+																				</g>
+																			</g>
+																		</g>
+																	</g>
+																</svg>
+															)}
+														</div>
 													</li>
 												);
 											})}

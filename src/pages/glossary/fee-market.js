@@ -1,58 +1,55 @@
-import * as React from "react"
+import * as React from "react";
 
-import {FooterBoxes} from "../../datas/team/content";
+import { FooterBoxes } from "../../datas/team/content";
 import Layout from "../../components/layout";
 import BreadCrumb from "../../components/breadcrumb";
 import SocialShare from "../../components/socialShare";
 import GlossaryNav from "../../components/glossary-nav";
 
 import { seoContent } from "../../datas/glossary/seoContent";
-import SEO from "../../components/seo";
+import Seo from "../../components/seo";
 
-const title = 'Fee market';
+const title = "Fee market";
 
 class GlossaryContent extends React.Component {
-    render() {
-        return (
-            <div className={'glossary-content'}>
-                <p>A type of market that blockchains implement to prevent malicious actors from spamming the network. Fee markets typically utilize an auction mechanism, where users can specify their transaction fee and bid to have their transaction included in the next block. Fee markets are most noticeable for blockchains that experience high fees where demand exceeds capacity, and users are forced to increasingly bid up their transaction fees to be included in a block.
-                </p>
-
-            </div>
-        )
-    }
+	render() {
+		return (
+			<div className={"glossary-content"}>
+				<p>
+					A type of market that blockchains implement to prevent malicious actors from spamming the network. Fee markets typically utilize
+					an auction mechanism, where users can specify their transaction fee and bid to have their transaction included in the next block.
+					Fee markets are most noticeable for blockchains that experience high fees where demand exceeds capacity, and users are forced to
+					increasingly bid up their transaction fees to be included in a block.
+				</p>
+			</div>
+		);
+	}
 }
 
 class GlossarySubpage extends React.Component {
-    render() {
-        return (
-            <Layout footerBoxes={FooterBoxes}>
-                <SEO
-                    title={'Celestia - '+title}
-                    description={seoContent.description}
-                    ogTitle={'Celestia - '+title}
-                    image={seoContent.image}
-                />
-                <div className={'glossary-subpage'}>
-                    <main>
-                        <div className={'container'}>
-                            <BreadCrumb title={title}/>
-                            <h1 className={'main mb-4'}>{title}</h1>
+	render() {
+		return (
+			<Layout footerBoxes={FooterBoxes}>
+				<Seo title={"Celestia - " + title} description={seoContent.description} ogTitle={"Celestia - " + title} image={seoContent.image} />
+				<div className={"glossary-subpage"}>
+					<main>
+						<div className={"container"}>
+							<BreadCrumb title={title} />
+							<h1 className={"main mb-4"}>{title}</h1>
 
-                            <SocialShare title={title} url={this.props.location.href}/>
+							<SocialShare title={title} url={this.props.location.href} />
 
-                            <GlossaryContent/>
+							<GlossaryContent />
+						</div>
 
-                        </div>
-
-                        <div className={'container wide'}>
-                            <GlossaryNav url={this.props.location.state && this.props.location.state.url}/>
-                        </div>
-                    </main>
-                </div>
-            </Layout>
-        )
-    }
+						<div className={"container wide"}>
+							<GlossaryNav url={this.props.location.state && this.props.location.state.url} />
+						</div>
+					</main>
+				</div>
+			</Layout>
+		);
+	}
 }
 
-export default GlossarySubpage
+export default GlossarySubpage;

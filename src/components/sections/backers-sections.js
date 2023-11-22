@@ -37,10 +37,10 @@ const responsive = {
 const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
 	return (
 		<div className='carousel-button-group'>
-			<button className={"button button button-left"} onClick={() => previous()}>
+			<button className={"button button button-left"} onClick={() => previous()} aria-label='Previous'>
 				<i className={"icon-carousel-left"} />
 			</button>
-			<button className={"button button button-right"} onClick={() => next()}>
+			<button className={"button button button-right"} onClick={() => next()} aria-label='Next'>
 				<i className={"icon-carousel-right"} />
 			</button>
 		</div>
@@ -62,7 +62,7 @@ export default class BackersSection extends React.Component {
 			let responseJson = await response.json();
 
 			const blogPosts = [];
-			for (const [key, value] of Object.entries(responseJson.posts)) {
+			for (const value of Object.values(responseJson.posts)) {
 				blogPosts.push({ category: "blog", title: value.title, text: value.text, image: value.feature_image, url: value.url });
 			}
 			this.setState({ posts: blogPosts });
@@ -138,6 +138,7 @@ export default class BackersSection extends React.Component {
 												}
 											}
 										}
+										return null; // Added return null to satisfy array-callback-return warning
 									})}
 								{self.props.backers &&
 									self.props.backers.map(function (backer, index) {
@@ -160,6 +161,7 @@ export default class BackersSection extends React.Component {
 												}
 											}
 										}
+										return null; // Added return null to satisfy array-callback-return warning
 									})}
 							</Carousel>
 						</div>
