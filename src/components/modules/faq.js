@@ -21,7 +21,14 @@ const Faq = (props) => {
 				></div>
 			</div>
 			<div className={"col-auto"}>
-				<button className={"dropdown"} onClick={toggleClass} tabIndex={0} onKeyDown={toggleClass} aria-label='Dropdown Button' />
+				<div
+					role='button'
+					className={"dropdown"}
+					onClick={toggleClass}
+					onKeyDown={toggleClass}
+					aria-label='Dropdown Button'
+					tabIndex={0}
+				/>
 			</div>
 		</div>
 	);
