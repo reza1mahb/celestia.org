@@ -8,7 +8,9 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { seoContent } from "../datas/what-is-celestia/seoContent";
 import Seo from "../components/seo";
 
+import celestia_tell_me_about_celestia from "../images/what-is-celestia/celestia-tell-me-about-celestia.png";
 import celestia_what_are_rollups from "../images/what-is-celestia/celestia-what-are-rollups.png";
+import data_availability_sampling from "../images/what-is-celestia/celestia-data-availability-sampling.png";
 import celestia_data_availability from "../images/what-is-celestia/celestia-data-availability.png";
 import celestia_what_is_modular from "../images/what-is-celestia/celestia-what-is-modular.png";
 import celestia_modularizm from "../images/what-is-celestia/celestia-modularizm.png";
@@ -93,7 +95,100 @@ const WhatIsCelestia = () => {
 								</div>
 							</div>
 							<div className='col-lg-9 ps-lg-4 p-xl-5'>
-								<section className={"what-is-a-modular-blockchain"} id={`${tableOfContent[0].id.replace(/\s+/g, "-").toLowerCase()}`}>
+								<section className={"tell-me-about-celestia"} id={`${tableOfContent[0].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<div className={"row justify-content-between align-items-center"}>
+										<div className={"col-12 col-lg-6 mb-2 mb-lg-0"}>
+											<h2 className='title'>Tell me about Celestia</h2>
+											<p>
+												Celestia is a modular data availability (DA) network that securely scales with the number of users,
+												making it easy for anyone to launch their own blockchain. Let’s break it down.
+											</p>
+											<p>
+												Rollups and L2s use Celestia as a network for publishing and making transaction data available for
+												anyone to download. For them, Celestia provides high-throughput DA that can be verified easily with a
+												light node.
+											</p>
+											<p>
+												And by making the blockchain stack modular, anyone can launch their own blockchain without needing a
+												validator set.
+											</p>
+										</div>
+										<div className={"order-lg-1 image-box--different col-12 col-lg-6"}>
+											<div className='image-wrapper'>
+												<img className='img' style={{ width: `100%` }} src={celestia_tell_me_about_celestia} alt={""} />
+											</div>
+										</div>
+									</div>
+								</section>
+
+								<section className={"what-is-data-availability"} id={`${tableOfContent[1].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<div className={"row justify-content-between align-items-center"}>
+										<div className={"image-box--analogy order-2 order-lg-1 col-12 col-lg-6"}>
+											<div className='image-wrapper'>
+												<img className='img' style={{ width: `100%` }} src={celestia_data_availability} alt={""} />
+											</div>
+										</div>
+										<div className={"col-12 order-1 order-lg-2 col-lg-6 mb-3 mb-lg-0"}>
+											<h2 className='title'>What is data availability and why does it matter?</h2>
+											<p>
+												Data availability answers the question, has the data for this blockchain been published? It is
+												critical to the security of any blockchain because it ensures that anyone can inspect the ledger of
+												transactions and verify it.
+											</p>
+											<p>Users of a monolithic blockchain usually download all the data to check that it is available.</p>
+											<p>
+												As blocks get bigger, it becomes impractical for normal users to download all the data meaning that
+												they can’t verify the chain. Modular chains solve this problem by making it possible for users to
+												verify very large blocks using a technology called data availability sampling.
+											</p>
+										</div>
+									</div>
+								</section>
+
+								<section className={"data-availability-sampling"} id={`${tableOfContent[2].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<h2 className='title'>So what is data availability sampling?</h2>
+									<div className={"image-box--different"}>
+										<div className='image-wrapper'>
+											<img className='img' style={{ width: `100%` }} src={data_availability_sampling} alt={""} />
+										</div>
+									</div>
+									<p>
+										Data availability sampling (DAS) is the new primitive that enables Celestia light nodes to verify DA
+										efficiently. Instead of downloading all data, light nodes only download a tiny portion of each block - just
+										two percent.
+									</p>
+									<p>
+										Importantly, DAS allows Celestia to scale with the number of users (light nodes). So, as the light node
+										network grows over time, Celestia can scale to the data throughput needed for millions of rollups without
+										compromising on security for end users.
+									</p>
+								</section>
+
+								<section className={"what-are-rollups"} id={`${tableOfContent[3].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<div className={"row justify-content-between align-items-center"}>
+										<div className={"order-2 order-lg-1 col-12 col-lg-6"}>
+											<h2 className='title'>What are rollups and how do they work with Celestia?</h2>
+											<p>
+												Rollups are a relatively new type of blockchain. What makes them different is that they offload some
+												of their work to a layer 1 like Celestia. The simple version is that rollups publish their transaction
+												data to Celestia, which gets ordered and made available for rollup users to download. As a bonus,
+												rollups receive some of Celestia’s security.
+											</p>
+											<p>
+												But rollups on Celestia aren’t quite the same as others. They are convenient to launch like layer 2s
+												with the added sovereignty that layer 1s enjoy. We like to call these blockchains sovereign rollups.
+											</p>
+										</div>
+
+										<div className={"order-1 order-lg-2 image-box--different col-12 col-lg-6 mb-4 mb-lg-0"}>
+											<div className='image-wrapper'>
+												<img className='img' style={{ width: `100%` }} src={celestia_what_are_rollups} alt={""} />
+											</div>
+										</div>
+									</div>
+								</section>
+
+								<section className={"what-is-a-modular-blockchain"} id={`${tableOfContent[4].id.replace(/\s+/g, "-").toLowerCase()}`}>
 									<h2 className='title'>And what is a modular blockchain?</h2>
 									<div className={"image-box--different"}>
 										<div className='image-wrapper'>
@@ -108,59 +203,12 @@ const WhatIsCelestia = () => {
 									</p>
 								</section>
 
-								<section className={"what-is-data-availability"} id={`${tableOfContent[1].id.replace(/\s+/g, "-").toLowerCase()}`}>
-									<div className={"row justify-content-between align-items-center"}>
-										<div className={"col-12 col-lg-6"}>
-											<h2 className='title'>What is data availability and why does it matter?</h2>
-											<p>
-												Data availability answers the question, has the data for this blockchain been published? It is
-												critical to the security of any blockchain because it ensures that anyone can inspect the ledger of
-												transactions and verify it.
-											</p>
-											<p>Users of a monolithic blockchain usually download all the data to check that it is available.</p>
-											<p>
-												As blocks get bigger, it becomes impractical for normal users to download all the data meaning that
-												they can’t verify the chain. Modular chains solve this problem by making it possible for users to
-												verify very large blocks using a technology called data availability sampling.
-											</p>
-										</div>
-										<div className={"image-box--analogy col-12 col-lg-6"}>
-											<div className='image-wrapper'>
-												<img className='img' style={{ width: `100%` }} src={celestia_data_availability} alt={""} />
-											</div>
-										</div>
-									</div>
-								</section>
-
-								<section className={"what-are-rollups"} id={`${tableOfContent[2].id.replace(/\s+/g, "-").toLowerCase()}`}>
-									<div className={"row justify-content-between align-items-center"}>
-										<div className={"order-2 order-lg-1 image-box--different col-12 col-lg-6"}>
-											<div className='image-wrapper'>
-												<img className='img' style={{ width: `100%` }} src={celestia_what_are_rollups} alt={""} />
-											</div>
-										</div>
-										<div className={"order-1 order-lg-2 col-12 col-lg-6"}>
-											<h2 className='title'>What are rollups and how do they work with Celestia?</h2>
-											<p>
-												Rollups are a relatively new type of blockchain. What makes them different is that they offload some
-												of their work to a layer 1 like Celestia. The simple version is that rollups publish their transaction
-												data to Celestia, which gets ordered and made available for rollup users to download. As a bonus,
-												rollups receive some of Celestia’s security.
-											</p>
-											<p>
-												But rollups on Celestia aren’t quite the same as others. They are convenient to launch like layer 2s
-												with the added sovereignty that layer 1s enjoy. We like to call these blockchains sovereign rollups.
-											</p>
-										</div>
-									</div>
-								</section>
-
 								<section
 									className={"whats-it-like-to-build-on-Celestia"}
-									id={`${tableOfContent[3].id.replace(/\s+/g, "-").toLowerCase()}`}
+									id={`${tableOfContent[5].id.replace(/\s+/g, "-").toLowerCase()}`}
 								>
 									<div className={"row mb-3 mb-md-5 justify-content-center"}>
-										<h2 className='title'>What’s it like to build on Celestia?</h2>
+										<h2 className='title'>Why Celestia?</h2>
 									</div>
 									<div className='row'>
 										<div className='col-z-index order-2 order-md-1 col-sm-12 col-md-5 col-lg-6 col-xl-5'>
@@ -182,7 +230,9 @@ const WhatIsCelestia = () => {
 												<div className={"col-12"}>
 													<div className={"why-use-card"}>
 														<h3 className={"why-use-title"}>Access dynamic throughput</h3>
-														<p className={"why-use-text"}>Support more users as your application grows.</p>
+														<p className={"why-use-text"}>
+															Lower costs and support more users and your application grows.
+														</p>
 													</div>
 												</div>
 											</div>
@@ -225,7 +275,7 @@ const WhatIsCelestia = () => {
 								</section>
 
 								<section className='celestia-community'>
-									<div className={"modularism-not-maximalism"} id={`${tableOfContent[4].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<div className={"modularism-not-maximalism"} id={`${tableOfContent[6].id.replace(/\s+/g, "-").toLowerCase()}`}>
 										<h2 className='section-title'>What the Celestia community stands for</h2>
 										<div className={"row justify-content-between align-items-center"}>
 											<div className={"col-12 col-lg-6"}>
@@ -250,14 +300,14 @@ const WhatIsCelestia = () => {
 										</div>
 									</div>
 
-									<div className={"layer-0-social-consensus"} id={`${tableOfContent[5].id.replace(/\s+/g, "-").toLowerCase()}`}>
+									<div className={"layer-0-social-consensus"} id={`${tableOfContent[7].id.replace(/\s+/g, "-").toLowerCase()}`}>
 										<div className={"row justify-content-between align-items-center"}>
 											<div className={"order-2 order-lg-1 image-box--rollups col-12 col-lg-6"}>
 												<div className='image-wrapper'>
 													<img className='img' style={{ width: `100%` }} src={celestia_connections} alt={""} />
 												</div>
 											</div>
-											<div className={"order-1 order-lg-2 col-12 col-lg-6"}>
+											<div className={"order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0"}>
 												<h3 className='title'>Layer 0 is social consensus</h3>
 												<p>
 													To us, the most important layer in blockchains is social consensus. Blockchains are a tool to
@@ -269,6 +319,7 @@ const WhatIsCelestia = () => {
 										</div>
 									</div>
 								</section>
+								<section className={"start-using-celestia"} id={`${tableOfContent[8].id.replace(/\s+/g, "-").toLowerCase()}`} />
 							</div>
 						</div>
 					</div>

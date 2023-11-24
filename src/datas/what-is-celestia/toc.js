@@ -1,8 +1,8 @@
 export const tableOfContent = [
 	{
 		depth: 1,
-		id: "what-is-a-modular-blockchain",
-		value: "What is a modular blockchain?",
+		id: "tell-me-about-celestia",
+		value: "Tell me about Celestia",
 	},
 	{
 		depth: 1,
@@ -11,13 +11,23 @@ export const tableOfContent = [
 	},
 	{
 		depth: 1,
+		id: "what-is-data-availability-sampling",
+		value: "What is data availability sampling?",
+	},
+	{
+		depth: 1,
 		id: "what-are-rollups",
 		value: "What are rollups?",
 	},
 	{
 		depth: 1,
-		id: "whats-it-like-to-build-on-Celestia",
-		value: "What's it like to build on Celestia?",
+		id: "what-i-a-modular-blockchain",
+		value: "What is a modular blockchain?",
+	},
+	{
+		depth: 1,
+		id: "why-celestia",
+		value: "Why Celestia?",
 	},
 	{
 		depth: 1,
