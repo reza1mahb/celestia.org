@@ -101,7 +101,7 @@ const WhatIsCelestia = () => {
 											<h2 className='title'>Tell me about Celestia</h2>
 											<p>
 												Celestia is a modular data availability (DA) network that securely scales with the number of users,
-												making it easy for anyone to launch their own blockchain. Let’s break it down.
+												making it easy for anyone to launch their own blockchain.
 											</p>
 											<p>
 												Rollups and L2s use Celestia as a network for publishing and making transaction data available for
@@ -146,7 +146,7 @@ const WhatIsCelestia = () => {
 								</section>
 
 								<section className={"data-availability-sampling"} id={`${tableOfContent[2].id.replace(/\s+/g, "-").toLowerCase()}`}>
-									<h2 className='title'>So what is data availability sampling?</h2>
+									<h2 className='title'>Now what's data availability sampling?</h2>
 									<div className={"image-box--different"}>
 										<div className='image-wrapper'>
 											<img className='img' style={{ width: `100%` }} src={data_availability_sampling} alt={""} />
@@ -154,8 +154,7 @@ const WhatIsCelestia = () => {
 									</div>
 									<p>
 										Data availability sampling (DAS) is the new primitive that enables Celestia light nodes to verify DA
-										efficiently. Instead of downloading all data, light nodes only download a tiny portion of each block - just
-										two percent.
+										efficiently. Instead of downloading all data, light nodes only download a tiny portion of each block.
 									</p>
 									<p>
 										Importantly, DAS allows Celestia to scale with the number of users (light nodes). So, as the light node
