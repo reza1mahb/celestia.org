@@ -108,7 +108,7 @@ const Header = () => {
 
 	return (
 		<>
-			<header id={"header"} className={isBlur ? "blur" : ""}>
+			<header id={"header"} className={`${isBlur ? "blur" : ""} ${isMenuOpen ? "menu-opened" : ""}`}>
 				<div className={"blurry"} />
 				<div className={"container"}>
 					<button
