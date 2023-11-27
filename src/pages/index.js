@@ -42,7 +42,7 @@ const IndexPage = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
-			<div className='index-page'>
+			<div id='index-page' className='index-page'>
 				<main>
 					<HeroSection heroData={heroData} />
 					<div className='advantages-section'>
