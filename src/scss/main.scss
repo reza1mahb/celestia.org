@@ -46,6 +46,7 @@
 
 @import "sections/image-with-text.scss";
 @import "sections/two-column-section.scss";
+@import "sections/two-column-h2-section.scss";
 @import "sections/podcast-section.scss";
 @import "sections/whitepapers-section.scss";
 @import "sections/advantages-section.scss";
@@ -53,6 +54,7 @@
 @import "sections/purple-section.scss";
 @import "sections/image-section.scss";
 @import "sections/hero-section.scss";
+@import "sections/home-hero-section.scss";
 @import "sections/videos-section.scss";
 @import "sections/backers-section.scss";
 @import "sections/roadmap-section.scss";
@@ -206,7 +208,7 @@ h2,
 	letter-spacing: 0.2px;
 	position: relative;
 
-	&.with-decor {
+	/*&.with-decor {
 		&:before {
 			position: absolute;
 			left: -6px;
@@ -216,14 +218,14 @@ h2,
 			height: 118px;
 			background: url(../images/h2-decor.svg) no-repeat scroll center left transparent;
 		}
-	}
+	}*/
 
 	@include media-breakpoint-down(lg) {
 		font-size: 66px;
 		line-height: 70px;
 		letter-spacing: 0.15px;
 
-		&.with-decor {
+		/*&.with-decor {
 			&:before {
 				width: 88px;
 				height: 104px;
@@ -231,7 +233,7 @@ h2,
 				top: -27px;
 				left: -11px;
 			}
-		}
+		}*/
 	}
 
 	@include media-breakpoint-down(md) {
@@ -239,7 +241,7 @@ h2,
 		line-height: 48px;
 		letter-spacing: 0.125px;
 
-		&.with-decor {
+		/*&.with-decor {
 			&:before {
 				width: 58px;
 				height: 72px;
@@ -247,7 +249,7 @@ h2,
 				top: -20px;
 				left: -12px;
 			}
-		}
+		}*/
 	}
 
 	@include media-breakpoint-down(sm) {
@@ -255,14 +257,14 @@ h2,
 		line-height: 38px;
 		letter-spacing: 0.1px;
 
-		&.with-decor {
+		/*&.with-decor {
 			&:before {
 				width: 50px;
 				height: 59px;
 				top: -17px;
 				left: -10px;
 			}
-		}
+		}*/
 	}
 }
 
@@ -275,7 +277,7 @@ h3 {
 	line-height: 60px;
 	position: relative;
 
-	&.with-decor {
+	/*&.with-decor {
 		&:before {
 			position: absolute;
 			left: -6px;
@@ -286,14 +288,14 @@ h3 {
 			background: url(../images/h2-decor.svg) no-repeat scroll center left transparent;
 			background-size: contain;
 		}
-	}
+	}*/
 
 	@include media-breakpoint-down(md) {
 		font-size: 42px;
 		letter-spacing: 0.12px;
 		line-height: 50px;
 
-		&.with-decor {
+		/*&.with-decor {
 			&:before {
 				left: -10px;
 				top: -18px;
@@ -301,7 +303,7 @@ h3 {
 				width: 50px;
 				height: 66px;
 			}
-		}
+		}*/
 	}
 
 	@include media-breakpoint-down(sm) {
@@ -309,7 +311,7 @@ h3 {
 		letter-spacing: 0.09px;
 		line-height: 40px;
 
-		&.with-decor {
+		/*&.with-decor {
 			&:before {
 				width: 40px;
 				height: 50px;
@@ -317,7 +319,7 @@ h3 {
 				top: -12px;
 				left: -8px;
 			}
-		}
+		}*/
 	}
 }
 

@@ -2,12 +2,12 @@ export const exploreCelestia = [
     {
         title: 'Explore the ecosystem',
         text: "Explore Celestia’s ecosystem of rollups and modular infrastructure",
-        image: 'home/explore-1.png',
+        image: 'home/explore-1.svg',
         link: "/ecosystem/",
     },{
         title: 'Use TIA',
         text: 'Pay for blobspace, secure the network, and participate in governance',
-        image: 'home/explore-2.png',
+        image: 'home/explore-2.svg',
         link: "/what-is-tia/",
     },{
         title: 'Run a light node',

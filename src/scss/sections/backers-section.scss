@@ -8,12 +8,12 @@
 
   h2:not(.black){
     color:#fff;
-    &.with-decor{
+    /*&.with-decor{
       &:before{
         background:url(../images/h2-decor-white.svg) no-repeat scroll center left transparent;
         background-size:contain;
       }
-    }
+    }*/
   }
 
   .container{
