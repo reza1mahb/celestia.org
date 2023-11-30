@@ -12,6 +12,12 @@ export default class TwoColumnH2 extends React.Component {
                     <div className={'text'}>
                         <h2 className={'with-decor mt-4 mt-lg-0'}>{this.props.title}</h2>
                         {this.props.text}
+
+                        <div className={'flex mt-4'}>
+                            <a href={this.props.btnUrl} className={'button button-simple'}>
+                                {this.props.btnTitle}
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

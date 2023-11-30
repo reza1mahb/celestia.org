@@ -6,7 +6,7 @@ export default function Layout({ children, footerBoxes, footerBoxes2 }) {
 	const [loaded, setLoaded] = useState(false);
 
 	useEffect(() => {
-		if (typeof window !== `undefined` && loaded) {
+		if (typeof window !== `undefined` && typeof window.plausible !== `undefined` && loaded) {
 			const elements = document.querySelectorAll("[class*=plausible-event-name]");
 
 			elements.forEach(function (element) {
