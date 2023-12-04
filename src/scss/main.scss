@@ -57,6 +57,7 @@
 @import "sections/backers-section.scss";
 @import "sections/roadmap-section.scss";
 @import "sections/separate-section.scss";
+@import "sections/contact-section.scss";
 
 * {
 	-webkit-font-smoothing: antialiased;
@@ -197,9 +198,9 @@ h1 {
 h2,
 .h2 {
 	font-family: $ruberoid;
-	font-weight: bold;
-	font-size: 70px;
-	line-height: 74px;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 1em;
 	color: #000000;
 	letter-spacing: 0.2px;
 	position: relative;

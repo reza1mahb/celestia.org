@@ -1,6 +1,6 @@
 export const heroData = {
-	title: "Developer Portal",
-	text: "The homepage for Celestia developers. Tutorials. Resources. Community.",
+	title: "Build whatever",
+	text: "Your guide to building whatever on Celestia.",
 	buttons: [
 		{
 			text: "Build Modular",

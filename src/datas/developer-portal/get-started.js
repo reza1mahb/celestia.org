@@ -4,18 +4,18 @@ export const getStarted = {
 	items: [
 		{
 			id: 1,
-			title: "Frameworks",
-			text: "Explore Frameworks to get started building on Celestia.",
+			title: "Build",
+			text: "Pick a rollup framework to begin building.",
 			// image: "developer-portal/tutorial.png",
 			type: "anchor",
 			link: {
-				text:"See",
+				text:"Choose",
 			},
 		},
 		{
 			id: 2,
-			title: "Connect",
-			text: "Integrate your blockchain with Celestia.",
+			title: "Deploy",
+			text: "Deploy a rollup on reliable managed infrastructure.",
 			// image: "developer-portal/integrate.png",
 			type: "anchor",
 			link: {
@@ -24,12 +24,12 @@ export const getStarted = {
 		},
 		{
 			id: 3,
-			title: "Concepts",
-			text: "Foundational concepts, and features of Celestia.",
+			title: "Integrate",
+			text: "Plug Celestia into your existing chain..",
 			// image: "developer-portal/concepts.png",
 			type: "anchor",
 			link: {
-				text:"Learn",
+				text:"Start",
 			},
 		},
 	],
