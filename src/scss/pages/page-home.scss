@@ -1,4 +1,34 @@
 .index-page {
+
+	&:before{
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		content:'';
+		z-index:-1;
+		background: url(../images/BG/homepage-bg.png) no-repeat scroll top center transparent;
+		background-size:1900px;
+
+		@include media-breakpoint-down(xl) {
+			background-size:130%;
+			background-position: center top;
+		}
+		@include media-breakpoint-down(lg) {
+			background-size:150%;
+			background-position: center top;
+		}
+		@include media-breakpoint-down(md) {
+			background-size:250%;
+			background-position: center top;
+		}
+		@include media-breakpoint-down(sm) {
+			background-size:200%;
+			background-position: center top;
+		}
+	}
+
 	main {
 		padding-top: 100px;
 

@@ -1,5 +1,6 @@
 .home-hero-section{
-  padding-bottom:200px;
+  padding-bottom:220px;
+  position: relative;
 
   @include media-breakpoint-down(sm) {
     padding-bottom:100px;
@@ -27,40 +28,6 @@
 
     @include media-breakpoint-down(sm) {
       font-size:46px;
-    }
-
-    &:before{
-      content:'';
-      position:absolute;
-      right:70%;
-      top:-100%;
-      width:1184px;
-      height:937px;
-      z-index: -1;
-      background:url(../images/h1-decor-left.png) no-repeat scroll right top transparent;
-      background-size:contain;
-
-      @include media-breakpoint-down(md) {
-        right:50%;
-        top:-150%;
-      }
-    }
-
-    &:after{
-      content:'';
-      position:absolute;
-      left:80%;
-      top:-280%;
-      width:1215px;
-      height:813px;
-      z-index: -1;
-      background:url(../images/h1-decor-right.png) no-repeat scroll left top transparent;
-      background-size:contain;
-
-      @include media-breakpoint-down(md) {
-        left:60%;
-        top:-350%;
-      }
     }
   }
 
