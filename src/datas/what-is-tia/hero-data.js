@@ -1,6 +1,6 @@
 export const heroData = {
-	title: "What is TIA?",
-	text: "Learn about TIA, the native token of the Celestia blockchain.",
+	title: "What is Tia?",
+	text: "Learn about Tia, the native token of the Celestia blockchain.",
 	buttons: [
 		{
 			text: "Pay for Data",
@@ -9,7 +9,7 @@ export const heroData = {
 			url: "https://docs.celestia.org/developers/submit-data",
 		},
 		{
-			text: "Stake TIA",
+			text: "Stake Tia",
 			class: "white",
 			type: "anchor",
 			url: "staking-and-custody",
