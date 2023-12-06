@@ -15,6 +15,7 @@ import { seoContent } from "../datas/developer-portal/seoContent";
 import Seo from "../components/seo";
 import FrameworkTabs from "../components/framework-tabs";
 import ContactSection from "../components/sections/contact-section";
+import IntegrateSection from "../components/sections/integrate-section";
 
 const DevPortal = () => {
 	return (
@@ -26,18 +27,13 @@ const DevPortal = () => {
 						<div className={"container"}>
 							<div className={"row justify-content-center"}>
 								<div className={"col-auto"}>
-									<h1 className={"mb-3 mb-md-4 text-center"}>{heroData.title}</h1>
-								</div>
-							</div>
-							<div className={"row justify-content-center"}>
-								<div className={'col-auto'}>
-									<div className={"text mt-3 text-center"} dangerouslySetInnerHTML={{ __html: heroData.text }} />
+									<h1 className={"text-center"}>{heroData.title}</h1>
 								</div>
 							</div>
 						</div>
 					</section>
 
-					<section className='get-started'>
+					<section className='get-started pt-3'>
 						<div className={"container"}>
 							{getStarted.description && <div className={"description"}>{getStarted.description}</div>}
 							<div className={"row gx-3 gy-3 pt-4 pb-3"}>
@@ -57,11 +53,11 @@ const DevPortal = () => {
 
 					<FrameworkTabs content={getStarted} categories={frameworks} anchorId={0}/>
 
-					<section className='discover'>
+					<section className='discover pt-5'>
 						<div className={"container"}>
 							<h2 className={"text-center"}>{discover.title}</h2>
 							{discover.description && <div className={"description"}>{discover.description}</div>}
-							<div className={"row gx-3 gy-3 pt-4 pb-3 mt-4"}>
+							<div className={"row gx-3 gy-3 pt-4 mt-4"}>
 								{discover.items.map(function (item) {
 									return (
 										<IconCard
@@ -75,6 +71,9 @@ const DevPortal = () => {
 							</div>
 						</div>
 					</section>
+
+
+					<IntegrateSection/>
 
 					<FrameworkTabs content={getStarted} categories={rollups} anchorId={1}/>
 

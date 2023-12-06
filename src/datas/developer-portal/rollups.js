@@ -1,7 +1,7 @@
 export const rollups = {
-    title: "Deploy end-to-end",
-    subtitle: "Rollups-as-a-Service",
-    description: "Connect with Rollup-as-a-Service teams to deploy a rollup on highly reliable managed infrastructure.",
+    title: "Rollups-as-a-Service",
+    subtitle: "",
+    description: "Deploy end-to-end on managed infrastructure using a Rollup-as-a-Service provider.",
     categories: [
         {
             id:1,

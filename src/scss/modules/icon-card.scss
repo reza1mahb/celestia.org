@@ -53,16 +53,19 @@
 		margin-top: 14px;
 
 		.coming-soon{
-			border: 1px solid #CFCFCF;
-			border-radius:8px;
-			color: #9C9C9C;
 			text-align: center;
 			font-family: $ruberoid;
 			font-size: 14px;
 			font-style: normal;
 			font-weight: 600;
 			line-height: normal;
-			padding:10px;
+			padding:6px 14px;
+			border-radius: 34px;
+			background: linear-gradient(260deg, #802EF4 9.44%, #ED7FFF 41.17%, #802EF4 70.97%);
+			color: #FFF;
+			width:auto;
+			display:inline-block;
+			margin-top:5px;
 		}
 
 		.link {

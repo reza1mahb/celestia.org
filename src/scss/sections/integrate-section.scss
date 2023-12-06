@@ -1,0 +1,39 @@
+.integrate-section{
+  .box{
+    border-radius: 8px;
+    background: #F7F7F7;
+    padding:30px;
+
+    .subtitle{
+      color: #000;
+      font-family: $ruberoid;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 171.429% */
+      text-align:left;
+      margin-bottom:0;
+    }
+
+    .title{
+      color: #000;
+      font-family: $ruberoid;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.2px;
+    }
+
+    .text{
+      color: #000;
+      font-family: $inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      margin-top:10px;
+      margin-bottom:45px;
+    }
+  }
+}

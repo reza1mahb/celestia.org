@@ -39,7 +39,7 @@ const FrameworkTabs = ({content, categories, anchorId}) => {
                     </div>
                 </div>
 
-                {anchorId === 0 && <a href="/" className={'button button-simple mx-auto d-table mt-4'}>Add your framework</a>}
+                {anchorId === 0 && <a href="/" className={'button button-simple mx-auto d-table mt-4'}>Integrate with Celestia</a>}
             </div>
         </section>
     );

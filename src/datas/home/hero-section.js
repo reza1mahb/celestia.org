@@ -12,7 +12,7 @@ export const heroData = {
                 text: 'Explore',
                 class: 'white plausible-event-name=Explore_Button--Homepage-Hero',
                 type: 'anchor',
-                url: '/#explore-celestia/'
+                url: '/#explore-celestia'
             }
         ]
 }
