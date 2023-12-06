@@ -111,9 +111,9 @@ const WhatIsTIA = () => {
 									<div className={"text-box"}>
 										<h2 className='custody-stacking-title'>Wallets</h2>
 										<div className='custody-text-box'>
-											<p>Anyone can download a non-custodial wallet to freely control and use their TIA.</p>
+											<p>Anyone can download a non-custodial wallet to freely control and use their Tia.</p>
 											<p>
-												It’s important to get familiar with basic wallet practices for safely storing and transacting with TIA
+												It’s important to get familiar with basic wallet practices for safely storing and transacting with Tia
 												on Celestia.
 											</p>
 										</div>
