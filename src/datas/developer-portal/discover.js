@@ -10,7 +10,7 @@ export const discover = {
 			type: "external",
 			link: {
 				text:"Explore",
-				url: "https://ethereum.org/en/developers/docs/evm/",
+				url: "https://docs.celestia.org/",
 			},
 		},
 		{
@@ -21,7 +21,7 @@ export const discover = {
 			type: "external",
 			link: {
 				text:"Learn",
-				url: "https://docs.cosmos.network/main/",
+				url: "https://docs.celestia.org/learn/paying-for-blobspace/",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ export const discover = {
 			type: "external",
 			link: {
 				text:"Follow",
-				url: "https://docs.cosmwasm.com/docs/",
+				url: "https://docs.celestia.org/developers/node-tutorial/",
 			},
 		},
 	],
