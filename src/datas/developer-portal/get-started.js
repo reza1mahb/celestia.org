@@ -15,7 +15,7 @@ export const getStarted = {
 		{
 			id: 2,
 			title: "Deploy",
-			text: "Deploy a rollup on reliable managed infrastructure.",
+			text: "Explore Rollup-as-a-Service to deploy quickly.",
 			// image: "developer-portal/integrate.png",
 			type: "anchor",
 			link: {
