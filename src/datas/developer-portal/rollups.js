@@ -170,7 +170,7 @@ export const rollups = {
                         text: "Book demo",
                         url: "https://lumoz.org/",
                     },
-                }
+                },
                 {
                     id: 5,
                     title: "Snapchain",
@@ -181,7 +181,7 @@ export const rollups = {
                         text: "Book demo",
                         url: "https://snapchain.dev/",
                     },
-                }
+                },
                 {
                     id: 6,
                     title: "Zeeve",
