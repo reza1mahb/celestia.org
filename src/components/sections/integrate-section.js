@@ -1,8 +1,8 @@
 import React from 'react';
 
-const IntegrateSection = () => {
+const IntegrateSection = ({content, anchorId}) => {
     return (
-        <section className={'integrate-section pb-0'}>
+        <section className={'integrate-section pb-0'} id={`${content.items[anchorId].title.replace(/\s+/g, "-").toLowerCase()}`}>
             <div className={'container'}>
                 <div className={'row'}>
                     <div className={'row'}>

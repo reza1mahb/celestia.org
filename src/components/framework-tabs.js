@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import IconCard from "./modules/icon-card";
+import {AnchorLink} from "gatsby-plugin-anchor-links";
 
 const FrameworkTabs = ({content, categories, anchorId}) => {
     const [selectedTab,setSelectedTab] = useState('all');
+
     return (
         <section className='frameworks' id={`${content.items[anchorId].title.replace(/\s+/g, "-").toLowerCase()}`}>
             <div className={"container"}>
@@ -39,7 +41,15 @@ const FrameworkTabs = ({content, categories, anchorId}) => {
                     </div>
                 </div>
 
-                {anchorId === 0 && <a href="/" className={'button button-simple mx-auto d-table mt-4'}>Integrate with Celestia</a>}
+                {anchorId === 0 &&
+                    <AnchorLink
+                        className='link'
+                        to={`/developer-portal#${content.items[2].title.replace(/\s+/g, "-").toLowerCase()}`}
+                        stripHash
+                    >
+                        <div className={'button button-simple mx-auto d-table mt-4'}>Integrate with Celestia</div>
+                    </AnchorLink>
+                }
             </div>
         </section>
     );

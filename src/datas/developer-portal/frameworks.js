@@ -1,6 +1,6 @@
 export const frameworks = {
 	title: "Choose a framework",
-	subtitle: "Build",
+	subtitle: "",
 	description: "Get started quickly by using Celestia with leading rollup frameworks.",
 	categories: [
 		{
