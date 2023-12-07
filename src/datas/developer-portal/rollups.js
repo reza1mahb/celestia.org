@@ -9,57 +9,57 @@ export const rollups = {
             items: [
                 {
                     id: 1,
-                    title: "Caldera",
-                    text: "Caldera makes it easy to launch performant, customizable blockchain rollups using the OP Stack.",
+                    title: "AltLayer",
+                    text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
                     image: "developer-portal/caldera.png",
                     type: "external",
                     link: {
                         text: "Book demo",
-                        url: "https://calderaxyz.gitbook.io/caldera-documentation/getting-started/create-a-mainnet-chain/",
+                        url: "https://altlayer.io/raas/",
                     },
                 },
                 {
                     id: 2,
-                    title: "Dymension",
-                    text: "Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.",
-                    image: "developer-portal/dymension.png",
+                    title: "Caldera",
+                    text: "Caldera makes it easy to launch performant, customizable Arbitrum Orbit and OP Stack rollups. No code required.",
+                    image: "developer-portal/caldera.png",
                     type: "external",
                     link: {
-                        text: "Explore Dymension",
-                        url: "https://docs.dymension.xyz/",
+                        text: "Book demo",
+                        url: "https://www.caldera.xyz/",
                     },
                 },
                 {
                     id: 3,
-                    title: "Eclipse",
-                    text: "Ethereum's fastest Layer 2, powered by the SVM.",
+                    title: "Conduit",
+                    text: "Deploy a rollup in a few clicks, no code required. Fully-managed, production grade OP Stack and Arbitrum Orbit rollups on Ethereum.",
                     image: "developer-portal/eclipse.png",
                     type: "external",
                     link: {
-                        text:"Explore Eclipse",
-                        url: "https://docs.eclipse.builders/",
+                        text:"Book demo",
+                        url: "https://conduit.xyz/",
                     },
                 },
                 {
                     id: 4,
-                    title: "OP Stack",
-                    text: "The OP Stack is a modular, open-source blueprint for highly scalable, highly interoperable blockchains of all kinds.",
+                    title: "Gelato",
+                    text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
                     image: "developer-portal/opstack.png",
                     type: "external",
                     link: {
-                        text:"Explore OP Stack",
-                        url: "https://docs.celestia.org/developers/intro-to-op-stack",
+                        text:"Book demo",
+                        url: "https://www.gelato.network/",
                     },
                 },
                 {
                     id: 5,
-                    title: "Rollkit",
-                    text: "Rollkit is a rollup framework that gives developers the freedom to deploy rollups throughout the modular stack.",
+                    title: "Zeeve",
+                    text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
                     image: "developer-portal/rollkit.png",
                     type: "external",
                     link: {
-                        text: "Explore Rollkit",
-                        url: "https://rollkit.dev/",
+                        text: "Book demo",
+                        url: "https://www.zeeve.io/",
                     },
                 }
             ]
@@ -69,24 +69,57 @@ export const rollups = {
             items: [
                 {
                     id: 1,
-                    title: "Caldera",
-                    text: "Caldera makes it easy to launch performant, customizable blockchain rollups using the OP Stack.",
+                    title: "AltLayer",
+                    text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
                     image: "developer-portal/caldera.png",
                     type: "external",
                     link: {
-                        text: "Coming Soon",
-                        url: "https://calderaxyz.gitbook.io/caldera-documentation/getting-started/create-a-mainnet-chain/",
+                        text: "Book demo",
+                        url: "https://altlayer.io/raas/",
                     },
                 },
                 {
-                    id: 6,
-                    title: "Sovereign SDK",
-                    text: "A framework for building seamlessly scalable and interoperable rollups that can run on any blockchain.",
-                    image: "developer-portal/sovereign.png",
+                    id: 2,
+                    title: "Caldera",
+                    text: "Caldera makes it easy to launch performant, customizable Arbitrum Orbit and OP Stack rollups. No code required.",
+                    image: "developer-portal/caldera.png",
                     type: "external",
                     link: {
-                        text: "Explore Sovereign SDK",
-                        url: "https://github.com/Sovereign-Labs/sovereign-sdk/tree/main/examples/demo-rollup/",
+                        text: "Book demo",
+                        url: "https://www.caldera.xyz/",
+                    },
+                },
+                {
+                    id: 3,
+                    title: "Conduit",
+                    text: "Deploy a rollup in a few clicks, no code required. Fully-managed, production grade OP Stack and Arbitrum Orbit rollups on Ethereum.",
+                    image: "developer-portal/eclipse.png",
+                    type: "external",
+                    link: {
+                        text:"Book demo",
+                        url: "https://conduit.xyz/",
+                    },
+                },
+                {
+                    id: 4,
+                    title: "Gelato",
+                    text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
+                    image: "developer-portal/opstack.png",
+                    type: "external",
+                    link: {
+                        text:"Book demo",
+                        url: "https://www.gelato.network/",
+                    },
+                },
+                {
+                    id: 5,
+                    title: "Zeeve",
+                    text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
+                    image: "developer-portal/rollkit.png",
+                    type: "external",
+                    link: {
+                        text: "Book demo",
+                        url: "https://www.zeeve.io/",
                     },
                 }
             ]
@@ -96,24 +129,68 @@ export const rollups = {
             items: [
                 {
                     id: 1,
-                    title: "Caldera",
-                    text: "Caldera makes it easy to launch performant, customizable blockchain rollups using the OP Stack.",
+                    title: "AltLayer",
+                    text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
                     image: "developer-portal/caldera.png",
                     type: "external",
                     link: {
-                        text: "Coming Soon",
-                        url: "https://calderaxyz.gitbook.io/caldera-documentation/getting-started/create-a-mainnet-chain/",
+                        text: "Book demo",
+                        url: "https://altlayer.io/raas/",
                     },
                 },
                 {
-                    id: 6,
-                    title: "Sovereign SDK",
-                    text: "A framework for building seamlessly scalable and interoperable rollups that can run on any blockchain.",
-                    image: "developer-portal/sovereign.png",
+                    id: 2,
+                    title: "Gateway",
+                    text: "Create your own zkEVM with all the infrastructure you need.",
+                    image: "developer-portal/eclipse.png",
                     type: "external",
                     link: {
-                        text: "Explore Sovereign SDK",
-                        url: "https://github.com/Sovereign-Labs/sovereign-sdk/tree/main/examples/demo-rollup/",
+                        text:"Book demo",
+                        url: "https://gateway.fm/",
+                    },
+                },
+                {
+                    id: 3,
+                    title: "Gelato",
+                    text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
+                    image: "developer-portal/opstack.png",
+                    type: "external",
+                    link: {
+                        text:"Book demo",
+                        url: "https://www.gelato.network/",
+                    },
+                },
+                {
+                    id: 4,
+                    title: "Lumoz",
+                    text: "A decentralized ZK-RaaS network featuring ZKP mining.",
+                    image: "developer-portal/rollkit.png",
+                    type: "external",
+                    link: {
+                        text: "Book demo",
+                        url: "https://lumoz.org/",
+                    },
+                }
+                {
+                    id: 5,
+                    title: "Snapchain",
+                    text: "Leverage the power of ZK Rollups to scale your on-chain game or DeFi app cheaply and securely, without compromise.",
+                    image: "developer-portal/rollkit.png",
+                    type: "external",
+                    link: {
+                        text: "Book demo",
+                        url: "https://snapchain.dev/",
+                    },
+                }
+                {
+                    id: 6,
+                    title: "Zeeve",
+                    text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
+                    image: "developer-portal/rollkit.png",
+                    type: "external",
+                    link: {
+                        text: "Book demo",
+                        url: "https://www.zeeve.io/",
                     },
                 }
             ]
