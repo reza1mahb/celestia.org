@@ -12,7 +12,7 @@ const IntegrateSection = () => {
                             <div className={'text'}>
                                 Use Celestia as the DA layer for your Ethereum L2.
                             </div>
-                            <a href={'/'} className={'button button-simple'}>View Blobstream</a>
+                            <a href={'/'} className={'button button-simple'}>Blobstream documentation</a>
                         </div>
                         <div className={'col box ms-md-1'}>
                             <div className={'subtitle'}>Integrate</div>
@@ -20,7 +20,7 @@ const IntegrateSection = () => {
                             <div className={'text'}>
                                 Use the celestia-node API to publish and retrieve transactions from Celestia.
                             </div>
-                            <a href={'/'} className={'button button-simple'}>View Documentatio</a>
+                            <a href={'/'} className={'button button-simple'}>Node API Documentatio</a>
                         </div>
                     </div>
                 </div>
