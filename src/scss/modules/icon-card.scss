@@ -5,7 +5,6 @@
 	width: 100%;
 	height: 100%;
 
-
 	.logo-container {
 		width: 60px;
 		height: 60px;
@@ -32,7 +31,7 @@
 
 		@include media-breakpoint-down(md) {
 			margin-top: 24px;
-			font-size:22px;
+			font-size: 22px;
 		}
 	}
 	.text {
@@ -50,22 +49,21 @@
 		}
 	}
 	.link-wrapper {
-		margin-top: 14px;
+		margin-top: auto;
 
-		.coming-soon{
+		.coming-soon {
 			text-align: center;
 			font-family: $ruberoid;
 			font-size: 14px;
 			font-style: normal;
 			font-weight: 600;
 			line-height: normal;
-			padding:6px 14px;
+			padding: 6px 14px;
 			border-radius: 34px;
-			background: linear-gradient(260deg, #802EF4 9.44%, #ED7FFF 41.17%, #802EF4 70.97%);
-			color: #FFF;
-			width:auto;
-			display:inline-block;
-			margin-top:5px;
+			background: linear-gradient(260deg, #802ef4 9.44%, #ed7fff 41.17%, #802ef4 70.97%);
+			color: #fff;
+			width: auto;
+			display: inline-block;
 		}
 
 		.link {
@@ -86,8 +84,8 @@
 			}
 		}
 
-		.button{
-			margin-top:25px;
+		.button {
+			margin-top: 25px;
 		}
 		svg {
 			margin-left: 8px;
@@ -148,7 +146,9 @@
 		align-items: start;
 
 		& .text-box {
-			display: block;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
 		}
 	}
 

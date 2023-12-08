@@ -93,7 +93,7 @@
 		letter-spacing: 0;
 		line-height: 24px;
 		margin-top: 22px;
-		text-align: center;
+		text-align: left;
 	}
 
 	.hero {
@@ -112,7 +112,7 @@
 			line-height: 26px;
 			max-width: 450px;
 			margin-bottom: 50px;
-	
+
 			@include media-breakpoint-down(md) {
 				font-size: 14px;
 				line-height: 21px;
@@ -211,7 +211,7 @@
 			padding-top: 0px;
 		}
 
-		.image-box--node{
+		.image-box--node {
 			@include media-breakpoint-down(md) {
 				padding: 32px 20px;
 				max-width: 85%;

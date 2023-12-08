@@ -9,11 +9,13 @@ export const rollups = {
 			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
 			text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
 			image: "developer-portal/altlayer.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://altlayer.io/raas/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://altlayer.io/raas/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 2,
@@ -21,11 +23,13 @@ export const rollups = {
 			category: ["All", "Arbitrum ORBIT", "OP Stack"],
 			text: "Caldera makes it easy to launch performant, customizable Arbitrum Orbit and OP Stack rollups. No code required.",
 			image: "developer-portal/caldera.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://www.caldera.xyz/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://www.caldera.xyz/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 3,
@@ -33,11 +37,13 @@ export const rollups = {
 			category: ["All", "Arbitrum ORBIT", "OP Stack"],
 			text: "Deploy a rollup in a few clicks, no code required. Fully-managed, production grade OP Stack and Arbitrum Orbit rollups on Ethereum.",
 			image: "developer-portal/conduit.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://conduit.xyz/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://conduit.xyz/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 4,
@@ -45,11 +51,13 @@ export const rollups = {
 			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
 			text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
 			image: "developer-portal/gelato.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://www.gelato.network/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://www.gelato.network/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 5,
@@ -57,11 +65,13 @@ export const rollups = {
 			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
 			text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
 			image: "developer-portal/zeeve.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://www.zeeve.io/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://www.zeeve.io/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 6,
@@ -69,11 +79,13 @@ export const rollups = {
 			category: ["All", "Polygon CDK"],
 			text: "Create your own zkEVM with all the infrastructure you need.",
 			image: "developer-portal/gateway.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://gateway.fm/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://gateway.fm/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 7,
@@ -81,11 +93,13 @@ export const rollups = {
 			category: ["All", "Polygon CDK"],
 			text: "A decentralized ZK-RaaS network featuring ZKP mining.",
 			image: "developer-portal/lumoz.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://lumoz.org/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://lumoz.org/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 8,
@@ -93,11 +107,13 @@ export const rollups = {
 			category: ["All", "Polygon CDK"],
 			text: "Leverage the power of ZK Rollups to scale your on-chain game or DeFi app cheaply and securely, without compromise.",
 			image: "developer-portal/snapchain.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "https://snapchain.dev/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "https://snapchain.dev/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 8,
@@ -105,11 +121,13 @@ export const rollups = {
 			category: ["All"],
 			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis.",
 			image: "developer-portal/placeholder-img.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 8,
@@ -117,11 +135,13 @@ export const rollups = {
 			category: ["All"],
 			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis.",
 			image: "developer-portal/placeholder-img.png",
-			type: "external",
-			link: {
-				text: "Book demo",
-				url: "/",
-			},
+			links: [
+				{
+					text: "Book demo",
+					url: "/",
+					type: "external",
+				},
+			],
 		},
 	],
 };

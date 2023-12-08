@@ -9,7 +9,6 @@ export const frameworks = {
 			category: ["All", "Ethereum"],
 			text: "Arbitrum Orbit is the ideal way to permissionlessly launch your own custom chain.",
 			image: "developer-portal/arbitrum.png",
-			type: "external",
 			link: {
 				text: "Coming Soon",
 			},
@@ -20,11 +19,18 @@ export const frameworks = {
 			category: ["All", "Ethereum"],
 			text: "The OP Stack is a modular, open-source blueprint for highly scalable, highly interoperable blockchains of all kinds.",
 			image: "developer-portal/opstack.png",
-			type: "external",
-			link: {
-				text: "Explore OP Stack",
-				url: "https://stack.optimism.io/",
-			},
+			links: [
+				{
+					text: "Explore OP Stack",
+					url: "https://stack.optimism.io/",
+					type: "external",
+				},
+				{
+					text: "Explore OP Stack",
+					url: "https://stack.optimism.io/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 4,
@@ -43,11 +49,13 @@ export const frameworks = {
 			category: ["All", "Sovereign"],
 			text: "Rollkit is a rollup framework that gives developers the freedom to deploy rollups throughout the modular stack.",
 			image: "developer-portal/rollkit.png",
-			type: "external",
-			link: {
-				text: "Explore Rollkit",
-				url: "https://rollkit.dev/",
-			},
+			links: [
+				{
+					text: "Explore Rollkit",
+					url: "https://rollkit.dev/",
+					type: "external",
+				},
+			],
 		},
 		{
 			id: 6,
@@ -55,11 +63,27 @@ export const frameworks = {
 			category: ["All", "Sovereign"],
 			text: "A framework for building seamlessly scalable and interoperable rollups that can run on any blockchain.",
 			image: "developer-portal/sovereign.png",
-			type: "external",
-			link: {
-				text: "Explore Sovereign SDK",
-				url: "https://www.sovereign.xyz/",
-			},
+			links: [
+				{
+					text: "Explore Sovereign SDK",
+					url: "https://www.sovereign.xyz/",
+					type: "external",
+				},
+			],
+		},
+		{
+			id: 7,
+			title: "Only All Box 1",
+			category: ["All"],
+			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis.",
+			image: "developer-portal/placeholder-img.png",
+			links: [
+				{
+					text: "Book demo",
+					url: "/",
+					type: "external",
+				},
+			],
 		},
 	],
 };
