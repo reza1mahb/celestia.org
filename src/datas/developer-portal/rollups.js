@@ -5,7 +5,7 @@ export const rollups = {
     categories: [
         {
             id:1,
-            title: 'Artbitrum ORBIT',
+            title: 'Arbitrum ORBIT',
             items: [
                 {
                     id: 1,
