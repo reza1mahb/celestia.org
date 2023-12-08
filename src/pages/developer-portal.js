@@ -51,7 +51,7 @@ const DevPortal = () => {
 						</div>
 					</section>
 
-					<FrameworkTabs content={getStarted} categories={frameworks} anchorId={0}/>
+					<FrameworkTabs content={getStarted} categories={frameworks} anchorId={0} />
 
 					<section className='discover pt-5'>
 						<div className={"container"}>
@@ -72,12 +72,11 @@ const DevPortal = () => {
 						</div>
 					</section>
 
+					<IntegrateSection content={getStarted} anchorId={2} />
 
-					<IntegrateSection content={getStarted} anchorId={2}/>
+					<FrameworkTabs content={getStarted} categories={rollups} anchorId={1} />
 
-					<FrameworkTabs content={getStarted} categories={rollups} anchorId={1}/>
-
-					<ContactSection/>
+					<ContactSection />
 				</main>
 			</div>
 		</Layout>

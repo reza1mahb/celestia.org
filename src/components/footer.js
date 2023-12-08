@@ -244,9 +244,9 @@ class Footer extends React.Component {
 								</div>
 								<div className={"col col-12 col-sm-3 align-right"}>
 									<div className={"col-title text-right"}>Follow us</div>
-									<AnchorLink to={`/community`} className={"button button-footer"} stripHash>
+									<Link to={`/community/`} className={"button button-footer"}>
 										Community
-									</AnchorLink>
+									</Link>
 								</div>
 							</div>
 						</div>

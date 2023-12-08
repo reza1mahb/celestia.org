@@ -36,11 +36,11 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-							{content.link.text !== 'Coming Soon' &&  <Button type={"external"} class={"external " + btnClass} text={content.link.text} url={content.link.url} />}
+							{content.link.text !== "Coming Soon" && (
+								<Button type={"external"} class={"external " + btnClass} text={content.link.text} url={content.link.url} />
+							)}
 
-							{content.link.text === 'Coming Soon' && <div className={'coming-soon'}>
-								{content.link.text}
-							</div>}
+							{content.link.text === "Coming Soon" && <div className={"coming-soon"}>{content.link.text}</div>}
 						</div>
 					</div>
 				</div>
@@ -59,7 +59,6 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						<div className={"title"}>{content.title}</div>
 						{content.text && <div className={"text"}>{content.text}</div>}
 						<div className='link-wrapper'>
-
 							<AnchorLink
 								className='link'
 								to={`/developer-portal#${content.anchorToId ? content.anchorToId : content.title.replace(/\s+/g, "-").toLowerCase()}`}
@@ -67,12 +66,12 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 							>
 								{content.link.text}
 								<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none'>
-									<path stroke='#7B2BF9' stroke-linecap='square' stroke-width='1.5' d='M6.89106 1.34961L6.89106 11.9052' />
+									<path stroke='#7B2BF9' strokeLinecap='square' strokeWidth='1.5' d='M6.89106 1.34961L6.89106 11.9052' />
 									<path
 										stroke='#7B2BF9'
-										stroke-linecap='square'
-										stroke-linejoin='bevel'
-										stroke-width='1.5'
+										strokeLinecap='square'
+										strokeLinejoin='bevel'
+										strokeWidth='1.5'
 										d='M2 7.64941L7 12.6494L12 7.64942'
 									/>
 								</svg>
