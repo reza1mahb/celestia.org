@@ -4,40 +4,49 @@ export const frameworks = {
 	description: "Get started quickly by using Celestia with leading rollup frameworks.",
 	categories: [
 		{
+			{
+				id: 3,
+				title: "Dymension",
+				text: "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
+				image: "developer-portal/dymension.png",
+				type: "external",
+				link: {
+					text:"Explore Dymension",
+					url: "https://dymension.xyz/",
+				},
+			},
 			id:1,
 			title: 'Ethereum',
 			items: [
 				{
 					id: 1,
-					title: "Caldera",
-					text: "Caldera makes it easy to launch performant, customizable blockchain rollups using the OP Stack.",
-					image: "developer-portal/caldera.png",
+					title: "OP Stack",
+					text: "The OP Stack is a modular, open-source blueprint for highly scalable, highly interoperable blockchains of all kinds.",
+					image: "developer-portal/opstack.png",
 					type: "external",
 					link: {
-						text: "Coming Soon",
-						url: "https://calderaxyz.gitbook.io/caldera-documentation/getting-started/create-a-mainnet-chain/",
+						text: "Explore OP Stack",
+						url: "https://stack.optimism.io/",
 					},
 				},
 				{
 					id: 2,
-					title: "Dymension",
-					text: "Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.",
+					title: "Arbitrum Orbit",
+					text: "Arbitrum Orbit is the ideal way to permissionlessly launch your own custom chain.",
 					image: "developer-portal/dymension.png",
 					type: "external",
 					link: {
-						text: "Explore Dymension",
-						url: "https://docs.dymension.xyz/",
+						text: "Coming Soon",
 					},
 				},
 				{
-					id: 3,
-					title: "Eclipse",
-					text: "Ethereum's fastest Layer 2, powered by the SVM.",
+					id: 4,
+					title: "Polygon CDK",
+					text: "Polygon CDK (Chain Development Kit) makes it easy for developers to design and launch zero-knowledge (ZK) L2s on Ethereum, on demand.",
 					image: "developer-portal/eclipse.png",
 					type: "external",
 					link: {
-						text:"Explore Eclipse",
-						url: "https://docs.eclipse.builders/",
+						text:"Coming Soon",
 					},
 				},
 				{
