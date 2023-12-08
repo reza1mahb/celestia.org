@@ -11,7 +11,7 @@ export const frameworks = {
 					id: 1,
 					title: "Arbitrum Orbit",
 					text: "Arbitrum Orbit is the ideal way to permissionlessly launch your own custom chain.",
-					image: "developer-portal/dymension.png",
+					image: "developer-portal/arbitrum.png",
 					type: "external",
 					link: {
 						text: "Coming Soon",
@@ -32,7 +32,7 @@ export const frameworks = {
 					id: 4,
 					title: "Polygon CDK",
 					text: "Polygon CDK (Chain Development Kit) makes it easy for developers to design and launch zero-knowledge (ZK) L2s on Ethereum, on demand.",
-					image: "developer-portal/eclipse.png",
+					image: "developer-portal/polygon.png",
 					type: "external",
 					link: {
 						text:"Coming Soon",
