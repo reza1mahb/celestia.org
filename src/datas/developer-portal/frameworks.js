@@ -9,6 +9,16 @@ export const frameworks = {
 			items: [
 				{
 					id: 1,
+					title: "Arbitrum Orbit",
+					text: "Arbitrum Orbit is the ideal way to permissionlessly launch your own custom chain.",
+					image: "developer-portal/dymension.png",
+					type: "external",
+					link: {
+						text: "Coming Soon",
+					},
+				},
+				{
+					id: 3,
 					title: "OP Stack",
 					text: "The OP Stack is a modular, open-source blueprint for highly scalable, highly interoperable blockchains of all kinds.",
 					image: "developer-portal/opstack.png",
@@ -16,16 +26,6 @@ export const frameworks = {
 					link: {
 						text: "Explore OP Stack",
 						url: "https://stack.optimism.io/",
-					},
-				},
-				{
-					id: 2,
-					title: "Arbitrum Orbit",
-					text: "Arbitrum Orbit is the ideal way to permissionlessly launch your own custom chain.",
-					image: "developer-portal/dymension.png",
-					type: "external",
-					link: {
-						text: "Coming Soon",
 					},
 				},
 				{
