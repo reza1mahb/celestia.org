@@ -11,7 +11,7 @@ export const rollups = {
                     id: 1,
                     title: "AltLayer",
                     text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
-                    image: "developer-portal/caldera.png",
+                    image: "developer-portal/altlayer.png",
                     type: "external",
                     link: {
                         text: "Book demo",
@@ -33,7 +33,7 @@ export const rollups = {
                     id: 3,
                     title: "Conduit",
                     text: "Deploy a rollup in a few clicks, no code required. Fully-managed, production grade OP Stack and Arbitrum Orbit rollups on Ethereum.",
-                    image: "developer-portal/eclipse.png",
+                    image: "developer-portal/conduit.png",
                     type: "external",
                     link: {
                         text:"Book demo",
@@ -44,7 +44,7 @@ export const rollups = {
                     id: 4,
                     title: "Gelato",
                     text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
-                    image: "developer-portal/opstack.png",
+                    image: "developer-portal/gelato.png",
                     type: "external",
                     link: {
                         text:"Book demo",
@@ -55,7 +55,7 @@ export const rollups = {
                     id: 5,
                     title: "Zeeve",
                     text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
-                    image: "developer-portal/rollkit.png",
+                    image: "developer-portal/zeeve.png",
                     type: "external",
                     link: {
                         text: "Book demo",
@@ -71,7 +71,7 @@ export const rollups = {
                     id: 1,
                     title: "AltLayer",
                     text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
-                    image: "developer-portal/caldera.png",
+                    image: "developer-portal/altlayer.png",
                     type: "external",
                     link: {
                         text: "Book demo",
@@ -93,7 +93,7 @@ export const rollups = {
                     id: 3,
                     title: "Conduit",
                     text: "Deploy a rollup in a few clicks, no code required. Fully-managed, production grade OP Stack and Arbitrum Orbit rollups on Ethereum.",
-                    image: "developer-portal/eclipse.png",
+                    image: "developer-portal/conduit.png",
                     type: "external",
                     link: {
                         text:"Book demo",
@@ -104,7 +104,7 @@ export const rollups = {
                     id: 4,
                     title: "Gelato",
                     text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
-                    image: "developer-portal/opstack.png",
+                    image: "developer-portal/gelato.png",
                     type: "external",
                     link: {
                         text:"Book demo",
@@ -115,7 +115,7 @@ export const rollups = {
                     id: 5,
                     title: "Zeeve",
                     text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
-                    image: "developer-portal/rollkit.png",
+                    image: "developer-portal/zeeve.png",
                     type: "external",
                     link: {
                         text: "Book demo",
@@ -131,7 +131,7 @@ export const rollups = {
                     id: 1,
                     title: "AltLayer",
                     text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
-                    image: "developer-portal/caldera.png",
+                    image: "developer-portal/altlayer.png",
                     type: "external",
                     link: {
                         text: "Book demo",
@@ -142,7 +142,7 @@ export const rollups = {
                     id: 2,
                     title: "Gateway",
                     text: "Create your own zkEVM with all the infrastructure you need.",
-                    image: "developer-portal/eclipse.png",
+                    image: "developer-portal/gateway.png",
                     type: "external",
                     link: {
                         text:"Book demo",
@@ -153,7 +153,7 @@ export const rollups = {
                     id: 3,
                     title: "Gelato",
                     text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
-                    image: "developer-portal/opstack.png",
+                    image: "developer-portal/gelato.png",
                     type: "external",
                     link: {
                         text:"Book demo",
@@ -164,7 +164,7 @@ export const rollups = {
                     id: 4,
                     title: "Lumoz",
                     text: "A decentralized ZK-RaaS network featuring ZKP mining.",
-                    image: "developer-portal/rollkit.png",
+                    image: "developer-portal/lumoz.png",
                     type: "external",
                     link: {
                         text: "Book demo",
@@ -175,7 +175,7 @@ export const rollups = {
                     id: 5,
                     title: "Snapchain",
                     text: "Leverage the power of ZK Rollups to scale your on-chain game or DeFi app cheaply and securely, without compromise.",
-                    image: "developer-portal/rollkit.png",
+                    image: "developer-portal/snapchain.png",
                     type: "external",
                     link: {
                         text: "Book demo",
@@ -186,7 +186,7 @@ export const rollups = {
                     id: 6,
                     title: "Zeeve",
                     text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
-                    image: "developer-portal/rollkit.png",
+                    image: "developer-portal/zeeve.png",
                     type: "external",
                     link: {
                         text: "Book demo",
