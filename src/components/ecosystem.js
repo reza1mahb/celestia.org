@@ -9,9 +9,9 @@ export default class Ecosystem extends React.Component {
 					<div className={"logo-container"}>
 						<Image alt={this.props.ecosystem.title} filename={this.props.ecosystem.image} />
 					</div>
-					<div className={"category"}>{this.props.category.name}</div>
-					<div className={"title"}>{this.props.ecosystem.title}</div>
-					<div className={"text"}>{this.props.ecosystem.text}</div>
+					{this.props.category.name && <div className={"category"}>{this.props.category.name}</div>}
+					{this.props.ecosystem.title && <div className={"title"}>{this.props.ecosystem.title}</div>}
+					{this.props.ecosystem.text && <div className={"text"}>{this.props.ecosystem.text}</div>}
 				</div>
 			</a>
 		);
