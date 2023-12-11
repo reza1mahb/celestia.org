@@ -43,7 +43,7 @@ const DevPortal = () => {
 											className='icon-card-wrapper col-12 col-md min-width-33'
 											key={item.id}
 											content={item}
-											variant={"anchor no-image"}
+											variant={"vertical anchor no-image"}
 										/>
 									);
 								})}
@@ -64,7 +64,7 @@ const DevPortal = () => {
 											className='icon-card-wrapper col-12 col-md min-width-33'
 											key={item.id}
 											content={item}
-											variant={"no-image"}
+											variant={"vertical no-image"}
 										/>
 									);
 								})}
