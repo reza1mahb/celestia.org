@@ -31,11 +31,6 @@
 		}
 	}
 
-	.sticky-container {
-		position: relative;
-		z-index: 10;
-	}
-
 	.lead-text {
 		font-family: $inter;
 		font-size: 18px;
@@ -478,6 +473,7 @@
 			display: none;
 			cursor: pointer;
 			background: rgba(246, 246, 246, 0.7);
+			backdrop-filter: blur(10px);
 			border-radius: 6px;
 			padding: 25px;
 			margin-bottom: 10px;
@@ -680,6 +676,9 @@
 }
 
 .what-is-celestia + footer {
+	@include media-breakpoint-down(lg) {
+		padding-top: 400px;
+	}
 	@include media-breakpoint-down(md) {
 		padding-top: 600px;
 	}
