@@ -51,11 +51,25 @@ const IndexPage = () => {
 				<main>
 					<HomeHeroSection heroData={heroData} />
 
-
 					<div className='container'>
-
-						<TwoColumnH2 direction={'ltr'} title={'Access abundance'} text={'Tap into the abundant throughput enabled by Data Availability Sampling (DAS), the first architecture that securely scales with the number of users. Anyone can directly verify and contribute to Celestia by running a light node.'} image={'graph-scale.svg'} btnTitle={'Learn Celestia'} btnUrl={'/what-is-celestia/'}/>
-						<TwoColumnH2 direction={'rtl'} title={'Build whatever'} text={'Deploy fast. Launch a blockchain with leading Ethereum rollup frameworks or transform nearly any VM into your own sovereign chain. With Celestia underneath, a customizable blockchain becomes as easy to deploy as a smart contract.'} image={'graph-ecosystem.svg'} btnTitle={'Build modular'} btnUrl={'/developer-portal/'}/>
+						<TwoColumnH2
+							direction={"ltr"}
+							title={"Access abundance"}
+							text={`Tap into the abundant throughput enabled by <a href='https://celestia.org' target='_blank' rel='noopener noreferrer'>Data Availability Sampling (DAS)</a>, the first architecture that securely scales with the number of users. Anyone can directly verify and contribute to Celestia by running a light node.`}
+							image={"graph-scale.png"}
+							btnTitle={"Learn Celestia"}
+							btnUrl={"/what-is-celestia/"}
+						/>
+						<TwoColumnH2
+							direction={"rtl"}
+							title={"Build whatever"}
+							text={
+								"Deploy fast. Launch a blockchain with leading Ethereum rollup frameworks or transform nearly any VM into your own sovereign chain. With Celestia underneath, a customizable blockchain becomes as easy to deploy as a smart contract."
+							}
+							image={"graph-ecosystem.png"}
+							btnTitle={"Build modular"}
+							btnUrl={"/developer-portal/"}
+						/>
 
 						<section id='explore-celestia' className='explore-celestia'>
 							<div className='d-flex justify-content-center'>
@@ -92,7 +106,7 @@ const IndexPage = () => {
 												</defs>
 											</svg>
 											<div className={"image-wrapper"}>
-												<Image alt={exploreCelestia[0].title} height={'40px'} filename={exploreCelestia[0].image} />
+												<Image alt={exploreCelestia[0].title} height={"40px"} filename={exploreCelestia[0].image} />
 											</div>
 											<h3>{exploreCelestia[0].title}</h3>
 											<p>{exploreCelestia[0].text} </p>

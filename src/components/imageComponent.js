@@ -11,7 +11,7 @@ const Image = (props) => {
 						relativePath
 						name
 						childImageSharp {
-							gatsbyImageData(layout: CONSTRAINED, width: 800)
+							gatsbyImageData(layout: FULL_WIDTH, quality: 100)
 						}
 						extension
 						publicURL
