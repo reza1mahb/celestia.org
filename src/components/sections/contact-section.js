@@ -20,7 +20,7 @@ const ContactSection = () => {
                             </div>
                         </div>
                         <div className={'col-12 col-md-auto mt-3 mt-md-0'}>
-                            <a href="https://celestia-intake.typeform.com/interest/" className={'button button-simple'}>Get In Touch</a>
+                            <a href="https://celestia-intake.typeform.com/interest/" className={'button button-simple'} target="_blank">Get In Touch</a>
                         </div>
                     </div>
                 </div>
