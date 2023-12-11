@@ -9,7 +9,7 @@ const IntegrateSection = ({ content, anchorId }) => {
 						<div className={"col box me-md-1"}>
 							<div className={"title"}>Blobstream</div>
 							<div className={"text"}>Use Celestia as the DA layer for your Ethereum L2.</div>
-							<a href={"https://docs.celestia.org/developers/blobstream/"} className={"button button-simple"}>
+							<a href={"https://docs.celestia.org/developers/blobstream/"} className={"button button-simple"} target="_blank">
 								Blobstream documentation
 							</a>
 						</div>
