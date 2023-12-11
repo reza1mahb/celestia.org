@@ -19,6 +19,20 @@ export const rollups = {
 		},
 		{
 			id: 2,
+			title: "Astria",
+			category: ["All"],
+			text: "Astria lets rollups share a single decentralized network of sequencers that's simple and permissionless to join.",
+			image: "developer-portal/astria.png",
+			links: [
+				{
+					text: "Book demo",
+					url: "https://www.astria.org/",
+					type: "external",
+				},
+			],
+		},
+		{
+			id: 3,
 			title: "Caldera",
 			category: ["All", "Arbitrum ORBIT", "OP Stack"],
 			text: "Caldera makes it easy to launch performant, customizable Arbitrum Orbit and OP Stack rollups. No code required.",
@@ -32,7 +46,7 @@ export const rollups = {
 			],
 		},
 		{
-			id: 3,
+			id: 4,
 			title: "Conduit",
 			category: ["All", "Arbitrum ORBIT", "OP Stack"],
 			text: "Deploy a rollup in a few clicks, no code required. Fully-managed, production grade OP Stack and Arbitrum Orbit rollups on Ethereum.",
@@ -46,35 +60,7 @@ export const rollups = {
 			],
 		},
 		{
-			id: 4,
-			title: "Gelato",
-			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
-			text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
-			image: "developer-portal/gelato.png",
-			links: [
-				{
-					text: "Book demo",
-					url: "https://www.gelato.network/",
-					type: "external",
-				},
-			],
-		},
-		{
 			id: 5,
-			title: "Zeeve",
-			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
-			text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
-			image: "developer-portal/zeeve.png",
-			links: [
-				{
-					text: "Book demo",
-					url: "https://www.zeeve.io/",
-					type: "external",
-				},
-			],
-		},
-		{
-			id: 6,
 			title: "Gateway",
 			category: ["All", "Polygon CDK"],
 			text: "Create your own zkEVM with all the infrastructure you need.",
@@ -83,6 +69,20 @@ export const rollups = {
 				{
 					text: "Book demo",
 					url: "https://gateway.fm/",
+					type: "external",
+				},
+			],
+		},
+		{
+			id: 6,
+			title: "Gelato",
+			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
+			text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
+			image: "developer-portal/gelato.png",
+			links: [
+				{
+					text: "Book demo",
+					url: "https://www.gelato.network/",
 					type: "external",
 				},
 			],
@@ -116,29 +116,29 @@ export const rollups = {
 			],
 		},
 		{
-			id: 8,
-			title: "Only All Box 1",
+			id: 9,
+			title: "Vistara",
 			category: ["All"],
-			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis.",
-			image: "developer-portal/placeholder-img.png",
+			text: "Vistara is building a Hardware availability layer for the modular web aiming to democratize access to decentralized hardware.",
+			image: "developer-portal/vistara.png",
 			links: [
 				{
-					text: "Book demo",
-					url: "/",
+					text: "Explore Vistara",
+					url: "https://docs.vistara.dev/",
 					type: "external",
 				},
 			],
 		},
 		{
-			id: 8,
-			title: "Only All Box 2",
-			category: ["All"],
-			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis.",
-			image: "developer-portal/placeholder-img.png",
+			id: 10,
+			title: "Zeeve",
+			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
+			text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
+			image: "developer-portal/zeeve.png",
 			links: [
 				{
 					text: "Book demo",
-					url: "/",
+					url: "https://www.zeeve.io/",
 					type: "external",
 				},
 			],
