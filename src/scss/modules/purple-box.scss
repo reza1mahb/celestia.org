@@ -1,43 +1,44 @@
-.purple-box{
-  width:100%;
-  padding:25px;
-  transition:600ms all cubic-bezier(0.83, 0, 0.17, 1);
-  border-radius:10px;
+.purple-box {
+	width: 100%;
+	padding: 25px;
+	transition: 600ms all cubic-bezier(0.83, 0, 0.17, 1);
+	border-radius: 10px;
 
-  img{
-    margin-top:5px;
-  }
+	img {
+		margin-top: 5px;
+	}
 
-  &:hover{
-    background:#7226EB;
-  }
+	&:hover {
+		background: #7226eb;
+	}
 
-  .title{
-    font-family: $ruberoid;
-    font-weight:bold;
-    font-size: 24px;
-    color: #FFFFFF;
-    letter-spacing: 0.07px;
-    margin-bottom:10px;
-  }
+	.title {
+		font-family: $ruberoid;
+		font-weight: bold;
+		font-size: 24px;
+		color: #ffffff;
+		letter-spacing: 0.07px;
+		margin-bottom: 10px;
+	}
 
-  .text{
-    font-family: $inter;
-    font-weight:300;
-    font-size: 15px;
-    color: #FFFFFF;
-    letter-spacing: -0.09px;
-    line-height: 23px;
-    margin-bottom:12px;
-  }
+	.text {
+		font-family: $inter;
+		font-weight: 300;
+		font-size: 15px;
+		color: #ffffff;
+		letter-spacing: -0.09px;
+		line-height: 23px;
+		margin-bottom: 12px;
+	}
 
-  .button-external{
-    i{
-      color:#fff;
-    }
+	.button-external {
+		i {
+			color: #fff;
+			font-size: 15px;
+		}
 
-    &:hover{
-      color:#fff;
-    }
-  }
+		&:hover {
+			color: #fff;
+		}
+	}
 }

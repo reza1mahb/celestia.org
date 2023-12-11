@@ -32,7 +32,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 								stripHash
 							>
 								{content.link.text}
-								<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none'>
+								<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 									<path stroke='#7B2BF9' strokeLinecap='square' strokeWidth='1.5' d='M6.89106 1.34961L6.89106 11.9052' />
 									<path
 										stroke='#7B2BF9'
@@ -60,7 +60,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 											stripHash
 										>
 											{link.text}
-											<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none'>
+											<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'>
 												<path
 													stroke='#7B2BF9'
 													strokeLinecap='square'
