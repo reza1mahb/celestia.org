@@ -17,7 +17,7 @@ const IntegrateSection = ({ content, anchorId }) => {
 							<div className={"title"}>Node API</div>
 							<div className={"text"}>Use the celestia-node API to publish and retrieve transactions from Celestia.</div>
 							<a href={"https://node-rpc-docs.celestia.org/?version=v0.12.0/"} className={"button button-simple"}>
-								Node API Documentatio
+								Node API Documentation
 							</a>
 						</div>
 					</div>
