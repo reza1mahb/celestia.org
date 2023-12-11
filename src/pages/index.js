@@ -54,8 +54,8 @@ const IndexPage = () => {
 
 					<div className='container'>
 
-						<TwoColumnH2 direction={'ltr'} title={'Scale with your user base'} text={'Access a high-throughput data layer for your layer 2 or rollup. With a new primitive, data availability sampling (DAS), Celestia can securely scale with the number of users.'} image={'graph-scale.svg'} btnTitle={'Learn Celestia'} btnUrl={'/what-is-celestia/'}/>
-						<TwoColumnH2 direction={'rtl'} title={'Choose your ecosystem'} text={'Easily launch your chain in any ecosystem with Celestia underneath. Try an Ethereum L2 with Arbitrum Orbit or OP Stack. Deploy an L2 on a new settlement layer. Or try your own sovereign chain.'} image={'graph-ecosystem.svg'} btnTitle={'Build whatever'} btnUrl={'/developer-portal/'}/>
+						<TwoColumnH2 direction={'ltr'} title={'Access abundance'} text={'Tap into the abundant throughput enabled by Data Availability Sampling (DAS), the first architecture that securely scales with the number of users. Anyone can directly verify and contribute to Celestia by running a light node.'} image={'graph-scale.svg'} btnTitle={'Learn Celestia'} btnUrl={'/what-is-celestia/'}/>
+						<TwoColumnH2 direction={'rtl'} title={'Build whatever'} text={'Deploy fast. Launch a blockchain with leading Ethereum rollup frameworks or transform nearly any VM into your own sovereign chain. With Celestia underneath, a customizable blockchain becomes as easy to deploy as a smart contract.'} image={'graph-ecosystem.svg'} btnTitle={'Build modular'} btnUrl={'/developer-portal/'}/>
 
 						<section id='explore-celestia' className='explore-celestia'>
 							<div className='d-flex justify-content-center'>
