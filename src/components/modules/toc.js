@@ -21,7 +21,7 @@ const ToC = ({ headings }) => {
 							role='button'
 							tabIndex={0}
 						>
-							<AnchorLink to={`#${heading.id.replace(/\s+/g, "-").toLowerCase()}`} smoothScroll>
+							<AnchorLink to={`#${heading.id.replace(/\s+/g, "-").toLowerCase()}`} stripHash smoothScroll>
 								{heading.value}
 							</AnchorLink>
 						</div>

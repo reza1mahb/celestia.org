@@ -106,7 +106,10 @@ const WhatIsCelestia = () => {
 															tabIndex={0}
 															role='button'
 														>
-															<AnchorLink to={`/what-is-celestia/#${item.id.replace(/\s+/g, "-").toLowerCase()}`}>
+															<AnchorLink
+																to={`/what-is-celestia/#${item.id.replace(/\s+/g, "-").toLowerCase()}`}
+																stripHash
+															>
 																{item.value}
 															</AnchorLink>
 														</div>
