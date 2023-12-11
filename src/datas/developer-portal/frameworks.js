@@ -14,6 +14,20 @@ export const frameworks = {
 			},
 		},
 		{
+			id: 2,
+			title: "Dymension",
+			category: ["All"],
+			text: "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
+			image: "developer-portal/dymension.png",
+			links: [
+				{
+					text: "Explore Dymension",
+					url: "https://dymension.xyz/",
+					type: "external",
+				},
+			],
+		},
+		{
 			id: 3,
 			title: "OP Stack",
 			category: ["All", "Ethereum"],
@@ -26,8 +40,8 @@ export const frameworks = {
 					type: "external",
 				},
 				{
-					text: "Explore OP Stack",
-					url: "https://stack.optimism.io/",
+					text: "Explore Bubs testnet",
+					url: "https://docs.celestia.org/developers/bubs-testnet",
 					type: "external",
 				},
 			],
@@ -67,20 +81,6 @@ export const frameworks = {
 				{
 					text: "Explore Sovereign SDK",
 					url: "https://www.sovereign.xyz/",
-					type: "external",
-				},
-			],
-		},
-		{
-			id: 7,
-			title: "Only All Box 1",
-			category: ["All"],
-			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante non metus facilisis.",
-			image: "developer-portal/placeholder-img.png",
-			links: [
-				{
-					text: "Book demo",
-					url: "/",
 					type: "external",
 				},
 			],
