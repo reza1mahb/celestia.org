@@ -40,8 +40,8 @@ export const frameworks = {
 					type: "external",
 				},
 				{
-					text: "Explore Bubs testnet",
-					url: "https://docs.celestia.org/developers/bubs-testnet",
+					text: "Ethereum fallback documentation",
+					url: "https://docs.celestia.org/developers/ethereum-fallback/",
 					type: "external",
 				},
 			],
