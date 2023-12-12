@@ -72,9 +72,9 @@ const DevPortal = () => {
 						</div>
 					</section>
 
-					<IntegrateSection content={getStarted} anchorId={2} />
+					<IntegrateSection content={getStarted} anchorId={1} />
 
-					<FrameworkTabs content={getStarted} categories={rollups} anchorId={1} />
+					<FrameworkTabs content={getStarted} categories={rollups} anchorId={2} />
 
 					<ContactSection />
 				</main>
