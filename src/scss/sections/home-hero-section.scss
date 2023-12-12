@@ -1,62 +1,64 @@
-.home-hero-section{
-  padding-bottom:220px;
-  position: relative;
+.home-hero-section {
+	padding-bottom: 220px;
+	position: relative;
 
-  @include media-breakpoint-down(sm) {
-    padding-bottom:100px;
-  }
+	@include media-breakpoint-down(sm) {
+		padding-bottom: 60px;
+	}
 
-  h1{
-    margin-bottom: 30px;
-    max-width:900px;
-    width:100%;
-    font-size: 92px;
-    font-weight: 700;
-    line-height: 90px;
-    letter-spacing: -4px;
-    text-align: center;
-    position:relative;
+	h1 {
+		margin-bottom: 30px;
+		max-width: 900px;
+		width: 100%;
+		font-size: 92px;
+		font-weight: 700;
+		line-height: 90px;
+		letter-spacing: -4px;
+		text-align: center;
+		position: relative;
 
-    @include media-breakpoint-down(lg) {
-      font-size:70px;
-      line-height:1em;
-    }
+		@include media-breakpoint-down(lg) {
+			font-size: 70px;
+			line-height: 1em;
+		}
 
-    @include media-breakpoint-down(md) {
-      font-size:60px;
-    }
+		@include media-breakpoint-down(md) {
+			font-size: 60px;
+		}
 
-    @include media-breakpoint-down(sm) {
-      font-size:46px;
-    }
-  }
+		@include media-breakpoint-down(sm) {
+			font-size: 46px;
+		}
+	}
 
-  .text{
-    font-family: $ruberoid;
-    color: #000000;
-    width:100%;
-    max-width: 460px;
-    margin-bottom: 30px;
+	.text {
+		font-family: $ruberoid;
+		color: #000000;
+		width: 100%;
+		max-width: 680px;
+		margin-bottom: 50px;
 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21px;
-    letter-spacing: 0.22px;
-    text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 28px;
+		letter-spacing: 0.22px;
+		text-align: center;
 
+		@include media-breakpoint-down(md) {
+			font-size: 14px;
+			line-height: 21px;
+			width: 100%;
+			margin-bottom: 30px;
+		}
+	}
 
-    @include media-breakpoint-down(md) {
-      font-size:14px;
-      line-height: 21px;
-      width:100%;
-      margin-bottom:30px;
-    }
-  }
-
-  .button-simple,.button-white, .button-icon, .button-external{
-    margin-right:20px;
-    @include media-breakpoint-down(sm) {
-      margin-bottom:20px;
-    }
-  }
+	.button-simple,
+	.button-white,
+	.button-icon,
+	.button-external {
+		margin-right: 20px;
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 20px;
+		}
+	}
 }

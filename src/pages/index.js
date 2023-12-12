@@ -55,7 +55,10 @@ const IndexPage = () => {
 						<TwoColumnH2
 							direction={"ltr"}
 							title={"Access abundance"}
-							text={`Tap into the abundant throughput enabled by <a href='https://celestia.org/what-is-celestia/#what-is-data-availability-sampling' target='_blank' rel='noopener noreferrer'>Data Availability Sampling (DAS)</a>, the first architecture that securely scales with the number of users. Anyone can directly verify and contribute to Celestia by running a light node.`}
+							text={`
+								<p>Tap into the abundant throughput enabled by <a href='https://celestia.org/what-is-celestia/#what-is-data-availability-sampling' target='_blank' rel='noopener noreferrer'>Data Availability Sampling (DAS)</a>, the first architecture that securely scales with the number of users.</p>
+								<p>Anyone can directly verify and contribute to Celestia by running a light node.</p>
+							`}
 							image={"graph-scale.png"}
 							btnTitle={"Learn Celestia"}
 							btnUrl={"/what-is-celestia/"}
@@ -63,9 +66,10 @@ const IndexPage = () => {
 						<TwoColumnH2
 							direction={"rtl"}
 							title={"Build whatever"}
-							text={
-								"Deploy fast. Launch a blockchain with leading Ethereum rollup frameworks or transform nearly any VM into your own sovereign chain. With Celestia underneath, a customizable blockchain becomes as easy to deploy as a smart contract."
-							}
+							text={`
+								<p>Deploy fast. Launch a blockchain with leading Ethereum rollup frameworks or transform nearly any VM into your own sovereign chain.</p>
+								<p>With Celestia underneath, a customizable blockchain becomes as easy to deploy as a smart contract.</p>
+							`}
 							image={"graph-ecosystem.png"}
 							btnTitle={"Build modular"}
 							btnUrl={"/developer-portal/"}
