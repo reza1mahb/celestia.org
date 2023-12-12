@@ -1,5 +1,6 @@
 import * as React from "react";
 import Image from "../imageComponent";
+import { Link } from "gatsby";
 
 export default class TwoColumnH2 extends React.Component {
 	render() {
@@ -14,9 +15,14 @@ export default class TwoColumnH2 extends React.Component {
 							<h2 className={"with-decor mt-4 mt-lg-0"}>{this.props.title}</h2>
 							<div className='paragraph' dangerouslySetInnerHTML={{ __html: this.props.text }} />
 							<div className={"flex mt-4"}>
-								<a href={this.props.btnUrl} className={"button button-simple"}>
-									{this.props.btnTitle}
-								</a>
+								<Link to={this.props.buttonPrimaryUrl} target={"_blank"} className={"button button-simple me-4"}>
+									{this.props.buttonPrimaryTitle}
+								</Link>
+								{this.props.buttonSecondaryTitle && (
+									<Link to={this.props.buttonSecondaryUrl} target={"_blank"} className={"button button-white"}>
+										{this.props.buttonSecondaryTitle}
+									</Link>
+								)}
 							</div>
 						</div>
 					</div>

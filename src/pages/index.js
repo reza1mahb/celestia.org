@@ -60,8 +60,8 @@ const IndexPage = () => {
 								<p>Anyone can directly verify and contribute to Celestia by <a href='https://celestia.org/run-a-light-node/' target='_blank' rel='noopener noreferrer'>running a light node</a>.</p>
 							`}
 							image={"graph-scale.png"}
-							btnTitle={"Learn Celestia"}
-							btnUrl={"/what-is-celestia/"}
+							buttonPrimaryTitle={"Learn Celestia"}
+							buttonPrimaryUrl={"/what-is-celestia/"}
 						/>
 						<TwoColumnH2
 							direction={"rtl"}
@@ -71,8 +71,10 @@ const IndexPage = () => {
 								<p>With Celestia underneath, a customizable blockchain becomes as easy to deploy as a smart contract.</p>
 							`}
 							image={"graph-ecosystem.png"}
-							btnTitle={"Build modular"}
-							btnUrl={"/developer-portal/"}
+							buttonPrimaryTitle={"Build modular"}
+							buttonPrimaryUrl={"/developer-portal/"}
+							buttonSecondaryTitle={"Deploy"}
+							buttonSecondaryUrl={"/developer-portal#deploy"}
 						/>
 
 						<section id='explore-celestia' className='explore-celestia'>

@@ -1,31 +1,32 @@
 .index-page {
-
-	&:before{
-		position:absolute;
-		left:0;
-		top:0;
-		width:100%;
-		height:100%;
-		content:'';
-		z-index:-1;
+	&:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		content: "";
+		z-index: -1;
 		background: url(../images/BG/homepage-bg.png) no-repeat scroll top center transparent;
-		background-size:1900px;
+		background-size: 1900px;
 
 		@include media-breakpoint-down(xl) {
-			background-size:130%;
+			background-size: 130%;
 			background-position: center top;
 		}
 		@include media-breakpoint-down(lg) {
-			background-size:150%;
+			background-size: 150%;
 			background-position: center top;
 		}
 		@include media-breakpoint-down(md) {
-			background-size:250%;
+			background-size: 250%;
 			background-position: center top;
 		}
 		@include media-breakpoint-down(sm) {
-			background-size:200%;
+			background-size: 200%;
 			background-position: center top;
+			top: -26vw;
+			opacity: 0.8;
 		}
 	}
 
@@ -33,7 +34,7 @@
 		padding-top: 100px;
 
 		@include media-breakpoint-down(sm) {
-			padding-top:0;
+			padding-top: 0;
 		}
 	}
 	.hero-section {
