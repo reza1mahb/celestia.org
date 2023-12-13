@@ -27,8 +27,9 @@
 		}
 
 		@include media-breakpoint-down(sm) {
-			font-size: 46px;
+			font-size: 42px;
 			max-width: 340px;
+			letter-spacing: -2px;
 		}
 	}
 
