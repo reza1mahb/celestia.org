@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import IconCard from "./modules/icon-card";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-const FrameworkTabs = ({ content, categories, anchorId }) => {
+const FrameworkTabs = ({ content, categories, anchorId, section}) => {
 	const [selectedTab, setSelectedTab] = useState("All");
 
 	const allUniqueCategories = [...new Set(categories.items.flatMap((item) => item.category))];
@@ -19,7 +19,7 @@ const FrameworkTabs = ({ content, categories, anchorId }) => {
 				<div className={"tabs row justify-content-center"}>
 					{allUniqueCategories.map(function (category) {
 						return (
-							<div className={`col-auto tab-item ${selectedTab === category && "active"}`} onClick={() => setSelectedTab(category)}>
+							<div className={`col-auto tab-item ${selectedTab === category && "active"} plausible-event-name=${category.replace(/\s+/g, "-")}_Tab_Click--Developer_Portal-${section}_section`} onClick={() => setSelectedTab(category)}>
 								{category}
 							</div>
 						);
@@ -37,9 +37,9 @@ const FrameworkTabs = ({ content, categories, anchorId }) => {
 									content={item}
 									variant={"vertical"}
 									btnClass={
-										"plausible-event-name=Framework_Click_" +
+										"plausible-event-name="+section+"_Click_" +
 										item.title.replace(/\s/g, "+") +
-										"--Developer_Portal_Page-Framework_section"
+										"--Developer_Portal_Page-"+section+"_section"
 									}
 								/>
 							))}

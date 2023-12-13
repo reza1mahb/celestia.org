@@ -44,6 +44,7 @@ const DevPortal = () => {
 											key={item.id}
 											content={item}
 											variant={"vertical anchor no-image"}
+											btnClass={`plausible-event-name=${item.title.replace(/ /g,"_")}--Developer_Portal-Hero_Section`}
 										/>
 									);
 								})}
@@ -51,7 +52,7 @@ const DevPortal = () => {
 						</div>
 					</section>
 
-					<FrameworkTabs content={getStarted} categories={frameworks} anchorId={0} />
+					<FrameworkTabs content={getStarted} categories={frameworks} anchorId={0} section={'Framework'}/>
 
 					<section className='discover pt-5'>
 						<div className={"container"}>
@@ -65,6 +66,7 @@ const DevPortal = () => {
 											key={item.id}
 											content={item}
 											variant={"vertical no-image"}
+											btnClass={`plausible-event-name=${item.title.replace(/ /g,"_")}--Developer_Portal-Developer_Resources_Section`}
 										/>
 									);
 								})}
@@ -74,7 +76,7 @@ const DevPortal = () => {
 
 					<IntegrateSection content={getStarted} anchorId={1} />
 
-					<FrameworkTabs content={getStarted} categories={rollups} anchorId={2} />
+					<FrameworkTabs content={getStarted} categories={rollups} anchorId={2} section={'Rollups'}/>
 
 					<ContactSection />
 				</main>

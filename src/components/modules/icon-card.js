@@ -27,7 +27,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 						)}
 						{content.link && content.type === "anchor" && (
 							<AnchorLink
-								className='link'
+								className={`link ${btnClass}`}
 								to={`/developer-portal#${content.anchorToId ? content.anchorToId : content.title.replace(/\s+/g, "-").toLowerCase()}`}
 								stripHash
 							>
