@@ -62,6 +62,7 @@ const IndexPage = () => {
 							image={"graph-scale.png"}
 							buttonPrimaryTitle={"Learn Celestia"}
 							buttonPrimaryUrl={"/what-is-celestia/"}
+							buttonPrimaryClass={"plausible-event-name=Learn_Celestia_Button--Home_Page-Access_Abundance_Section"}
 						/>
 						<TwoColumnH2
 							direction={"rtl"}
@@ -73,8 +74,10 @@ const IndexPage = () => {
 							image={"graph-ecosystem.png"}
 							buttonPrimaryTitle={"Build modular"}
 							buttonPrimaryUrl={"/developer-portal/"}
+							buttonPrimaryClass={"plausible-event-name=Build_Modular_Button--Home_Page-Build_Whatever_Section"}
 							buttonSecondaryTitle={"Deploy"}
 							buttonSecondaryUrl={"/developer-portal#deploy"}
+							buttonSecondaryClass={"plausible-event-name=Deploy_Button--Home_Page-Build_Whatever_Section"}
 						/>
 
 						<section id='explore-celestia' className='explore-celestia'>
