@@ -1,5 +1,5 @@
 export const discover = {
-	title: "Developer Rescources",
+	title: "Developer Resources",
 	description: "",
 	items: [
 		{
