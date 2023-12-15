@@ -16,7 +16,7 @@ export const socialChannels = {
 			text: "Get involved",
 			image: "home/discord-black.png",
 			type: "external",
-			url: "https://discord.com/invite/YsnTPcSfWQ/",
+			url: "https://discord.com/invite/YsnTPcSfWQ",
 		},
 		{
 			id: 3,

@@ -16,7 +16,7 @@ export const socialChannels = {
 			text: "A hub for developers, node operators, and enthusiasts.",
 			image: "community/discord.png",
 			type: "external",
-			url: "https://discord.com/invite/YsnTPcSfWQ/",
+			url: "https://discord.com/invite/YsnTPcSfWQ",
 		},
         {
 			id: 3,

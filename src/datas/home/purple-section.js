@@ -19,7 +19,7 @@ export const purpleData = {
                 icon: 'home/purple-box-3.svg',
                 button:{
                     title:'Ask a question',
-                    url: 'https://discord.com/invite/YsnTPcSfWQ/'
+                    url: 'https://discord.com/invite/YsnTPcSfWQ'
                 }
             },
             {
