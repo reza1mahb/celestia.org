@@ -11,7 +11,7 @@ export const rollups = {
 			image: "developer-portal/altlayer.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://altlayer.io/raas/",
 					type: "external",
 				},
@@ -25,7 +25,7 @@ export const rollups = {
 			image: "developer-portal/astria.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://www.astria.org/",
 					type: "external",
 				},
@@ -39,7 +39,7 @@ export const rollups = {
 			image: "developer-portal/caldera.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://www.caldera.xyz/",
 					type: "external",
 				},
@@ -53,7 +53,7 @@ export const rollups = {
 			image: "developer-portal/conduit.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://conduit.xyz/",
 					type: "external",
 				},
@@ -67,7 +67,7 @@ export const rollups = {
 			image: "developer-portal/gateway.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://gateway.fm/",
 					type: "external",
 				},
@@ -81,7 +81,7 @@ export const rollups = {
 			image: "developer-portal/gelato.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://www.gelato.network/",
 					type: "external",
 				},
@@ -95,7 +95,7 @@ export const rollups = {
 			image: "developer-portal/lumoz.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://lumoz.org/",
 					type: "external",
 				},
@@ -109,7 +109,7 @@ export const rollups = {
 			image: "developer-portal/snapchain.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://snapchain.dev/",
 					type: "external",
 				},
@@ -123,7 +123,7 @@ export const rollups = {
 			image: "developer-portal/vistara.png",
 			links: [
 				{
-					text: "Explore Vistara",
+					text: "Explore",
 					url: "https://docs.vistara.dev/",
 					type: "external",
 				},
@@ -137,7 +137,7 @@ export const rollups = {
 			image: "developer-portal/zeeve.png",
 			links: [
 				{
-					text: "Book demo",
+					text: "Explore",
 					url: "https://www.zeeve.io/",
 					type: "external",
 				},
