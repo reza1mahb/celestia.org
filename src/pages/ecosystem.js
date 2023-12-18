@@ -56,8 +56,8 @@ const EcosystemPage = () => {
 									target={"_blank"}
 									rel={"noreferrer"}
 								>
-									<div className={"button button-simple"}>Ecosystem map</div>*/
-								</a>
+									<div className={"button button-simple"}>Ecosystem map</div>
+								</a>*/
 							</div>
 						</div>
 
