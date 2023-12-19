@@ -10,7 +10,9 @@ export const frameworks = {
 			text: "Arbitrum Orbit is the ideal way to permissionlessly launch your own custom chain.",
 			image: "developer-portal/arbitrum.png",
 			link: {
-				text: "Coming Soon",
+				text: "Explore Arbitrum Orbit",
+				url: "https://docs.celestia.org/developers/arbitrum-integration",
+				type: "external",
 			},
 		},
 		{
