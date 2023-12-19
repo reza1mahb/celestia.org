@@ -29,8 +29,9 @@ export default class Button extends React.Component {
 				/>
 			);
 		} else if (this.props.type === "anchor") {
+			let path = typeof window !== "undefined" ? window.location.pathname : "/";
 			return (
-				<AnchorLink to={`${window.location.pathname}#${this.props.url}`} className={"button button-" + this.props.class}>
+				<AnchorLink to={`${path}#${this.props.url}`} className={"button button-" + this.props.class}>
 					{buttonTitle}
 				</AnchorLink>
 			);
