@@ -36,31 +36,31 @@ export const ecosystemCategories = [
 			{
 				title: "Conduit",
 				text: "",
-				image: "",
+				image: "ecosystem/conduit.png",
 				url: "https://conduit.xyz/",
 			},
 			{
 				title: "Gateway",
 				text: "",
-				image: "",
+				image: "ecosystem/gateway.png",
 				url: "https://gateway.fm/",
 			},
 			{
 				title: "Gelato",
 				text: "",
-				image: "",
+				image: "ecosystem/gelato.png",
 				url: "https://www.gelato.network/",
 			},
 			{
 				title: "Lumoz",
 				text: "",
-				image: "",
+				image: "ecosystem/lumoz.png",
 				url: "https://lumoz.org/",
 			},
 			{
 				title: "Zeeve",
 				text: "",
-				image: "",
+				image: "ecosystem/zeeve.png",
 				url: "https://www.zeeve.io/",
 			},
 		],
@@ -144,13 +144,7 @@ export const ecosystemCategories = [
 			{
 				title: "Arbitrum Orbit",
 				text: "",
-				image: "",
-				url: "https://docs.celestia.org/developers/arbitrum-integration",
-			},
-			{
-				title: "Arbitrum Orbit",
-				text: "",
-				image: "",
+				image: "ecosystem/arbitrum.png",
 				url: "https://docs.celestia.org/developers/arbitrum-integration",
 			},
 			{
@@ -162,7 +156,7 @@ export const ecosystemCategories = [
 			{
 				title: "Polygon CDK",
 				text: "",
-				image: "",
+				image: "ecosystem/polygoncdk.png",
 				url: "https://polygon.technology/polygon-cdk",
 			},
 		],
