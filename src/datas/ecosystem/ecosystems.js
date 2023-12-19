@@ -127,7 +127,7 @@ export const ecosystemCategories = [
 				title: "OP Stack",
 				text: "",
 				image: "ecosystem/optimism.png",
-				url: "https://docs.celestia.org/developers/intro-to-op-stack",
+				url: "https://docs.optimism.io/stack/getting-started",
 			},
 			{
 				title: "Stackr",
@@ -145,7 +145,7 @@ export const ecosystemCategories = [
 				title: "Arbitrum Orbit",
 				text: "",
 				image: "ecosystem/arbitrum.png",
-				url: "https://docs.celestia.org/developers/arbitrum-integration",
+				url: "https://arbitrum.io/orbit",
 			},
 			{
 				title: "Dymension",
