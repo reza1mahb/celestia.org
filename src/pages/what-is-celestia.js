@@ -37,11 +37,12 @@ const WhatIsCelestia = () => {
 			{ rootMargin: "-30% 0px -30% 0px", threshold: 0 }
 		);
 
-		sectionRefs.current.forEach((ref) => observer.observe(ref));
+		const currentRefs = sectionRefs.current;
+		currentRefs.forEach((ref) => observer.observe(ref));
 
 		return () => {
-			if (sectionRefs.current) {
-				sectionRefs.current.forEach((ref) => observer.unobserve(ref));
+			if (currentRefs) {
+				currentRefs.forEach((ref) => observer.unobserve(ref));
 			}
 		};
 	}, []);
