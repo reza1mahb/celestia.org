@@ -1,6 +1,60 @@
 export const ecosystemCategories = [
 	{
 		id: 1,
+		name: "Rollup framework",
+		ecosystems: [
+			{
+				title: "Rollkit",
+				text: "",
+				image: "ecosystem/rollkit.png",
+				url: "https://www.rollkit.dev/",
+			},
+			{
+				title: "Sovereign",
+				text: "",
+				image: "ecosystem/sovereign.png",
+				url: "https://sovereign.xyz/",
+			},
+			{
+				title: "OP Stack",
+				text: "",
+				image: "ecosystem/optimism.png",
+				url: "https://docs.optimism.io/stack/getting-started",
+			},
+			{
+				title: "Stackr",
+				text: "",
+				image: "ecosystem/stackr.png",
+				url: "https://www.stackrlabs.xyz/",
+			},
+			{
+				title: "Cosmos SDK",
+				text: "",
+				image: "ecosystem/cosmos-sdk.png",
+				url: "https://cosmos.network/",
+			},
+			{
+				title: "Arbitrum Orbit",
+				text: "",
+				image: "ecosystem/arbitrum.png",
+				url: "https://arbitrum.io/orbit",
+			},
+			{
+				title: "Dymension",
+				text: "",
+				image: "ecosystem/dymension.png",
+				url: "https://dymension.xyz/",
+			},
+			{
+				title: "Polygon CDK",
+				text: "",
+				image: "ecosystem/polygoncdk.png",
+				url: "https://polygon.technology/polygon-cdk",
+			},
+		],
+	},
+	{
+		id: 2,
 		name: "Rollups-as-a-service",
 		ecosystems: [
 			{
@@ -66,7 +120,7 @@ export const ecosystemCategories = [
 		],
 	},
 	{
-		id: 2,
+		id: 3,
 		name: "Shared sequencer network",
 		ecosystems: [
 			{
@@ -84,7 +138,7 @@ export const ecosystemCategories = [
 		],
 	},
 	{
-		id: 3,
+		id: 4,
 		name: "Settlement layer",
 		ecosystems: [
 			{
@@ -104,60 +158,6 @@ export const ecosystemCategories = [
 				text: "",
 				image: "ecosystem/saga.png",
 				url: "https://www.saga.xyz/",
-			},
-		],
-	},
-	{
-		id: 4,
-		name: "Rollup framework",
-		ecosystems: [
-			{
-				title: "Rollkit",
-				text: "",
-				image: "ecosystem/rollkit.png",
-				url: "https://www.rollkit.dev/",
-			},
-			{
-				title: "Sovereign",
-				text: "",
-				image: "ecosystem/sovereign.png",
-				url: "https://sovereign.xyz/",
-			},
-			{
-				title: "OP Stack",
-				text: "",
-				image: "ecosystem/optimism.png",
-				url: "https://docs.optimism.io/stack/getting-started",
-			},
-			{
-				title: "Stackr",
-				text: "",
-				image: "ecosystem/stackr.png",
-				url: "https://www.stackrlabs.xyz/",
-			},
-			{
-				title: "Cosmos SDK",
-				text: "",
-				image: "ecosystem/cosmos-sdk.png",
-				url: "https://cosmos.network/",
-			},
-			{
-				title: "Arbitrum Orbit",
-				text: "",
-				image: "ecosystem/arbitrum.png",
-				url: "https://arbitrum.io/orbit",
-			},
-			{
-				title: "Dymension",
-				text: "",
-				image: "ecosystem/dymension.png",
-				url: "https://dymension.xyz/",
-			},
-			{
-				title: "Polygon CDK",
-				text: "",
-				image: "ecosystem/polygoncdk.png",
-				url: "https://polygon.technology/polygon-cdk",
 			},
 		],
 	},
