@@ -1,19 +1,13 @@
 export const ecosystemCategories = [
 	{
 		id: 1,
-		name: "Rollups as a service",
+		name: "Rollups-as-a-service",
 		ecosystems: [
 			{
 				title: "Caldera",
 				text: "",
 				image: "ecosystem/caldera.png",
 				url: "https://www.caldera.xyz/",
-			},
-			{
-				title: "Eclipse",
-				text: "",
-				image: "ecosystem/eclipse.png",
-				url: "https://www.eclipse.builders/",
 			},
 			{
 				title: "Vistara",
@@ -33,18 +27,48 @@ export const ecosystemCategories = [
 				image: "ecosystem/altlayer.png",
 				url: "https://www.altlayer.io/",
 			},
-		],
-	},
-	{
-		id: 2,
-		name: "Shared sequencer network",
-		ecosystems: [
 			{
 				title: "Astria",
 				text: "",
 				image: "ecosystem/astria.png",
 				url: "https://astria.org/",
 			},
+			{
+				title: "Conduit",
+				text: "",
+				image: "",
+				url: "https://conduit.xyz/",
+			},
+			{
+				title: "Gateway",
+				text: "",
+				image: "",
+				url: "https://gateway.fm/",
+			},
+			{
+				title: "Gelato",
+				text: "",
+				image: "",
+				url: "https://www.gelato.network/",
+			},
+			{
+				title: "Lumoz",
+				text: "",
+				image: "",
+				url: "https://lumoz.org/",
+			},
+			{
+				title: "Zeeve",
+				text: "",
+				image: "",
+				url: "https://www.zeeve.io/",
+			},
+		],
+	},
+	{
+		id: 2,
+		name: "Shared sequencer network",
+		ecosystems: [
 			{
 				title: "Radius",
 				text: "",
@@ -64,12 +88,6 @@ export const ecosystemCategories = [
 		name: "Settlement layer",
 		ecosystems: [
 			{
-				title: "Dymension",
-				text: "",
-				image: "ecosystem/dymension.png",
-				url: "https://dymension.xyz/",
-			},
-			{
 				title: "Neutron",
 				text: "",
 				image: "ecosystem/neutron.png",
@@ -80,12 +98,6 @@ export const ecosystemCategories = [
 				text: "",
 				image: "ecosystem/berachain.png",
 				url: "https://berachain.com/",
-			},
-			{
-				title: "Layer N",
-				text: "",
-				image: "ecosystem/layern.png",
-				url: "https://www.layern.com/",
 			},
 			{
 				title: "Saga",
@@ -115,7 +127,7 @@ export const ecosystemCategories = [
 				title: "OP Stack",
 				text: "",
 				image: "ecosystem/optimism.png",
-				url: "https://www.optimism.io/",
+				url: "https://docs.celestia.org/developers/intro-to-op-stack",
 			},
 			{
 				title: "Stackr",
@@ -128,6 +140,30 @@ export const ecosystemCategories = [
 				text: "",
 				image: "ecosystem/cosmos-sdk.png",
 				url: "https://cosmos.network/",
+			},
+			{
+				title: "Arbitrum Orbit",
+				text: "",
+				image: "",
+				url: "https://docs.celestia.org/developers/arbitrum-integration",
+			},
+			{
+				title: "Arbitrum Orbit",
+				text: "",
+				image: "",
+				url: "https://docs.celestia.org/developers/arbitrum-integration",
+			},
+			{
+				title: "Dymension",
+				text: "",
+				image: "ecosystem/dymension.png",
+				url: "https://dymension.xyz/",
+			},
+			{
+				title: "Polygon CDK",
+				text: "",
+				image: "",
+				url: "https://polygon.technology/polygon-cdk",
 			},
 		],
 	},
@@ -178,12 +214,6 @@ export const ecosystemCategories = [
 				url: "https://www.orblabs.xyz/",
 			},
 			{
-				title: "Polymer",
-				text: "",
-				image: "ecosystem/polymer.png",
-				url: "https://www.polymerlabs.org/",
-			},
-			{
 				title: "Squid",
 				text: "",
 				image: "ecosystem/squid.png",
@@ -225,18 +255,6 @@ export const ecosystemCategories = [
 		id: 8,
 		name: "DeFi",
 		ecosystems: [
-			{
-				title: "Crescent",
-				text: "",
-				image: "ecosystem/crescent.png",
-				url: "https://crescent.network/",
-			},
-			{
-				title: "Duality",
-				text: "",
-				image: "ecosystem/duality.png",
-				url: "https://duality.xyz/",
-			},
 			{
 				title: "Catalyst",
 				text: "",
@@ -344,12 +362,6 @@ export const ecosystemCategories = [
 				text: "",
 				image: "ecosystem/cosmology.png",
 				url: "https://cosmology.tech/",
-			},
-			{
-				title: "Blockless",
-				text: "",
-				image: "ecosystem/blockless.png",
-				url: "https://blockless.network/",
 			},
 			{
 				title: "Numia",
