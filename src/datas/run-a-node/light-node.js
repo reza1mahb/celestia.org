@@ -1,7 +1,7 @@
 export const lightNode = {
 	title: "Light nodes for developers",
 	button: {
-		text: "Start ligh node",
+		text: "Start light node",
 		class: "simple",
 		type: "external",
 		url: "https://docs.celestia.org/nodes/light-node",
@@ -16,7 +16,7 @@ export const lightNode = {
 			image: "run-a-node/publish-image.png",
 			link: {
 				text: "Submit data to Celestia",
-				url: "/",
+				url: "https://docs.celestia.org/developers/node-tutorial",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ export const lightNode = {
 			image: "run-a-node/retrieve-image.png",
 			link: {
 				text: "Retrieve data from Celestia",
-				url: "/",
+				url: "https://docs.celestia.org/developers/node-tutorial#retrieving-data",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ export const lightNode = {
 			image: "run-a-node/manage-image.png",
 			link: {
 				text: "Setup wallet",
-				url: "/",
+				url: "https://docs.celestia.org/developers/celestia-node-key",
 			},
 		},
 	],
