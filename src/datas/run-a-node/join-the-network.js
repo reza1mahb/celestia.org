@@ -9,7 +9,7 @@ export const joinTheNetwork = {
 			image: "run-a-node/beginner-image.png",
 			link: {
 				text: "Deploy on Vimana",
-				url: "/",
+				url: "https://docs.vistara.dev/the-vistara-workflow/getting-started",
 			},
 		},
 		{
@@ -20,7 +20,7 @@ export const joinTheNetwork = {
 			image: "run-a-node/intermediate-image.png",
 			link: {
 				text: "Follow the tutorial",
-				url: "/",
+				url: "https://docs.celestia.org/nodes/docker-images",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ export const joinTheNetwork = {
 			image: "run-a-node/advanced-image.png",
 			link: {
 				text: "Read the guide",
-				url: "/",
+				url: "https://docs.celestia.org/nodes/light-node",
 			},
 		},
 	],
