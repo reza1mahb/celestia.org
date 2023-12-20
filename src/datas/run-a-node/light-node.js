@@ -1,5 +1,11 @@
 export const lightNode = {
 	title: "Light nodes for developers",
+	button: {
+		text: "Start ligh node",
+		class: "simple",
+		type: "external",
+		url: "https://docs.celestia.org/nodes/light-node",
+	},
 	description: "How developers can use a Celestia light node for their chain",
 	items: [
 		{

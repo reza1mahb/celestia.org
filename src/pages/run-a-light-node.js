@@ -74,7 +74,15 @@ const DevPortal = () => {
 					<section className={"light-nodes"} id={`${heroData.buttons[1]?.url.replace(/\s+/g, "-").toLowerCase()}`}>
 						<div className={"container"}>
 							<div className={"row justify-content-center align-items-center"}>
-								<h2 className='with-decor'>{lightNode.title}</h2>
+								<div className='d-lg-flex justify-content-between align-items-center'>
+									<h2 className='mb-3 mb-lg-0 with-decor'>{lightNode.title}</h2>
+									<Button
+										class={lightNode.button.class}
+										type={lightNode.button.type}
+										text={lightNode.button.text}
+										url={lightNode.button.url}
+									/>
+								</div>
 								{lightNode.description && <div className={"description"}>{lightNode.description}</div>}
 								<div className={"row gx-3 gy-3 pt-4 pb-3"}>
 									{lightNode.items.map(function (item) {
