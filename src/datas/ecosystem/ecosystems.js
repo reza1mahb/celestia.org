@@ -222,12 +222,6 @@ export const ecosystemCategories = [
 				url: "https://www.stackrlabs.xyz/",
 			},
 			{
-				title: "Cosmos SDK",
-				category: ["Rollup framework"],
-				image: "ecosystem/cosmos-sdk.png",
-				url: "https://cosmos.network/",
-			},
-			{
 				title: "Arbitrum Orbit",
 				category: ["Rollup framework"],
 				image: "ecosystem/arbitrum.png",
