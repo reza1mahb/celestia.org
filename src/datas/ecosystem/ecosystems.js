@@ -162,12 +162,6 @@ export const ecosystemCategories = [
 				url: "https://www.altlayer.io/",
 			},
 			{
-				title: "Astria",
-				category: ["Rollups-as-a-service"],
-				image: "ecosystem/astria.png",
-				url: "https://astria.org/",
-			},
-			{
 				title: "Conduit",
 				category: ["Rollups-as-a-service"],
 				image: "ecosystem/conduit.png",
