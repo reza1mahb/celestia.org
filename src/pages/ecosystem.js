@@ -162,6 +162,7 @@ const EcosystemPage = () => {
 												(selectedCategory === "all" || item.category.includes(selectedCategory)) &&
 												(!search || item.title.toLowerCase().includes(search))
 										)
+										.sort((a, b) => a.title.localeCompare(b.title)) // Add this line
 										.map((item, index) => (
 											<div className={"col-12 col-sm-6 col-lg-6 col-xl-4 p-1"} key={index}>
 												<Ecosystem category={item.category} ecosystem={item} />
