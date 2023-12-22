@@ -247,7 +247,7 @@ export const ecosystemCategories = [
 			},
 			{
 				title: "Cartesi",
-				category: ["Rollup framework"],
+				category: ["Rollup framework","Virtual machine"],
 				image: "ecosystem/cartesi.png",
 				url: "https://cartesi.io/",
 			},
@@ -508,12 +508,6 @@ export const ecosystemCategories = [
 				category: ["Virtual machine"],
 				image: "ecosystem/cosmwasm.png",
 				url: "https://cosmwasm.com/",
-			},
-			{
-				title: "Cartesi",
-				category: ["Virtual machine"],
-				image: "ecosystem/cartesi.png",
-				url: "https://cartesi.io/",
 			},
 			
 ];
