@@ -48,7 +48,7 @@ export const ecosystemCategories = [
 				url: "https://deri.io/#/index",
 			},
 			{
-				title: "Paima Studios",
+				title: "Paima Engine",
 				category: ["Infrastructure"],
 				image: "ecosystem/paima.png",
 				url: "https://paimastudios.com/",
