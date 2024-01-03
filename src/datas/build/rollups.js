@@ -77,7 +77,7 @@ export const rollups = {
 			id: 6,
 			title: "Gelato",
 			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
-			text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
+			text: "The all-in-one Ethereum Rollup as a Service Platform. Deploy production-grade & fully-serviced L2 rollups natively integrated with tools like oracles, bridges, data indexers and Account Abstraction.",
 			image: "build/gelato.png",
 			links: [
 				{
