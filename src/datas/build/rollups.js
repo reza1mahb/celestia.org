@@ -8,7 +8,7 @@ export const rollups = {
 			title: "AltLayer",
 			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
 			text: "We offer a versatile rollup stack including Arbitrum Orbit, OP stack, Polygon zkEVM and StarkWare.",
-			image: "developer-portal/altlayer.png",
+			image: "build/altlayer.png",
 			links: [
 				{
 					text: "Explore",
@@ -22,7 +22,7 @@ export const rollups = {
 			title: "Astria",
 			category: ["All"],
 			text: "Astria lets rollups share a single decentralized network of sequencers that's simple and permissionless to join.",
-			image: "developer-portal/astria.png",
+			image: "build/astria.png",
 			links: [
 				{
 					text: "Explore",
@@ -36,7 +36,7 @@ export const rollups = {
 			title: "Caldera",
 			category: ["All", "Arbitrum ORBIT", "OP Stack"],
 			text: "Caldera makes it easy to launch performant, customizable Arbitrum Orbit and OP Stack rollups. No code required.",
-			image: "developer-portal/caldera.png",
+			image: "build/caldera.png",
 			links: [
 				{
 					text: "Explore",
@@ -50,7 +50,7 @@ export const rollups = {
 			title: "Conduit",
 			category: ["All", "Arbitrum ORBIT", "OP Stack"],
 			text: "Deploy a rollup in a few clicks, no code required. Fully-managed, production grade OP Stack and Arbitrum Orbit rollups on Ethereum.",
-			image: "developer-portal/conduit.png",
+			image: "build/conduit.png",
 			links: [
 				{
 					text: "Explore",
@@ -64,7 +64,7 @@ export const rollups = {
 			title: "Gateway",
 			category: ["All", "Polygon CDK"],
 			text: "Create your own zkEVM with all the infrastructure you need.",
-			image: "developer-portal/gateway.png",
+			image: "build/gateway.png",
 			links: [
 				{
 					text: "Explore",
@@ -78,7 +78,7 @@ export const rollups = {
 			title: "Gelato",
 			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
 			text: "Deploy custom chains with cutting-edge web2 UX. Seamless integrations with all your favorite web3 tools and services.",
-			image: "developer-portal/gelato.png",
+			image: "build/gelato.png",
 			links: [
 				{
 					text: "Explore",
@@ -92,7 +92,7 @@ export const rollups = {
 			title: "Lumoz",
 			category: ["All", "Polygon CDK"],
 			text: "A decentralized ZK-RaaS network featuring ZKP mining.",
-			image: "developer-portal/lumoz.png",
+			image: "build/lumoz.png",
 			links: [
 				{
 					text: "Explore",
@@ -106,7 +106,7 @@ export const rollups = {
 			title: "Snapchain",
 			category: ["All", "Polygon CDK"],
 			text: "Leverage the power of ZK Rollups to scale your on-chain game or DeFi app cheaply and securely, without compromise.",
-			image: "developer-portal/snapchain.png",
+			image: "build/snapchain.png",
 			links: [
 				{
 					text: "Explore",
@@ -120,7 +120,7 @@ export const rollups = {
 			title: "Vistara",
 			category: ["All"],
 			text: "Vistara is building a Hardware availability layer for the modular web aiming to democratize access to decentralized hardware.",
-			image: "developer-portal/vistara.png",
+			image: "build/vistara.png",
 			links: [
 				{
 					text: "Explore",
@@ -134,7 +134,7 @@ export const rollups = {
 			title: "Zeeve",
 			category: ["All", "Arbitrum ORBIT", "OP Stack", "Polygon CDK"],
 			text: "Build, Customize, and Launch your production-grade Rollups with Zeeve’s Rollups as a Service (RaaS).",
-			image: "developer-portal/zeeve.png",
+			image: "build/zeeve.png",
 			links: [
 				{
 					text: "Explore",

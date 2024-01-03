@@ -29,7 +29,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 					{content.link && content.type === "anchor" && (
 						<AnchorLink
 							className={`link ${btnClass}`}
-							to={`/developer-portal#${content.anchorToId ? content.anchorToId : content.title.replace(/\s+/g, "-").toLowerCase()}`}
+							to={`/build#${content.anchorToId ? content.anchorToId : content.title.replace(/\s+/g, "-").toLowerCase()}`}
 							stripHash
 						>
 							{content.link.text}
@@ -55,7 +55,7 @@ export default function IconCard({ imageClass, content, variant, iconPosition = 
 								return (
 									<AnchorLink
 										className='link'
-										to={`/developer-portal#${link.anchorToId ? link.anchorToId : link.title.replace(/\s+/g, "-").toLowerCase()}`}
+										to={`/build#${link.anchorToId ? link.anchorToId : link.title.replace(/\s+/g, "-").toLowerCase()}`}
 										stripHash
 									>
 										{link.text}

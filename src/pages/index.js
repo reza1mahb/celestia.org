@@ -67,9 +67,9 @@ const IndexPage = () => {
 							`}
 							image={"graph-ecosystem.png"}
 							buttonPrimaryTitle={"Build modular"}
-							buttonPrimaryUrl={"/developer-portal/"}
+							buttonPrimaryUrl={"/build/"}
 							buttonSecondaryTitle={"Deploy"}
-							buttonSecondaryUrl={"/developer-portal#deploy"}
+							buttonSecondaryUrl={"/build#deploy"}
 						/>
 
 						<section id={`${heroData.buttons[1]?.url.replace(/\s+/g, "-").toLowerCase()}`} className='explore-celestia'>

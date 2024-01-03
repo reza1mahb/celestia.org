@@ -1,27 +1,27 @@
 import * as React from "react";
 
-import { heroData } from "../datas/developer-portal/hero-data";
-import { getStarted } from "../datas/developer-portal/get-started";
-import { frameworks } from "../datas/developer-portal/frameworks";
-import { rollups } from "../datas/developer-portal/rollups";
-import { connect } from "../datas/developer-portal/connect";
-import { discover } from "../datas/developer-portal/discover";
-import { community } from "../datas/developer-portal/community";
-import { FooterBoxes } from "../datas/developer-portal/content";
+import { heroData } from "../datas/build/hero-data";
+import { getStarted } from "../datas/build/get-started";
+import { frameworks } from "../datas/build/frameworks";
+import { rollups } from "../datas/build/rollups";
+import { connect } from "../datas/build/connect";
+import { discover } from "../datas/build/discover";
+import { community } from "../datas/build/community";
+import { FooterBoxes } from "../datas/build/content";
 import Layout from "../components/layout";
 import IconCard from "../components/modules/icon-card";
 
-import { seoContent } from "../datas/developer-portal/seoContent";
+import { seoContent } from "../datas/build/seoContent";
 import Seo from "../components/seo";
 import FrameworkTabs from "../components/framework-tabs";
 import ContactSection from "../components/sections/contact-section";
 import IntegrateSection from "../components/sections/integrate-section";
 
-const DevPortal = () => {
+const Build = () => {
 	return (
 		<Layout footerBoxes={FooterBoxes}>
 			<Seo title={seoContent.title} description={seoContent.description} ogTitle={seoContent.ogTitle} image={seoContent.image} />
-			<div className={"developer-portal"}>
+			<div className={"build"}>
 				<main>
 					<section className='hero'>
 						<div className={"container"}>
@@ -88,4 +88,4 @@ const DevPortal = () => {
 	);
 };
 
-export default DevPortal;
+export default Build;

@@ -9,7 +9,7 @@ export const discover = {
 			image: "svg/celestia-documentation.svg",
 			type: "external",
 			link: {
-				text:"Explore",
+				text: "Explore",
 				url: "https://docs.celestia.org/",
 			},
 		},
@@ -20,7 +20,7 @@ export const discover = {
 			image: "svg/blobspace.svg",
 			type: "external",
 			link: {
-				text:"Learn",
+				text: "Learn",
 				url: "https://docs.celestia.org/learn/paying-for-blobspace/",
 			},
 		},
@@ -31,7 +31,7 @@ export const discover = {
 			image: "svg/blob-tutorial.svg",
 			type: "external",
 			link: {
-				text:"Follow",
+				text: "Follow",
 				url: "https://docs.celestia.org/developers/node-tutorial/",
 			},
 		},

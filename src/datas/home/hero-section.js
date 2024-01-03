@@ -6,7 +6,7 @@ export const heroData = {
 			text: "Build modular",
 			class: "simple plausible-event-name=Build_Modular_Button--Homepage-Hero",
 			type: "internal",
-			url: "/developer-portal/",
+			url: "/build/",
 		},
 		{
 			text: "Explore",

@@ -8,12 +8,12 @@ export const frameworks = {
 			title: "Arbitrum Orbit",
 			category: ["All", "Ethereum"],
 			text: "Arbitrum Orbit is the ideal way to permissionlessly launch your own custom chain.",
-			image: "developer-portal/arbitrum.png",
+			image: "build/arbitrum.png",
 			links: [
 				{
-				text: "Explore Arbitrum Orbit",
-				url: "https://docs.celestia.org/developers/arbitrum-integration",
-				type: "external",
+					text: "Explore Arbitrum Orbit",
+					url: "https://docs.celestia.org/developers/arbitrum-integration",
+					type: "external",
 				},
 			],
 		},
@@ -22,7 +22,7 @@ export const frameworks = {
 			title: "Dymension",
 			category: ["All"],
 			text: "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
-			image: "developer-portal/dymension.png",
+			image: "build/dymension.png",
 			links: [
 				{
 					text: "Explore Dymension",
@@ -36,7 +36,7 @@ export const frameworks = {
 			title: "OP Stack",
 			category: ["All", "Ethereum"],
 			text: "The OP Stack is a modular, open-source blueprint for highly scalable, highly interoperable blockchains of all kinds.",
-			image: "developer-portal/opstack.png",
+			image: "build/opstack.png",
 			links: [
 				{
 					text: "Explore OP Stack",
@@ -55,7 +55,7 @@ export const frameworks = {
 			title: "Polygon CDK",
 			category: ["All", "Ethereum"],
 			text: "Polygon CDK (Chain Development Kit) makes it easy for developers to design and launch zero-knowledge (ZK) L2s on Ethereum, on demand.",
-			image: "developer-portal/polygon.png",
+			image: "build/polygon.png",
 			type: "external",
 			link: {
 				text: "Coming Soon",
@@ -66,7 +66,7 @@ export const frameworks = {
 			title: "Rollkit",
 			category: ["All", "Sovereign"],
 			text: "Rollkit is a rollup framework that gives developers the freedom to deploy rollups throughout the modular stack.",
-			image: "developer-portal/rollkit.png",
+			image: "build/rollkit.png",
 			links: [
 				{
 					text: "Explore Rollkit",
@@ -80,7 +80,7 @@ export const frameworks = {
 			title: "Sovereign SDK",
 			category: ["All", "Sovereign"],
 			text: "A framework for building seamlessly scalable and interoperable rollups that can run on any blockchain.",
-			image: "developer-portal/sovereign.png",
+			image: "build/sovereign.png",
 			links: [
 				{
 					text: "Explore Sovereign SDK",

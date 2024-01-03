@@ -13,8 +13,8 @@ const navigation = {
 		title: "Developers",
 		links: [
 			{
-				text: "Developer portal",
-				url: "/developer-portal",
+				text: "Build",
+				url: "/build",
 				type: "internal",
 			},
 			{

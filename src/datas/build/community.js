@@ -6,10 +6,10 @@ export const community = {
 			id: 1,
 			title: "Discord",
 			text: "Have technical questions? Ask the developer community on Discord.",
-			image: "developer-portal/discord.png",
+			image: "build/discord.png",
 			type: "external",
 			link: {
-				text:"Join Discord",
+				text: "Join Discord",
 				url: "https://discord.com/invite/YsnTPcSfWQ",
 			},
 		},
@@ -17,13 +17,12 @@ export const community = {
 			id: 2,
 			title: "Modular Meetup",
 			text: "Host your own grassroots meetup about modular blockchains.",
-			image: "developer-portal/forum.png",
+			image: "build/forum.png",
 			type: "external",
 			link: {
-				text:"Host now",
+				text: "Host now",
 				url: "https://docs.celestia.org/community/modular-meetup-intro/",
 			},
 		},
-		
 	],
 };

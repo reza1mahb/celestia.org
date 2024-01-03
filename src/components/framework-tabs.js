@@ -57,7 +57,7 @@ const FrameworkTabs = ({ content, categories, anchorId, section }) => {
 				</div>
 
 				{anchorId === 0 && (
-					<AnchorLink className='link' to={`/developer-portal#${content.items[2].title.replace(/\s+/g, "-").toLowerCase()}`} stripHash>
+					<AnchorLink className='link' to={`/build#${content.items[2].title.replace(/\s+/g, "-").toLowerCase()}`} stripHash>
 						<div className={"button button-simple mx-auto d-table mt-4"}>Integrate with Celestia</div>
 					</AnchorLink>
 				)}
