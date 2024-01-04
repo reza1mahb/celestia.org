@@ -6,4 +6,10 @@ exports.createPages = async ({ graphql, actions }) => {
 		toPath: `/build#deploy`,
 		isPermanent: true,
 	});
+
+	createRedirect({
+		fromPath: `/developer-portal`,
+		toPath: `/build`,
+		isPermanent: true,
+	});
 };
