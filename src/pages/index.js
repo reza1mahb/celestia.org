@@ -60,6 +60,7 @@ const IndexPage = () => {
 							buttonPrimaryTitle={"Learn Celestia"}
 							buttonPrimaryUrl={"/what-is-celestia/"}
 							anim={lottiAnim1}
+							animVersion={1}
 						/>
 						<TwoColumnH2
 							direction={"rtl"}
@@ -75,6 +76,7 @@ const IndexPage = () => {
 							buttonSecondaryTitle={"Deploy"}
 							buttonSecondaryUrl={"/build#deploy"}
 							anim={lottiAnim2}
+							animVersion={2}
 						/>
 
 						<section id={`${heroData.buttons[1]?.url.replace(/\s+/g, "-").toLowerCase()}`} className='explore-celestia'>

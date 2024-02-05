@@ -17,6 +17,7 @@ const TwoColumnH2 = ({
 	buttonSecondaryClass,
 	buttonSecondaryTitle,
 	anim,
+	animVersion,
 	animSegment
 }) => {
 
@@ -42,7 +43,7 @@ const TwoColumnH2 = ({
 
 				<div className={`col col-12 col-lg-6 anim-col ${direction === "rtl" ? "order-lg-2" : "order-lg-1"}`}>
 					{anim && <Lottie lottieRef={lottieRef} animationData={anim} loop={false} autoplay={false}
-									 renderer={"canvas"} style={{ width: 700, height: 450}}
+									 renderer={"canvas"} style={{ width: animVersion === 2 ? 762 : 700, height: animVersion ? 490 : 450}}
 					/>}
 					{!anim && <Image alt={title} filename={image} />}
 				</div>
