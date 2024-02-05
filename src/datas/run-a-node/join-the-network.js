@@ -9,7 +9,7 @@ export const joinTheNetwork = {
 			image: "run-a-node/beginner-image.png",
 			link: {
 				text: "Deploy on Vimana",
-				url: "https://docs.vistara.dev/the-vistara-workflow/getting-started",
+				url: "https://docs.vistara.dev/guides/getting-started",
 			},
 		},
 		{
