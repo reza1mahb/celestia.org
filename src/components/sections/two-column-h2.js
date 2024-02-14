@@ -51,7 +51,7 @@ const TwoColumnH2 = ({
 					<div className={"text"}>
 						<h2 className={"with-decor mt-4 mt-lg-0"}>{title}</h2>
 						<div className='paragraph' dangerouslySetInnerHTML={{ __html: text }} />
-						<div className={'position-absolute'} style={{marginTop:'25vh'}} ref={myRef}/>
+						<div className={'lottie-anchor'} ref={myRef}/>
 						<div className={"flex mt-4"}>
 							<Link to={buttonPrimaryUrl} className={`button button-simple me-4 ${buttonPrimaryClass}`}>
 								{buttonPrimaryTitle}
