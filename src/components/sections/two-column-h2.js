@@ -42,8 +42,8 @@ const TwoColumnH2 = ({
 			<div className={"row align-items-center"}>
 
 				<div className={`col col-12 col-lg-6 anim-col ${animVersion === 2 && 'px-2'} ${direction === "rtl" ? "order-lg-2" : "order-lg-1"}`}>
-					{anim && <Lottie lottieRef={lottieRef} animationData={anim} loop={false} autoplay={false}
-									 renderer={"canvas"} style={{width: animVersion === 2 ? 680 : 700, height: animVersion ? 450 : 450}}
+					{anim && <Lottie className={`lottie-anim-${animVersion}`} lottieRef={lottieRef} animationData={anim} loop={false} autoplay={false}
+									 renderer={"canvas"}
 					/>}
 					{!anim && <Image alt={title} filename={image} />}
 				</div>

@@ -65,3 +65,32 @@
 		}
 	}
 }
+
+.anim-col{
+	.lottie-anim-1{
+		width:700px;
+		height:450px;
+
+		@media (max-width: 1380px) {
+			width:100%;
+			height:unset;
+
+			canvas{
+				max-width:100%;
+			}
+		}
+	}
+	.lottie-anim-2{
+		width:680px;
+		height:450px;
+
+		@media (max-width: 1380px) {
+			width:100%;
+			height:unset;
+
+			canvas{
+				max-width:100%;
+			}
+		}
+	}
+}
