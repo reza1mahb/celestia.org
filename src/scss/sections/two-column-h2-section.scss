@@ -94,3 +94,13 @@
 		}
 	}
 }
+
+
+.lottie-anchor{
+	position:absolute;
+	margin-top:25vh;
+
+	@media (max-width: 1380px) {
+		margin-top:0;
+	}
+}
