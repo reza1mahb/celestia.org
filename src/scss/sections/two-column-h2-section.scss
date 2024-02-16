@@ -79,6 +79,12 @@
 				max-width:100%;
 			}
 		}
+
+		@include media-breakpoint-down(sm) {
+			transform: scale(1.5);
+			transform-origin: center !important;
+			margin-bottom:30px;
+		}
 	}
 	.lottie-anim-2{
 		width:680px;
@@ -91,6 +97,12 @@
 			canvas{
 				max-width:100%;
 			}
+		}
+
+		@include media-breakpoint-down(sm) {
+			transform: scale(1.5);
+			transform-origin: center !important;
+			margin-bottom:30px;
 		}
 	}
 }
