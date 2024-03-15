@@ -27,6 +27,11 @@ const navigation = {
 				url: "https://github.com/celestiaorg",
 				type: "external",
 			},
+			{
+				text: "FAQ",
+				url: "/faq",
+				type: "internal",
+			},
 		],
 	},
 	column2: {
@@ -85,11 +90,6 @@ const navigation = {
 			{
 				text: "Privacy Policy",
 				url: "/privacy/",
-				type: "internal",
-			},
-			{
-				text: "Team",
-				url: "/team/",
 				type: "internal",
 			},
 		],

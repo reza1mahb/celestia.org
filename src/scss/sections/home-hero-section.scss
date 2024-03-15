@@ -3,7 +3,16 @@
 	position: relative;
 
 	@include media-breakpoint-down(sm) {
-		padding-bottom: 60px;
+		// padding-top: 120px;
+		// padding-bottom: 180px;
+		height: 90vh;
+		max-height: 932px;
+		display: flex;
+		align-items: center;
+		padding: 0px;
+		.container {
+			padding-bottom: 30px;
+		}
 	}
 
 	h1 {
@@ -27,8 +36,8 @@
 		}
 
 		@include media-breakpoint-down(sm) {
-			font-size: 42px;
-			max-width: 340px;
+			font-size: 43px;
+			max-width: 350px;
 			letter-spacing: -2px;
 		}
 	}
@@ -46,11 +55,13 @@
 		letter-spacing: 0.22px;
 		text-align: center;
 
-		@include media-breakpoint-down(md) {
-			font-size: 14px;
+		@include media-breakpoint-down(sm) {
+			font-size: 17px;
 			line-height: 21px;
 			width: 100%;
 			margin-bottom: 30px;
+			max-width: 350px;
+			text-wrap: pretty;
 		}
 	}
 
