@@ -10,6 +10,6 @@ exports.createPages = async ({ graphql, actions }) => {
 	createRedirect({
 		fromPath: `/developer-portal`,
 		toPath: `/build`,
-		isPermanent: true,
+		isPermanent: false,
 	});
 };
